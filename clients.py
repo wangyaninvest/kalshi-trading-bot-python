@@ -172,6 +172,70 @@ class KalshiHttpClient(KalshiBaseClient):
         params = {k: v for k, v in params.items() if v is not None}
         return self.get(self.markets_url + '/trades', params=params)
 
+    def get_markets(
+        self,
+        limit: Optional[int] = None,
+        cursor: Optional[str] = None,
+        event_ticker: Optional[str] = None,
+        series_ticker: Optional[str] = None,
+        min_created_ts: Optional[int] = None,
+        max_created_ts: Optional[int] = None,
+        max_close_ts: Optional[int] = None,
+        min_close_ts: Optional[int] = None,
+        status: Optional[str] = None,
+        tickers: Optional[str] = None,
+    ) -> Dict[str, Any]:
+        """Retrieves markets based on provided filters."""
+        params = {
+            'limit': limit,
+            'cursor': cursor,
+            'event_ticker': event_ticker,
+            'series_ticker': series_ticker,
+            'min_created_ts': min_created_ts,
+            'max_created_ts': max_created_ts,
+            'max_close_ts': max_close_ts,
+            'min_close_ts': min_close_ts,
+            'status': status,
+            'tickers': tickers,
+        }
+        # Remove None values
+        params = {k: v for k, v in params.items() if v is not None}
+        return self.get(self.markets_url, params=params)
+
+    def get_market(self, ticker: str) -> Dict[str, Any]:
+        """Retrieves a single market by ticker."""
+        return self.get(f"{self.markets_url}/{ticker}")
+
+    def get_market_orderbook(self, ticker: str, depth: Optional[int] = None) -> Dict[str, Any]:
+        """Retrieves the orderbook for a specific market."""
+        params = {}
+        if depth is not None:
+            params['depth'] = depth
+        return self.get(f"{self.markets_url}/{ticker}/orderbook", params=params)
+
+    def get_series(
+        self,
+        limit: Optional[int] = None,
+        cursor: Optional[str] = None,
+        category: Optional[str] = None,
+        include_volume: Optional[bool] = None,
+    ) -> Dict[str, Any]:
+        """Retrieves all series."""
+        params = {}
+        if limit is not None:
+            params['limit'] = limit
+        if cursor is not None:
+            params['cursor'] = cursor
+        if category is not None:
+            params['category'] = category
+        if include_volume is not None:
+            params['include_volume'] = include_volume
+        return self.get("/trade-api/v2/series", params=params)
+
+    def get_single_series(self, series_ticker: str) -> Dict[str, Any]:
+        """Retrieves a single series by ticker."""
+        return self.get(f"/trade-api/v2/series/{series_ticker}")
+
 class KalshiWebSocketClient(KalshiBaseClient):
     """Client for handling WebSocket connections to the Kalshi API."""
     def __init__(
