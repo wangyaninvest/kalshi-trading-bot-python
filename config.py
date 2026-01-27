@@ -31,7 +31,7 @@ MIN_PROBABILITY = 0.7
 # Markets with YES or NO probability <= this value will be included
 # Example: 0.99 means 99% probability
 # Use with MIN_PROBABILITY to create a probability range
-MAX_PROBABILITY = 0.95
+MAX_PROBABILITY = 0.97
 
 # Whether to require liquidity (open orders) in the orderbook
 # Setting to False will speed up scanning as it skips orderbook checks
@@ -41,7 +41,7 @@ REQUIRE_LIQUIDITY = False
 # Use this to throttle trading frequency
 # Example: 0.5 means 50% chance to skip each matching market
 # Set to 0.0 to never skip (trade all matching markets)
-THROTTLE_PROBABILITY = 0.9
+THROTTLE_PROBABILITY = 0
 
 # Amount to spend per trade in dollars
 # Each matching market will trigger a buy order for this amount

@@ -299,7 +299,7 @@ class TradingBot:
                         else market_info['no_probability'])
         
         # Calculate limit price: current price capped at $0.98
-        limit_price = min(current_price + 0.01, 0.98)
+        limit_price = min(current_price + 0.02, 0.98)
         
         count = max(1, int(trade_amount / limit_price)) if limit_price > 0 else 5
         price_cents = int(limit_price * 100)  # Convert to cents
