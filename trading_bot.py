@@ -298,18 +298,15 @@ class TradingBot:
         current_price = (market_info['yes_probability'] if high_side == 'yes' 
                         else market_info['no_probability'])
         
-        # Calculate limit price: current price + 2 cent buffer, capped at $0.98
-        if current_price > 0 and current_price < 0.95:
-            limit_price = min(current_price + 0.02, 0.98)
-        else:
-            limit_price = 0.98
+        # Calculate limit price: current price capped at $0.98
+        limit_price = min(current_price + 0.01, 0.98)
         
         count = max(1, int(trade_amount / limit_price)) if limit_price > 0 else 5
-        price_dollars = f"{limit_price:.2f}"
-        expiration_ts = int((datetime.now().timestamp() + 10) * 1000)
+        price_cents = int(limit_price * 100)  # Convert to cents
+        expiration_ts = int(datetime.now().timestamp() + 10)  # Timestamp in seconds
         
         try:
-            print(f"    Placing ${trade_amount:.2f} limit buy order on {high_side.upper()} side (count: {count}, price: ${price_dollars}, expires in 10s)...")
+            print(f"    Placing ${trade_amount:.2f} limit buy order on {high_side.upper()} side (count: {count}, price: {price_cents}¢, expires in 10s)...")
             
             order_params = {
                 'ticker': ticker,
@@ -321,9 +318,9 @@ class TradingBot:
             }
             
             if high_side == 'yes':
-                order_params['yes_price_dollars'] = price_dollars
+                order_params['yes_price'] = price_cents
             else:
-                order_params['no_price_dollars'] = price_dollars
+                order_params['no_price'] = price_cents
             
             response = self.client.create_order(**order_params)
             
@@ -336,6 +333,14 @@ class TradingBot:
             
         except Exception as e:
             print(f"    ✗ Error placing order: {e}")
+            print(f"    Order params: {order_params}")
+            # Try to get more error details
+            if hasattr(e, 'response') and e.response is not None:
+                try:
+                    error_details = e.response.json()
+                    print(f"    API Error Details: {error_details}")
+                except:
+                    print(f"    Response text: {e.response.text if hasattr(e.response, 'text') else 'N/A'}")
             return False
     
     def _has_liquidity(self, ticker: str) -> bool:
