@@ -1,18 +1,19 @@
 """
-Market scanner for Kalshi prediction markets.
+Kalshi trading bot that scans markets and places automated trades.
 """
 import csv
 import os
+import random
 from datetime import datetime, timedelta
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 from clients import KalshiHttpClient
 
 
-class MarketScanner:
-    """Scans Kalshi markets based on specific criteria."""
+class TradingBot:
+    """Automated trading bot that scans markets and places orders."""
     
     def __init__(self, client: KalshiHttpClient, csv_file: str = "data/top_series.csv"):
-        """Initialize the scanner.
+        """Initialize the trading bot.
         
         Args:
             client: An authenticated KalshiHttpClient instance.
@@ -21,34 +22,48 @@ class MarketScanner:
         self.client = client
         self.csv_file = csv_file
     
-    def scan_markets(
+    def run(
         self,
         days_until_close: int = 3,
         days_after_start: int = 1,
         min_probability: float = 0.90,
         max_probability: float = 0.99,
-        require_liquidity: bool = False
+        require_liquidity: bool = False,
+        throttle_probability: float = 0.0,
+        trade_amount: float = 5.0
     ) -> List[Dict[str, Any]]:
-        """Scan markets from top series and filter by criteria.
+        """Run the trading bot: scan markets, filter by criteria, and place orders.
         
         Args:
-            days_until_close: Maximum days until market closes (default: 3)
-            days_after_start: Minimum days since market opened (default: 1)
-            min_probability: Minimum mid-market probability threshold (default: 0.90)
-            max_probability: Maximum mid-market probability threshold (default: 0.99)
-            require_liquidity: Whether to require open orders (default: False)
+            days_until_close: Maximum days until market closes
+            days_after_start: Minimum days since market opened
+            min_probability: Minimum mid-market probability threshold
+            max_probability: Maximum mid-market probability threshold
+            require_liquidity: Whether to require open orders
+            throttle_probability: Probability of skipping a matching market
+            trade_amount: Amount to spend per trade in dollars
         
         Returns:
-            List of markets meeting the criteria with relevant details.
+            List of matching markets with details.
         """
         print(f"Scanning markets with criteria:")
         print(f"  - Closing within {days_until_close} days")
         print(f"  - Open for at least {days_after_start} days")
         print(f"  - Probability between {min_probability * 100}% and {max_probability * 100}%")
         print(f"  - Liquidity required: {require_liquidity}")
+        print(f"  - Throttle probability: {throttle_probability * 100}%")
         print()
         
-        # Read series tickers from CSV
+        # Check initial balance
+        balance_dollars = self._check_balance()
+        if balance_dollars is None:
+            return []
+        
+        print(f"Current balance: ${balance_dollars:.2f}")
+        if balance_dollars <= 10:
+            print("Balance is $10 or less. Exiting.")
+            return []
+        
         series_tickers = self._load_series_from_csv()
         if not series_tickers:
             print("No series found in CSV file.")
@@ -56,21 +71,19 @@ class MarketScanner:
         
         print(f"Loaded {len(series_tickers)} series from {self.csv_file}")
         
-        # Calculate the timestamp threshold
         target_time = datetime.now() + timedelta(days=days_until_close)
         max_close_ts = int(target_time.timestamp())
         
-        # Fetch markets for each series
         print("Fetching markets for each series...")
         matching_markets = []
+        traded_markets = []
         
         for i, ticker in enumerate(series_tickers, 1):
             print(f"  [{i}/{len(series_tickers)}] Processing {ticker}...", end=" ")
             try:
                 cursor = None
-                series_markets = []
+                matched = 0
                 
-                # Paginate through all markets for this series
                 while True:
                     response = self.client.get_markets(
                         series_ticker=ticker,
@@ -84,37 +97,55 @@ class MarketScanner:
                     if not markets:
                         break
                     
-                    series_markets.extend(markets)
+                    for market in markets:
+                        if throttle_probability > 0 and random.random() < throttle_probability:
+                            continue
+                        
+                        if not self._meets_criteria(
+                            market,
+                            days_until_close,
+                            days_after_start,
+                            min_probability,
+                            max_probability,
+                            require_liquidity
+                        ):
+                            continue
+                        
+                        market_info = self._format_market_info(market)
+                        matching_markets.append(market_info)
+                        matched += 1
+                        
+                        if self._place_trade_order(market_info, trade_amount):
+                            traded_markets.append(market_info)
+                            
+                            balance_dollars = self._check_balance()
+                            if balance_dollars is not None:
+                                print(f"    Remaining balance: ${balance_dollars:.2f}")
+                                
+                                if balance_dollars < 10:
+                                    print("\nBalance dropped below $10. Stopping trading.")
+                                    print(f"\nFound {len(matching_markets)} matching markets, traded {len(traded_markets)} markets.")
+                                    print("\n" + "="*100)
+                                    print("TRADED MARKETS:")
+                                    print("="*100)
+                                    print_market_results(traded_markets)
+                                    return matching_markets
                     
                     cursor = response.get('cursor')
                     if not cursor:
                         break
                 
-                if not series_markets:
-                    print("no markets")
-                    continue
-                
-                # Filter markets by criteria
-                matched = 0
-                for market in series_markets:
-                    if self._meets_criteria(
-                        market,
-                        days_until_close,
-                        days_after_start,
-                        min_probability,
-                        max_probability,
-                        require_liquidity
-                    ):
-                        matching_markets.append(self._format_market_info(market))
-                        matched += 1
-                
-                print(f"{matched} matched" if matched > 0 else "no matches")
+                print(f"{matched} matched" if matched > 0 else "no markets")
                 
             except Exception as e:
                 print(f"error: {e}")
                 continue
         
-        print(f"\nFound {len(matching_markets)} matching markets!")
+        print(f"\nFound {len(matching_markets)} matching markets, traded {len(traded_markets)} markets.")
+        print("\n" + "="*100)
+        print("TRADED MARKETS:")
+        print("="*100)
+        print_market_results(traded_markets)
         return matching_markets
     
     def _load_series_from_csv(self) -> List[str]:
@@ -137,8 +168,26 @@ class MarketScanner:
         
         return series_tickers
     
+    def _check_balance(self, min_balance: float = 10.0) -> Optional[float]:
+        """Check account balance and return balance in dollars.
+        
+        Args:
+            min_balance: Minimum required balance
+            
+        Returns:
+            Balance in dollars if successful, None on error
+        """
+        try:
+            balance_response = self.client.get_balance()
+            balance_cents = balance_response.get('balance', 0)
+            balance_dollars = balance_cents / 100
+            return balance_dollars
+        except Exception as e:
+            print(f"Error checking balance: {e}")
+            return None
+    
     def _parse_timestamp(self, timestamp_str: str) -> datetime:
-        """Parse ISO timestamp and handle microseconds with more than 6 digits.
+        """Parse ISO timestamp, handling microseconds > 6 digits.
         
         Args:
             timestamp_str: ISO format timestamp string
@@ -148,7 +197,6 @@ class MarketScanner:
         """
         timestamp_str = timestamp_str.replace('Z', '+00:00')
         
-        # Handle microseconds with more than 6 digits by truncating
         if '.' in timestamp_str and '+' in timestamp_str:
             parts = timestamp_str.split('.')
             microseconds_and_tz = parts[1].split('+')
@@ -186,29 +234,26 @@ class MarketScanner:
         max_probability: float,
         require_liquidity: bool
     ) -> bool:
-        """Check if a market meets all criteria.
+        """Check if a market meets all filtering criteria.
         
         Args:
             market: Market data from API
             days_until_close: Maximum days until close
             days_after_start: Minimum days since market opened
-            min_probability: Minimum mid-market probability threshold
-            max_probability: Maximum mid-market probability threshold
+            min_probability: Minimum mid-market probability
+            max_probability: Maximum mid-market probability
             require_liquidity: Whether to check for liquidity
         
         Returns:
-            True if market meets all criteria, False otherwise.
+            True if all criteria are met, False otherwise.
         """
-        # Check status is 'active'
         if market.get('status') != 'active':
             return False
         
-        # Check market_type is 'binary'
         if market.get('market_type') != 'binary':
             return False
         
         try:
-            # Check close time
             close_time = self._parse_timestamp(market.get('close_time', ''))
             now = datetime.now(close_time.tzinfo)
             days_remaining = (close_time - now).total_seconds() / (24 * 3600)
@@ -216,20 +261,15 @@ class MarketScanner:
             if days_remaining > days_until_close or days_remaining < 0:
                 return False
             
-            # Check open time (days since market opened for trading)
             open_time = self._parse_timestamp(market.get('open_time', ''))
             days_since_opened = (now - open_time).total_seconds() / (24 * 3600)
             
             if days_since_opened < days_after_start:
                 return False
         except Exception:
-            # Skip markets with invalid timestamps
             return False
         
-        # Calculate mid-market probabilities (average of bid and ask)
         yes_prob, no_prob = self._calculate_probabilities(market)
-        
-        # Check if highest probability is within the specified range
         max_prob = max(yes_prob, no_prob)
         if max_prob < min_probability or max_prob > max_probability:
             return False
@@ -242,15 +282,68 @@ class MarketScanner:
         
         return True
     
+    def _place_trade_order(self, market_info: Dict[str, Any], trade_amount: float = 5.0) -> bool:
+        """Place a limit buy order on the high probability side.
+        
+        Args:
+            market_info: Formatted market information
+            trade_amount: Amount to spend in dollars
+            
+        Returns:
+            True if order placed successfully, False otherwise
+        """
+        ticker = market_info['ticker']
+        high_side = market_info['high_side'].lower()
+        
+        current_price = (market_info['yes_probability'] if high_side == 'yes' 
+                        else market_info['no_probability'])
+        
+        # Calculate limit price: current price + 2 cent buffer, capped at $0.98
+        if current_price > 0 and current_price < 0.95:
+            limit_price = min(current_price + 0.02, 0.98)
+        else:
+            limit_price = 0.98
+        
+        count = max(1, int(trade_amount / limit_price)) if limit_price > 0 else 5
+        price_dollars = f"{limit_price:.2f}"
+        expiration_ts = int((datetime.now().timestamp() + 10) * 1000)
+        
+        try:
+            print(f"    Placing ${trade_amount:.2f} limit buy order on {high_side.upper()} side (count: {count}, price: ${price_dollars}, expires in 10s)...")
+            
+            order_params = {
+                'ticker': ticker,
+                'action': 'buy',
+                'side': high_side,
+                'count': count,
+                'type': 'limit',
+                'expiration_ts': expiration_ts
+            }
+            
+            if high_side == 'yes':
+                order_params['yes_price_dollars'] = price_dollars
+            else:
+                order_params['no_price_dollars'] = price_dollars
+            
+            response = self.client.create_order(**order_params)
+            
+            order = response.get('order', {})
+            order_id = order.get('order_id', 'unknown')
+            status = order.get('status', 'unknown')
+            fill_count = order.get('fill_count', 0)
+            print(f"    ✓ Order placed successfully (ID: {order_id}, status: {status}, filled: {fill_count}/{count} contracts)")
+            return True
+            
+        except Exception as e:
+            print(f"    ✗ Error placing order: {e}")
+            return False
+    
     def _has_liquidity(self, ticker: str) -> bool:
         """Check if a market has liquidity (open orders)."""
         try:
             orderbook = self.client.get_market_orderbook(ticker, depth=1)
-            
-            # Check if there are any open orders on either side
             yes_orders = orderbook.get('orderbook', {}).get('yes', [])
             no_orders = orderbook.get('orderbook', {}).get('no', [])
-            
             return len(yes_orders) > 0 or len(no_orders) > 0
         except Exception as e:
             print(f"Error checking liquidity for {ticker}: {e}")
@@ -264,10 +357,8 @@ class MarketScanner:
         hours_remaining = (close_time - now).total_seconds() / 3600
         days_since_opened = (now - open_time).total_seconds() / (24 * 3600)
         
-        # Calculate mid-market probabilities
         yes_prob, no_prob = self._calculate_probabilities(market)
         
-        # Determine which side has higher probability
         if yes_prob >= no_prob:
             high_side = 'YES'
             high_probability = yes_prob

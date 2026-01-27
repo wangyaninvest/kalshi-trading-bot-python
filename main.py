@@ -6,7 +6,7 @@ import os
 from dotenv import load_dotenv
 from cryptography.hazmat.primitives import serialization
 from clients import KalshiHttpClient, Environment
-from scanner import MarketScanner, print_market_results
+from trading_bot import TradingBot, print_market_results
 import config
 
 # Load environment variables from .env file
@@ -37,8 +37,8 @@ print(f"Environment: {config.ENVIRONMENT}")
 balance = client.get_balance()
 print(f"Account Balance: ${balance.get('balance', 0) / 100:.2f}\n")
 
-# Initialize market scanner with top series from CSV
-scanner = MarketScanner(client)
+# Initialize trading bot with top series from CSV
+bot = TradingBot(client)
 
 # Display scanning configuration
 print(f"Configuration:")
@@ -46,16 +46,19 @@ print(f"  - Days until close: {config.DAYS_UNTIL_CLOSE}")
 print(f"  - Days after start: {config.DAYS_AFTER_START}")
 print(f"  - Probability range: {config.MIN_PROBABILITY:.0%} - {config.MAX_PROBABILITY:.0%}")
 print(f"  - Require liquidity: {config.REQUIRE_LIQUIDITY}")
+print(f"  - Throttle probability: {config.THROTTLE_PROBABILITY:.0%}")
+print(f"  - Trade amount: ${config.TRADE_AMOUNT:.2f}")
 print()
 
-# Scan markets with configured criteria
-matching_markets = scanner.scan_markets(
+# Scan markets and place trades
+matching_markets = bot.run(
     days_until_close=config.DAYS_UNTIL_CLOSE,
     days_after_start=config.DAYS_AFTER_START,
     min_probability=config.MIN_PROBABILITY,
     max_probability=config.MAX_PROBABILITY,
-    require_liquidity=config.REQUIRE_LIQUIDITY
+    require_liquidity=config.REQUIRE_LIQUIDITY,
+    throttle_probability=config.THROTTLE_PROBABILITY,
+    trade_amount=config.TRADE_AMOUNT
 )
 
-# Display results
-print_market_results(matching_markets)
+# Results are printed by the bot

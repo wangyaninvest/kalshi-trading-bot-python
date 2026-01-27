@@ -148,6 +148,66 @@ class KalshiHttpClient(KalshiBaseClient):
         """Retrieves the account balance."""
         return self.get(self.portfolio_url + '/balance')
 
+    def create_order(
+        self,
+        ticker: str,
+        action: str,
+        side: str,
+        count: int,
+        type: str = "market",
+        yes_price: Optional[int] = None,
+        no_price: Optional[int] = None,
+        yes_price_dollars: Optional[str] = None,
+        no_price_dollars: Optional[str] = None,
+        expiration_ts: Optional[int] = None,
+        sell_position_floor: Optional[int] = None,
+        buy_max_cost: Optional[int] = None,
+    ) -> Dict[str, Any]:
+        """Creates an order for a specific market.
+        
+        Args:
+            ticker: Market ticker symbol
+            action: 'buy' or 'sell'
+            side: 'yes' or 'no'
+            count: Number of contracts
+            type: Order type ('market' or 'limit')
+            yes_price: Limit price for YES side (in cents)
+            no_price: Limit price for NO side (in cents)
+            yes_price_dollars: Limit price for YES side (in dollars, string format)
+            no_price_dollars: Limit price for NO side (in dollars, string format)
+            expiration_ts: Order expiration timestamp
+            sell_position_floor: Minimum position to maintain when selling
+            buy_max_cost: Maximum cost for buy orders (in cents)
+            
+        Returns:
+            Order creation response
+        """
+        body = {
+            'ticker': ticker,
+            'action': action,
+            'side': side,
+            'count': count,
+            'type': type,
+        }
+        
+        # Add optional parameters
+        if yes_price is not None:
+            body['yes_price'] = yes_price
+        if no_price is not None:
+            body['no_price'] = no_price
+        if yes_price_dollars is not None:
+            body['yes_price_dollars'] = yes_price_dollars
+        if no_price_dollars is not None:
+            body['no_price_dollars'] = no_price_dollars
+        if expiration_ts is not None:
+            body['expiration_ts'] = expiration_ts
+        if sell_position_floor is not None:
+            body['sell_position_floor'] = sell_position_floor
+        if buy_max_cost is not None:
+            body['buy_max_cost'] = buy_max_cost
+            
+        return self.post(f"{self.portfolio_url}/orders", body)
+
     def get_exchange_status(self) -> Dict[str, Any]:
         """Retrieves the exchange status."""
         return self.get(self.exchange_url + "/status")
