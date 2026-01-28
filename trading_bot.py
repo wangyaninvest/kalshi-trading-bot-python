@@ -109,8 +109,7 @@ class TradingBot:
                             days_until_close,
                             days_after_start,
                             min_probability,
-                            max_probability,
-                            require_liquidity
+                            max_probability
                         ):
                             continue
                         
@@ -119,7 +118,7 @@ class TradingBot:
                         matched += 1
                         
                         if not dry_run:
-                            if self._place_trade_order(market_info, trade_amount):
+                            if self._place_trade_order(market_info, trade_amount, require_liquidity):
                                 traded_markets.append(market_info)
                                 
                                 balance_dollars = self._check_balance()
@@ -241,8 +240,7 @@ class TradingBot:
         days_until_close: int,
         days_after_start: int,
         min_probability: float,
-        max_probability: float,
-        require_liquidity: bool
+        max_probability: float
     ) -> bool:
         """Check if a market meets all filtering criteria.
         
@@ -252,7 +250,6 @@ class TradingBot:
             days_after_start: Minimum days since market opened
             min_probability: Minimum mid-market probability
             max_probability: Maximum mid-market probability
-            require_liquidity: Whether to check for liquidity
         
         Returns:
             True if all criteria are met, False otherwise.
@@ -284,32 +281,34 @@ class TradingBot:
         if max_prob < min_probability or max_prob > max_probability:
             return False
         
-        # Check liquidity if required
-        if require_liquidity:
-            ticker = market.get('ticker')
-            if not self._has_liquidity(ticker):
-                return False
-        
         return True
     
-    def _place_trade_order(self, market_info: Dict[str, Any], trade_amount: float = 5.0) -> bool:
+    def _place_trade_order(self, market_info: Dict[str, Any], trade_amount: float = 5.0, require_liquidity: bool = False) -> bool:
         """Place a limit buy order on the high probability side.
         
         Args:
             market_info: Formatted market information
             trade_amount: Amount to spend in dollars
+            require_liquidity: Whether to check for liquidity before placing order
             
         Returns:
             True if order placed successfully, False otherwise
         """
         ticker = market_info['ticker']
+        
+        # Check liquidity if required (only before placing order)
+        if require_liquidity:
+            if not self._has_liquidity(ticker):
+                print(f"    ⊘ Skipping {ticker} - no liquidity")
+                return False
+        
         high_side = market_info['high_side'].lower()
         
         current_price = (market_info['yes_probability'] if high_side == 'yes' 
                         else market_info['no_probability'])
         
         # Calculate limit price: current price capped at $0.98
-        limit_price = min(current_price + 0.02, 0.98)
+        limit_price = min(current_price + 0.01, 0.98)
         
         count = max(1, int(trade_amount / limit_price)) if limit_price > 0 else 5
         price_cents = int(limit_price * 100)  # Convert to cents
@@ -357,8 +356,8 @@ class TradingBot:
         """Check if a market has liquidity (open orders)."""
         try:
             orderbook = self.client.get_market_orderbook(ticker, depth=1)
-            yes_orders = orderbook.get('orderbook', {}).get('yes', [])
-            no_orders = orderbook.get('orderbook', {}).get('no', [])
+            yes_orders = orderbook.get('orderbook', {}).get('yes') or []
+            no_orders = orderbook.get('orderbook', {}).get('no') or []
             return len(yes_orders) > 0 or len(no_orders) > 0
         except Exception as e:
             print(f"Error checking liquidity for {ticker}: {e}")
@@ -403,10 +402,6 @@ def print_market_results(markets: List[Dict[str, Any]]) -> None:
         print("No markets found matching criteria.")
         return
     
-    print("\n" + "="*100)
-    print(f"{'MATCHING MARKETS':^100}")
-    print("="*100)
-    
     for i, market in enumerate(markets, 1):
         print(f"\n{i}. {market['ticker']}")
         print(f"   Title: {market['title']}")
@@ -415,5 +410,3 @@ def print_market_results(markets: List[Dict[str, Any]]) -> None:
         print(f"   Probabilities: YES={market['yes_probability']:.1%}, NO={market['no_probability']:.1%}")
         print(f"   High Side: {market['high_side']} at {market['high_probability']:.1%}")
         print(f"   Volume: {market['volume']}, Open Interest: {market['open_interest']}")
-    
-    print("\n" + "="*100)
