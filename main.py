@@ -48,6 +48,7 @@ print(f"  - Probability range: {config.MIN_PROBABILITY:.0%} - {config.MAX_PROBAB
 print(f"  - Require liquidity: {config.REQUIRE_LIQUIDITY}")
 print(f"  - Throttle probability: {config.THROTTLE_PROBABILITY:.0%}")
 print(f"  - Trade amount: ${config.TRADE_AMOUNT:.2f}")
+print(f"  - Dry run: {config.DRY_RUN}")
 print()
 
 # Scan markets and place trades
@@ -58,7 +59,8 @@ matching_markets = bot.run(
     max_probability=config.MAX_PROBABILITY,
     require_liquidity=config.REQUIRE_LIQUIDITY,
     throttle_probability=config.THROTTLE_PROBABILITY,
-    trade_amount=config.TRADE_AMOUNT
+    trade_amount=config.TRADE_AMOUNT,
+    dry_run=config.DRY_RUN
 )
 
 # Results are printed by the bot

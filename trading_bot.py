@@ -30,7 +30,8 @@ class TradingBot:
         max_probability: float = 0.99,
         require_liquidity: bool = False,
         throttle_probability: float = 0.0,
-        trade_amount: float = 5.0
+        trade_amount: float = 5.0,
+        dry_run: bool = False
     ) -> List[Dict[str, Any]]:
         """Run the trading bot: scan markets, filter by criteria, and place orders.
         
@@ -42,6 +43,7 @@ class TradingBot:
             require_liquidity: Whether to require open orders
             throttle_probability: Probability of skipping a matching market
             trade_amount: Amount to spend per trade in dollars
+            dry_run: If True, only scan and print markets without placing trades
         
         Returns:
             List of matching markets with details.
@@ -52,6 +54,7 @@ class TradingBot:
         print(f"  - Probability between {min_probability * 100}% and {max_probability * 100}%")
         print(f"  - Liquidity required: {require_liquidity}")
         print(f"  - Throttle probability: {throttle_probability * 100}%")
+        print(f"  - Dry run mode: {dry_run}")
         print()
         
         # Check initial balance
@@ -115,21 +118,22 @@ class TradingBot:
                         matching_markets.append(market_info)
                         matched += 1
                         
-                        if self._place_trade_order(market_info, trade_amount):
-                            traded_markets.append(market_info)
-                            
-                            balance_dollars = self._check_balance()
-                            if balance_dollars is not None:
-                                print(f"    Remaining balance: ${balance_dollars:.2f}")
+                        if not dry_run:
+                            if self._place_trade_order(market_info, trade_amount):
+                                traded_markets.append(market_info)
                                 
-                                if balance_dollars < 10:
-                                    print("\nBalance dropped below $10. Stopping trading.")
-                                    print(f"\nFound {len(matching_markets)} matching markets, traded {len(traded_markets)} markets.")
-                                    print("\n" + "="*100)
-                                    print("TRADED MARKETS:")
-                                    print("="*100)
-                                    print_market_results(traded_markets)
-                                    return matching_markets
+                                balance_dollars = self._check_balance()
+                                if balance_dollars is not None:
+                                    print(f"    Remaining balance: ${balance_dollars:.2f}")
+                                    
+                                    if balance_dollars < 10:
+                                        print("\nBalance dropped below $10. Stopping trading.")
+                                        print(f"\nFound {len(matching_markets)} matching markets, traded {len(traded_markets)} markets.")
+                                        print("\n" + "="*100)
+                                        print("TRADED MARKETS:")
+                                        print("="*100)
+                                        print_market_results(traded_markets)
+                                        return matching_markets
                     
                     cursor = response.get('cursor')
                     if not cursor:
@@ -142,10 +146,16 @@ class TradingBot:
                 continue
         
         print(f"\nFound {len(matching_markets)} matching markets, traded {len(traded_markets)} markets.")
-        print("\n" + "="*100)
-        print("TRADED MARKETS:")
-        print("="*100)
-        print_market_results(traded_markets)
+        if not dry_run:
+            print("\n" + "="*100)
+            print("TRADED MARKETS:")
+            print("="*100)
+            print_market_results(traded_markets)
+        else:
+            print("\n" + "="*100)
+            print("MATCHING MARKETS (DRY RUN - NO TRADES PLACED):")
+            print("="*100)
+            print_market_results(matching_markets)
         return matching_markets
     
     def _load_series_from_csv(self) -> List[str]:
