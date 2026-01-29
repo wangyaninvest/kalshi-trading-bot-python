@@ -41,7 +41,7 @@ REQUIRE_LIQUIDITY = True
 # Use this to throttle trading frequency
 # Example: 0.5 means 50% chance to skip each matching market
 # Set to 0.0 to never skip (trade all matching markets)
-THROTTLE_PROBABILITY = 0.0
+THROTTLE_PROBABILITY = 0.2
 
 # Amount to spend per trade in dollars
 # Each matching market will trigger a buy order for this amount

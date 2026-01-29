@@ -6,7 +6,9 @@ import os
 import random
 from datetime import datetime, timedelta
 from typing import List, Dict, Any, Optional
+
 from clients import KalshiHttpClient
+import utils
 
 
 class TradingBot:
@@ -48,23 +50,12 @@ class TradingBot:
         Returns:
             List of matching markets with details.
         """
-        print(f"Scanning markets with criteria:")
-        print(f"  - Closing within {days_until_close} days")
-        print(f"  - Open for at least {days_after_start} days")
-        print(f"  - Probability between {min_probability * 100}% and {max_probability * 100}%")
-        print(f"  - Liquidity required: {require_liquidity}")
-        print(f"  - Throttle probability: {throttle_probability * 100}%")
-        print(f"  - Dry run mode: {dry_run}")
-        print()
+        self._print_config(
+            days_until_close, days_after_start, min_probability, 
+            max_probability, require_liquidity, throttle_probability, dry_run
+        )
         
-        # Check initial balance
-        balance_dollars = self._check_balance()
-        if balance_dollars is None:
-            return []
-        
-        print(f"Current balance: ${balance_dollars:.2f}")
-        if balance_dollars <= 10:
-            print("Balance is $10 or less. Exiting.")
+        if not self._check_balance_safe():
             return []
         
         series_tickers = self._load_series_from_csv()
@@ -73,340 +64,312 @@ class TradingBot:
             return []
         
         print(f"Loaded {len(series_tickers)} series from {self.csv_file}")
-        
-        target_time = datetime.now() + timedelta(days=days_until_close)
-        max_close_ts = int(target_time.timestamp())
-        
         print("Fetching markets for each series...")
-        matching_markets = []
-        traded_markets = []
+        
+        # Prepare criteria dictionary to pass around
+        criteria = {
+            'days_until_close': days_until_close,
+            'days_after_start': days_after_start,
+            'min_prob': min_probability,
+            'max_prob': max_probability,
+            'throttle': throttle_probability,
+            'require_liquidity': require_liquidity,
+            'trade_amount': trade_amount,
+            'dry_run': dry_run,
+            'max_close_ts': int((datetime.now() + timedelta(days=days_until_close)).timestamp())
+        }
+        
+        all_matching_markets = []
+        all_traded_markets = []
         
         for i, ticker in enumerate(series_tickers, 1):
             print(f"  [{i}/{len(series_tickers)}] Processing {ticker}...", end=" ")
-            try:
-                cursor = None
-                matched = 0
-                
-                while True:
-                    response = self.client.get_markets(
-                        series_ticker=ticker,
-                        status='open',
-                        max_close_ts=max_close_ts,
-                        limit=1000,
-                        cursor=cursor
-                    )
-                    markets = response.get('markets', [])
-                    
-                    if not markets:
-                        break
-                    
-                    for market in markets:
-                        if throttle_probability > 0 and random.random() < throttle_probability:
-                            continue
-                        
-                        if not self._meets_criteria(
-                            market,
-                            days_until_close,
-                            days_after_start,
-                            min_probability,
-                            max_probability
-                        ):
-                            continue
-                        
-                        market_info = self._format_market_info(market)
-                        matching_markets.append(market_info)
-                        matched += 1
-                        
-                        if not dry_run:
-                            if self._place_trade_order(market_info, trade_amount, require_liquidity):
-                                traded_markets.append(market_info)
-                                
-                                balance_dollars = self._check_balance()
-                                if balance_dollars is not None:
-                                    print(f"    Remaining balance: ${balance_dollars:.2f}")
-                                    
-                                    if balance_dollars < 10:
-                                        print("\nBalance dropped below $10. Stopping trading.")
-                                        print(f"\nFound {len(matching_markets)} matching markets, traded {len(traded_markets)} markets.")
-                                        print("\n" + "="*100)
-                                        print("TRADED MARKETS:")
-                                        print("="*100)
-                                        print_market_results(traded_markets)
-                                        return matching_markets
-                    
-                    cursor = response.get('cursor')
-                    if not cursor:
-                        break
-                
-                print(f"{matched} matched" if matched > 0 else "no markets")
-                
-            except Exception as e:
-                print(f"error: {e}")
-                continue
+            matched, traded = self._process_series(ticker, criteria)
+            all_matching_markets.extend(matched)
+            all_traded_markets.extend(traded)
+            
+            # Check if we should stop due to low balance
+            if not criteria['dry_run'] and traded and not self._check_balance_safe():
+                print("\nBalance dropped below $10. Stopping trading.")
+                self._print_final_summary(all_matching_markets, all_traded_markets, criteria['dry_run'])
+                return all_matching_markets
         
-        print(f"\nFound {len(matching_markets)} matching markets, traded {len(traded_markets)} markets.")
-        if not dry_run:
-            print("\n" + "="*100)
-            print("TRADED MARKETS:")
-            print("="*100)
-            print_market_results(traded_markets)
-        else:
-            print("\n" + "="*100)
-            print("MATCHING MARKETS (DRY RUN - NO TRADES PLACED):")
-            print("="*100)
-            print_market_results(matching_markets)
-        return matching_markets
+        self._print_final_summary(all_matching_markets, all_traded_markets, criteria['dry_run'])
+        return all_matching_markets
+    
+    def _process_series(self, ticker: str, criteria: Dict[str, Any]) -> tuple[List, List]:
+        """Process a single series ticker (pagination loop)."""
+        matching = []
+        traded = []
+        matched_count = 0
+        cursor = None
+        
+        try:
+            while True:
+                response = self.client.get_markets(
+                    series_ticker=ticker,
+                    status='open',
+                    max_close_ts=criteria['max_close_ts'],
+                    limit=1000,
+                    cursor=cursor
+                )
+                markets = response.get('markets', [])
+                if not markets:
+                    break
+                
+                batch_match, batch_traded = self._process_market_batch(markets, criteria)
+                matching.extend(batch_match)
+                traded.extend(batch_traded)
+                matched_count += len(batch_match)
+                
+                # Stop processing if balance is too low
+                if batch_traded and not criteria['dry_run'] and not self._check_balance_safe():
+                    break
+                
+                cursor = response.get('cursor')
+                if not cursor:
+                    break
+            
+            print(f"{matched_count} matched" if matched_count > 0 else "no markets")
+            
+        except Exception as e:
+            print(f"error: {e}")
+        
+        return matching, traded
+    
+    def _process_market_batch(self, markets: List[Dict], criteria: Dict) -> tuple[List, List]:
+        """Process a batch of markets from the API."""
+        matching = []
+        traded = []
+        
+        for market in markets:
+            if criteria['throttle'] > 0 and random.random() < criteria['throttle']:
+                continue
+            
+            # Parse into a clean structure first
+            market_data = self._parse_market_data(market)
+            
+            # Filter based on criteria
+            if not self._meets_criteria(market_data, criteria):
+                continue
+            
+            matching.append(market_data)
+            
+            # Execute trade if not dry run
+            if not criteria['dry_run']:
+                success, order_details = self._place_trade_order(market_data, criteria['trade_amount'], criteria['require_liquidity'])
+                if success:
+                    market_data['order_details'] = order_details
+                    traded.append(market_data)
+        
+        return matching, traded
     
     def _load_series_from_csv(self) -> List[str]:
         """Load series tickers from CSV file."""
         if not os.path.exists(self.csv_file):
-            print(f"CSV file not found: {self.csv_file}")
             return []
-        
-        series_tickers = []
         try:
             with open(self.csv_file, 'r') as f:
-                reader = csv.DictReader(f)
-                for row in reader:
-                    ticker = row.get('Ticker')
-                    if ticker:
-                        series_tickers.append(ticker)
+                return [row['Ticker'] for row in csv.DictReader(f) if row.get('Ticker')]
         except Exception as e:
-            print(f"Error reading CSV file: {e}")
+            print(f"Error reading CSV: {e}")
             return []
-        
-        return series_tickers
     
-    def _check_balance(self, min_balance: float = 10.0) -> Optional[float]:
-        """Check account balance and return balance in dollars.
-        
-        Args:
-            min_balance: Minimum required balance
-            
-        Returns:
-            Balance in dollars if successful, None on error
-        """
+    def _check_balance_safe(self) -> bool:
+        """Check balance and return False if too low."""
         try:
-            balance_response = self.client.get_balance()
-            balance_cents = balance_response.get('balance', 0)
+            balance_cents = self.client.get_balance().get('balance', 0)
             balance_dollars = balance_cents / 100
-            return balance_dollars
+            print(f"Current balance: ${balance_dollars:.2f}")
+            if balance_dollars <= 10:
+                print("Balance is $10 or less. Stopping.")
+                return False
+            return True
         except Exception as e:
             print(f"Error checking balance: {e}")
-            return None
-    
-    def _parse_timestamp(self, timestamp_str: str) -> datetime:
-        """Parse ISO timestamp, handling microseconds > 6 digits.
-        
-        Args:
-            timestamp_str: ISO format timestamp string
-            
-        Returns:
-            Parsed datetime object
-        """
-        timestamp_str = timestamp_str.replace('Z', '+00:00')
-        
-        if '.' in timestamp_str and '+' in timestamp_str:
-            parts = timestamp_str.split('.')
-            microseconds_and_tz = parts[1].split('+')
-            if len(microseconds_and_tz[0]) > 6:
-                microseconds_and_tz[0] = microseconds_and_tz[0][:6]
-            timestamp_str = f"{parts[0]}.{microseconds_and_tz[0]}+{microseconds_and_tz[1]}"
-        
-        return datetime.fromisoformat(timestamp_str)
-    
-    def _calculate_probabilities(self, market: Dict[str, Any]) -> tuple[float, float]:
-        """Calculate mid-market probabilities for YES and NO sides.
-        
-        Args:
-            market: Market data from API
-            
-        Returns:
-            Tuple of (yes_probability, no_probability)
-        """
-        yes_bid = float(market.get('yes_bid_dollars', 0))
-        yes_ask = float(market.get('yes_ask_dollars', 0))
-        no_bid = float(market.get('no_bid_dollars', 0))
-        no_ask = float(market.get('no_ask_dollars', 0))
-        
-        yes_prob = (yes_bid + yes_ask) / 2 if (yes_bid > 0 and yes_ask > 0) else 0
-        no_prob = (no_bid + no_ask) / 2 if (no_bid > 0 and no_ask > 0) else 0
-        
-        return yes_prob, no_prob
-    
-    def _meets_criteria(
-        self,
-        market: Dict[str, Any],
-        days_until_close: int,
-        days_after_start: int,
-        min_probability: float,
-        max_probability: float
-    ) -> bool:
-        """Check if a market meets all filtering criteria.
-        
-        Args:
-            market: Market data from API
-            days_until_close: Maximum days until close
-            days_after_start: Minimum days since market opened
-            min_probability: Minimum mid-market probability
-            max_probability: Maximum mid-market probability
-        
-        Returns:
-            True if all criteria are met, False otherwise.
-        """
-        if market.get('status') != 'active':
-            return False
-        
-        if market.get('market_type') != 'binary':
-            return False
-        
-        try:
-            close_time = self._parse_timestamp(market.get('close_time', ''))
-            now = datetime.now(close_time.tzinfo)
-            days_remaining = (close_time - now).total_seconds() / (24 * 3600)
-            
-            if days_remaining > days_until_close or days_remaining < 0:
-                return False
-            
-            open_time = self._parse_timestamp(market.get('open_time', ''))
-            days_since_opened = (now - open_time).total_seconds() / (24 * 3600)
-            
-            if days_since_opened < days_after_start:
-                return False
-        except Exception:
-            return False
-        
-        yes_prob, no_prob = self._calculate_probabilities(market)
-        max_prob = max(yes_prob, no_prob)
-        if max_prob < min_probability or max_prob > max_probability:
-            return False
-        
-        return True
-    
-    def _place_trade_order(self, market_info: Dict[str, Any], trade_amount: float = 5.0, require_liquidity: bool = False) -> bool:
-        """Place a limit buy order on the high probability side.
-        
-        Args:
-            market_info: Formatted market information
-            trade_amount: Amount to spend in dollars
-            require_liquidity: Whether to check for liquidity before placing order
-            
-        Returns:
-            True if order placed successfully, False otherwise
-        """
-        ticker = market_info['ticker']
-        
-        # Check liquidity if required (only before placing order)
-        if require_liquidity:
-            if not self._has_liquidity(ticker):
-                print(f"    ⊘ Skipping {ticker} - no liquidity")
-                return False
-        
-        high_side = market_info['high_side'].lower()
-        
-        current_price = (market_info['yes_probability'] if high_side == 'yes' 
-                        else market_info['no_probability'])
-        
-        # Calculate limit price: current price capped at $0.98
-        limit_price = min(current_price + 0.01, 0.98)
-        
-        count = max(1, int(trade_amount / limit_price)) if limit_price > 0 else 5
-        price_cents = int(limit_price * 100)  # Convert to cents
-        expiration_ts = int(datetime.now().timestamp() + 10)  # Timestamp in seconds
-        
-        try:
-            print(f"    Placing ${trade_amount:.2f} limit buy order on {high_side.upper()} side (count: {count}, price: {price_cents}¢, expires in 10s)...")
-            
-            order_params = {
-                'ticker': ticker,
-                'action': 'buy',
-                'side': high_side,
-                'count': count,
-                'type': 'limit',
-                'expiration_ts': expiration_ts
-            }
-            
-            if high_side == 'yes':
-                order_params['yes_price'] = price_cents
-            else:
-                order_params['no_price'] = price_cents
-            
-            response = self.client.create_order(**order_params)
-            
-            order = response.get('order', {})
-            order_id = order.get('order_id', 'unknown')
-            status = order.get('status', 'unknown')
-            fill_count = order.get('fill_count', 0)
-            print(f"    ✓ Order placed successfully (ID: {order_id}, status: {status}, filled: {fill_count}/{count} contracts)")
-            return True
-            
-        except Exception as e:
-            print(f"    ✗ Error placing order: {e}")
-            print(f"    Order params: {order_params}")
-            # Try to get more error details
-            if hasattr(e, 'response') and e.response is not None:
-                try:
-                    error_details = e.response.json()
-                    print(f"    API Error Details: {error_details}")
-                except:
-                    print(f"    Response text: {e.response.text if hasattr(e.response, 'text') else 'N/A'}")
             return False
     
-    def _has_liquidity(self, ticker: str) -> bool:
-        """Check if a market has liquidity (open orders)."""
-        try:
-            orderbook = self.client.get_market_orderbook(ticker, depth=1)
-            yes_orders = orderbook.get('orderbook', {}).get('yes') or []
-            no_orders = orderbook.get('orderbook', {}).get('no') or []
-            return len(yes_orders) > 0 or len(no_orders) > 0
-        except Exception as e:
-            print(f"Error checking liquidity for {ticker}: {e}")
-            return False
-    
-    def _format_market_info(self, market: Dict[str, Any]) -> Dict[str, Any]:
-        """Format market information for display."""
-        close_time = self._parse_timestamp(market.get('close_time', ''))
-        open_time = self._parse_timestamp(market.get('open_time', ''))
+    def _parse_market_data(self, market: Dict[str, Any]) -> Dict[str, Any]:
+        """Parse raw API market dict into a clean object with derived fields."""
+        close_time = utils.parse_iso_timestamp(market.get('close_time', ''))
+        open_time = utils.parse_iso_timestamp(market.get('open_time', ''))
         now = datetime.now(close_time.tzinfo)
-        hours_remaining = (close_time - now).total_seconds() / 3600
-        days_since_opened = (now - open_time).total_seconds() / (24 * 3600)
         
-        yes_prob, no_prob = self._calculate_probabilities(market)
+        yes_prob, no_prob = utils.calculate_mid_probabilities(market)
+        
+        # Determine high side and capture ask prices
+        yes_ask = float(market.get('yes_ask_dollars', 0))
+        no_ask = float(market.get('no_ask_dollars', 0))
         
         if yes_prob >= no_prob:
             high_side = 'YES'
-            high_probability = yes_prob
+            high_prob = yes_prob
+            ask_price = yes_ask
         else:
             high_side = 'NO'
-            high_probability = no_prob
+            high_prob = no_prob
+            ask_price = no_ask
         
         return {
             'ticker': market.get('ticker'),
             'title': market.get('title'),
-            'open_time': open_time.strftime('%Y-%m-%d %H:%M:%S %Z'),
-            'days_since_opened': round(days_since_opened, 1),
-            'close_time': close_time.strftime('%Y-%m-%d %H:%M:%S %Z'),
-            'hours_until_close': round(hours_remaining, 1),
-            'yes_probability': round(yes_prob, 3),
-            'no_probability': round(no_prob, 3),
+            'status': market.get('status'),
+            'market_type': market.get('market_type'),
+            'open_time': open_time,
+            'close_time': close_time,
+            'days_since_opened': (now - open_time).total_seconds() / (24 * 3600),
+            'days_remaining': (close_time - now).total_seconds() / (24 * 3600),
+            'hours_until_close': (close_time - now).total_seconds() / 3600,
+            'yes_probability': yes_prob,
+            'no_probability': no_prob,
             'high_side': high_side,
-            'high_probability': round(high_probability, 3),
+            'high_probability': high_prob,
+            'ask_price': ask_price,
             'volume': market.get('volume', 0),
             'open_interest': market.get('open_interest', 0),
         }
+    
+    def _meets_criteria(self, data: Dict[str, Any], criteria: Dict) -> bool:
+        """Check if pre-parsed market data meets criteria."""
+        if data['status'] != 'active' or data['market_type'] != 'binary':
+            return False
+        
+        if data['days_remaining'] > criteria['days_until_close'] or data['days_remaining'] < 0:
+            return False
+        
+        if data['days_since_opened'] < criteria['days_after_start']:
+            return False
+        
+        if not (criteria['min_prob'] <= data['high_probability'] <= criteria['max_prob']):
+            return False
+        
+        return True
+    
+    def _place_trade_order(self, market: Dict[str, Any], amount: float, require_liquidity: bool) -> tuple[bool, Dict[str, Any]]:
+        """Place order using the ask price to ensure execution.
+        
+        Args:
+            market: Market information dict
+            amount: Amount to spend in dollars
+            require_liquidity: Whether to check for liquidity before placing order
+            
+        Returns:
+            Tuple of (success: bool, order_details: dict)
+        """
+        ticker = market['ticker']
+        side = market['high_side'].lower()
+        
+        if require_liquidity and not self._has_liquidity(ticker):
+            print(f"    ⊘ Skipping {ticker} - no liquidity")
+            return False, {}
+        
+        # PRICING STRATEGY:
+        # Pay the higher of (ask price) or (mid + 0.01), capped at 0.98
+        # This ensures immediate fills while protecting against underpricing
+        target_price = max(market['high_probability'] + 0.01, market['ask_price'])
+        limit_price = min(target_price, 0.98)
+        
+        # Safety check: Don't buy if price is effectively 0
+        if limit_price <= 0.01:
+            return False, {}
+        
+        count = max(1, int(amount / limit_price))
+        price_cents = int(limit_price * 100)
+        
+        print(f"    Placing ${amount:.2f} buy on {side.upper()} (count: {count}, price: {price_cents}¢)...")
+        
+        try:
+            expiration = int(datetime.now().timestamp() + 300)  # 5 min expiry
+            params = {
+                'ticker': ticker,
+                'action': 'buy',
+                'side': side,
+                'count': count,
+                'type': 'limit',
+                'expiration_ts': expiration
+            }
+            if side == 'yes':
+                params['yes_price'] = price_cents
+            else:
+                params['no_price'] = price_cents
+            
+            resp = self.client.create_order(**params)
+            order = resp.get('order', {})
+            order_id = order.get('order_id', 'unknown')
+            status = order.get('status', 'unknown')
+            filled = order.get('fill_count', 0)
+            print(f"    ✓ Order placed (ID: {order_id}, status: {status}, filled: {filled}/{count})")
+            
+            order_details = {
+                'order_id': order_id,
+                'status': status,
+                'count': count,
+                'filled': filled,
+                'price': limit_price,
+                'price_cents': price_cents,
+                'side': side,
+                'amount': amount
+            }
+            return True, order_details
+        except Exception as e:
+            print(f"    ✗ Error placing order: {e}")
+            return False, {}
+    
+    def _has_liquidity(self, ticker: str) -> bool:
+        """Check if a market has liquidity (open orders)."""
+        try:
+            book = self.client.get_market_orderbook(ticker, depth=1).get('orderbook', {})
+            return bool(book.get('yes') or book.get('no'))
+        except Exception:
+            return False
+    
+    def _print_config(self, days_until_close, days_after_start, min_prob, max_prob, 
+                     require_liquidity, throttle, dry_run):
+        """Print scanning configuration."""
+        print("Scanning markets with criteria:")
+        print(f"  - Closing within {days_until_close} days")
+        print(f"  - Open for at least {days_after_start} days")
+        print(f"  - Probability: {min_prob:.0%} - {max_prob:.0%}")
+        print(f"  - Liquidity required: {require_liquidity}")
+        print(f"  - Throttle: {throttle:.0%}")
+        print(f"  - Dry run: {dry_run}\n")
+    
+    def _print_final_summary(self, matches, trades, dry_run):
+        """Print final summary of matched and traded markets."""
+        count_m = len(matches)
+        count_t = len(trades)
+        print(f"\nFound {count_m} matches, traded {count_t}.")
+        
+        target_list = matches if dry_run else trades
+        title = "MATCHING (DRY RUN)" if dry_run else "TRADED"
+        
+        if target_list:
+            print(f"\n{'='*100}")
+            print(f"{title} MARKETS:")
+            print(f"{'='*100}")
+            print_market_results(target_list)
 
 
 def print_market_results(markets: List[Dict[str, Any]]) -> None:
     """Print market scan results in a readable format."""
     if not markets:
-        print("No markets found matching criteria.")
+        print("No markets found.")
         return
     
-    for i, market in enumerate(markets, 1):
-        print(f"\n{i}. {market['ticker']}")
-        print(f"   Title: {market['title']}")
-        print(f"   Open Time: {market['open_time']} ({market['days_since_opened']} days ago)")
-        print(f"   Close Time: {market['close_time']} ({market['hours_until_close']} hours remaining)")
-        print(f"   Probabilities: YES={market['yes_probability']:.1%}, NO={market['no_probability']:.1%}")
-        print(f"   High Side: {market['high_side']} at {market['high_probability']:.1%}")
-        print(f"   Volume: {market['volume']}, Open Interest: {market['open_interest']}")
+    for i, m in enumerate(markets, 1):
+        print(f"\n{i}. {m['ticker']}")
+        # Handle datetime objects for display
+        start_str = m['open_time'].strftime('%Y-%m-%d') if isinstance(m['open_time'], datetime) else m['open_time']
+        end_str = m['close_time'].strftime('%Y-%m-%d') if isinstance(m['close_time'], datetime) else m['close_time']
+        
+        print(f"   Title: {m['title']}")
+        print(f"   Window: {start_str} to {end_str} ({m['hours_until_close']:.1f}h remaining)")
+        print(f"   Probabilities: YES={m['yes_probability']:.1%}, NO={m['no_probability']:.1%}")
+        print(f"   Target: {m['high_side']} @ ${m['ask_price']:.2f} (Mid: {m['high_probability']:.1%})")
+        print(f"   Volume: {m['volume']}, Open Interest: {m['open_interest']}")
+        
+        # Display order details if present (for traded markets)
+        if 'order_details' in m and m['order_details']:
+            od = m['order_details']
+            print(f"   Order: {od['side'].upper()} x{od['count']} @ {od['price_cents']}¢ (${od['amount']:.2f}) - ID: {od['order_id']}")
+            print(f"   Status: {od['status']}, Filled: {od['filled']}/{od['count']}")
