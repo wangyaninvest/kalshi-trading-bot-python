@@ -264,9 +264,9 @@ class TradingBot:
             return False, {}
         
         # PRICING STRATEGY:
-        # Pay the higher of (ask price - 0.01) or (mid + 0.01), capped at 0.98
+        # Pay the higher of (ask price - 0.02) or (mid + 0.01), capped at 0.98
         # This ensures immediate fills while protecting against underpricing
-        target_price = max(market['high_probability'] + 0.01, market['ask_price'] - 0.01)
+        target_price = max(market['high_probability'] + 0.01, market['ask_price'] - 0.02)
         limit_price = min(target_price, 0.98)
         
         # Safety check: Don't buy if price is effectively 0
