@@ -15,17 +15,17 @@ ENVIRONMENT = "PROD"
 # ============================================================================
 # Maximum days until market closes
 # Markets closing within this timeframe will be included
-DAYS_UNTIL_CLOSE = 5
+DAYS_UNTIL_CLOSE = 4
 
 # Minimum days since market opened
 # Markets must be open for at least this many days to be included
 # This filters out newly created markets
-DAYS_AFTER_START = 10
+DAYS_AFTER_START = 8
 
 # Minimum probability threshold (0.0 to 1.0)
 # Markets with YES or NO probability >= this value will be included
 # Example: 0.90 means 90% probability
-MIN_PROBABILITY = 0.7
+MIN_PROBABILITY = 0.75
 
 # Maximum probability threshold (0.0 to 1.0)
 # Markets with YES or NO probability <= this value will be included
@@ -41,7 +41,7 @@ REQUIRE_LIQUIDITY = True
 # Use this to throttle trading frequency
 # Example: 0.5 means 50% chance to skip each matching market
 # Set to 0.0 to never skip (trade all matching markets)
-THROTTLE_PROBABILITY = 0.2
+THROTTLE_PROBABILITY = 0.1
 
 # Amount to spend per trade in dollars
 # Each matching market will trigger a buy order for this amount

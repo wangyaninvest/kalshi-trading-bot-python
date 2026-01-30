@@ -1,6 +1,6 @@
 """
 Fetch and document top Kalshi series by volume from specific categories.
-Generates documentation files showing top 200 series per category.
+Generates documentation files showing top 400 series per category.
 """
 import os
 import csv
@@ -51,8 +51,8 @@ TARGET_CATEGORIES = [
     "Sports"
 ]
 
-# Fetch top 200 series from each category
-print("Fetching top 200 series from each category...")
+# Fetch top 400 series from each category
+print("Fetching top 400 series from each category...")
 top_series = []
 
 for category in TARGET_CATEGORIES:
@@ -78,12 +78,12 @@ for category in TARGET_CATEGORIES:
             print(f"Error: {e}")
             break
     
-    # Sort by trading volume (descending) and select top 200
+    # Sort by trading volume (descending) and select top 400
     category_series.sort(key=lambda x: x.get('volume', 0), reverse=True)
-    top_200 = category_series[:200]
+    top_400 = category_series[:400]
     
-    print(f"{len(category_series)} series, top 200 selected")
-    top_series.extend(top_200)
+    print(f"{len(category_series)} series, top 400 selected")
+    top_series.extend(top_400)
 
 print(f"\nTotal: {len(top_series)} series from top 200 of each category")
 
@@ -94,9 +94,9 @@ print("Generating documentation...")
 os.makedirs('data', exist_ok=True)
 with open('data/TOP_SERIES.md', 'w') as f:
     # Write header
-    f.write("# Top Kalshi Series by Volume (Top 200 per Category)\n\n")
+    f.write("# Top Kalshi Series by Volume (Top 400 per Category)\n\n")
     f.write(f"**Categories:** {', '.join(TARGET_CATEGORIES)}\n\n")
-    f.write(f"**Selection Method:** Top 200 series from each category by volume\n\n")
+    f.write(f"**Selection Method:** Top 400 series from each category by volume\n\n")
     f.write(f"**Total series:** {len(top_series)}\n\n")
     f.write(f"*Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} ({env.value.upper()} environment)*\n\n")
     f.write("---\n\n")
@@ -120,7 +120,7 @@ with open('data/TOP_SERIES.md', 'w') as f:
     f.write("\n---\n\n")
     
     # Write full series listing
-    f.write("## All Series (Top 200 per Category)\n\n")
+    f.write("## All Series (Top 400 per Category)\n\n")
     f.write("| Rank | Ticker | Title | Category | Volume |\n")
     f.write("|------|--------|-------|----------|--------|\n")
     
