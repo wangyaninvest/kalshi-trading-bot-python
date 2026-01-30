@@ -195,20 +195,27 @@ class TradingBot:
         open_time = utils.parse_iso_timestamp(market.get('open_time', ''))
         now = datetime.now(close_time.tzinfo)
         
-        yes_prob, no_prob = utils.calculate_mid_probabilities(market)
-        
-        # Determine high side and capture ask prices
+        # Extract bid/ask prices
+        yes_bid = float(market.get('yes_bid_dollars', 0))
         yes_ask = float(market.get('yes_ask_dollars', 0))
+        no_bid = float(market.get('no_bid_dollars', 0))
         no_ask = float(market.get('no_ask_dollars', 0))
         
+        # Calculate mid-market probabilities
+        yes_prob = (yes_bid + yes_ask) / 2 if (yes_bid > 0 and yes_ask > 0) else 0
+        no_prob = (no_bid + no_ask) / 2 if (no_bid > 0 and no_ask > 0) else 0
+        
+        # Determine high side
         if yes_prob >= no_prob:
             high_side = 'YES'
             high_prob = yes_prob
             ask_price = yes_ask
+            bid_price = yes_bid
         else:
             high_side = 'NO'
             high_prob = no_prob
             ask_price = no_ask
+            bid_price = no_bid
         
         return {
             'ticker': market.get('ticker'),
@@ -225,6 +232,7 @@ class TradingBot:
             'high_side': high_side,
             'high_probability': high_prob,
             'ask_price': ask_price,
+            'bid_price': bid_price,
             'volume': market.get('volume', 0),
             'open_interest': market.get('open_interest', 0),
         }
@@ -264,9 +272,9 @@ class TradingBot:
             return False, {}
         
         # PRICING STRATEGY:
-        # Pay the higher of (ask price - 0.01) or (mid + 0.01), capped at 0.98
-        # This ensures immediate fills while protecting against underpricing
-        target_price = max(market['high_probability'] + 0.01, market['ask_price'] - 0.01)
+        # Pay the higher of (bid price + 0.02) or (ask price - 0.02), capped at 0.98
+        # This balances aggressive bidding with conservative pricing
+        target_price = max(market['bid_price'] + 0.02, market['ask_price'] - 0.02)
         limit_price = min(target_price, 0.98)
         
         # Safety check: Don't buy if price is effectively 0

@@ -32,24 +32,3 @@ def parse_iso_timestamp(timestamp_str: str) -> datetime:
         return datetime.fromisoformat(timestamp_str)
     except ValueError:
         return datetime.now()
-
-
-def calculate_mid_probabilities(market: Dict[str, Any]) -> Tuple[float, float]:
-    """
-    Calculate mid-market probabilities for YES and NO sides based on bid/ask.
-    
-    Args:
-        market: Market data from API
-        
-    Returns:
-        Tuple of (yes_probability, no_probability)
-    """
-    yes_bid = float(market.get('yes_bid_dollars', 0))
-    yes_ask = float(market.get('yes_ask_dollars', 0))
-    no_bid = float(market.get('no_bid_dollars', 0))
-    no_ask = float(market.get('no_ask_dollars', 0))
-    
-    yes_prob = (yes_bid + yes_ask) / 2 if (yes_bid > 0 and yes_ask > 0) else 0
-    no_prob = (no_bid + no_ask) / 2 if (no_bid > 0 and no_ask > 0) else 0
-    
-    return yes_prob, no_prob
