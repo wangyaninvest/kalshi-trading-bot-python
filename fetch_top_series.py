@@ -8,11 +8,11 @@ from dotenv import load_dotenv
 from cryptography.hazmat.primitives import serialization
 from clients import KalshiHttpClient, Environment
 from datetime import datetime
-import config
+import bot_config
 
 # Load environment variables from .env file
 load_dotenv()
-env = Environment.PROD if config.ENVIRONMENT == "PROD" else Environment.DEMO
+env = Environment.PROD if bot_config.ENVIRONMENT == "PROD" else Environment.DEMO
 KEYID = os.getenv('DEMO_KEYID') if env == Environment.DEMO else os.getenv('PROD_KEYID')
 KEYFILE = os.getenv('DEMO_KEYFILE') if env == Environment.DEMO else os.getenv('PROD_KEYFILE')
 

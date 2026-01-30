@@ -7,13 +7,13 @@ from dotenv import load_dotenv
 from cryptography.hazmat.primitives import serialization
 from clients import KalshiHttpClient, Environment
 from trading_bot import TradingBot, print_market_results
-import config
+import bot_config
 
 # Load environment variables from .env file
 load_dotenv()
 
 # Determine environment (DEMO or PROD) and load appropriate credentials
-env = Environment.DEMO if config.ENVIRONMENT == "DEMO" else Environment.PROD
+env = Environment.DEMO if bot_config.ENVIRONMENT == "DEMO" else Environment.PROD
 KEYID = os.getenv('DEMO_KEYID') if env == Environment.DEMO else os.getenv('PROD_KEYID')
 KEYFILE = os.getenv('DEMO_KEYFILE') if env == Environment.DEMO else os.getenv('PROD_KEYFILE')
 
@@ -33,7 +33,7 @@ client = KalshiHttpClient(key_id=KEYID, private_key=private_key, environment=env
 print("=" * 50)
 print("KALSHI TRADING BOT - MARKET SCANNER")
 print("=" * 50)
-print(f"Environment: {config.ENVIRONMENT}")
+print(f"Environment: {bot_config.ENVIRONMENT}")
 balance = client.get_balance()
 print(f"Account Balance: ${balance.get('balance', 0) / 100:.2f}\n")
 
@@ -42,25 +42,25 @@ bot = TradingBot(client)
 
 # Display scanning configuration
 print(f"Configuration:")
-print(f"  - Days until close: {config.DAYS_UNTIL_CLOSE}")
-print(f"  - Days after start: {config.DAYS_AFTER_START}")
-print(f"  - Probability range: {config.MIN_PROBABILITY:.0%} - {config.MAX_PROBABILITY:.0%}")
-print(f"  - Require liquidity: {config.REQUIRE_LIQUIDITY}")
-print(f"  - Throttle probability: {config.THROTTLE_PROBABILITY:.0%}")
-print(f"  - Trade amount: ${config.TRADE_AMOUNT:.2f}")
-print(f"  - Dry run: {config.DRY_RUN}")
+print(f"  - Days until close: {bot_config.DAYS_UNTIL_CLOSE}")
+print(f"  - Days after start: {bot_config.DAYS_AFTER_START}")
+print(f"  - Probability range: {bot_config.MIN_PROBABILITY:.0%} - {bot_config.MAX_PROBABILITY:.0%}")
+print(f"  - Require liquidity: {bot_config.REQUIRE_LIQUIDITY}")
+print(f"  - Throttle probability: {bot_config.THROTTLE_PROBABILITY:.0%}")
+print(f"  - Trade amount: ${bot_config.TRADE_AMOUNT:.2f}")
+print(f"  - Dry run: {bot_config.DRY_RUN}")
 print()
 
 # Scan markets and place trades
 matching_markets = bot.run(
-    days_until_close=config.DAYS_UNTIL_CLOSE,
-    days_after_start=config.DAYS_AFTER_START,
-    min_probability=config.MIN_PROBABILITY,
-    max_probability=config.MAX_PROBABILITY,
-    require_liquidity=config.REQUIRE_LIQUIDITY,
-    throttle_probability=config.THROTTLE_PROBABILITY,
-    trade_amount=config.TRADE_AMOUNT,
-    dry_run=config.DRY_RUN
+    days_until_close=bot_config.DAYS_UNTIL_CLOSE,
+    days_after_start=bot_config.DAYS_AFTER_START,
+    min_probability=bot_config.MIN_PROBABILITY,
+    max_probability=bot_config.MAX_PROBABILITY,
+    require_liquidity=bot_config.REQUIRE_LIQUIDITY,
+    throttle_probability=bot_config.THROTTLE_PROBABILITY,
+    trade_amount=bot_config.TRADE_AMOUNT,
+    dry_run=bot_config.DRY_RUN
 )
 
 # Results are printed by the bot
