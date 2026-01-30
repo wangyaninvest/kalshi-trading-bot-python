@@ -38,7 +38,7 @@ def run_trading_bot():
     try:
         # Run the bot
         result = subprocess.run(
-            ["python", "run_bot.py"],
+            ["python3", "run_bot.py"],
             cwd=os.path.dirname(os.path.abspath(__file__)),
             capture_output=False,
             text=True
