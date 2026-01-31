@@ -50,7 +50,21 @@ def run_trading_bot():
             print("Aborting trading bot run.\n")
             return
         
-        print(f"\n✓ Top series fetch completed successfully\n")
+        print(f"\n✓ Top series fetch completed successfully")
+        
+        # Verify the output file exists and has content
+        csv_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "top_series.csv")
+        if not os.path.exists(csv_path):
+            print(f"\n✗ Error: Expected output file not found: {csv_path}")
+            print("Aborting trading bot run.\n")
+            return
+        
+        if os.path.getsize(csv_path) == 0:
+            print(f"\n✗ Error: Output file is empty: {csv_path}")
+            print("Aborting trading bot run.\n")
+            return
+        
+        print(f"✓ Verified output file: {csv_path}\n")
         
         # Then run the bot
         print("Step 2: Running trading bot...")
