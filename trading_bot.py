@@ -281,8 +281,8 @@ class TradingBot:
         ticker = market['ticker']
         side = market['high_side'].lower()
         
-        if require_liquidity and not self._has_liquidity(ticker):
-            print(f"    ⊘ Skipping {ticker} - no liquidity")
+        if require_liquidity and not self._has_liquidity(ticker, side):
+            print(f"    ⊘ Skipping {ticker} - no liquidity on {side.upper()} side")
             return False, {}
         
         # PRICING STRATEGY:
@@ -337,11 +337,16 @@ class TradingBot:
             print(f"    ✗ Error placing order: {e}")
             return False, {}
     
-    def _has_liquidity(self, ticker: str) -> bool:
-        """Check if a market has liquidity (open orders)."""
+    def _has_liquidity(self, ticker: str, side: str) -> bool:
+        """Check if a market has liquidity (open orders) on the specified side.
+        
+        Args:
+            ticker: Market ticker
+            side: 'yes' or 'no' - which side to check for liquidity
+        """
         try:
             book = self.client.get_market_orderbook(ticker, depth=1).get('orderbook', {})
-            return bool(book.get('yes') or book.get('no'))
+            return bool(book.get(side))
         except Exception:
             return False
     
