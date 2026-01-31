@@ -36,7 +36,24 @@ def run_trading_bot():
     print(f"{'='*80}\n")
     
     try:
-        # Run the bot
+        # First, fetch top series
+        print("Step 1: Fetching top series...")
+        result = subprocess.run(
+            ["python3", "fetch_top_series.py"],
+            cwd=os.path.dirname(os.path.abspath(__file__)),
+            capture_output=False,
+            text=True
+        )
+        
+        if result.returncode != 0:
+            print(f"\n✗ fetch_top_series.py exited with code {result.returncode}")
+            print("Aborting trading bot run.\n")
+            return
+        
+        print(f"\n✓ Top series fetch completed successfully\n")
+        
+        # Then run the bot
+        print("Step 2: Running trading bot...")
         result = subprocess.run(
             ["python3", "run_bot.py"],
             cwd=os.path.dirname(os.path.abspath(__file__)),
