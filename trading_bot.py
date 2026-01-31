@@ -251,6 +251,20 @@ class TradingBot:
         if not (criteria['min_prob'] <= data['high_probability'] <= criteria['max_prob']):
             return False
         
+        # Exclude crypto price markets
+        title_lower = data['title'].lower()
+        ticker_lower = data['ticker'].lower()
+        crypto_keywords = ['btc', 'bitcoin', 'eth', 'ethereum', 'crypto', 'cryptocurrency', 
+                          'solana', 'sol', 'doge', 'dogecoin', 'ada', 'cardano', 'xrp', 'ripple']
+        price_keywords = ['price', 'above', 'below', 'reach', 'trade at', 'hit', '$', 'usd']
+        
+        # Check if it's a crypto price market (must have both crypto AND price keywords)
+        has_crypto = any(keyword in title_lower or keyword in ticker_lower for keyword in crypto_keywords)
+        has_price = any(keyword in title_lower for keyword in price_keywords)
+        
+        if has_crypto and has_price:
+            return False
+        
         return True
     
     def _place_trade_order(self, market: Dict[str, Any], amount: float, require_liquidity: bool) -> tuple[bool, Dict[str, Any]]:
