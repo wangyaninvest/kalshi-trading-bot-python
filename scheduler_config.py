@@ -13,7 +13,7 @@ STARTING_HOUR = 0
 
 # Interval between runs in hours
 # Example: 6 = run every 6 hours, 4 = run every 4 hours
-INTERVAL_HOURS = 6
+INTERVAL_HOURS = 2
 
 # Examples of common schedules:
 # - Every 6 hours from midnight: STARTING_HOUR=0, INTERVAL_HOURS=6 → 00:00, 06:00, 12:00, 18:00
