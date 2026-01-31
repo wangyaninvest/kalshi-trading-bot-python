@@ -285,11 +285,32 @@ class TradingBot:
             print(f"    ⊘ Skipping {ticker} - no liquidity on {side.upper()} side")
             return False, {}
         
-        # PRICING STRATEGY:
-        # Pay the higher of (bid price + 0.02) or (ask price - 0.02), capped at 0.98
-        # This balances aggressive bidding with conservative pricing
-        target_price = max(market['bid_price'] + 0.02, market['ask_price'] - 0.02)
-        limit_price = min(target_price, 0.98)
+        # PRICING STRATEGY: Smart spread-aware pricing
+        bid = market['bid_price']
+        ask = market['ask_price']
+        mid = (bid + ask) / 2
+        spread = ask - bid
+        
+        # Skip markets with excessively wide spreads (>8 cents) - likely adverse selection
+        if spread > 0.08:
+            print(f"    ⊘ Skipping {ticker} - spread too wide ({spread:.3f})")
+            return False, {}
+        
+        # Pricing logic based on spread width and price level
+        if spread <= 0.02:
+            # Tight spread: Can afford to be slightly aggressive, pay mid or slightly above
+            limit_price = min(mid + 0.01, ask)
+        elif spread <= 0.05:
+            # Medium spread: Be bold - improve the bid by 2¢ for better fill chance
+            limit_price = bid + 0.02
+        else:
+            # Wide spread (5-8 cents): Be conservative, only improve bid by 1¢
+            limit_price = bid + 0.01
+        
+        # Risk/reward filter: Don't buy above $0.95 (risk $0.95 to make $0.05 = terrible)
+        if limit_price > 0.95:
+            print(f"    ⊘ Skipping {ticker} - price too high ({limit_price:.3f}), poor risk/reward")
+            return False, {}
         
         # Safety check: Don't buy if price is effectively 0
         if limit_price <= 0.01:
