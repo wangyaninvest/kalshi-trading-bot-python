@@ -45,7 +45,7 @@ THROTTLE_PROBABILITY = 0.0
 
 # Amount to spend per trade in dollars
 # Each matching market will trigger a buy order for this amount
-TRADE_AMOUNT = 2.0
+TRADE_AMOUNT = 1.0
 
 # Dry run mode - scan markets without placing trades
 # Set to True to only find and print matching markets
