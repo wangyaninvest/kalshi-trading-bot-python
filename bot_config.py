@@ -25,7 +25,7 @@ DAYS_AFTER_START = 10
 # Minimum probability threshold (0.0 to 1.0)
 # Markets with YES or NO probability >= this value will be included
 # Example: 0.90 means 90% probability
-MIN_PROBABILITY = 0.75
+MIN_PROBABILITY = 0.7
 
 # Maximum probability threshold (0.0 to 1.0)
 # Markets with YES or NO probability <= this value will be included
