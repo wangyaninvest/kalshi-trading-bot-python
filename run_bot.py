@@ -48,6 +48,7 @@ print(f"  - Probability range: {bot_config.MIN_PROBABILITY:.0%} - {bot_config.MA
 print(f"  - Require liquidity: {bot_config.REQUIRE_LIQUIDITY}")
 print(f"  - Throttle probability: {bot_config.THROTTLE_PROBABILITY:.0%}")
 print(f"  - Trade amount: ${bot_config.TRADE_AMOUNT:.2f}")
+print(f"  - Max position size: {bot_config.MAX_POSITION_SIZE}")
 print(f"  - Dry run: {bot_config.DRY_RUN}")
 print()
 
@@ -60,6 +61,7 @@ matching_markets = bot.run(
     require_liquidity=bot_config.REQUIRE_LIQUIDITY,
     throttle_probability=bot_config.THROTTLE_PROBABILITY,
     trade_amount=bot_config.TRADE_AMOUNT,
+    max_position_size=bot_config.MAX_POSITION_SIZE,
     dry_run=bot_config.DRY_RUN
 )
 

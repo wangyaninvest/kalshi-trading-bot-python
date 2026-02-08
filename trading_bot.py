@@ -33,6 +33,7 @@ class TradingBot:
         require_liquidity: bool = False,
         throttle_probability: float = 0.0,
         trade_amount: float = 5.0,
+        max_position_size: int = 10,
         dry_run: bool = False
     ) -> List[Dict[str, Any]]:
         """Run the trading bot: scan markets, filter by criteria, and place orders.
@@ -45,6 +46,7 @@ class TradingBot:
             require_liquidity: Whether to require open orders
             throttle_probability: Probability of skipping a matching market
             trade_amount: Amount to spend per trade in dollars
+            max_position_size: Max contracts to hold per market (prevents over-concentration)
             dry_run: If True, only scan and print markets without placing trades
         
         Returns:
@@ -70,6 +72,14 @@ class TradingBot:
         print(f"Loaded {len(series_tickers)} series from {self.csv_file}")
         print("Fetching markets for each series...")
         
+        # Build position lookup to prevent over-concentration
+        existing_positions = {}
+        for pos in self._get_all_positions():
+            ticker = pos.get('ticker', '')
+            count = abs(pos.get('position', 0))
+            if count > 0:
+                existing_positions[ticker] = count
+        
         # Prepare criteria dictionary to pass around
         criteria = {
             'days_until_close': days_until_close,
@@ -79,6 +89,8 @@ class TradingBot:
             'throttle': throttle_probability,
             'require_liquidity': require_liquidity,
             'trade_amount': trade_amount,
+            'max_position_size': max_position_size,
+            'existing_positions': existing_positions,
             'dry_run': dry_run,
             'max_close_ts': int((datetime.now() + timedelta(days=days_until_close)).timestamp())
         }
@@ -161,6 +173,13 @@ class TradingBot:
             
             # Execute trade if not dry run
             if not criteria['dry_run']:
+                # Skip if already at max position size
+                ticker = market_data['ticker']
+                current_count = criteria['existing_positions'].get(ticker, 0)
+                if current_count >= criteria['max_position_size']:
+                    print(f"    ⊘ Skipping {ticker} - already holding {current_count} contracts (max: {criteria['max_position_size']})")
+                    continue
+                
                 success, order_details = self._place_trade_order(market_data, criteria['trade_amount'], criteria['require_liquidity'])
                 if success:
                     market_data['order_details'] = order_details
