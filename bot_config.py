@@ -15,12 +15,12 @@ ENVIRONMENT = "PROD"
 # ============================================================================
 # Maximum days until market closes
 # Markets closing within this timeframe will be included
-DAYS_UNTIL_CLOSE = 5
+DAYS_UNTIL_CLOSE = 4
 
 # Minimum days since market opened
 # Markets must be open for at least this many days to be included
 # This filters out newly created markets
-DAYS_AFTER_START = 10
+DAYS_AFTER_START = 8
 
 # Minimum probability threshold (0.0 to 1.0)
 # Markets with YES or NO probability >= this value will be included
@@ -41,13 +41,19 @@ REQUIRE_LIQUIDITY = True
 # Use this to throttle trading frequency
 # Example: 0.5 means 50% chance to skip each matching market
 # Set to 0.0 to never skip (trade all matching markets)
-THROTTLE_PROBABILITY = 0.0
+THROTTLE_PROBABILITY = 0.3
 
 # Amount to spend per trade in dollars
 # Each matching market will trigger a buy order for this amount
 TRADE_AMOUNT = 1.0
 
+# Minimum gain percentage to trigger selling an existing position (0.0 to 1.0)
+# Before scanning for new trades, the bot checks existing positions
+# and sells those with gains >= this threshold
+# Example: 0.10 means 10% gain
+MIN_GAIN_PCT = 0.10
+
 # Dry run mode - scan markets without placing trades
 # Set to True to only find and print matching markets
 # Set to False to actually place orders
-DRY_RUN = False
+DRY_RUN = True

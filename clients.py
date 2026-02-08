@@ -208,6 +208,36 @@ class KalshiHttpClient(KalshiBaseClient):
             
         return self.post(f"{self.portfolio_url}/orders", body)
 
+    def get_positions(
+        self,
+        limit: Optional[int] = None,
+        cursor: Optional[str] = None,
+        count_filter: Optional[str] = None,
+        ticker: Optional[str] = None,
+        event_ticker: Optional[str] = None,
+    ) -> Dict[str, Any]:
+        """Retrieves portfolio positions.
+        
+        Args:
+            limit: Number of results per page (1-1000, default 100)
+            cursor: Pagination cursor
+            count_filter: Filter by non-zero fields ('position', 'total_traded')
+            ticker: Filter by market ticker
+            event_ticker: Filter by event ticker (comma-separated, max 10)
+            
+        Returns:
+            Dict with 'market_positions', 'event_positions', and 'cursor'
+        """
+        params = {
+            'limit': limit,
+            'cursor': cursor,
+            'count_filter': count_filter,
+            'ticker': ticker,
+            'event_ticker': event_ticker,
+        }
+        params = {k: v for k, v in params.items() if v is not None}
+        return self.get(self.portfolio_url + '/positions', params=params)
+
     def get_exchange_status(self) -> Dict[str, Any]:
         """Retrieves the exchange status."""
         return self.get(self.exchange_url + "/status")

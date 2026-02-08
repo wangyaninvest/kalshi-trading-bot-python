@@ -33,6 +33,7 @@ class TradingBot:
         require_liquidity: bool = False,
         throttle_probability: float = 0.0,
         trade_amount: float = 5.0,
+        min_gain_pct: float = 0.10,
         dry_run: bool = False
     ) -> List[Dict[str, Any]]:
         """Run the trading bot: scan markets, filter by criteria, and place orders.
@@ -45,6 +46,7 @@ class TradingBot:
             require_liquidity: Whether to require open orders
             throttle_probability: Probability of skipping a matching market
             trade_amount: Amount to spend per trade in dollars
+            min_gain_pct: Minimum gain percentage to sell existing positions
             dry_run: If True, only scan and print markets without placing trades
         
         Returns:
@@ -57,6 +59,9 @@ class TradingBot:
         
         if not self._check_balance_safe():
             return []
+        
+        # Step 1: Check existing positions and take profits
+        self._sell_profitable_positions(min_gain_pct=min_gain_pct, dry_run=dry_run)
         
         series_tickers = self._load_series_from_csv()
         if not series_tickers:
@@ -357,6 +362,141 @@ class TradingBot:
         except Exception as e:
             print(f"    ✗ Error placing order: {e}")
             return False, {}
+    
+    def _sell_profitable_positions(self, min_gain_pct: float = 0.10, dry_run: bool = False) -> List[Dict[str, Any]]:
+        """Check existing positions and sell those with at least min_gain_pct gain.
+        
+        For each open position:
+        - Fetch current market bid price
+        - Calculate average cost per contract from total_traded_dollars / total_traded
+        - If current bid >= avg_cost * (1 + min_gain_pct), sell the position
+        
+        Args:
+            min_gain_pct: Minimum gain percentage to trigger a sell (0.10 = 10%)
+            dry_run: If True, only print without selling
+            
+        Returns:
+            List of sold position details
+        """
+        print(f"\n{'='*80}")
+        print(f"CHECKING EXISTING POSITIONS (min gain: {min_gain_pct:.0%})")
+        print(f"{'='*80}")
+        
+        positions = self._get_all_positions()
+        if not positions:
+            print("No open positions found.\n")
+            return []
+        
+        print(f"Found {len(positions)} open position(s)\n")
+        sold = []
+        
+        for pos in positions:
+            ticker = pos.get('ticker', '')
+            position_count = pos.get('position', 0)
+            
+            # Skip positions with no contracts
+            if position_count == 0:
+                continue
+            
+            # Determine side from position sign: positive = YES, negative = NO
+            if position_count > 0:
+                side = 'yes'
+                count = position_count
+            else:
+                side = 'no'
+                count = abs(position_count)
+            
+            # Calculate average cost per contract
+            total_traded = pos.get('total_traded', 0)
+            total_traded_dollars = float(pos.get('total_traded_dollars', '0'))
+            if total_traded == 0:
+                continue
+            avg_cost = total_traded_dollars / total_traded
+            
+            # Fetch current market price
+            try:
+                market = self.client.get_market(ticker).get('market', {})
+                if side == 'yes':
+                    current_bid = float(market.get('yes_bid_dollars', 0))
+                else:
+                    current_bid = float(market.get('no_bid_dollars', 0))
+            except Exception as e:
+                print(f"  ✗ Error fetching market {ticker}: {e}")
+                continue
+            
+            # Skip if no bid available
+            if current_bid <= 0:
+                continue
+            
+            # Calculate gain percentage
+            if avg_cost > 0:
+                gain_pct = (current_bid - avg_cost) / avg_cost
+            else:
+                continue
+            
+            gain_symbol = "↑" if gain_pct >= 0 else "↓"
+            print(f"  {ticker}: {side.upper()} x{count}, avg cost=${avg_cost:.2f}, bid=${current_bid:.2f}, gain={gain_pct:+.1%} {gain_symbol}")
+            
+            # Sell if gain meets threshold
+            if gain_pct >= min_gain_pct:
+                if dry_run:
+                    print(f"    → Would sell {count} {side.upper()} contracts (DRY RUN)")
+                    sold.append({'ticker': ticker, 'side': side, 'count': count, 'gain_pct': gain_pct})
+                else:
+                    try:
+                        price_cents = int(current_bid * 100)
+                        params = {
+                            'ticker': ticker,
+                            'action': 'sell',
+                            'side': side,
+                            'count': count,
+                            'type': 'limit',
+                            'expiration_ts': int(datetime.now().timestamp() + 300),
+                        }
+                        if side == 'yes':
+                            params['yes_price'] = price_cents
+                        else:
+                            params['no_price'] = price_cents
+                        
+                        resp = self.client.create_order(**params)
+                        order = resp.get('order', {})
+                        order_id = order.get('order_id', 'unknown')
+                        status = order.get('status', 'unknown')
+                        filled = order.get('fill_count', 0)
+                        print(f"    ✓ Sold {count} {side.upper()} @ {price_cents}¢ (ID: {order_id}, status: {status}, filled: {filled}/{count})")
+                        sold.append({'ticker': ticker, 'side': side, 'count': count, 'gain_pct': gain_pct, 'order_id': order_id})
+                    except Exception as e:
+                        print(f"    ✗ Error selling {ticker}: {e}")
+        
+        action = "Would sell" if dry_run else "Sold"
+        print(f"\n{action} {len(sold)} position(s) with >= {min_gain_pct:.0%} gain.\n")
+        return sold
+    
+    def _get_all_positions(self) -> List[Dict[str, Any]]:
+        """Fetch all open positions with pagination."""
+        all_positions = []
+        cursor = None
+        
+        try:
+            while True:
+                response = self.client.get_positions(
+                    limit=1000,
+                    cursor=cursor,
+                    count_filter='position'
+                )
+                positions = response.get('market_positions', [])
+                if not positions:
+                    break
+                
+                all_positions.extend(positions)
+                
+                cursor = response.get('cursor')
+                if not cursor:
+                    break
+        except Exception as e:
+            print(f"Error fetching positions: {e}")
+        
+        return all_positions
     
     def _has_liquidity(self, ticker: str, side: str) -> bool:
         """Check if a market has liquidity (open orders) on the specified side.
