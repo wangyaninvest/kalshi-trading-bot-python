@@ -33,7 +33,6 @@ class TradingBot:
         require_liquidity: bool = False,
         throttle_probability: float = 0.0,
         trade_amount: float = 5.0,
-        min_gain_pct: float = 0.10,
         dry_run: bool = False
     ) -> List[Dict[str, Any]]:
         """Run the trading bot: scan markets, filter by criteria, and place orders.
@@ -46,7 +45,6 @@ class TradingBot:
             require_liquidity: Whether to require open orders
             throttle_probability: Probability of skipping a matching market
             trade_amount: Amount to spend per trade in dollars
-            min_gain_pct: Minimum gain percentage to sell existing positions
             dry_run: If True, only scan and print markets without placing trades
         
         Returns:
@@ -57,8 +55,9 @@ class TradingBot:
             max_probability, require_liquidity, throttle_probability, dry_run
         )
         
-        # Step 1: Check existing positions and take profits (before balance check)
-        self._sell_profitable_positions(min_gain_pct=min_gain_pct, dry_run=dry_run)
+        # Step 1: Sell positions that have risen above our buy range
+        sell_threshold = max_probability + 0.02
+        self._sell_profitable_positions(sell_threshold=sell_threshold, dry_run=dry_run)
         
         if not self._check_balance_safe():
             return []
@@ -363,23 +362,23 @@ class TradingBot:
             print(f"    ✗ Error placing order: {e}")
             return False, {}
     
-    def _sell_profitable_positions(self, min_gain_pct: float = 0.10, dry_run: bool = False) -> List[Dict[str, Any]]:
-        """Check existing positions and sell those with at least min_gain_pct gain.
+    def _sell_profitable_positions(self, sell_threshold: float = 0.97, dry_run: bool = False) -> List[Dict[str, Any]]:
+        """Sell positions where the current bid exceeds the sell threshold.
         
-        For each open position:
-        - Fetch current market bid price
-        - Calculate average cost per contract from total_traded_dollars / total_traded
-        - If current bid >= avg_cost * (1 + min_gain_pct), sell the position
+        The threshold is set to max_probability + 0.02, meaning if a position's
+        current bid is above the range where we'd buy, we take profit.
+        This prevents churn (selling then immediately re-buying) because the
+        sell threshold is strictly above the buy range.
         
         Args:
-            min_gain_pct: Minimum gain percentage to trigger a sell (0.10 = 10%)
+            sell_threshold: Sell when current bid >= this price (e.g. 0.97 = 97¢)
             dry_run: If True, only print without selling
             
         Returns:
             List of sold position details
         """
         print(f"\n{'='*80}")
-        print(f"CHECKING EXISTING POSITIONS (min gain: {min_gain_pct:.0%})")
+        print(f"CHECKING EXISTING POSITIONS (sell threshold: {sell_threshold:.0%})")
         print(f"{'='*80}")
         
         positions = self._get_all_positions()
@@ -406,12 +405,6 @@ class TradingBot:
                 side = 'no'
                 count = abs(position_count)
             
-            # Calculate average cost per contract using market exposure (actual capital at risk)
-            market_exposure_dollars = float(pos.get('market_exposure_dollars', '0'))
-            if market_exposure_dollars <= 0:
-                continue
-            avg_cost = market_exposure_dollars / count
-            
             # Fetch current market price
             try:
                 market = self.client.get_market(ticker).get('market', {})
@@ -427,20 +420,14 @@ class TradingBot:
             if current_bid <= 0:
                 continue
             
-            # Calculate gain percentage
-            if avg_cost > 0:
-                gain_pct = (current_bid - avg_cost) / avg_cost
-            else:
-                continue
+            print(f"  {ticker}: {side.upper()} x{count}, bid=${current_bid:.2f}, threshold=${sell_threshold:.2f}", end="")
             
-            gain_symbol = "↑" if gain_pct >= 0 else "↓"
-            print(f"  {ticker}: {side.upper()} x{count}, avg cost=${avg_cost:.2f}, bid=${current_bid:.2f}, gain={gain_pct:+.1%} {gain_symbol}")
-            
-            # Sell if gain meets threshold
-            if gain_pct >= min_gain_pct:
+            # Sell if bid exceeds threshold
+            if current_bid >= sell_threshold:
+                print(f" → SELL")
                 if dry_run:
                     print(f"    → Would sell {count} {side.upper()} contracts (DRY RUN)")
-                    sold.append({'ticker': ticker, 'side': side, 'count': count, 'gain_pct': gain_pct})
+                    sold.append({'ticker': ticker, 'side': side, 'count': count, 'bid': current_bid})
                 else:
                     try:
                         price_cents = int(current_bid * 100)
@@ -463,12 +450,14 @@ class TradingBot:
                         status = order.get('status', 'unknown')
                         filled = order.get('fill_count', 0)
                         print(f"    ✓ Sold {count} {side.upper()} @ {price_cents}¢ (ID: {order_id}, status: {status}, filled: {filled}/{count})")
-                        sold.append({'ticker': ticker, 'side': side, 'count': count, 'gain_pct': gain_pct, 'order_id': order_id})
+                        sold.append({'ticker': ticker, 'side': side, 'count': count, 'bid': current_bid, 'order_id': order_id})
                     except Exception as e:
                         print(f"    ✗ Error selling {ticker}: {e}")
+            else:
+                print(f" → HOLD")
         
         action = "Would sell" if dry_run else "Sold"
-        print(f"\n{action} {len(sold)} position(s) with >= {min_gain_pct:.0%} gain.\n")
+        print(f"\n{action} {len(sold)} position(s) with bid >= {sell_threshold:.0%}.\n")
         return sold
     
     def _get_all_positions(self) -> List[Dict[str, Any]]:

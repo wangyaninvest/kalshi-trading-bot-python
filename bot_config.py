@@ -47,13 +47,7 @@ THROTTLE_PROBABILITY = 0.3
 # Each matching market will trigger a buy order for this amount
 TRADE_AMOUNT = 1.0
 
-# Minimum gain percentage to trigger selling an existing position (0.0 to 1.0)
-# Before scanning for new trades, the bot checks existing positions
-# and sells those with gains >= this threshold
-# Example: 0.10 means 10% gain
-MIN_GAIN_PCT = 0.10
-
 # Dry run mode - scan markets without placing trades
 # Set to True to only find and print matching markets
 # Set to False to actually place orders
-DRY_RUN = True
+DRY_RUN = False
