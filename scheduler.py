@@ -115,6 +115,10 @@ def main():
     print(f"Scheduled run times: {', '.join(RUN_TIMES)}")
     print(f"Started at: {datetime.now(TIMEZONE).strftime('%Y-%m-%d %H:%M:%S %Z')}\n")
     
+    # Always run immediately on startup
+    print("Running trading bot immediately on startup...")
+    run_trading_bot()
+    
     while True:
         next_run = get_next_run_time()
         now = datetime.now(TIMEZONE)
