@@ -406,12 +406,11 @@ class TradingBot:
                 side = 'no'
                 count = abs(position_count)
             
-            # Calculate average cost per contract
-            total_traded = pos.get('total_traded', 0)
-            total_traded_dollars = float(pos.get('total_traded_dollars', '0'))
-            if total_traded == 0:
+            # Calculate average cost per contract using market exposure (actual capital at risk)
+            market_exposure_dollars = float(pos.get('market_exposure_dollars', '0'))
+            if market_exposure_dollars <= 0:
                 continue
-            avg_cost = total_traded_dollars / total_traded
+            avg_cost = market_exposure_dollars / count
             
             # Fetch current market price
             try:
