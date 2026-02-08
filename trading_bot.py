@@ -57,11 +57,11 @@ class TradingBot:
             max_probability, require_liquidity, throttle_probability, dry_run
         )
         
+        # Step 1: Check existing positions and take profits (before balance check)
+        self._sell_profitable_positions(min_gain_pct=min_gain_pct, dry_run=dry_run)
+        
         if not self._check_balance_safe():
             return []
-        
-        # Step 1: Check existing positions and take profits
-        self._sell_profitable_positions(min_gain_pct=min_gain_pct, dry_run=dry_run)
         
         series_tickers = self._load_series_from_csv()
         if not series_tickers:
