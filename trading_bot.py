@@ -184,6 +184,9 @@ class TradingBot:
                 if success:
                     market_data['order_details'] = order_details
                     traded.append(market_data)
+                    # Update position count so subsequent checks within this run are accurate
+                    new_count = order_details.get('count', 0)
+                    criteria['existing_positions'][ticker] = current_count + new_count
         
         return matching, traded
     
