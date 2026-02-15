@@ -56,6 +56,7 @@ TARGET_CATEGORIES = [
 # Fetch top 600 series from each category
 print("Fetching top 600 series from each category...")
 top_series = []
+seen_tickers = set()
 
 for category in TARGET_CATEGORIES:
     print(f"  {category}...", end=" ", flush=True)
@@ -97,8 +98,12 @@ for category in TARGET_CATEGORIES:
         except Exception:
             pass
     
-    print(f"{len(category_series)} series, checked {checked}, {len(active_series)} active")
-    top_series.extend(active_series)
+    # Deduplicate: skip series already added from a previous category
+    new_series = [s for s in active_series if s['ticker'] not in seen_tickers]
+    seen_tickers.update(s['ticker'] for s in new_series)
+    
+    print(f"{len(category_series)} series, checked {checked}, {len(active_series)} active, {len(active_series) - len(new_series)} duplicates skipped")
+    top_series.extend(new_series)
 
 print(f"\nTotal: {len(top_series)} series from top 600 of each category")
 

@@ -191,12 +191,14 @@ class TradingBot:
         return matching, traded
     
     def _load_series_from_csv(self) -> List[str]:
-        """Load series tickers from CSV file."""
+        """Load series tickers from CSV file in randomized order."""
         if not os.path.exists(self.csv_file):
             return []
         try:
             with open(self.csv_file, 'r') as f:
-                return [row['Ticker'] for row in csv.DictReader(f) if row.get('Ticker')]
+                tickers = [row['Ticker'] for row in csv.DictReader(f) if row.get('Ticker')]
+            random.shuffle(tickers)
+            return tickers
         except Exception as e:
             print(f"Error reading CSV: {e}")
             return []
