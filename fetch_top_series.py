@@ -1,6 +1,6 @@
 """
 Fetch and document top Kalshi series by volume from specific categories.
-Generates documentation files showing top 400 series per category.
+Generates documentation files showing top 600 active series per category.
 """
 import os
 import csv
@@ -48,11 +48,13 @@ TARGET_CATEGORIES = [
     "World",
     "Climate and Weather",
     "Entertainment",
-    "Sports"
+    "Sports",
+    "Culture",
+    "Mentions"
 ]
 
-# Fetch top 400 series from each category
-print("Fetching top 400 series from each category...")
+# Fetch top 600 series from each category
+print("Fetching top 600 series from each category...")
 top_series = []
 
 for category in TARGET_CATEGORIES:
@@ -78,14 +80,27 @@ for category in TARGET_CATEGORIES:
             print(f"Error: {e}")
             break
     
-    # Sort by trading volume (descending) and select top 400
+    # Sort by trading volume (descending)
     category_series.sort(key=lambda x: x.get('volume', 0), reverse=True)
-    top_400 = category_series[:400]
     
-    print(f"{len(category_series)} series, top 400 selected")
-    top_series.extend(top_400)
+    # Filter to only series with currently open markets, keep up to 600
+    active_series = []
+    checked = 0
+    for series in category_series:
+        if len(active_series) >= 600:
+            break
+        checked += 1
+        try:
+            resp = client.get_markets(series_ticker=series['ticker'], status='open', limit=1)
+            if resp.get('markets'):
+                active_series.append(series)
+        except Exception:
+            pass
+    
+    print(f"{len(category_series)} series, checked {checked}, {len(active_series)} active")
+    top_series.extend(active_series)
 
-print(f"\nTotal: {len(top_series)} series from top 200 of each category")
+print(f"\nTotal: {len(top_series)} series from top 600 of each category")
 
 # Generate documentation files
 print("Generating documentation...")
@@ -94,9 +109,9 @@ print("Generating documentation...")
 os.makedirs('data', exist_ok=True)
 with open('data/TOP_SERIES.md', 'w') as f:
     # Write header
-    f.write("# Top Kalshi Series by Volume (Top 400 per Category)\n\n")
+    f.write("# Top Kalshi Series by Volume (Top 600 per Category)\n\n")
     f.write(f"**Categories:** {', '.join(TARGET_CATEGORIES)}\n\n")
-    f.write(f"**Selection Method:** Top 400 series from each category by volume\n\n")
+    f.write(f"**Selection Method:** Top 600 active series from each category by volume\n\n")
     f.write(f"**Total series:** {len(top_series)}\n\n")
     f.write(f"*Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} ({env.value.upper()} environment)*\n\n")
     f.write("---\n\n")
@@ -120,7 +135,7 @@ with open('data/TOP_SERIES.md', 'w') as f:
     f.write("\n---\n\n")
     
     # Write full series listing
-    f.write("## All Series (Top 400 per Category)\n\n")
+    f.write("## All Series (Top 600 per Category)\n\n")
     f.write("| Rank | Ticker | Title | Category | Volume |\n")
     f.write("|------|--------|-------|----------|--------|\n")
     
