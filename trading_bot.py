@@ -326,12 +326,9 @@ class TradingBot:
         if spread <= 0.02:
             # Tight spread: Can afford to be slightly aggressive, pay mid or slightly above
             limit_price = min(mid + 0.01, ask)
-        elif spread <= 0.05:
-            # Medium spread: Be bold - improve the bid by 2¢ for better fill chance
-            limit_price = bid + 0.02
         else:
-            # Wide spread (5-8 cents): Be conservative, only improve bid by 1¢
-            limit_price = bid + 0.01
+            # Wide spread: Be more conservative, price at bid + 2 cents to ensure execution without overpaying
+            limit_price = bid + 0.02
         
         # Risk/reward filter: Don't buy above $0.95 (risk $0.95 to make $0.05 = terrible)
         if limit_price > 0.95:
