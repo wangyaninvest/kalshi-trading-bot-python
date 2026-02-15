@@ -347,7 +347,7 @@ class TradingBot:
         print(f"    Placing ${amount:.2f} buy on {side.upper()} (count: {count}, price: {price_cents}¢)...")
         
         try:
-            expiration = int(datetime.now().timestamp() + 300)  # 5 min expiry
+            expiration = int(datetime.now().timestamp() + 1800)  # 30 min expiry
             params = {
                 'ticker': ticker,
                 'action': 'buy',
@@ -458,7 +458,7 @@ class TradingBot:
                             'side': side,
                             'count': count,
                             'type': 'limit',
-                            'expiration_ts': int(datetime.now().timestamp() + 300),
+                            'expiration_ts': int(datetime.now().timestamp() + 1800),
                         }
                         if side == 'yes':
                             params['yes_price'] = price_cents

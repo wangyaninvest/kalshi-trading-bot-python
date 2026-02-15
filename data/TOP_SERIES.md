@@ -1,12 +1,12 @@
-# Top Kalshi Series by Volume (Top 400 per Category)
+# Top Kalshi Series by Volume (Top 600 per Category)
 
-**Categories:** Crypto, Economics, Financials, Elections, Science and Technology, Politics, Companies, Health, World, Climate and Weather, Entertainment, Sports
+**Categories:** Crypto, Economics, Financials, Elections, Science and Technology, Politics, Companies, Health, World, Climate and Weather, Entertainment, Sports, Culture, Mentions
 
-**Selection Method:** Top 400 series from each category by volume
+**Selection Method:** Top 600 active series from each category by volume
 
-**Total series:** 3539
+**Total series:** 1751
 
-*Last updated: 2026-02-15 10:00:02 (PROD environment)*
+*Last updated: 2026-02-15 15:26:07 (PROD environment)*
 
 ---
 
@@ -14,3563 +14,1773 @@
 
 | Category | Series Count | Total Volume |
 |----------|--------------|---------------|
-| Climate and Weather | 257 | $506,535,510 |
-| Companies | 370 | $196,313,089 |
-| Crypto | 208 | $1,730,713,456 |
-| Economics | 389 | $635,920,498 |
-| Elections | 393 | $196,297,785 |
-| Entertainment | 405 | $907,986,415 |
-| Financials | 174 | $604,008,156 |
-| Health | 111 | $9,646,525 |
-| Politics | 453 | $2,589,804,583 |
-| Science and Technology | 213 | $137,088,361 |
-| Social | 3 | $629,731 |
-| Sports | 401 | $30,708,565,663 |
-| Transportation | 3 | $268,536 |
-| World | 159 | $6,850,003 |
+| Climate and Weather | 67 | $483,029,921 |
+| Companies | 72 | $22,653,148 |
+| Crypto | 43 | $1,701,482,991 |
+| Economics | 81 | $604,692,547 |
+| Elections | 171 | $17,587,933 |
+| Entertainment | 287 | $224,890,751 |
+| Financials | 23 | $118,134,618 |
+| Mentions | 19 | $159,718,575 |
+| Politics | 508 | $541,793,395 |
+| Science and Technology | 51 | $80,667,704 |
+| Social | 3 | $377,448 |
+| Sports | 426 | $10,445,112,222 |
 
 ---
 
-## All Series (Top 400 per Category)
+## All Series (Top 600 per Category)
 
 | Rank | Ticker | Title | Category | Volume |
 |------|--------|-------|----------|--------|
-| 1 | `KXBTCD` | Bitcoin price Above/below | Crypto | $978,180,924 |
-| 2 | `KXBTC` | Bitcoin range | Crypto | $228,952,201 |
-| 3 | `KXBTC15M` | Bitcoin price up down | Crypto | $134,774,915 |
-| 4 | `KXETHD` | Ethereum price Above/below | Crypto | $114,724,700 |
-| 5 | `KXETH` | Ethereum range | Crypto | $68,781,093 |
-| 6 | `KXBTCMAXY` | How high will Bitcoin get this year? | Crypto | $35,448,029 |
-| 7 | `KXBTCMAX150` | When will bitcoin hit 150k? | Crypto | $25,807,507 |
-| 8 | `KXBTCMINY` | How low will Bitcoin fall this year? | Crypto | $20,786,842 |
-| 9 | `KXETHMAXY` | How high will Ethereum get this year? | Crypto | $20,346,820 |
-| 10 | `KXETH15M` | ETH 15M price up down | Crypto | $19,796,116 |
-| 11 | `KXBTCMAX125` | When will bitcoin hit 125k? | Crypto | $14,561,675 |
-| 12 | `KXBTC2025100` | Will Bitcoin reach 100k again this year?  | Crypto | $10,016,515 |
-| 13 | `KXSOL15M` | Solana 15 minutes | Crypto | $8,433,206 |
-| 14 | `KXETHMINY` | How low will Ethereum fall this year? | Crypto | $8,123,466 |
-| 15 | `KXBTCMAX100` | When will bitcoin hit 100k? | Crypto | $4,927,301 |
-| 16 | `KXBTC2026200` | Will Bitcoin hit 200k in 2026?  | Crypto | $3,074,265 |
-| 17 | `KXBTCRESERVE` | Bitcoin Reserve | Politics | $3,046,811 |
-| 18 | `KXDOGE` | Dogecoin range | Crypto | $2,887,106 |
-| 19 | `KXBTCMAXMON` | Bitcoin monthly one touch | Crypto | $2,398,684 |
-| 20 | `KXBTCMAXM` | How high will Bitcoin get this month? | Crypto | $2,242,109 |
-| 21 | `KXDOGED` | Dogecoin price Above/below | Crypto | $2,236,179 |
-| 22 | `KXBTCMINMON` | BTC one touch minimum | Crypto | $2,151,992 |
-| 23 | `KXSOLD` | SOL Directional | Crypto | $1,908,963 |
-| 24 | `KXXRPD` | XRP Price above/below | Crypto | $1,669,498 |
-| 25 | `KXXRP15M` | XRP 15 Minute | Crypto | $1,430,865 |
-| 26 | `KXCRYPTORETURNY` | Crypto being positive | Crypto | $1,416,163 |
-| 27 | `KXCBVOLUME` | Coinbase volume | Companies | $1,331,235 |
-| 28 | `KXXRPMAXY` | XRP Max | Crypto | $1,302,988 |
-| 29 | `KXXRP` | XRP Range | Crypto | $1,225,844 |
-| 30 | `KXSOLE` | SOL Range | Crypto | $1,195,365 |
-| 31 | `KXETHATH` | ETH ATH | Crypto | $850,722 |
-| 32 | `KXDOGEMAX1` | Dogecoin hitting $1 | Crypto | $798,971 |
-| 33 | `KXSHIBAD` | Shiba price Above/below | Crypto | $699,475 |
-| 34 | `KXSHIBA` | Shiba range | Crypto | $687,308 |
-| 35 | `KXBTCMAXW` | How high will Bitcoin get this week? | Crypto | $542,090 |
-| 36 | `KXETHMAXMON` | ETH Monthly One touch | Crypto | $452,704 |
-| 37 | `KXCRYPTOPERFORMY` | Crypto performance | Crypto | $440,372 |
-| 38 | `KXSOLMAXMON` | SOL Monthly One touch  | Crypto | $421,872 |
-| 39 | `KXNEWCOINLAUNCH` | New coin launch | Crypto | $407,439 |
-| 40 | `KXBTC2026250` | Will Bitcoin hit 250k in 2026?  | Crypto | $371,212 |
-| 41 | `KXXRPMAXATH` | XRP ATH | Crypto | $350,921 |
-| 42 | `KXETHMINMON` | ETH min one touch monthly | Crypto | $341,212 |
-| 43 | `KXCRYPTORESERVE` | Crypto reserve assets | Crypto | $312,436 |
-| 44 | `KXDOGEMAX69` | Doge 69c | Crypto | $302,281 |
-| 45 | `KXBTCATH` | BTC ATH | Crypto | $287,428 |
-| 46 | `KXFDVLIGHTER` | FDV Lighter | Crypto | $285,168 |
-| 47 | `KXSOL150` | Will SOL hit $150 this year | Crypto | $282,552 |
-| 48 | `KXSOLANAATH` | Solana ATH | Crypto | $238,381 |
-| 49 | `KXDJTBTC` | Trump Media buys | Crypto | $225,530 |
-| 50 | `KXXRPMAXMON` | XRP Max Monthly | Crypto | $214,659 |
-| 51 | `KXBTCRESERVECOUNTRY` | # of countries with Bitcoin reserves | Crypto | $208,806 |
-| 52 | `KXSOLMAXY` | Solana Max Yearly | Crypto | $188,338 |
-| 53 | `KXSOL26500` | Sol above 500 in 2026 | Crypto | $173,627 |
-| 54 | `KXTOKENLAUNCH` | Who will launch a token this year?  | Crypto | $165,622 |
-| 55 | `KXETHMAXM` | Ethereum max monthly | Crypto | $156,715 |
-| 56 | `KXMAG7BTC` | Mag 7 BTC | Crypto | $144,583 |
-| 57 | `KXDOGEMAXY` | Dogecoin max | Crypto | $128,837 |
-| 58 | `KXCOUNTRYBTC` | Country buying BTC | Crypto | $110,217 |
-| 59 | `KXSATOSHIBTCYEAR` | Satoshi move bitcoin by year?  | Crypto | $106,013 |
-| 60 | `KXSOLD26` | SOL price end of 2026? | Crypto | $103,640 |
-| 61 | `KXBTCE` | Election day BTC | Crypto | $89,689 |
-| 62 | `KXBTCRESERVESTATES` | BTC state reserves | Politics | $86,388 |
-| 63 | `KXLTCMAXY` | LTC Max | Crypto | $80,010 |
-| 64 | `KXBCHMAXY` | BCH max | Crypto | $70,832 |
-| 65 | `KXCRYPTOREG` | Crypto regulation | Politics | $69,845 |
-| 66 | `KXPRCBTC` | Bitcoin legalization in PRC | Crypto | $64,865 |
-| 67 | `KXDOGEMAXW` | Dogecoin max | Crypto | $61,294 |
-| 68 | `KXAVAXMAXY` | Avalanche max | Crypto | $59,348 |
-| 69 | `KXFDVFOGO` | FOGO FDV | Crypto | $59,161 |
-| 70 | `KXXRPMINY` | XRP Min | Crypto | $47,440 |
-| 71 | `KXDOGEMAXMON` | Doge Max Monthly | Crypto | $45,378 |
-| 72 | `KXETHFLIP` | ETH flipping | Crypto | $45,092 |
-| 73 | `KXXRPMAXM` | XRP max monthly | Crypto | $42,034 |
-| 74 | `KXXLMMAXY` | XLM max | Crypto | $41,133 |
-| 75 | `KXAIRDROPMONAD` | Monad airdrop | Crypto | $39,031 |
-| 76 | `KXDJTNFT` | DJT NFT | Crypto | $37,889 |
-| 77 | `KXLINKMAXY` | Chainlink max | Crypto | $36,263 |
-| 78 | `KXDOTMAXY` | Polkadot max | Crypto | $35,778 |
-| 79 | `KXUSDTMIN` | UDST de-peg | Crypto | $34,873 |
-| 80 | `KXBTCETHRETURN` | BTC vs. ETH performance | Crypto | $27,058 |
-| 81 | `KXELSALVADORBTC` | El Salvador bitcoin | Crypto | $25,112 |
-| 82 | `KXBOASTABLE` | BOA stablecoin | Crypto | $24,813 |
-| 83 | `KXTOKENLAUNCHOPENSEA` | OpenSea token | Crypto | $24,701 |
-| 84 | `KXSOLNASDAQ` | SOL flipping Nasdaq this year | Crypto | $23,797 |
-| 85 | `KXDJTCHAIN` | DJT Chain launch | Crypto | $23,363 |
-| 86 | `KXSHIBAMAXY` | Shiba max | Crypto | $23,169 |
-| 87 | `KXSOLDATHOLDINGS` | SOL Dat Holdings | Crypto | $22,288 |
-| 88 | `KXFDVWET` | WET FDV | Crypto | $21,621 |
-| 89 | `KXNEXTCOINRH` | Next coin in RH | Crypto | $21,001 |
-| 90 | `KXAIRDROPPUMPFUN` | PumpFun airdrop | Crypto | $19,982 |
-| 91 | `KXFDVMEGAETH` | FDV MegaETH | Crypto | $19,762 |
-| 92 | `KXFDVOPENSEA` | Opensea FDV  | Crypto | $18,021 |
-| 93 | `KXZECMAXMON` | ZEC monthly one touch  | Crypto | $17,997 |
-| 94 | `KXETHFORK` | Ethereum fork | Crypto | $17,986 |
-| 95 | `KXUSDCMIN` | USDC de-peg | Crypto | $17,666 |
-| 96 | `KXFDVZAMA` | Zama FDV | Crypto | $16,715 |
-| 97 | `KXBTCEU` | Election day up BTC | Crypto | $16,080 |
-| 98 | `KXLINKMINY` | Chainlink min | Crypto | $15,890 |
-| 99 | `KXAIRDROPMEGA` | MEGA airdrop | Crypto | $15,325 |
-| 100 | `KXBTCMAX100INAUG` | Will Bitcoin hit 100k before Trump Inauguration? | Crypto | $13,787 |
-| 101 | `KXBITCOIN25` | Bitcoin 25 world record | Crypto | $13,691 |
-| 102 | `KXBTCHALF` | BTC halving | Crypto | $13,673 |
-| 103 | `KXLTCMINY` | LTC min | Crypto | $13,493 |
-| 104 | `KXNEWCOINCHAIN` | New coin chain | Crypto | $13,401 |
-| 105 | `KXFDVMONAD` | FDV Monad | Crypto | $12,413 |
-| 106 | `KXFDVBIRB` | BIRB FDV | Crypto | $11,696 |
-| 107 | `KXAIRDROPHYPE` | HYPE airdrop | Crypto | $10,461 |
-| 108 | `KXMAXTPSAVAX` | Max TPS Avalanche | Crypto | $10,126 |
-| 109 | `KXSOLSTABLESUPP` | sol stable supp | Crypto | $9,966 |
-| 110 | `KXFDVFOOTBALLFUN` | Football Fun | Crypto | $9,954 |
-| 111 | `KXSOLTXCOUNT` | SOL transaction count | Crypto | $9,884 |
-| 112 | `KXSOLETHRATIO` | SOL ETH ratio | Crypto | $9,118 |
-| 113 | `KXAVAXMINY` | Avalanche min | Crypto | $9,006 |
-| 114 | `KXFDVSTABLE` | Stable FDV | Crypto | $8,398 |
-| 115 | `KXETHE` | ETH on election day | Crypto | $8,010 |
-| 116 | `KXFDVRAINBOW` | Rainbow FDV | Crypto | $7,529 |
-| 117 | `KXETHEU` | ETH up after election day | Crypto | $6,249 |
-| 118 | `KXXLMMINY` | XLM min | Crypto | $6,129 |
-| 119 | `KXTOKENLAUNCHINFINEX` | Infinex token | Crypto | $6,046 |
-| 120 | `KXSHIBAMINY` | Shiba min | Crypto | $6,037 |
-| 121 | `KXDOGEMAXM` | Doge max monthly | Crypto | $6,009 |
-| 122 | `KXUSDHVOTE` | USDH vote | Crypto | $5,742 |
-| 123 | `KXSNSBTC` | Steak n' Shake Bitcoin | Crypto | $5,579 |
-| 124 | `KXRWAMCAPAVAX` | Avalanche RWA market cap | Crypto | $5,561 |
-| 125 | `KXFDVPLASMA` | FDV Plasma | Crypto | $4,983 |
-| 126 | `KXBTCETHATH` | BTC vs. ETH ATH | Crypto | $4,876 |
-| 127 | `KXSOLTPS` | SOL TPS | Crypto | $4,758 |
-| 128 | `KXGTEDEPLOYMEGAETHDAY1` | GTE on MegaETH day 1 | Crypto | $4,716 |
-| 129 | `KXTOKENLAUNCHABSTRACT` | Abstract token launch | Crypto | $4,607 |
-| 130 | `KXSOLFLIPETH` | SOL flip ETH | Crypto | $4,576 |
-| 131 | `KXCRYPTOEO` | Crypto executive order | Politics | $4,544 |
-| 132 | `KXBCHMINY` | BCH min | Crypto | $3,289 |
-| 133 | `KXFDVRANGER` | Ranger FDV  | Crypto | $3,265 |
-| 134 | `KXDOTMINY` | Polkadot min | Crypto | $3,245 |
-| 135 | `KXSTABLEYIELDNOTION` | Stablecoin notional yield | Crypto | $3,213 |
-| 136 | `KXFDVWLFI` | WLFI  | Crypto | $3,139 |
-| 137 | `KXRANKLISTASTER20` | Aster top 50  | Crypto | $3,014 |
-| 138 | `KXFDVINFINEX` | FDV Infinex | Crypto | $2,791 |
-| 139 | `KXFDVMET` | MET FDV | Crypto | $2,327 |
-| 140 | `KXMAINNETFIRSTMONADMEGAETH` | Monad MegaETH mainnet | Crypto | $2,263 |
-| 141 | `KXTOKENLAUNCHVENTUALS` | Ventuals token | Crypto | $2,183 |
-| 142 | `KXTOKENLAUNCHAXIOM` | Axiom token | Crypto | $1,678 |
-| 143 | `KXFDVESPRESSO` | Espresso FDV | Crypto | $1,522 |
-| 144 | `KXRANKLISTBONK50` | BONK TOP 50? | Crypto | $1,492 |
-| 145 | `KXEIP7503` | 7503 | Crypto | $1,234 |
-| 146 | `KXEIP3540` | 3540 | Crypto | $1,036 |
-| 147 | `KXFDVHYPERSWAP` | Hyperswap FDV  | Crypto | $874 |
-| 148 | `KXFDVAVAXSOL` | AVAX/SOL ratio | Crypto | $401 |
-| 149 | `KXNEXTCOINBI` | Next coin | Crypto | $314 |
-| 150 | `KXEIP3074` | EIP 3074 | Crypto | $296 |
-| 151 | `KXEIP4444` | EIP 4444 | Crypto | $44 |
-| 152 | `KXHARDFORKBTC` | BTC hard fork | Crypto | $7 |
-| 153 | `BTCMAXY` | How high will Bitcoin get this year? | Crypto | $0 |
-| 154 | `ETHMAXY` | How high will Ethereum get this year? | Crypto | $0 |
-| 155 | `BTCMAX100` | When will bitcoin hit 100k? | Crypto | $0 |
-| 156 | `KXBTCMAXD` | BTC max daily | Crypto | $0 |
-| 157 | `KXBTCMINMAXY` | Bitcoin min/max | Crypto | $0 |
-| 158 | `KXLTC` | Litecoin range | Crypto | $0 |
-| 159 | `KXBTCDOM` | BTC dominance ending | Crypto | $0 |
-| 160 | `KXRIPPLEMINY` | Ripple min  | Crypto | $0 |
-| 161 | `KXTOKENLAUNCHUNIT` | Unit token | Crypto | $0 |
-| 162 | `BTCMINMAXY` | Bitcoin min/max | Crypto | $0 |
-| 163 | `KXLINKD` | Chainlink price Above/below | Crypto | $0 |
-| 164 | `KXLINK` | Chainlink range | Crypto | $0 |
-| 165 | `BTC` | Bitcoin range | Crypto | $0 |
-| 166 | `KXNOMINEECONF` | x | Crypto | $0 |
-| 167 | `KXAIRDROPQ` | Airdrops Q3 | Crypto | $0 |
-| 168 | `KXFDVZECZMR` | ZEC/XMR ratio | Crypto | $0 |
-| 169 | `KXRIPPLE` | Ripple range | Crypto | $0 |
-| 170 | `KXNEWKANYETICKER` | Kanye coin ticker | Crypto | $0 |
-| 171 | `KXSUIATH` | Sui ATH 2026 | Crypto | $0 |
-| 172 | `KXAVAX` | Avalanche range | Crypto | $0 |
-| 173 | `KXBCHD` | Bitcoin Cash price Above/below | Crypto | $0 |
-| 174 | `KXFDVLINEA` | Linea FDV | Crypto | $0 |
-| 175 | `ETHMINY` | How low will Ethereum fall this year? | Crypto | $0 |
-| 176 | `KXDOTD` | Polkadot Above/below | Crypto | $0 |
-| 177 | `KXBCH` | Bitcoin cash range | Crypto | $0 |
-| 178 | `KXNEXTCOINCB` | Next coin | Crypto | $0 |
-| 179 | `KXSUI` | SUI TVL | Crypto | $0 |
-| 180 | `BTCMAXM` | How high will Bitcoin get this month? | Crypto | $0 |
-| 181 | `KXBITCOINMAXY` | Bitcoin min/max | Crypto | $0 |
-| 182 | `BTCETHRETURN` | BTC vs. ETH performance | Crypto | $0 |
-| 183 | `KXSUIATH26` | SUI ATH 2026?  | Crypto | $0 |
-| 184 | `KXTESTCRYPTO` | TEST | Crypto | $0 |
-| 185 | `KXRIPPLEMAXY` | Ripple max | Crypto | $0 |
-| 186 | `KXARBITRUMTVL` | Arbitrum TVL | Crypto | $0 |
-| 187 | `KXDJBTC` | Trump Media buys | Crypto | $0 |
-| 188 | `KXSOLMAXM` | Solana max this month | Crypto | $0 |
-| 189 | `ETHATH` | ETH ATH | Crypto | $0 |
-| 190 | `KXAVAXD` | Avalanche price Above/below | Crypto | $0 |
-| 191 | `KXLTCD` | Litecoin price Above/below | Crypto | $0 |
-| 192 | `KXXLM` | XLM range | Crypto | $0 |
-| 193 | `ETH` | Ethereum range | Crypto | $0 |
-| 194 | `KXWAL25` | Wal $1 2025 | Crypto | $0 |
-| 195 | `KXBTC100` | BTC hitting $100k | Crypto | $0 |
-| 196 | `KXFDVKINETIQ` | KINETIQ FDV  | Crypto | $0 |
-| 197 | `KXXRPATH` | XRP ATH  | Crypto | $0 |
-| 198 | `KXBTCD-B` | Bitcoin on election day | Crypto | $0 |
-| 199 | `BTCETHATH` | BTC vs. ETH ATH | Crypto | $0 |
-| 200 | `KXPVPTRADE` | PVPTrade | Crypto | $0 |
-| 201 | `ETHD` | Ethereum price Above/below | Crypto | $0 |
-| 202 | `BTCMINY` | How low will Bitcoin fall this year? | Crypto | $0 |
-| 203 | `BTCD-B` | Above/below | Crypto | $0 |
-| 204 | `BTCATH` | BTC ATH | Crypto | $0 |
-| 205 | `KXFDVGENSYN` | Gensyn FDV | Crypto | $0 |
-| 206 | `KXBTCYEAR` | BTC Reach price by year | Crypto | $0 |
-| 207 | `BITCOINMAXY` | Bitcoin min/max | Crypto | $0 |
-| 208 | `KXDOT` | Polkadot range | Crypto | $0 |
-| 209 | `BTCD` | Bitcoin price Above/below | Crypto | $0 |
-| 210 | `KXSOL` | Solana range | Crypto | $0 |
-| 211 | `KXRIPPLED` | Ripple price Above/below | Crypto | $0 |
-| 212 | `KXXLMD` | XLM price Above/below | Crypto | $0 |
-| 213 | `KXFEDDECISION` | Fed meeting | Economics | $359,586,811 |
-| 214 | `KXFED` | Fed funds rate | Economics | $43,017,694 |
-| 215 | `KXAAAGASM` | US gas price | Economics | $40,966,313 |
-| 216 | `KXRATECUTCOUNT` | Number of rate cuts | Economics | $28,335,030 |
-| 217 | `KXCPIYOY` | Inflation | Economics | $27,487,140 |
-| 218 | `KXCPI` | CPI | Economics | $17,900,100 |
-| 219 | `KXPAYROLLS` | Jobs numbers | Economics | $14,589,522 |
-| 220 | `KXGDP` | US GDP growth | Economics | $12,246,137 |
-| 221 | `KXGOVTCUTS` | Government budget cuts | Economics | $10,560,279 |
-| 222 | `KXAAAGASW` | US gas price up | Economics | $10,070,225 |
-| 223 | `KXRATECUT` | Fed rate cut | Economics | $9,758,096 |
-| 224 | `KXLEAVEPOWELL` | Powell leaving | Politics | $8,880,321 |
-| 225 | `KXU3` | Unemployment | Economics | $8,418,879 |
-| 226 | `KXRECSSNBER` | Recession | Economics | $5,852,463 |
-| 227 | `KXCPICORE` | CPI core | Economics | $4,155,522 |
-| 228 | `KXCPICOREYOY` | Core inflation | Economics | $2,519,998 |
-| 229 | `KXGDPYEAR` | Annual GDP | Economics | $2,311,405 |
-| 230 | `KXDEBTSHRINK` | U.S. debt shrink | Economics | $2,071,488 |
-| 231 | `KXACPI` | US annual inflation | Economics | $2,028,523 |
-| 232 | `KXEGGS` | Egg prices | Economics | $1,894,801 |
-| 233 | `KXFEDEMPLOYEES` | Federal government employee count | Economics | $1,604,414 |
-| 234 | `KXFEDCOMBO` | Fed Combo | Politics | $1,490,438 |
-| 235 | `KXWEALTHY` | Wealthiest person in world | Economics | $1,372,263 |
-| 236 | `KXTOP3WEALTH` | Top 3 wealthiest people | Economics | $1,272,364 |
-| 237 | `KXCBDECISIONJAPAN` | Bank Of Japan policy interest rate decision | Economics | $1,184,501 |
-| 238 | `KXFEDHIKE` | Next Fed rate hike | Economics | $1,105,321 |
-| 239 | `KXLARGECUT` | Large cuts | Economics | $1,096,550 |
-| 240 | `KXGAS` | Gas weekly | Economics | $1,016,381 |
-| 241 | `KXTERMINALRATE` | Fed funds highest rate | Economics | $1,003,305 |
-| 242 | `KXCORPTAXCUT` | Corporate tax cut | Politics | $847,516 |
-| 243 | `KXBALANCEPOWERCOMBO` | Congress balance of power combo | Politics | $780,046 |
-| 244 | `KXFEDMEET` | Fed emergency meeting | Economics | $754,219 |
-| 245 | `KXFRM` | Mortgage 30-yr rate this week | Economics | $720,835 |
-| 246 | `KXJOBLESSCLAIMS` | Weekly initial jobless claims | Economics | $717,480 |
-| 247 | `KXRATEHIKE` | Number of Fed rate hikes | Economics | $650,200 |
-| 248 | `KXLCPIMAXYOY` | Inflation surge this year | Economics | $584,943 |
-| 249 | `KXGOVTSPEND` | Government budget increases | Economics | $576,621 |
-| 250 | `KXCPICOMBO` | CPI Combo | Politics | $570,825 |
-| 251 | `KXECONPATH` | State of the economy | Economics | $558,086 |
-| 252 | `KXNYSECIRCUIT` | NYSE circuit breaker day | Economics | $557,299 |
-| 253 | `KXPCECORE` | US Core PCE inflation | Economics | $545,978 |
-| 254 | `KXMUSKWEALTH` | Musk wealth | Economics | $509,849 |
-| 255 | `KXLAYOFFSYINFO` | Tech layoffs | Economics | $507,101 |
-| 256 | `KXOIL` | Price of oil monthly | Economics | $467,019 |
-| 257 | `KXEMPLOYMENTCOMBO` | Employment Combo | Politics | $453,081 |
-| 258 | `KXRATECUTE` | Rate cut at November 2024 meeting | Economics | $443,416 |
-| 259 | `KXNBERRECESSQ` | Next recession start | Economics | $396,889 |
-| 260 | `KXDEBTGROWTH25` | U.S. debt growth IN 2025 | Economics | $354,567 |
-| 261 | `KXDEBTLEVEL` | U.S. debt level | Economics | $351,523 |
-| 262 | `KXCPIUSEDCAR` | CPI on used cars | Economics | $343,752 |
-| 263 | `KXPROLLS` | Jobs numbers | Economics | $340,465 |
-| 264 | `KXFRMMAX` | Mortgage rate high | Economics | $330,826 |
-| 265 | `KXTRUMPBULLCASECOMBO` | Trump's year: Bull (dream) case? | Politics | $322,281 |
-| 266 | `KXCPIGAS` | CPI on gas | Economics | $321,600 |
-| 267 | `KXINCOMETAXCUT` | Income tax cut | Politics | $318,913 |
-| 268 | `KXTECHLAYOFF` | Tech layoffs up | Science and Technology | $314,584 |
-| 269 | `KXMUSKTRILLION` | Musk trillionaire | Economics | $308,735 |
-| 270 | `KXADP` | ADP employment change | Economics | $305,892 |
-| 271 | `KXEMERCUTS` | Emergency rate cuts | Economics | $305,562 |
-| 272 | `KXAAAGASMINCA` | California lowest gas price yearly | Economics | $302,724 |
-| 273 | `KXU3MAX` | Unemployment spike | Economics | $286,569 |
-| 274 | `KXNDEBTSHRINK` | national debt shrinking | Economics | $279,961 |
-| 275 | `KXACPICORE-` | US annual core inflation | Economics | $274,440 |
-| 276 | `KXOILRIGS` | Oil rigs | Economics | $269,477 |
-| 277 | `KXECONSTATU3` | UNEMPLOYMENT RATE MONTHLY | Economics | $238,649 |
-| 278 | `KXCREDITRATING` | US credit rating downgrade | Politics | $221,539 |
-| 279 | `KXCBDECISIONEU` | EU CENTRAL BANK POLICY INTEREST RATE | Economics | $201,414 |
-| 280 | `KXHALFTRIL` | Half-trillionaire | Economics | $198,328 |
-| 281 | `KXAAAGASMINTX` | Texas lowest gas price yearly | Economics | $193,791 |
-| 282 | `KXECONSTATCPIYOY` | year over year inflation | Economics | $192,453 |
-| 283 | `KXUSDEBT` | U.S. debt to GDP ratio | Economics | $188,514 |
-| 284 | `KXCBDECISIONENGLAND` | Bank Of ENGLAND policy interest rate decision | Economics | $184,000 |
-| 285 | `KXCPICOREA` | Core CPI annually | Economics | $182,675 |
-| 286 | `KXFOMCDISSENTCOUNT` | FOMC dissent count | Economics | $176,597 |
-| 287 | `KXCBDECISIONAUSTRALIA` | Bank Of AUSTRALIA policy interest rate decision | Economics | $169,459 |
-| 288 | `KXAAAGASMAXTX` | Texas highest gas price yearly | Economics | $163,706 |
-| 289 | `KXTARIFFREVENUE` | Tariff revenue | Economics | $157,976 |
-| 290 | `KXGDPUSMAX` | US GDP peak  | Economics | $156,501 |
-| 291 | `KXNYCRENTSY` | NYC rent yearly increase | Economics | $152,577 |
-| 292 | `KXGAS-MONTH` | Gas monthly | Economics | $151,970 |
-| 293 | `KXBANKRUPTS` | Companies going bankrupt | Economics | $150,664 |
-| 294 | `KXTDEFICITHALF` | U.S. BOP | Economics | $144,359 |
-| 295 | `KXTRILLIONAIRE` | First trillionaire | Economics | $141,405 |
-| 296 | `KXAAAGASMAXCA` | California highest gas price yearly | Economics | $138,202 |
-| 297 | `KXCBDECISIONCANADA` | Bank Of Canada policy interest rate decision | Economics | $134,584 |
-| 298 | `KXARGINFLATIONM` | Argentina inflation | Economics | $132,555 |
-| 299 | `KXCPISHELTER` | CPI on shelter | Economics | $119,932 |
-| 300 | `KXNGASMAX` | Natural gas price peak | Economics | $118,237 |
-| 301 | `KXFEDRATEMIN` | How low will the Fed rate go | Economics | $117,208 |
-| 302 | `KXTXSENCOMBO` | Texas Senate matchup | Politics | $117,113 |
-| 303 | `KXWRECSS` | World recessions | Economics | $111,276 |
-| 304 | `KXCOSTCOHOTDOG` | Costco hot dog price increase | Economics | $109,935 |
-| 305 | `KXJOBLESS` | Initial jobless claims | Economics | $109,687 |
-| 306 | `KXCPIAPPAREL` | CPI on apparel | Economics | $106,360 |
-| 307 | `KXBIGTECHLAYOFF` | Big tech layoffs | Companies | $99,174 |
-| 308 | `KXREALWAGES` | Real wage growth | Economics | $94,578 |
-| 309 | `KXCBDECISIONMEXICO` | Bank Of MEXICO policy interest rate decision | Economics | $90,542 |
-| 310 | `KXTRUMPBEARCASECOMBO` | Trump's year: Bear (nightmare) case? | Politics | $85,874 |
-| 311 | `KXZERORATE` | Zero rates | Economics | $84,240 |
-| 312 | `KXCBDECISIONCHINA` | Bank Of CHINA policy interest rate decision | Economics | $80,542 |
-| 313 | `KXGDPUSMIN` | Negative US GDP growth | Economics | $79,685 |
-| 314 | `KXAAAGASMINNY` | NEW YORK LOWEST gas price yearly | Economics | $79,631 |
-| 315 | `KXCPIFOOD` | CPI on food | Economics | $77,950 |
-| 316 | `KXSOLAR` | Solar capcity installation | Economics | $76,143 |
-| 317 | `KXHOMEUS` | US housing price up monthly | Economics | $75,141 |
-| 318 | `KXAAAGASMINFL` | Florida lowest gas price yearly | Economics | $69,584 |
-| 319 | `KXJOBSRELEASE` | When will the BLS release a jobs report? | Economics | $69,552 |
-| 320 | `KXOILW` | Price of oil weekly | Economics | $69,249 |
-| 321 | `KXBLUETSUNAMICOMBO` | Will there be a blue tsunami? | Politics | $67,759 |
-| 322 | `KXAAAGASMAXNY` | NEW YORK highest gas price yearly | Economics | $64,396 |
-| 323 | `KXUE` | Monthly Unemployment | Economics | $63,037 |
-| 324 | `KXECONSTATCPI` | month over month inflation | Economics | $62,561 |
-| 325 | `KXBLUEWAVECOMBO` | Will there be a blue wave? | Politics | $59,971 |
-| 326 | `KXDEBTGROWTH` | U.S. debt growth | Economics | $59,899 |
-| 327 | `KXFEDDISSENT` | Fed Dissent | Economics | $58,951 |
-| 328 | `KXNYCRENTFREEZE` | NYC rent freeze | Economics | $58,097 |
-| 329 | `KXEASTCOASTPORTSTRIKE` | ILA strike | Economics | $57,385 |
-| 330 | `KXNGAS` | Natural gas price max and min monthly | Economics | $56,587 |
-| 331 | `KXCHINAUSGDP` | China overtakes US GDP | Economics | $54,045 |
-| 332 | `KXCREDEF` | Commercial real estate defaults | Economics | $53,916 |
-| 333 | `KXSFRENTSY` | SF yearly rent growth | Economics | $53,332 |
-| 334 | `KXECB` | European Central Bank main refinancing rate | Economics | $50,657 |
-| 335 | `KXISMPMI` | ISM PMI | Economics | $50,273 |
-| 336 | `KXWTAX` | Wealth tax | Economics | $50,088 |
-| 337 | `KXEXPORTTARIFF` | Export tariffs | Economics | $50,047 |
-| 338 | `KXHOMEUSY` | US housing prices up | Economics | $48,790 |
-| 339 | `KXBARRELS` | Oil barrels | Economics | $48,302 |
-| 340 | `KXAAAGASMAXFL` | Florida highest gas price yearly | Economics | $47,333 |
-| 341 | `KXHOME` | New home sales | Economics | $47,131 |
-| 342 | `KXCOIN` | Trillion dollar coin minted | Economics | $45,647 |
-| 343 | `KXMEDIANRENTLA` | MEDIAN RENT LA | Economics | $45,462 |
-| 344 | `KXCREDEFMAX` | Commercial real estate highest default rate | Economics | $45,181 |
-| 345 | `KXFRMMIN` | Mortgage rate low | Economics | $43,662 |
-| 346 | `KXNYCBILLIONAIRES` | Billionaires lost | Economics | $43,371 |
-| 347 | `KXLCPIMIN` | High inflation ends | Economics | $39,653 |
-| 348 | `KXBIGBANKLAYOFF` | Big banks layoffs | Economics | $39,488 |
-| 349 | `KXGASMAX` | EIA Gas highest price yearly | Economics | $36,763 |
-| 350 | `KXCBDECISIONRUSSIA` | Russia | Economics | $33,727 |
-| 351 | `KXSEMIPRODH` | US Semiconductor production | Economics | $32,974 |
-| 352 | `KXBANKRUPTSY` | Companies going bankrupt yearly | Economics | $32,539 |
-| 353 | `KXGDPCN` | China GDP growth | World | $31,558 |
-| 354 | `KXCBDECISIONKOREA` | Bank Of KOREA policy interest rate decision | Economics | $31,065 |
-| 355 | `KXNGASMIN` | Natural gas yearly low | Economics | $29,126 |
-| 356 | `KXBALANCESHEET` | Fed balance sheet | Economics | $28,995 |
-| 357 | `KXWEALTH` | Person wealthiest | Economics | $28,985 |
-| 358 | `KXFERT` | Fertilizer prices | Economics | $28,367 |
-| 359 | `KXSUEZTRAFFIC` | Suez traffic | Economics | $28,261 |
-| 360 | `KXFTAPER` | Fed tapering | Economics | $27,902 |
-| 361 | `KXFEAR` | Fear and Greed index | Economics | $26,016 |
-| 362 | `KXCPIEU` | Euro area inflation | Economics | $25,249 |
-| 363 | `KXSPRMIN` | SPRMIN | Economics | $23,860 |
-| 364 | `KXNGASW` | Natural gas price max and min weekly | Economics | $23,543 |
-| 365 | `KXUSEDCAR` | US CPI print on used cars | Economics | $23,490 |
-| 366 | `KXBOJDECISION` | BOJ decision | Economics | $23,252 |
-| 367 | `KXLCPIMAX` | Inflation surge | Economics | $21,031 |
-| 368 | `KXDIESELM` | Diesel price this month | Economics | $20,583 |
-| 369 | `KXSPRUSE` | SPR use | Economics | $20,253 |
-| 370 | `KXU3MIN` | Unemployment keeps falling | Economics | $19,894 |
-| 371 | `KXGASD` | Gas daily | Economics | $19,788 |
-| 372 | `KXIMFRECESS` | IMF global recession | Economics | $18,309 |
-| 373 | `KXCREDITCDEF` | Credit card defaults up | Economics | $18,298 |
-| 374 | `KXMANHEIMUSEDCAR` | Manheim Used Vehicle Value Index | Economics | $18,256 |
-| 375 | `KXECONSTATCPICORE` | month over month core inflation | Economics | $17,913 |
-| 376 | `KXEPOP` | Employment-population ratio | Economics | $17,912 |
-| 377 | `KXMEDIANRENTCHI` | MEDIAN RENT CHICAGO | Economics | $15,948 |
-| 378 | `KXGASMIN` | EIA Gas lowest price yearly | Economics | $15,676 |
-| 379 | `KXAMERICAPROFIT` | America profit | Economics | $15,453 |
-| 380 | `KXGDPSHAREMANU` | GDP share manufacturing | Economics | $15,378 |
-| 381 | `KXDOTPLOT` | fed dot plot | Economics | $14,555 |
-| 382 | `KXNGDPQ` | Quarterly NGDP growth | Economics | $13,882 |
-| 383 | `KXJOBREVISION` | Job revisions | Economics | $13,776 |
-| 384 | `KXAAAGASMAX` | US highest gas price yearly | Economics | $13,750 |
-| 385 | `KXMEDIANRENTMIA` | MEDIAN RENT MIAMI | Economics | $13,178 |
-| 386 | `KXRENTNYCY` | Rent price increase in NYC yearly | Economics | $13,154 |
-| 387 | `KXMORTGAGERATE` | Mortgage Rate | Economics | $13,008 |
-| 388 | `KXYINVERT` | Yield Curve Inversion | Economics | $12,566 |
-| 389 | `KXECONSTATCORECPIYOY` | year over year core inflation | Economics | $12,248 |
-| 390 | `KXGDPNOM` | Nominal GDP  | Economics | $12,187 |
-| 391 | `KXDIESEL` | Diesel price this week | Economics | $12,142 |
-| 392 | `KXNGDP` | Annual NGDP growth | Economics | $11,940 |
-| 393 | `KXHPI` | Housing Price Index | Economics | $11,891 |
-| 394 | `KXMORTGAGEDEF` | Mortgage defaults | Economics | $11,758 |
-| 395 | `KXBOE` | Bank of England bank rate | Economics | $11,678 |
-| 396 | `KXCPIDELAY` | CPI data released | Economics | $11,302 |
-| 397 | `KXBRAZILINF` | Brazil inflation | Economics | $11,245 |
-| 398 | `KXPAYROLLCANCEL` | Payrolls cancelled | Economics | $10,906 |
-| 399 | `KXBRAZILU` | Brazil unemployment | Economics | $10,639 |
-| 400 | `KXGDPEU` | European Union GDP growth | World | $10,194 |
-| 401 | `KXFXEURO` | Euro/USD exchange rate | Economics | $10,130 |
-| 402 | `KXJPY` | U.S. Dollar/Japanese yen exchange rate | Economics | $9,630 |
-| 403 | `KXINEQUALITY` | US inequality | Economics | $9,623 |
-| 404 | `KXAAAGASMIN` | US lowest gas price yearly | Economics | $9,157 |
-| 405 | `KXRENTNYCM` | Rent price increase in NYC monthly | Economics | $9,140 |
-| 406 | `KXMEDIANRENTHOU` | MEDIAN RENT HOUSTON | Economics | $8,952 |
-| 407 | `KXGDPW` | Global GDP growth | World | $8,792 |
-| 408 | `KXFXPESO` | USD/Mexican peso exchange rate | Economics | $7,595 |
-| 409 | `KXOPECCUTS` | Oil production cuts | Economics | $7,539 |
-| 410 | `KXCNGDP` | China quarterly GDP change in 2021 Q2 | Economics | $7,255 |
-| 411 | `KXHIGHINFLATION` | Highest Inflation | Economics | $7,158 |
-| 412 | `KXEGGPRICEW` | Egg prices weekly | Economics | $6,017 |
-| 413 | `KXFEDFACILITY` | Fed facility | Economics | $5,734 |
-| 414 | `KXPESO` | USD/Peso exchange rate | Economics | $4,855 |
-| 415 | `KXREVETH` | REV ETH | Economics | $4,852 |
-| 416 | `KXPORTUGALPRESCOMBO` | Who will advance to the runoff in the Portugal presidential election? | Politics | $4,683 |
-| 417 | `KXTOPBUSINESS` | CNBC TOP STATES FOR BUSINESS | Economics | $4,585 |
-| 418 | `KXRBADECISION` | RBA decision | Economics | $4,070 |
-| 419 | `KXCOSTCOMEMBER` | Costco membership price increase | Economics | $3,645 |
-| 420 | `KXAVGTARIFF` | Average tariff rate | Economics | $3,600 |
-| 421 | `KXCPICN` | China inflation | Economics | $3,287 |
-| 422 | `KXIRSCOLLECT` | IRS tax collection | Economics | $3,078 |
-| 423 | `KXCPIYOYBANK` | Inflation | Economics | $3,071 |
-| 424 | `KXBOEGOLD` | BOE gold withdrawals | Economics | $2,941 |
-| 425 | `KXBRAZILGDP` | Brazilian GDP Growth | Economics | $2,442 |
-| 426 | `KXTRDDEFCN` | US-China trade deficit | Economics | $2,393 |
-| 427 | `KXRETAIL` | Retail sales growth | Economics | $1,710 |
-| 428 | `KXAAAGASD` | US gas price up | Economics | $1,698 |
-| 429 | `KXNETWORTHROYLEE` | Will Roy Lee become a Billionaire by 2029 | Economics | $1,560 |
-| 430 | `KXBRAZILJOBS` | Brazil New Caged net formal job creation  | Economics | $1,491 |
-| 431 | `KXTFP` | Total factor productivity | Economics | $1,457 |
-| 432 | `KXREVSOL` | REV ETH | Economics | $1,268 |
-| 433 | `KXHICP` | Euro Area inflation | Economics | $1,159 |
-| 434 | `KXCBDECISIONBRAZIL` | Brazil | Economics | $990 |
-| 435 | `KXNFPDELAY` | Jobs data released | Economics | $681 |
-| 436 | `KXWHEAT` | Average wheat price | Economics | $577 |
-| 437 | `KXHOUSELENGTH` | US house average sale length | Economics | $409 |
-| 438 | `KXNETWORTHKAICENAT` | WILL KAI CENAT BECOME A BILLIONAIRE THIS YEAR | Economics | $283 |
-| 439 | `KXNYCRENTSM` | NYC rent monthly increase | Economics | $166 |
-| 440 | `KXHOUSESTART` | US housing starts rise | Economics | $130 |
-| 441 | `KXCPIAR` | Argentina inflation | Economics | $94 |
-| 442 | `NFPDELAY` | Jobs data released | Economics | $0 |
-| 443 | `GAS` | Gas weekly | Economics | $0 |
-| 444 | `PCECORE` | US Core PCE inflation | Economics | $0 |
-| 445 | `KXBRAZILGRAIN` | Conab grain estimate? | Economics | $0 |
-| 446 | `JPY` | U.S. Dollar/Japanese yen exchange rate | Economics | $0 |
-| 447 | `KXUTILITYSOCAL` | SoCal electricity prices | Economics | $0 |
-| 448 | `RETAIL` | Retail sales growth | Economics | $0 |
-| 449 | `KXSPRMAX` | SPRMAX | Economics | $0 |
-| 450 | `U3MIN` | Unemployment keeps falling | Economics | $0 |
-| 451 | `CPICN` | China inflation | Economics | $0 |
-| 452 | `MANHEIMUSEDCAR` | Manheim Used Vehicle Value Index | Economics | $0 |
-| 453 | `KXLCPIYOY` | Inflation surge this year | Economics | $0 |
-| 454 | `CPIDELAY` | CPI data released | Economics | $0 |
-| 455 | `HOME` | New home sales | Economics | $0 |
-| 456 | `AAAGASMINCA` | California lowest gas price yearly | Economics | $0 |
-| 457 | `KXLAYOFFSY` | layoffs | Economics | $0 |
-| 458 | `JOBLESS` | Initial jobless claims | Economics | $0 |
-| 459 | `CPIGAS` | CPI on gas | Economics | $0 |
-| 460 | `DIESELM` | Diesel price this month | Economics | $0 |
-| 461 | `LEAVEPOWELL` | Powell leaving | Politics | $0 |
-| 462 | `GDPUSMIN` | Negative US GDP growth | Economics | $0 |
-| 463 | `KXCNY` | USD/RMB exchange rate | Economics | $0 |
-| 464 | `CPIAR` | Argentina inflation | Economics | $0 |
-| 465 | `BIGTECHLAYOFF` | Big tech layoffs | Companies | $0 |
-| 466 | `U3` | Unemployment | Economics | $0 |
-| 467 | `CPIUSEDCAR` | CPI on used cars | Economics | $0 |
-| 468 | `TERMINALRATE` | Fed funds highest rate | Economics | $0 |
-| 469 | `ARINFLATIONM` | Argentina inflation | Economics | $0 |
-| 470 | `KXISMSERVICES` | ISM Services PMI | Economics | $0 |
-| 471 | `KXETHETF` | ETH ETF listed | Economics | $0 |
-| 472 | `PROLLS` | Jobs numbers | Economics | $0 |
-| 473 | `TECHLAYOFF` | Tech layoffs up | Science and Technology | $0 |
-| 474 | `WCPI-TR` | Turkey inflation | Economics | $0 |
-| 475 | `FEDRATEMIN` | How low will the Fed rate go | Economics | $0 |
-| 476 | `NGDPQ` | Quarterly NGDP growth | Economics | $0 |
-| 477 | `ACPI` | US annual inflation | Economics | $0 |
-| 478 | `ECONPATH` | State of the economy | Economics | $0 |
-| 479 | `RENTNYCM` | Rent price increase in NYC monthly | Economics | $0 |
-| 480 | `RECSSNBER` | Recession | Economics | $0 |
-| 481 | `CPIFOOD` | CPI on food | Economics | $0 |
-| 482 | `MORTGAGEDEF` | Mortgage defaults | Economics | $0 |
-| 483 | `CREDEF` | Commercial real estate defaults | Economics | $0 |
-| 484 | `KXUTILITYNYC` | NYC electricity prices | Economics | $0 |
-| 485 | `CPICOREYOY` | Core inflation | Economics | $0 |
-| 486 | `RENTNYCY` | Rent price increase in NYC yearly | Economics | $0 |
-| 487 | `SPRMAX` | SPRMAX | Economics | $0 |
-| 488 | `FRM` | Mortgage 30-yr rate this week | Economics | $0 |
-| 489 | `ETHETF` | ETH ETF listed | Economics | $0 |
-| 490 | `HPI` | Housing Price Index | Economics | $0 |
-| 491 | `LCPIMAX` | Inflation surge | Economics | $0 |
-| 492 | `NGASMIN` | Natural gas yearly low | Economics | $0 |
-| 493 | `KXWCPI-RU` | Russian inflation | Economics | $0 |
-| 494 | `KXACPICORE` | Annual core inflation | Economics | $0 |
-| 495 | `KXEGGPRICEM` | Egg prices monthly | Economics | $0 |
-| 496 | `CREDITRATING` | US credit rating downgrade | Politics | $0 |
-| 497 | `FEDDECISION` | Fed meeting | Economics | $0 |
-| 498 | `AAAGASMAXCA` | California highest gas price yearly | Economics | $0 |
-| 499 | `AAAGASY` | US gas price up | Economics | $0 |
-| 500 | `GASMAX` | EIA Gas highest price yearly | Economics | $0 |
-| 501 | `ARGINFLATIONM` | Argentina inflation | Economics | $0 |
-| 502 | `OILW` | Price of oil weekly | Economics | $0 |
-| 503 | `KX25U3SEP` | september 2025 u3 extension | Economics | $0 |
-| 504 | `FXPESO` | USD/Mexican peso exchange rate | Economics | $0 |
-| 505 | `CPI` | CPI | Economics | $0 |
-| 506 | `LAYOFFSYINFO` | Tech layoffs | Economics | $0 |
-| 507 | `YINVERT` | Yield Curve Inversion | Economics | $0 |
-| 508 | `FRMMIN` | Mortgage rate low | Economics | $0 |
-| 509 | `KXPPISEMI` | Semiconductor PPI | Economics | $0 |
-| 510 | `FRMMAX` | Mortgage rate high | Economics | $0 |
-| 511 | `NGAS` | Natural gas price max and min monthly | Economics | $0 |
-| 512 | `KXBARRLES` | Oil barrels | Economics | $0 |
-| 513 | `KXAAAGASY` | US gas price up | Economics | $0 |
-| 514 | `AAAGASMAX` | US highest gas price yearly | Economics | $0 |
-| 515 | `EPOP` | Employment-population ratio | Economics | $0 |
-| 516 | `KXARINFLATIONM` | Argentina inflation | Economics | $0 |
-| 517 | `FTAPER` | Fed tapering | Economics | $0 |
-| 518 | `CNY` | USD/RMB exchange rate | Economics | $0 |
-| 519 | `CREDEFMAX` | Commercial real estate highest default rate | Economics | $0 |
-| 520 | `KXPOWELLLEAVE` | Powell leaving | Politics | $0 |
-| 521 | `HOMEUS` | US housing price up monthly | Economics | $0 |
-| 522 | `KXQTEND` | QT ending | Economics | $0 |
-| 523 | `WHEAT` | Average wheat price | Economics | $0 |
-| 524 | `LOWESTRATE` | Fed funds lowest rate | Economics | $0 |
-| 525 | `KXSPR` | SPRMAX | Economics | $0 |
-| 526 | `HOUSELENGTH` | US house average sale length | Economics | $0 |
-| 527 | `LCPIMAXYOY` | Inflation surge this year | Economics | $0 |
-| 528 | `LAYOFFSY` | layoffs | Economics | $0 |
-| 529 | `RATECUTCOUNT` | Number of rate cuts | Economics | $0 |
-| 530 | `GAS-MONTH` | Gas monthly | Economics | $0 |
-| 531 | `SPR` | SPRMAX | Economics | $0 |
-| 532 | `DOTPLOT` | fed dot plot | Economics | $0 |
-| 533 | `KXCHINACPI` | CPI in China | Economics | $0 |
-| 534 | `NGDP` | Annual NGDP growth | Economics | $0 |
-| 535 | `COSTCOMEMBER` | Costco membership price increase | Economics | $0 |
-| 536 | `KXUTILITYPJMWEST` | PJM West electricity prices | Economics | $0 |
-| 537 | `WCPI-RU` | Russian inflation | Economics | $0 |
-| 538 | `CNGDP` | China quarterly GDP change in 2021 Q2 | Economics | $0 |
-| 539 | `RATECUT` | Fed rate cut | Economics | $0 |
-| 540 | `GASD` | Gas daily | Economics | $0 |
-| 541 | `WTAX` | Wealth tax | Economics | $0 |
-| 542 | `SEMIPRODH` | US Semiconductor production | Economics | $0 |
-| 543 | `BIGBANKLAYOFF` | Big banks layoffs | Economics | $0 |
-| 544 | `WEALTHY` | Wealthiest person in world | Economics | $0 |
-| 545 | `WRECSS` | World recessions | Economics | $0 |
-| 546 | `GDPUSMAX` | US GDP peak  | Economics | $0 |
-| 547 | `NYCRENTSY` | NYC rent yearly increase | Economics | $0 |
-| 548 | `PESO` | USD/Peso exchange rate | Economics | $0 |
-| 549 | `CREDITCDEF` | Credit card defaults up | Economics | $0 |
-| 550 | `KXRUBLE` | Price of Ruble | Economics | $0 |
-| 551 | `KXWCPI-TR` | Turkey inflation | Economics | $0 |
-| 552 | `FEDHIKE` | Next Fed rate hike | Economics | $0 |
-| 553 | `BOE` | Bank of England bank rate | Economics | $0 |
-| 554 | `CPIYOY` | Inflation | Economics | $0 |
-| 555 | `SFRENTSY` | SF yearly rent growth | Economics | $0 |
-| 556 | `COIN` | Trillion dollar coin minted | Economics | $0 |
-| 557 | `LCPIYOY` | Inflation surge this year | Economics | $0 |
-| 558 | `GDP` | US GDP growth | Economics | $0 |
-| 559 | `KXQRECESS` | Recession start | Economics | $0 |
-| 560 | `GDPW` | Global GDP growth | World | $0 |
-| 561 | `BANKRUPTS` | Companies going bankrupt | Economics | $0 |
-| 562 | `AAAGASD` | US gas price up | Economics | $0 |
-| 563 | `RUBLE` | Price of Ruble | Economics | $0 |
-| 564 | `AAAGASM` | US gas price | Economics | $0 |
-| 565 | `LCPIMIN` | High inflation ends | Economics | $0 |
-| 566 | `CPISHELTER` | CPI on shelter | Economics | $0 |
-| 567 | `GASMIN` | EIA Gas lowest price yearly | Economics | $0 |
-| 568 | `RATECUTS` | Number of rate cuts | Economics | $0 |
-| 569 | `CREDEFMINMAX` | Commercial real estate lowest default rate | Economics | $0 |
-| 570 | `SPRMIN` | SPRMIN | Economics | $0 |
-| 571 | `HOMEUSY` | US housing prices up | Economics | $0 |
-| 572 | `KXLOWESTRATE` | Fed funds lowest rate | Economics | $0 |
-| 573 | `BANKRUPTSY` | Companies going bankrupt yearly | Economics | $0 |
-| 574 | `KXCREDEFMINMAX` | Commercial real estate lowest default rate | Economics | $0 |
-| 575 | `FEDMEET` | Fed emergency meeting | Economics | $0 |
-| 576 | `KXRATECUTS` | Number of rate cuts | Economics | $0 |
-| 577 | `TRDDEFCN` | US-China trade deficit | Economics | $0 |
-| 578 | `DIESEL` | Diesel price this week | Economics | $0 |
-| 579 | `CPIEU` | Euro area inflation | Economics | $0 |
-| 580 | `CHINAUSGDP` | China overtakes US GDP | Economics | $0 |
-| 581 | `ACPICORE-` | US annual core inflation | Economics | $0 |
-| 582 | `AAAGASW` | US gas price up | Economics | $0 |
-| 583 | `CPIAPPAREL` | CPI on apparel | Economics | $0 |
-| 584 | `GDPEU` | European Union GDP growth | World | $0 |
-| 585 | `WEALTH` | Person wealthiest | Economics | $0 |
-| 586 | `PAYROLLS` | Jobs numbers | Economics | $0 |
-| 587 | `CPICORE` | CPI core | Economics | $0 |
-| 588 | `FXEURO` | Euro/USD exchange rate | Economics | $0 |
-| 589 | `PPISEMI` | Semiconductor PPI | Economics | $0 |
-| 590 | `AAAGASMAXTX` | Texas highest gas price yearly | Economics | $0 |
-| 591 | `FEDFACILITY` | Fed facility | Economics | $0 |
-| 592 | `FED` | Fed funds rate | Economics | $0 |
-| 593 | `KXUTILITYERCOT` | Texas electricity prices | Economics | $0 |
-| 594 | `KXNYCCBDENTRY` | NYC CBD Vehicle Entries | Economics | $0 |
-| 595 | `ACPICORE` | Annual core inflation | Economics | $0 |
-| 596 | `POWELLLEAVE` | Powell leaving | Politics | $0 |
-| 597 | `USEDCAR` | US CPI print on used cars | Economics | $0 |
-| 598 | `U3MAX` | Unemployment spike | Economics | $0 |
-| 599 | `HOUSESTART` | US housing starts rise | Economics | $0 |
-| 600 | `COSTCOHOTDOG` | Costco hot dog price increase | Economics | $0 |
-| 601 | `OIL` | Price of oil monthly | Economics | $0 |
-| 602 | `AAAGASMINTX` | Texas lowest gas price yearly | Economics | $0 |
-| 603 | `RATEHIKE` | Number of Fed rate hikes | Economics | $0 |
-| 604 | `ECB` | European Central Bank main refinancing rate | Economics | $0 |
-| 605 | `AAAGASMIN` | US lowest gas price yearly | Economics | $0 |
-| 606 | `NGASMAX` | Natural gas price peak | Economics | $0 |
-| 607 | `REALWAGES` | Real wage growth | Economics | $0 |
-| 608 | `GDPCN` | China GDP growth | World | $0 |
-| 609 | `NGASW` | Natural gas price max and min weekly | Economics | $0 |
-| 610 | `NYCRENTSM` | NYC rent monthly increase | Economics | $0 |
-| 611 | `KXINXU` | S&P 500 above/below | Financials | $163,125,241 |
-| 612 | `KXINX` | S&P 500 range | Financials | $123,577,986 |
-| 613 | `KXNASDAQ100` | Nasdaq range | Financials | $101,400,175 |
-| 614 | `KXNASDAQ100U` | Nasdaq above/below | Financials | $84,711,671 |
-| 615 | `KXINXY` | S&P 500 yearly range | Financials | $50,656,140 |
-| 616 | `KXNASDAQ100Y` | Nasdaq yearly range | Financials | $32,153,886 |
-| 617 | `KXTNOTEW` | Treasury 10Y weekly yield | Financials | $10,549,413 |
-| 618 | `KXUSDJPY` | USD/JPY daily range | Financials | $9,759,540 |
-| 619 | `KXTNOTED` | Treasury 10Y daily yield | Financials | $6,357,791 |
-| 620 | `KXEURUSD` | EUR/USD daily range | Financials | $4,718,683 |
-| 621 | `KXEURUSDH` | EUR/USD over/under | Financials | $2,761,282 |
-| 622 | `KXWTIW` | WTI oil weekly range | Financials | $2,381,666 |
-| 623 | `KXWTI` | WTI oil election day | Financials | $2,162,552 |
-| 624 | `KXUSDJPYH` | USD/JPY daily over/under | Financials | $1,869,722 |
-| 625 | `KXWTIMAX` | WTI oil yearly high | Financials | $1,477,118 |
-| 626 | `KXINXMAXY` | S&P 500 max yearly | Financials | $1,032,658 |
-| 627 | `KXINXZ` | S&P 500 up | Financials | $815,097 |
-| 628 | `KXAUCTIONPIKACHU` | HOW MUCH WIL LOGAN PAULS 1997 Illustrator Pikachu BE  | Financials | $720,943 |
-| 629 | `KXINXPOS` | S&P500 Positive this year | Financials | $660,819 |
-| 630 | `KXBTCVSGOLD` | BTC vs Gold | Financials | $512,432 |
-| 631 | `KXNASDAQ100Z` | Nasdaq up | Financials | $404,011 |
-| 632 | `KXSP500ADDQ` | Quarterly which companies will be added to Sp500  | Financials | $312,028 |
-| 633 | `KXNFLXINCREASE` | Netflix Price Increase | Financials | $254,194 |
-| 634 | `KXINXMINY` | S&P 500 max yearly | Financials | $249,986 |
-| 635 | `KXEURO` | EURO/USD exchange rate | Financials | $158,652 |
-| 636 | `KXTNOTE` | Treasury yield 10Y | Financials | $151,663 |
-| 637 | `KXGBP` | British Pound/US Dollar exchange rate  | Financials | $125,566 |
-| 638 | `KXEUROIMF` | EUR/USD | Financials | $119,913 |
-| 639 | `KXEURUSDMAX` | EUR/USD yearly high | Financials | $63,239 |
-| 640 | `KXPRICEINCREASESPOTIFYFAMILY` | SPOTIFY FAMILY PLAN INCREASE | Financials | $51,494 |
-| 641 | `KXTREASURYMAX5` | Treasury 5% | Financials | $50,627 |
-| 642 | `KXGOLD` | Price of gold | Financials | $46,488 |
-| 643 | `KXOAIANTH` | Open AI vs Anthropic | Financials | $44,794 |
-| 644 | `KXWTIMIN` | WTI oil yearly low | Financials | $44,488 |
-| 645 | `KXUSDX` | De-dollarization: USD index yearly low | Financials | $40,245 |
-| 646 | `KXINXHIGH` | When will the S&P hit an all time high | Financials | $38,628 |
-| 647 | `KXUSDARSMAX` | USD/ARS yearly high | Financials | $36,886 |
-| 648 | `KXCREDITC` | SOFR spike: Credit crunch | Financials | $35,658 |
-| 649 | `KXPRICEINCREASEAZICEDTEA` | ARIZONA ICED TEA PRICE INCREASE | Financials | $34,705 |
-| 650 | `KXEURUSDMIN` | EUR/USD yearly low | Financials | $27,752 |
-| 651 | `KXUSDJPYMAX` | USD/JPY yearly high | Financials | $21,475 |
-| 652 | `KXNASDAQ100MAXY` | Nasdaq max yearly | Financials | $18,951 |
-| 653 | `KXUSDMEXMAX` | USD/MEX maximum | Financials | $18,629 |
-| 654 | `KXSTABLECOINGENIUS` | Stablecoins approved | Financials | $15,934 |
-| 655 | `KXAUCTIONLIGHTSABER` | Vader lightsaber | Financials | $14,492 |
-| 656 | `KXTHIELCHARTER` | Thiel charter | Financials | $12,066 |
-| 657 | `KXACQUIRECOINBASE` | Will Coinbase announce another acquisition in 2025? | Financials | $11,477 |
-| 658 | `KXRAMPBREX` | Ramp V Brex | Financials | $11,112 |
-| 659 | `KXSTABLETOTAL` | USDC USDT total | Financials | $10,968 |
-| 660 | `KXPRICEINCREASESPOTIFY` | PRICE INCREASE SPOTIFY | Financials | $10,941 |
-| 661 | `KXNASDAQ100POS` | NASDAQ100 Positive | Financials | $10,875 |
-| 662 | `KXXINDIA` | INDIAN ACCOUNTS X | Financials | $10,846 |
-| 663 | `KXPELOSINEWSTOCK` | Pelosi new stock | Financials | $10,844 |
-| 664 | `KXACUIREPERPLEXITY` | Will Perplexity be acquired this year? | Financials | $10,225 |
-| 665 | `KXPRICEINCREASESWITCH2` | Will the Ninetendo Switch Price increase? | Financials | $9,911 |
-| 666 | `KX10Y3M` | Treasury spread 10Y-3M | Financials | $9,290 |
-| 667 | `KXPRICEINCREASESPOTIFYDUO` | SPOTIFY DUO PLAN INCREASE? | Financials | $8,902 |
-| 668 | `KXNJDRONES` | NJ DRONES | Financials | $7,746 |
-| 669 | `KXUSDRUBMAX` | USD/RUB yearly high | Financials | $7,101 |
-| 670 | `KX10Y2Y` | Treasury spread 10Y-2Y | Financials | $7,073 |
-| 671 | `KXGOLDMON` | Gold Monthly Price | Financials | $6,356 |
-| 672 | `KXNASDAQ100MINY` | NASDAQ100 Min | Financials | $6,144 |
-| 673 | `KXPRICEINCREASEAPPLEMUSIC` | PRICE INCREASE APPLE MUSIC | Financials | $5,618 |
-| 674 | `KXACQUIREHAPPYDAD` | Will Happy Dad be acquired this year? | Financials | $5,320 |
-| 675 | `KXUSDCUSDTRATIO` | USDC USDT ratio | Financials | $5,044 |
-| 676 | `KXSHORTPOSITIONACKMAN` | Ackman | Financials | $4,417 |
-| 677 | `KXINXMINW` | SP500 weekly minimum knockout  | Financials | $4,293 |
-| 678 | `KXUSDBRLMAX` | USD/BRL max | Financials | $4,241 |
-| 679 | `KXDEELRIP` | Deel v Rippling | Financials | $4,039 |
-| 680 | `KXINXEU` | S&P up after election | Financials | $3,827 |
-| 681 | `KXEURUSDEOY` | Euro > Dollar | Financials | $3,658 |
-| 682 | `KXACQUIRERIVIAN` | Will Rivian be acquired this year? | Financials | $3,533 |
-| 683 | `KXUSDTWDMAX` | USD/TWD yearly high | Financials | $3,044 |
-| 684 | `KXINXE` | S&P election day | Financials | $2,987 |
-| 685 | `KXACQUIREMISTRALAI` | Who Will Aquire mistrial AI | Financials | $2,556 |
-| 686 | `KXACUIREANTHROPIC` | Will Anthropic be acquired this year? | Financials | $2,374 |
-| 687 | `KXACQUIREPUMPFUN` | Will Pumpfun announce another acquisition in 2025? | Financials | $2,315 |
-| 688 | `KXUSDJPYMIN` | USD/JPY yearly low | Financials | $932 |
-| 689 | `KXTETHERPAUSE` | Tether pause | Financials | $856 |
-| 690 | `KXKLARSTRIP` | Klarna v Stripe | Financials | $707 |
-| 691 | `KXMUSKX` | Musk Manipulating X | Financials | $587 |
-| 692 | `KXPRICEINCREASEUSPSFOREVER` | USPS forever stamp increase | Financials | $142 |
-| 693 | `KXUSDARSMIN` | USD/ARS yearly low | Financials | $136 |
-| 694 | `KXDOLLARFED` | FOMC decision -> EUR/USD | Financials | $98 |
-| 695 | `KXACQUIREAXIOM` | Will any company acquire axiom | Financials | $85 |
-| 696 | `KXACQUIREAIRTABLE` | Will Airtable be acquired this year? | Financials | $79 |
-| 697 | `KXEURUSDE` | EUR/USD election day | Financials | $31 |
-| 698 | `KXWTIEU` | WTI oil up after election | Financials | $30 |
-| 699 | `KXWTIE` | WTI oil election day | Financials | $10 |
-| 700 | `KXUSDJPYE` | USDJPY election day | Financials | $5 |
-| 701 | `KXNASDAQ100EU` | Nasdaq-100 DAY AFTER ELECTION | Financials | $1 |
-| 702 | `KXNASDAQ100E` | Nasdaq-100 election day | Financials | $1 |
-| 703 | `USDARSMAX` | USD/ARS yearly high | Financials | $0 |
-| 704 | `KXEURUSDPARITY` | xyz | Financials | $0 |
-| 705 | `EURUSDH` | EUR/USD over/under | Financials | $0 |
-| 706 | `KXUSDTWDMIN` | U.S. Dollar/Taiwan Dollar exchange rate | Financials | $0 |
-| 707 | `EURUSDMIN` | EUR/USD yearly low | Financials | $0 |
-| 708 | `INXW` | S&P 500 range | Financials | $0 |
-| 709 | `NASDAQ100` | Nasdaq range | Financials | $0 |
-| 710 | `10Y2Y` | Treasury spread 10Y-2Y | Financials | $0 |
-| 711 | `KXNASDAQ100W` | Nasdaq range | Financials | $0 |
-| 712 | `KXINXM` | S&P 500 range | Financials | $0 |
-| 713 | `INXM` | S&P 500 range | Financials | $0 |
-| 714 | `KXPUMPFUN` | Will Pumpfun announce another acquisition in 2025? | Financials | $0 |
-| 715 | `USDARSMIN` | USD/ARS yearly low | Financials | $0 |
-| 716 | `USDRUBMAX` | USD/RUB yearly high | Financials | $0 |
-| 717 | `KXGBPUSDE` | Pound after Election | Financials | $0 |
-| 718 | `KXACQUIREPERPLEXITY` | Will Perplexity be acquired this year? | Financials | $0 |
-| 719 | `EURO` | EURO/USD exchange rate | Financials | $0 |
-| 720 | `NASDAQ100W` | Nasdaq range | Financials | $0 |
-| 721 | `NASDAQ100I` | Nasdaq-100 hourly | Financials | $0 |
-| 722 | `TNOTED` | Treasury 10Y daily yield | Financials | $0 |
-| 723 | `GBPUSD` | GBP/USD over/under | Financials | $0 |
-| 724 | `KXNASDAQ100M` | Nasdaq range | Financials | $0 |
-| 725 | `KXGOLDPRICE` | Gold | Financials | $0 |
-| 726 | `WTIMIN` | WTI oil yearly low | Financials | $0 |
-| 727 | `KXAUDUSDH` | AUD/USD over/under | Financials | $0 |
-| 728 | `USDTWDMAX` | USD/TWD yearly high | Financials | $0 |
-| 729 | `KXINXAB` | S&P 500 close above/below | Financials | $0 |
-| 730 | `KXSPANBERGERFUNDRAISE` | Abigail Spanberger fundraising numbers | Financials | $0 |
-| 731 | `NASDAQ100Y` | Nasdaq yearly range | Financials | $0 |
-| 732 | `USDJPYMIN` | USD/JPY yearly low | Financials | $0 |
-| 733 | `KXUSDJPYEU` | USDJPY day AFTER ELECTION | Financials | $0 |
-| 734 | `GBPUSDH` | GBP/USD over/under | Financials | $0 |
-| 735 | `WTIH` | WTI oil over/under | Financials | $0 |
-| 736 | `TNOTEW` | Treasury 10Y weekly yield | Financials | $0 |
-| 737 | `CREDITC` | SOFR spike: Credit crunch | Financials | $0 |
-| 738 | `KXINXI` | S&P500 hourly | Financials | $0 |
-| 739 | `EUROIMF` | EUR/USD | Financials | $0 |
-| 740 | `KXGBPUSDH` | GBP/USD over/under | Financials | $0 |
-| 741 | `EURUSDMAX` | EUR/USD yearly high | Financials | $0 |
-| 742 | `KXPRICEINCREASEAMUSICFAMILY` | APPLE MUSIC FAMILY SUBSCRIPTION  | Financials | $0 |
-| 743 | `USDJPYH` | USD/JPY daily over/under | Financials | $0 |
-| 744 | `KXINXB` | S&P 500 range | Financials | $0 |
-| 745 | `KXELONDEFUND` | Elon defund | Financials | $0 |
-| 746 | `EURUSDEOY` | Euro > Dollar | Financials | $0 |
-| 747 | `WTIW` | WTI oil weekly range | Financials | $0 |
-| 748 | `KXINXW` | S&P 500 range | Financials | $0 |
-| 749 | `WTIMAX` | WTI oil yearly high | Financials | $0 |
-| 750 | `GBP` | British Pound/US Dollar exchange rate  | Financials | $0 |
-| 751 | `NASDAQ100M` | Nasdaq range | Financials | $0 |
-| 752 | `INXZ` | S&P 500 up | Financials | $0 |
-| 753 | `INXAB` | S&P 500 close above/below | Financials | $0 |
-| 754 | `KXWTIH` | WTI oil over/under | Financials | $0 |
-| 755 | `10Y3M` | Treasury spread 10Y-3M | Financials | $0 |
-| 756 | `AUDUSDH` | AUD/USD over/under | Financials | $0 |
-| 757 | `USDX` | De-dollarization: USD index yearly low | Financials | $0 |
-| 758 | `INX` | S&P 500 range | Financials | $0 |
-| 759 | `USDRUBMIN` | USD/RUB yearly low | Financials | $0 |
-| 760 | `GBPUSDE` | Pound after Election | Financials | $0 |
-| 761 | `KXACQUIRECHROME` | perplexity acquire Chrome | Financials | $0 |
-| 762 | `USDJPY` | USD/JPY daily range | Financials | $0 |
-| 763 | `INXU` | S&P 500 above/below | Financials | $0 |
-| 764 | `KXPRICEINCREASETRAVELERS` | TRAVELERS PRICE INCREASE | Financials | $0 |
-| 765 | `KXACQUIREMISTRAL` | Will Mistral AI be acquired this year? | Financials | $0 |
-| 766 | `KXRIPPLECHARTER` | Ripple charter | Financials | $0 |
-| 767 | `GOLD` | Price of gold | Financials | $0 |
-| 768 | `KXSWITCH2INCREASE` | Switch 2 Price Increase | Financials | $0 |
-| 769 | `DOLLARFED` | FOMC decision -> EUR/USD | Financials | $0 |
-| 770 | `KXGBPUSD` | GBP/USD over/under | Financials | $0 |
-| 771 | `TNOTE` | Treasury yield 10Y | Financials | $0 |
-| 772 | `NASDAQ100Z` | Nasdaq up | Financials | $0 |
-| 773 | `INXB` | S&P 500 range | Financials | $0 |
-| 774 | `INXY` | S&P 500 yearly range | Financials | $0 |
-| 775 | `WTI` | WTI oil daily range | Financials | $0 |
-| 776 | `USDTWDMIN` | U.S. Dollar/Taiwan Dollar exchange rate | Financials | $0 |
-| 777 | `KXPRICEINCREASEAMUSIC` | Apple Music Individual SUBSCRIPTION | Financials | $0 |
-| 778 | `EURUSD` | EUR/USD daily range | Financials | $0 |
-| 779 | `EURUSDPARITY` | xyz | Financials | $0 |
-| 780 | `USDJPYMAX` | USD/JPY yearly high | Financials | $0 |
-| 781 | `INXI` | S&P500 hourly | Financials | $0 |
-| 782 | `KXUSDRUBMIN` | USD/RUB yearly low | Financials | $0 |
-| 783 | `KXTREASURYMAX` | Treasury max value | Financials | $0 |
-| 784 | `NASDAQ100U` | Nasdaq above/below | Financials | $0 |
-| 785 | `KXELECTIONMOVZOHRAN` | Zohran MOV | Elections | $17,309,615 |
-| 786 | `KXELECTIONMOVNJGOV` | NJ Governor Margin of Victory | Elections | $13,432,598 |
-| 787 | `KXPRESPERSON` | Pres person | Elections | $11,656,670 |
-| 788 | `KXPRESROMANIA24` | 2025 Romanian presidential election | Elections | $5,567,445 |
-| 789 | `KXVOTEPERCENTMAMDANI` | mamdani vote percent | Elections | $5,511,432 |
-| 790 | `KXNYCMAYOR2ND` | NYC MAyor  | Elections | $5,152,964 |
-| 791 | `KXELECTIONMOVVAGOV` | virginia margin of victory | Elections | $4,814,953 |
-| 792 | `KXATTYGENVA` | Atty Gen Virginia | Elections | $2,847,040 |
-| 793 | `KXPCTVOTEMAM` | Mamdani Vote | Elections | $2,750,377 |
-| 794 | `KXMAYORSEATTLE` | Seattle Mayoral election | Elections | $2,600,292 |
-| 795 | `KXNJ11SD` | Who will be the Democratic nominee for NJ-11 special? | Elections | $2,250,361 |
-| 796 | `KXNYCMAYORDROUND` | NYC Mayor rounds | Elections | $2,125,738 |
-| 797 | `KXPARTYWINNL` | Netherlands election | Elections | $1,979,060 |
-| 798 | `KXNEXTCANADAPM` | Next Canada PM | Politics | $1,928,432 |
-| 799 | `KXVOTEPERCENTCUOMO` | cuomo vote percent | Elections | $1,858,900 |
-| 800 | `KXVOTEPERCENTSLIWA` | sliwa vote percent | Elections | $1,721,261 |
-| 801 | `KXTN7SMOV` | Margin of victory in the TN-07 Special Election? | Elections | $1,564,809 |
-| 802 | `KXMAYORMINN` | MINNE | Elections | $1,504,148 |
-| 803 | `KXCANLIBSEATS` | Liberal seats in Canada | Elections | $1,286,907 |
-| 804 | `KXMAYORJERSEY` | Jersey City mayoral election | Elections | $1,207,634 |
-| 805 | `KXENDORSECUOMO` | CUOMO | Elections | $1,006,483 |
-| 806 | `KXMAYORMIA` | Miami election | Elections | $985,950 |
-| 807 | `KXCANCONSEATS` | Conservative seats in Canada | Elections | $909,154 |
-| 808 | `KXENDORSEMAM` | Mamdani | Elections | $862,484 |
-| 809 | `KXHOUSEEPSTEIN` | How many House votes will the bill to unseal Epstein records receive? | Politics | $859,885 |
-| 810 | `KXCLOSEST2025` | Closest race of 2025 | Elections | $776,198 |
-| 811 | `KXMAMDANINYC` | Will Mamdani outperform the polls in the 2025 NYC Mayoral race | Elections | $753,112 |
-| 812 | `KXREDISTRICTING` | Redistricting | Elections | $672,606 |
-| 813 | `KXGOVTFUNDSVOTES` | Government funding bill Senate votes | Politics | $624,958 |
-| 814 | `KXVPRESNOMD` | Democratic VP nom | Elections | $572,269 |
-| 815 | `KXAFDPERCENT` | AFD % | Elections | $555,637 |
-| 816 | `KXVPRESNOMR` | Republican VP nom | Elections | $542,309 |
-| 817 | `KXARGENTINAPARTY` | Argentina legislative election | Elections | $486,471 |
-| 818 | `KXUSELECTIONTEXAS18` | Which Party will win the Special Election for Texas's 18th? | Elections | $473,839 |
-| 819 | `KXPRESIRELAND` | Irish presidential election | Elections | $423,096 |
-| 820 | `KXBRPRES` | Brazil Presidency | Elections | $418,099 |
-| 821 | `KXSHERRILLOUTPERFORMRCP` | Mikie Sherrill outperform RCP margin in 2025 NJ Gov | Elections | $413,933 |
-| 822 | `KXVAAGMOV` | VA AG MOV | Elections | $408,876 |
-| 823 | `KXGA14S` | Who will win the GA-14 special election? | Elections | $396,810 |
-| 824 | `KXMAMDANIREDSTRICT` | largest margin of vicotry mamdani and california redistricting | Elections | $356,133 |
-| 825 | `KXHOUSEEPSTEIN2` | How many House votes will the bill to unseal Epstein records receive? (Higher strikes) | Politics | $337,755 |
-| 826 | `KXNYCTURNOUT` | NYC mayoral turnout | Elections | $325,899 |
-| 827 | `KXSENATEEPSTEIN` | How many Senate votes will the bill to unseal Epstein records receive? | Politics | $316,469 |
-| 828 | `KXELECTIONMOVAZ7S` | az-7 special election margin of victory | Elections | $314,000 |
-| 829 | `KXNJ11SPECIAL2ND` | Who will finish second in the NJ-11 Dem special primary? | Elections | $308,080 |
-| 830 | `KXEPSTEINNO` | Will anyone vote No on releasing the Epstein files? | Politics | $300,319 |
-| 831 | `KXBOLIVIARUNOFFMOV` | Bolivia Runoff Margin of Victory | Elections | $279,133 |
-| 832 | `KXHOUSEGOVTFUND` | How many votes will the next government funding bill in the House receive? | Politics | $278,601 |
-| 833 | `KXMOVNJ11SPECIALD` | NJ-11 Democratic primary MOV? | Elections | $273,062 |
-| 834 | `KXUSELECTIONARIZONA7` | Which Party will win the Special Election for Arizona's 7th? | Elections | $264,516 |
-| 835 | `KXNEXTUKPM` | Next UK PM | Politics | $259,867 |
-| 836 | `KXMAYORLA` | LA | Elections | $254,808 |
-| 837 | `KXLDPSEATS` | How many seats will the LDP win in the Japanese snap election? | Elections | $251,471 |
-| 838 | `KXBOLIVIAFIRSTROUND` | Bolivia first round winner | Elections | $241,121 |
-| 839 | `KXHOUSERACE` | House Race Winner? | Elections | $236,507 |
-| 840 | `KXCHILEANRUNOFF` | Margin of victory in the Chilean presidential runoff? | Elections | $223,636 |
-| 841 | `KXSPANBERGEROUTPERFORMRCP` | Abigail Spanberger outperform RCP margin in 2025 VA Gov | Elections | $211,300 |
-| 842 | `KXCAN2ND` | Canada 2nd place | Elections | $208,117 |
-| 843 | `KXLTGOVVA` | Lt. Gov in Virginia | Elections | $187,647 |
-| 844 | `KXMAMDANISHERRILL` | Mamdani Sherrill largest MOV | Elections | $176,751 |
-| 845 | `KXPCTVOTEMAMR1` | Mamdani | Elections | $174,446 |
-| 846 | `KXAPCALLSNYC` | When will AP call the NYC mayoral election | Elections | $165,849 |
-| 847 | `KXNY12D` | ny 12 democratic primary | Elections | $157,457 |
-| 848 | `KXPROP50COUNTIES` | Which counties will vote for Proposition 50? | Elections | $147,726 |
-| 849 | `KXELECTIONMOVMIAMI` | Margin of victory for Eileen Higgins in the Miami Mayoral Runoff? | Elections | $146,678 |
-| 850 | `KXTN07SPECIAL` | Total turnout in TN-07 special election | Elections | $144,459 |
-| 851 | `KXSHERRILLCOUNTIES` | Mikie Sherrill Counties won | Elections | $141,572 |
-| 852 | `KXNEXTHUNGARYPM` | next prime minister of hungary | Elections | $138,179 |
-| 853 | `KXRECALLNEWSOM` | Newsom recall | Elections | $131,442 |
-| 854 | `KXTX18SPECIAL` | TX-18 special election | Elections | $128,193 |
-| 855 | `KXCAPROP50OUTPERFORMVOTEHUB` | Yes on CA prop 50 outperform VoteHub margin in 2025  | Elections | $127,904 |
-| 856 | `KXLTGOVVANOMD` | Virginia Governor Democratic nominee | Elections | $119,135 |
-| 857 | `KXKY4R` | Kentucky 4 Republican primary | Elections | $118,350 |
-| 858 | `KXDUTCHSECOND` | 2nd place Dutch election | Elections | $117,289 |
-| 859 | `KXTRUMPENDORSE` | who will Trump endorse | Elections | $110,792 |
-| 860 | `KXRECNCSVOTE` | Senate reconciliation | Politics | $109,716 |
-| 861 | `KXLAKENRILEY` | Laken Riley bill | Politics | $108,014 |
-| 862 | `KXMAYOROAKLAND` | Oakland mayoral election | Elections | $107,828 |
-| 863 | `KXCANNDPSEATS` | NDP seats in Canada | Elections | $106,027 |
-| 864 | `KXRECALLBASS` | Bass recall | Elections | $100,614 |
-| 865 | `KXGERMANGOVT` | Length of German coalition-building | Elections | $99,903 |
-| 866 | `KXJPHOCSECOND` | Japan House of Councillors | Elections | $98,669 |
-| 867 | `KXVIOLENCEW` | Violence Against Women by Illegal Aliens Act | Politics | $98,356 |
-| 868 | `KXHONDURASPRESIDENTMOV` | Honduras president margin of victory | Elections | $93,828 |
-| 869 | `KXGOVCAPRIMARY` | CA primary | Elections | $92,655 |
-| 870 | `KXACAHOUSEVOTE` | How many House votes to extend ACA subsidies? | Politics | $92,418 |
-| 871 | `KXMAYORNOLA` | NOLA | Elections | $86,267 |
-| 872 | `KXMOVVANJGOV` | larger MOV VA vs NJ governor | Elections | $84,930 |
-| 873 | `KXJERSEYCITMOV` | Margin of victory in the Jersey City Mayoral Runoff? | Elections | $81,698 |
-| 874 | `KXMOVPORTUGALPRESRUNOFF` | Margin of victory in Portugal presidential runoff? | Elections | $81,661 |
-| 875 | `KXCANBQSEATS` | BQ seats in Canada | Elections | $78,990 |
-| 876 | `KXIL9D` | IL 9 Democratic primary | Elections | $78,783 |
-| 877 | `KXENDORSEADAMS` | ADAMS | Elections | $78,203 |
-| 878 | `KXENDORSECUOMOADAMS` | CUOMO ENDORSE ADAMS | Elections | $78,016 |
-| 879 | `KXROMANIATOP` | Romania first-round winner | Elections | $74,784 |
-| 880 | `KXELECTIONMOVABQ` | Margin of victory for Tim Keller in the Albuquerque Mayoral Runoff? | Elections | $72,298 |
-| 881 | `KXSEATTLEMAYORMOV` | Margin of victory in the Seattle mayoral election? | Elections | $69,884 |
-| 882 | `KXMAYORALBUQ` | Albuquerque mayoral election | Elections | $69,815 |
-| 883 | `KXNEXTDUTCHPM` | next Dutch prime minister | Elections | $68,695 |
-| 884 | `KXCDUPERCENT` | CDU % | Elections | $66,495 |
-| 885 | `KXNYCMAYORTHIRDPLACE` | NYC mayor democratic primary third place | Elections | $61,259 |
-| 886 | `KXRECNCHVOTE` | House reconciliation | Politics | $60,851 |
-| 887 | `KXNY10D` | NY-10 democratic nominee | Elections | $60,844 |
-| 888 | `KXNYCMAYOR` | NYC Mayor borough margin | Elections | $60,358 |
-| 889 | `KXMAYORBOSTON` | Boston Mayoral election | Elections | $59,824 |
-| 890 | `KXBUCHARESTMAYOR3RD` | 3rd place in Bucharest mayoral election? | Elections | $59,148 |
-| 891 | `KXCANGREENSEATS` | Green seats in Canada | Elections | $57,072 |
-| 892 | `KXMOVCOSTARICAPRESR1` | Margin of victory in the first round of the Costa Rica presidential election? | Elections | $54,962 |
-| 893 | `KXUKPARTY` | UK elections | Elections | $54,827 |
-| 894 | `KXJPNPM` | Japan PM | Elections | $54,820 |
-| 895 | `KXPALESTINE` | Trump Palestine recognition | Elections | $53,522 |
-| 896 | `KXELECTIONMOVVA11` | special va 11 margin of victory | Elections | $52,049 |
-| 897 | `KXSECONDPLACENJGOVDNOM` | Second place New Jersey governor | Elections | $51,994 |
-| 898 | `KXDUTCHGAIN` | Dutch parties that gain seats | Elections | $51,061 |
-| 899 | `KXMOVVALTAG` | largest mov virginia ag vs lt gov | Elections | $49,745 |
-| 900 | `KXUKELECTIONCALL` | New UK election called | Elections | $49,625 |
-| 901 | `KXSPDPERCENT` | SDP % | Elections | $48,003 |
-| 902 | `KXCOSTARICAPRES1ROUND` | Will anyone win in the first round of the Costa Rican presidential election? | Elections | $46,896 |
-| 903 | `KXPRESELECTIONOCCUR` | 2028 election occurring  | Elections | $43,271 |
-| 904 | `KXPORTGUAL1R2ND` | Second place in the first round of the Portugal Presidential election? | Elections | $41,561 |
-| 905 | `KXCA11PRIMARY` | CA-11 primary | Elections | $40,773 |
-| 906 | `KXLTGOVVANOMR` | Lt. Virginia Governor Republican nominee | Elections | $39,626 |
-| 907 | `KXTRUMPGA14` | Will Trump endorse a candidate other than Marjorie Taylor Greene in the GA-14 Republican primary? | Elections | $39,158 |
-| 908 | `KXFRENCHPRES` | French presidential election | Elections | $38,551 |
-| 909 | `KXAPCALLNJGOV` | AP calls New Jersey governor | Elections | $38,382 |
-| 910 | `KXMAYORSANANT` | Mayor San Antonio election | Elections | $35,809 |
-| 911 | `KXLINKEPERCENT` | Die Linke % | Elections | $35,123 |
-| 912 | `KXVAHOUSE` | Virginia House of Delegates election | Elections | $33,232 |
-| 913 | `KXNEXTJPNPM` | Next Japan PM | Politics | $33,024 |
-| 914 | `KXCHILE1ROUND` | chile first round | Elections | $32,392 |
-| 915 | `KXGOVTFUNDHVOTES` | Government funding bill House votes | Politics | $32,043 |
-| 916 | `KXTX33D` | Who will be the Democratic nominee for TX-33? | Elections | $31,667 |
-| 917 | `KXCABILLIONAIRETAX` | Will California have a billionaire tax referendum | Elections | $30,644 |
-| 918 | `KXNY8D` | democratic nominee for ny-8 | Elections | $30,043 |
-| 919 | `KXKINGEXEC` | King county executive | Elections | $29,447 |
-| 920 | `KXJAPANHOUSEGAIN` | Which parties will gain seats in the 2026 Japanese House of Representatives election? | Elections | $29,393 |
-| 921 | `KXCOMPTROLLER` | NYC comptroller | Elections | $29,091 |
-| 922 | `KXGOVCAPRIMARYPARTY` | Who will advance from the CA Governor primary? (Party) | Elections | $28,987 |
-| 923 | `KXMOVTX18SPECIAL` | TX-18 special election runoff margin of victory | Elections | $28,872 |
-| 924 | `KXNEXTIRANLEADER` | Who will be Khamenei's successor? | Politics | $28,686 |
-| 925 | `KXCLOSESTSENATE` | closest senate race | Elections | $28,320 |
-| 926 | `KXNY7D` | Who will be the Democratic nominee for NY-7? | Elections | $28,285 |
-| 927 | `KXELECTCONCEDE` | Who will concede on election night | Elections | $27,472 |
-| 928 | `KXTX18D` | Democratic nominee in TX-18? | Elections | $27,129 |
-| 929 | `KXTXPRIMARY` | Texas Primary Winners | Elections | $26,955 |
-| 930 | `KXMAYORDETROIT` | Mayoral Detroit election | Elections | $26,716 |
-| 931 | `KXBUDGETRESH` | House budget resolution | Politics | $25,821 |
-| 932 | `KXGERMANPARTIES` | German parties in parliament | Elections | $25,345 |
-| 933 | `KXMAYORATLANTA` | Atlanta mayoral election | Elections | $23,959 |
-| 934 | `KXVIRGINIAHOUSEDEMS` | Virginia House of Delegates Dems seats | Elections | $23,585 |
-| 935 | `KXPORTUGALPRESROUND1` | Vote share in Portugal presidential election first round | Elections | $23,422 |
-| 936 | `KXMAYOROMAHA` | Omaha mayoral election | Elections | $23,276 |
-| 937 | `KXGERMANPARTYSEATS` | German party seats | Elections | $21,426 |
-| 938 | `KXBERNIEENDORSE` | who will bernie sanders endorse | Elections | $21,129 |
-| 939 | `KXLOSEREELECTIONRSEN` | Republican senators losing re-election | Elections | $21,044 |
-| 940 | `KXTXRSEN2ND` | 2nd place in first round of Texas Senate Republican primary? | Elections | $20,901 |
-| 941 | `KXTXRSEN3RD` | 3rd place in first round of Texas Senate Republican primary? | Elections | $20,831 |
-| 942 | `KXMAYORCHI` | chicago | Elections | $20,689 |
-| 943 | `KXJAPANLOWERHOUSEMAJORITY` | Will any party win a majority in the Japan House of Representatives? | Elections | $20,338 |
-| 944 | `KXTX18SPECIALTURNOUT` | Raw turnout in the TX-18 special election | Elections | $20,279 |
-| 945 | `KXLOSEREELECTIONDSEN` | Democratic senators losing re-election | Elections | $20,249 |
-| 946 | `KXAPCALLVAGOV` | Associated Press calls VA gubernatorial race | Elections | $19,938 |
-| 947 | `KXHILLARYCONTEMPTVOTE` | How many House votes finding Hillary Clinton in contempt of Congress? | Politics | $19,005 |
-| 948 | `KXCHILEROUNDONESECOND` | 2nd place Chile presidential election | Elections | $18,987 |
-| 949 | `KXCLOSESTGOVERNOR` | closest governor's race | Elections | $18,916 |
-| 950 | `KXPCTVOTECUOR1` | CUOMO | Elections | $18,293 |
-| 951 | `KXENDORSEADAMSACKMAN` | ACKMAN and ADAMS | Elections | $18,228 |
-| 952 | `KXCA40PRIMARYADVANCE` | Who will advance from the CA-40 primary? | Elections | $17,311 |
-| 953 | `KXCOSTARICALAMAJORITY` | Will any party win a majority in the Costa Rica Legislative Assembly? | Elections | $16,278 |
-| 954 | `KXBUCHARESTMAYOR2ND` | 2nd place in Bucharest mayoral election | Elections | $16,187 |
-| 955 | `KXARGENTINAMOSTGAIN` | argentina most gained seats | Elections | $16,124 |
-| 956 | `KXVENTRURAVOTE` | What % of the vote will Andre Ventrura receive in the first round? | Elections | $16,035 |
-| 957 | `KXNEXTISRAELPM` | Next Prime Minister of Israel | Politics | $15,795 |
-| 958 | `KXNLDTHIRD` | Netherlands 3rd place | Elections | $15,675 |
-| 959 | `KXBOLIVIAFIRSTROUNDMOV` | Bolivia first round margin of victory | Elections | $15,638 |
-| 960 | `KXMAYORFORTW` | Fort Worth mayoral election | Elections | $15,558 |
-| 961 | `KXBRUVSEAT` | BRUV seated in parliament | Elections | $15,400 |
-| 962 | `KXELECTIONMOVIRELAND` | Irish president margin of victory | Elections | $14,840 |
-| 963 | `KXMOVPORTUGALPRESR1` | MOV in the first round of the Portugal Presidential election R1 | Elections | $14,635 |
-| 964 | `KXELECTIONMOVNJGOVD` | Mikie Sherill MOV | Elections | $14,192 |
-| 965 | `KXNYCCOUNCIL30` | NYC City Council District 30 | Politics | $14,095 |
-| 966 | `KXTX23R` | TX-23 Republican nominee? | Elections | $13,755 |
-| 967 | `KXDCMAYORD` | Who will win the Democratic primary for DC Mayor? | Elections | $13,356 |
-| 968 | `KXENDORSEFISHBACK` | Who will endorse James Fishback? | Elections | $13,310 |
-| 969 | `KXDECLAREPRESFIRSTD` | Who will be the first Democrat listed to announce a 2028 presidential run? | Elections | $13,186 |
-| 970 | `KXGREENPERCENT` | Green % | Elections | $13,022 |
-| 971 | `KXPUBLICADV` | NYC public advocate | Elections | $12,903 |
-| 972 | `KXTHAIPARLIAMENT2ND` | Who will place second in the 2026 Thailand parliamentary election? | Elections | $12,828 |
-| 973 | `KXTX28D` | TX-28 Democratic nomination | Elections | $12,730 |
-| 974 | `KXOH9R` | OH-09 Republican nominee | Elections | $12,638 |
-| 975 | `KXTXHOUSEDEMSEATS` | How many Texas House seats will Democrats win? | Elections | $12,531 |
-| 976 | `KXMAINE94` | Maine 94th House District winner? | Elections | $12,499 |
-| 977 | `KXBILLCONTEMPTVOTE` | How many House votes finding Bill Clinton in contempt of Congress? | Politics | $12,066 |
-| 978 | `KXTHAILANDPM` | Who will be the next Prime Minister of Thailand? | Elections | $11,954 |
-| 979 | `KXTX21R` | TX 21 Republican primary | Elections | $11,715 |
-| 980 | `KXVOTEPERCENTPVV` | Vote percent PVV | Elections | $11,355 |
-| 981 | `KXBALLOTAMERICAPARTY` | America Party on the ballot | Elections | $11,334 |
-| 982 | `KXME02D` | ME-02 democratic primary | Elections | $11,030 |
-| 983 | `KXNOLA1ROUND` | will new orleans mayoral go to runoff | Elections | $10,912 |
-| 984 | `KXMURKOWSKIENDORSE` | Who will Murkowski endorse in Alaska senate? | Elections | $10,767 |
-| 985 | `KXIRISH1ROUND` | Ireland 1 round election | Elections | $10,690 |
-| 986 | `KXNJASSEMBLYSEATSD` | New Jersey general assembly democrat seats | Elections | $10,376 |
-| 987 | `KXLABOURPOLL` | Labour polling | Elections | $10,242 |
-| 988 | `KXNEXTCZECHRPM` | Next Czech prime minister | Elections | $10,215 |
-| 989 | `KXNYCCOUNCIL13` | NYC City Council District 13 | Politics | $9,934 |
-| 990 | `KXNYCCOUNCIL21` | NYC City Council District 21 | Politics | $9,890 |
-| 991 | `KXVAHOD1` | Virginia House of Delegates | Elections | $9,725 |
-| 992 | `KXVOTEPERCENTNJGOVR` | Jack Ciattarelli | Elections | $9,637 |
-| 993 | `KXTX02R` | Who will be the GOP nominee in TX-02? | Elections | $9,467 |
-| 994 | `KXGOVAKPRIMARY` | AK primary | Elections | $9,425 |
-| 995 | `KXMENDESVOTE` | What % of the vote will Luis Marques Mendes receive in the first round? | Elections | $9,316 |
-| 996 | `KXMOLDOVAPAS` | Moldova PAS seats won | Elections | $9,130 |
-| 997 | `KXNEXTPRESSEC` | Who will be Trump's next Press Secretary? | Politics | $9,092 |
-| 998 | `KXUT1D` | Who will be the Democratic nominee for UT-1? | Elections | $8,944 |
-| 999 | `KXNEXTTONGAPM` | Tonga | Politics | $8,874 |
-| 1000 | `KXFENT` | Halt Fentanyl Act | Politics | $8,873 |
-| 1001 | `KXAPCALLVAAG` | When will the AP call the Virginia attorney general race | Elections | $8,749 |
-| 1002 | `KXAZ01R` | AZ-01 republican nominee | Elections | $8,699 |
-| 1003 | `KXATTYGENMN` | AG race MN | Elections | $8,581 |
-| 1004 | `KXTXSENDPRIMARYMOV` | Margin of victory in the first round of the Texas Senate Democratic primary? | Elections | $8,501 |
-| 1005 | `KXNLDFOURTH` | Netherlands 4th place | Elections | $8,425 |
-| 1006 | `KXCANPPCSEATS` | PPC seats in Canada | Elections | $7,725 |
-| 1007 | `KXJAPAN3RD` | Who will place 3rd in the Japan snap election? | Elections | $7,457 |
-| 1008 | `KXMOLDOVAMAJORITY` | party win moldova majority | Elections | $7,175 |
-| 1009 | `KXTX31R` | TX-31 Republican primary winner | Elections | $6,800 |
-| 1010 | `KXMA6D` | Massachusetts 6 Democratic primary | Elections | $6,708 |
-| 1011 | `KXBENINUPR` | Benin Progressive Union seats won | Elections | $6,438 |
-| 1012 | `KXFL19R` | FL 19 Republican primary | Elections | $6,101 |
-| 1013 | `KXNC01R` | Who will be the GOP nominee for NC-01? | Elections | $5,952 |
-| 1014 | `KXABBOTTGOPVOTE` | What % of the vote will Greg Abbott receive in the Texas GOP primary? | Elections | $5,866 |
-| 1015 | `KXCDASEATS` | CDA number of seats | Elections | $5,855 |
-| 1016 | `KXNY15D` | Who will be the Democratic nominee for NY-15? | Elections | $5,664 |
-| 1017 | `KXNE2R` | NE 2 Republican primary | Elections | $5,558 |
-| 1018 | `KXNC04D` | Who will be the Democratic nominee for NC-04? | Elections | $5,553 |
-| 1019 | `KXCONGRESSTARIFFCOUNT` | How many Senators will vote for the Cantwell-Grassley Trade Review Act of 2025? | Politics | $5,493 |
-| 1020 | `KXARGENTINAHOUSETHIRD` | Argentina house of deputies third place | Elections | $5,366 |
-| 1021 | `KXSENATEEPSTEINH` | How many Senate votes will the bill to unseal Epstein records receive? (Higher strikes) | Politics | $5,000 |
-| 1022 | `KXNY17D` | ny-17 democratic nominee | Elections | $4,847 |
-| 1023 | `KXMO01D` | MO-01 democratic nominee | Elections | $4,820 |
-| 1024 | `KXGA14R` | Who will be the Republican nominee for GA-14? | Elections | $4,795 |
-| 1025 | `KXVAHOUSEDEM` | How many Virginia House seats will Democrats win? | Elections | $4,694 |
-| 1026 | `KXJAPANCRA172SEATS` | Will the CRA win more than 172 seats in Japan? | Elections | $4,670 |
-| 1027 | `KXCA22PRIMARY` | CA 22 primary | Elections | $4,599 |
-| 1028 | `KXARPRIMARY` | Arkansas Primary Winners | Elections | $4,538 |
-| 1029 | `KXCAPCONTROL` | Capital controls | Elections | $4,535 |
-| 1030 | `KXCAGOVPRIMARY1ST` | Who will finish first in the California Governor primary? | Elections | $4,489 |
-| 1031 | `KXIA02R` | IA-02 GOP nominee | Elections | $4,455 |
-| 1032 | `KXATTYGENAZ` | AG race AZ | Elections | $4,336 |
-| 1033 | `KXLOUDOUNMOVVAGOV` |   Loudoun county MOV | Elections | $4,334 |
-| 1034 | `KXCRASEATS` | How many seats will the CRA win in the Japanese snap election? | Elections | $4,201 |
-| 1035 | `KXSLOVENIAPM` | Next Slovenia Prime Minister | Elections | $4,166 |
-| 1036 | `KXPVVSEATS` | PVV number of seats | Elections | $4,150 |
-| 1037 | `KXTX34R` | TX-34 republican nominee | Elections | $4,065 |
-| 1038 | `KXCR` | Next CR bill | Politics | $4,037 |
-| 1039 | `KXPA3D` | PA 3 Democratic primary | Elections | $3,902 |
-| 1040 | `KXWA4PRIMARY` | WA 4 Primary | Elections | $3,755 |
-| 1041 | `KXNY13D` | NY-13 Democratic nominee | Elections | $3,750 |
-| 1042 | `KXVOTEPERCENTANO` | ano czech vote percent | Elections | $3,620 |
-| 1043 | `KXTN7R` | TN 7 R nom | Elections | $3,606 |
-| 1044 | `KXTEXASGOP1ROUND` | Texas GOP primary won in 1 round | Elections | $3,563 |
-| 1045 | `KXLTGOVOKNOMR` | LT Gov Oklahoma Republican nominee | Elections | $3,535 |
-| 1046 | `KXMAYORPITT` | PITT | Elections | $3,487 |
-| 1047 | `KXCHICAGOMAYOR` | Who will win the Chicago Mayoral Election? | Elections | $3,391 |
-| 1048 | `KXSEGUROVOTE` | What % of the vote will António José Seguro receive in the Portuguese presidential first round? | Elections | $3,365 |
-| 1049 | `KXMAYORCHAR` | Charlotte mayor | Elections | $3,345 |
-| 1050 | `KXGORTONDENTON2ND` | Which party will finished second in the Gorton and Denton by election? | Elections | $3,319 |
-| 1051 | `KXCO8D` | Colorado 8 Democratic primary | Elections | $3,276 |
-| 1052 | `KXGA1ROUND` | Which Georgia elections will be won outright? | Elections | $3,261 |
-| 1053 | `KXMALAWI1ROUND` | will malawi go to runoff | Elections | $3,256 |
-| 1054 | `KXNJGA` | New Jersey general election | Elections | $3,199 |
-| 1055 | `KXMAYORWORCESTER` | Worcester mayoral election | Elections | $3,166 |
-| 1056 | `KXNYCCOUNCIL8` | NYC City Council District 8 | Politics | $3,113 |
-| 1057 | `KXNYCCOUNCIL2` | NYC City Council District 2 | Politics | $3,108 |
-| 1058 | `KXAZ5R` | AZ 5 Republican primary | Elections | $3,072 |
-| 1059 | `KXMOVTXSENATEDEMVSGOP` | Larger margin of victory: Texas Dem Senate primary vs Texas GOP Senate primary? | Elections | $2,985 |
-| 1060 | `KXENDORSEBERNIEZOHRAN` | Bernie Zohran | Elections | $2,970 |
-| 1061 | `KXNYCCOUNCIL39` | NYC City Council District 39 | Politics | $2,965 |
-| 1062 | `KXNORWAYRED` | norway red bloc seats | Elections | $2,885 |
-| 1063 | `KXNC11D` | Who will be the Dem nominee in NC-11? | Elections | $2,715 |
-| 1064 | `KXVOTEPERCENTSTAN` | STAN czech vote percent | Elections | $2,610 |
-| 1065 | `KXGASOSR` | Georiga republican secretary of state nominee | Elections | $2,579 |
-| 1066 | `KXNYCCOUNCIL4` | NYC City Council District 4 | Politics | $2,574 |
-| 1067 | `KXMI11D` | MI 11 Democratic primary | Elections | $2,566 |
-| 1068 | `KXMN2D` | MN 2 Democratic primary | Elections | $2,519 |
-| 1069 | `KXNH1D` | New Hampshire 1 Democratic primary | Elections | $2,489 |
-| 1070 | `KXPA07D` | PA-07 Democratic nominee | Elections | $2,447 |
-| 1071 | `KXGROENSEATS` | groen number of seats | Elections | $2,432 |
-| 1072 | `KXMT01D` | MT-01 Democratic nominee | Elections | $2,419 |
-| 1073 | `KXGER2ND` | 2nd place in German election | Elections | $2,405 |
-| 1074 | `KXVOTEPERCENTAUTO` | czech vote percent auto | Elections | $2,339 |
-| 1075 | `KXNCPRIMARY` | North Carolina Primary Winners | Elections | $2,234 |
-| 1076 | `KXNE2D` | NE 2 Democratic primary | Elections | $2,227 |
-| 1077 | `KXLOSEREELECTIONGOV` | governors losing re-election | Elections | $2,213 |
-| 1078 | `KXDCDELD` | Who will win the Democratic primary for DC's House delegate? | Elections | $2,171 |
-| 1079 | `KXVOTEPERCENTSPD` | vote percent spd czech | Elections | $2,067 |
-| 1080 | `KXGA14SPECIAL1ROUND` | Will anyone win the GA-14 Special election outright? | Elections | $2,061 |
-| 1081 | `KXAMERICAPARTY2028` | America party 2028 | Elections | $2,024 |
-| 1082 | `KXNY4R` | ny-4 republic nominee | Elections | $1,962 |
-| 1083 | `KXTXSENRPRIMARYMOV` | Margin of victory in the first round of the Texas Senate Republican primary? | Elections | $1,880 |
-| 1084 | `KXGERMANPARTYSEATSGC` | German party seats, CDU/CSU vs. SPD/Greens | Elections | $1,848 |
-| 1085 | `KXMAYORCLEV` | CLEVELAN | Elections | $1,820 |
-| 1086 | `KXNYCCOUNCIL38` | NYC City Council District 38 | Politics | $1,778 |
-| 1087 | `KXNYCCOUNCIL14` | NYC City Council District 14 | Politics | $1,706 |
-| 1088 | `KXCANADALIBERAL` | Liberals gain majority in Canada | Elections | $1,624 |
-| 1089 | `KXMAYORCIN` | Who will win the Cincinnati Mayoral race? | Elections | $1,502 |
-| 1090 | `KXVOTEPERCENTNOKRF` | norway christian democratic party percent | Elections | $1,500 |
-| 1091 | `KXMOLDOVABEP` | Moldova BEP seats won | Elections | $1,472 |
-| 1092 | `KXAZ01D` | Who will be the Dem nominee in AZ-01? | Elections | $1,410 |
-| 1093 | `KXATTYGENIL` | AG race IL | Elections | $1,368 |
-| 1094 | `KXTXSENATEGOPTURNOUT` | Voter turnout in the Texas Senate Republican primary? | Elections | $1,354 |
-| 1095 | `KXMD06D` | Who will be the Democratic nominee for MD-06? | Elections | $1,345 |
-| 1096 | `KXTEXASDEM1ROUND` | Texas Dem Senate primary first round | Elections | $1,333 |
-| 1097 | `KXVOTEPERCENTNOLABOUR` | Norwegian election Labour vote percent | Elections | $1,316 |
-| 1098 | `KXATTYGENTX` | AG race TX | Elections | $1,256 |
-| 1099 | `KXVA2D` | Who will be the Democratic nominee for VA-2? | Elections | $1,172 |
-| 1100 | `KXMI13D` | MI-13 Democratic nominee | Elections | $1,167 |
-| 1101 | `KXCA04PRIMARY` | CA-04 primary | Elections | $1,127 |
-| 1102 | `KXJAPAN2ND` | Who will place 2nd in the Japan snap election? | Elections | $1,091 |
-| 1103 | `KXTXSENATEDEMTURNOUT` | Voter turnout in the Texas Senate Democratic primary? | Elections | $1,061 |
-| 1104 | `KXNYCBRONXPRES` | NYC Bronx president | Elections | $1,047 |
-| 1105 | `KXLOSEMAJORITY` | Will Republicans lose control of the House? | Elections | $1,031 |
-| 1106 | `KXATTYGENAR` | AG race AR | Elections | $1,016 |
-| 1107 | `KXCZECHTURNOUT` | Czech turnout election | Elections | $994 |
-| 1108 | `KXMOVWISUPREMECOURT` | Wisconsin Supreme Court election margin of victory? | Elections | $938 |
-| 1109 | `KXNORWAYCON` | Norway conservative party seats | Elections | $932 |
-| 1110 | `KXUNDOTARIFFCOUNT` | Senate votes on rolling back tariff | Politics | $891 |
-| 1111 | `KXVOTEPERCENTCOTTONGOP` | Tom Cotton percent of vote in the Arkansas GOP primary? | Elections | $879 |
-| 1112 | `KXNORWAYFOURTH` | fourth place norway election | Elections | $868 |
-| 1113 | `KXSECSTATEAZ` | AZ Sec State | Elections | $848 |
-| 1114 | `KXNORWAYSECOND` | norway second seats | Elections | $820 |
-| 1115 | `KXNYCCOUNCIL1` | NYC City Council District 1 | Politics | $806 |
-| 1116 | `KXVOTEPERCENTNOLIB` | liberal party norway percent | Elections | $800 |
-| 1117 | `KXNJ07D` | Democratic nominee for NJ-07? | Elections | $790 |
-| 1118 | `KXATTYGENGA` | AG race GA | Elections | $741 |
-| 1119 | `KXSECSTATEWI` | WI Sec State | Elections | $733 |
-| 1120 | `KXNORWAYLABOUR` | Norway labour party seats | Elections | $714 |
-| 1121 | `KXNORWAYPF` | Norway patient focus seat | Elections | $704 |
-| 1122 | `KXNYCCOUNCIL17` | NYC City Council District 17 | Politics | $694 |
-| 1123 | `KXMSPRIMARY` | Mississippi Primary Winners | Elections | $686 |
-| 1124 | `KXSECSTATENV` | NV Sec State | Elections | $674 |
-| 1125 | `KXATTYGENID` | AG race ID | Elections | $630 |
-| 1126 | `KXHI01D` | Democratic nominee in HI-01? | Elections | $628 |
-| 1127 | `KXSC01D` | SC-01 Democratic nominee? | Elections | $626 |
-| 1128 | `KXATTYGENNM` | AG race NM | Elections | $626 |
-| 1129 | `KXVOTEPERCENTNOFRP` | vote percent FRP norway | Elections | $602 |
-| 1130 | `KXFL6R` | Florida's 6th House Republican nomination | Elections | $600 |
-| 1131 | `KXATTYGENOK` | AG race OK | Elections | $597 |
-| 1132 | `KXATTYGENNV` | AG race NV | Elections | $563 |
-| 1133 | `KXFL6D` | Florida's 6th House Democratic nomination | Elections | $552 |
-| 1134 | `KXGREECEPRES` | Greek presidential election | Elections | $550 |
-| 1135 | `KXATTYGENCT` | AG race CT | Elections | $531 |
-| 1136 | `KXSECSTATEGA` | GA Sec State | Elections | $518 |
-| 1137 | `KXATTYGENOH` | AG race OH | Elections | $515 |
-| 1138 | `KXLTGOVTX` | Who will win the Lieutenant Governor election in Texas? | Elections | $508 |
-| 1139 | `KXSC01R` | SC-01 Republican nominee? | Elections | $495 |
-| 1140 | `KXVOTEPERCENTCZECHSPOLU` | SPOLU czech election percent | Elections | $482 |
-| 1141 | `KXFL1D` | Florida's 1st House Democratic nomination | Elections | $469 |
-| 1142 | `KXATTYGENNY` | AG race NY | Elections | $427 |
-| 1143 | `KXATTYGENIA` | AG race IA | Elections | $411 |
-| 1144 | `KXVOTEPERCENTNOMDG` | green party percent vote norway | Elections | $400 |
-| 1145 | `KXATTYGENNE` | AG race Nebraska | Elections | $397 |
-| 1146 | `KXLIBERALPOLL` | LIberals fall below NDP | Elections | $395 |
-| 1147 | `KXATTYGENKS` | AG race KS | Elections | $388 |
-| 1148 | `KXATTYGENSC` | AG race SC | Elections | $371 |
-| 1149 | `KXATTYGENMI` | AG race MI | Elections | $365 |
-| 1150 | `KXVOTEPERCENTPIRATES` | pirates czech vote percent | Elections | $305 |
-| 1151 | `KXANNARBORMAYORD` | Ann Arbor Democratic Mayoral Primary Winner? | Elections | $303 |
-| 1152 | `KXIA03D` | IA-03 Democratic nominee | Elections | $300 |
-| 1153 | `KXATTYGENND` | AG race ND | Elections | $294 |
-| 1154 | `KXMA05D` | MA-05 Democratic nominee | Elections | $284 |
-| 1155 | `KXATTYGENDE` | AG race DE | Elections | $264 |
-| 1156 | `KXSECSTATEOH` | OH Sec State | Elections | $257 |
-| 1157 | `KXATTYGENMA` | AG race MA | Elections | $220 |
-| 1158 | `KXBRAZILPRES1R` | Will anyone win outright in the Brazil presidential election? | Elections | $186 |
-| 1159 | `KXCOMPTROLLERNOMILD` | Illinois Democratic Comptroller nominee? | Elections | $180 |
-| 1160 | `KXATTYGENFL` | AG race FL | Elections | $176 |
-| 1161 | `KXLTGOVGA` | Georgia Lieutenant Governor winner? | Elections | $166 |
-| 1162 | `KXATTYGENWI` | AG race WI | Elections | $155 |
-| 1163 | `KXATTYGENCO` | AG race CO | Elections | $143 |
-| 1164 | `KXATTYGENRI` | AG race RI | Elections | $140 |
-| 1165 | `KXATTYGENSD` | AG race SD | Elections | $132 |
-| 1166 | `KXFL1R` | Florida's 1st House Republican nomination | Elections | $100 |
-| 1167 | `KXNYCCOUNCIL28` | NYCCOUNCIL28 | Politics | $92 |
-| 1168 | `KXCAHOUSEDEM` | How many House seats will Democrats win in California? | Elections | $53 |
-| 1169 | `KXTAIWANDOUBLETAX` | Taiwan double taxation bill | Politics | $49 |
-| 1170 | `KXATTYGENMD` | AG race MD | Elections | $20 |
-| 1171 | `KXSNPMAJORITY` | Will the SNP win a majority in the Scottish Parliament election? | Elections | $12 |
-| 1172 | `KXATTYGENVT` | AG race VT | Elections | $9 |
-| 1173 | `KXCA22R` | CA 22 Republican primary | Elections | $0 |
-| 1174 | `KXOH13D` | Ohio 13 Democratic primary | Elections | $0 |
-| 1175 | `KXATTYGENNC` | AG race NC | Elections | $0 |
-| 1176 | `KXJULYCHARTER` | Will the Bangladesh July Charter referendum pass? | Elections | $0 |
-| 1177 | `KXATTYGENUT` | AG race UT | Elections | $0 |
-| 1178 | `KXSENATETARIFFCOUNT` | Senate tariff count | Politics | $0 |
-| 1179 | `KXCIATTARELLIOUTPERFORMRCP` | Jack Ciattarelli outperform RCP margin in 2025 NJ Gov | Elections | $0 |
-| 1180 | `KXGOPMIDTERMSSEATS` | GOP midterm seat count | Elections | $0 |
-| 1181 | `KXSKVOTELEEJUN` | Lee Jun-seok % | Elections | $0 |
-| 1182 | `KXMAYOROAK` | Oakland Mayor | Elections | $0 |
-| 1183 | `KXSECSTATENC` | NC Sec State | Elections | $0 |
-| 1184 | `KXVOTESTAN` | vote stan percent | Elections | $0 |
-| 1185 | `KXLLM1` | Year-end top LLM | Science and Technology | $35,013,837 |
-| 1186 | `KXTOPMODEL` | Top model | Science and Technology | $12,899,033 |
-| 1187 | `KXALIENS` | Aliens | Science and Technology | $6,993,530 |
-| 1188 | `KXTSAW` | TSA check-ins this week | Science and Technology | $5,624,771 |
-| 1189 | `KXMODELHIGH` | Model hitting thresholds | Science and Technology | $5,507,982 |
-| 1190 | `KXTOPAI` | Top-ranked AI | Science and Technology | $4,838,610 |
-| 1191 | `KXAPPRANKFREE` | Free app ranking | Entertainment | $3,943,570 |
-| 1192 | `KXUFSD` | Unsupervised full self-driving Tesla | Science and Technology | $3,843,242 |
-| 1193 | `KXSPACEXSTARSHIP` | SpaceX Starship launch | Companies | $2,865,679 |
-| 1194 | `KXSPACEXCOUNT` | SpaceX launches | Companies | $2,865,051 |
-| 1195 | `KXCODINGMODEL` | Best AI coding model | Science and Technology | $2,599,818 |
-| 1196 | `KXMEASLES` | Measles cases | Science and Technology | $2,280,257 |
-| 1197 | `KXWAYMOCITIES` | Waymo cities | Science and Technology | $2,027,348 |
-| 1198 | `KXREACTOR` | US grants license for new nuclear reactor | Science and Technology | $975,017 |
-| 1199 | `KXAPPRANKFREE2` | Free app ranking | Entertainment | $912,095 |
-| 1200 | `KXAISPIKE` | AI capability spike | Science and Technology | $807,664 |
-| 1201 | `KXOAIAGI` | OpenAI achieves AGI | Science and Technology | $551,037 |
-| 1202 | `KXGPT5` | ChatGPT-5 revealed | Science and Technology | $448,898 |
-| 1203 | `KXROBOTAXICA` | Robotaxi California | Science and Technology | $404,864 |
-| 1204 | `KXIMOAI` | IMO AI | Science and Technology | $372,144 |
-| 1205 | `KXOAIGOOGLE` | Google vs. OpenAI | Science and Technology | $340,391 |
-| 1206 | `KXTECHLAYOFF` | Tech layoffs up | Science and Technology | $314,584 |
-| 1207 | `KXSUPERCON` | Room-temp superconductor validated | Science and Technology | $288,832 |
-| 1208 | `KXMOON` | NASA lands on the moon | Science and Technology | $271,593 |
-| 1209 | `KXOAIPROFIT` | OpenAI becomes for-profit | Companies | $264,774 |
-| 1210 | `KXSTARSHIPLAUNCH` | Starship launch events | Science and Technology | $260,239 |
-| 1211 | `KXINTERSTELLAR` | Interstellar object | Science and Technology | $257,995 |
-| 1212 | `KXOAISOCIAL` | OpenAI social app | Science and Technology | $257,308 |
-| 1213 | `KXGEMINI3` | Gemini 3 release | Science and Technology | $253,581 |
-| 1214 | `KXAILEGISLATION` | AI regulation | Politics | $232,428 |
-| 1215 | `KXTRIFOLD` | Samsung trifold phone | Science and Technology | $220,102 |
-| 1216 | `KXWEIGHTDRUGSQ` | Ozempic and Wegovy prescriptions increase | Science and Technology | $218,434 |
-| 1217 | `KXAPPRANKSPORTS` | Sports ranking | Entertainment | $212,611 |
-| 1218 | `KXTESLAOPTIMUS` | Tesla Optimus sale | Companies | $210,909 |
-| 1219 | `KXBESTLLMCHINA` | Chinese LLM best | Science and Technology | $201,751 |
-| 1220 | `KXTOPLLM` | GPT no longer top ranked LLM | Science and Technology | $157,121 |
-| 1221 | `KXLLAMA5` | LLAMA%5 | Science and Technology | $147,717 |
-| 1222 | `KXSWEBENCH` | SWE bench % | Science and Technology | $146,478 |
-| 1223 | `KXOPENAIDAYS` | OpenAI days of shipmas | Science and Technology | $145,872 |
-| 1224 | `KXAOH1996` | New cancer drug progress | Science and Technology | $137,070 |
-| 1225 | `KXGPTCOST` | GPT cost | Science and Technology | $137,005 |
-| 1226 | `KXTESLAGAS` | Tesla gas car | Science and Technology | $134,038 |
-| 1227 | `KXAAPLPRICE17OVER16` | APPLE IPHONE 17 PRICE MORE THAN 16 | Science and Technology | $125,947 |
-| 1228 | `KXGROK` | Grok | Science and Technology | $112,976 |
-| 1229 | `KXLLMCHESS` | LLM chess | Science and Technology | $106,638 |
-| 1230 | `KXNEWGLENN` | New Glenn | Science and Technology | $101,291 |
-| 1231 | `KXAVGMEASLESDJT` | Measles during Trump admin | Science and Technology | $100,971 |
-| 1232 | `KXBIGTECHLAYOFF` | Big tech layoffs | Companies | $99,174 |
-| 1233 | `KXSORA` | Sora public release | Companies | $94,784 |
-| 1234 | `KXSTARSHIPSPACE` | Starship launches to Space | Science and Technology | $91,815 |
-| 1235 | `KXOPENSOURCEOAI` | Open-source model | Science and Technology | $90,898 |
-| 1236 | `KXSTARSHIP25` | Starship 2025 | Science and Technology | $85,369 |
-| 1237 | `KXMOONMAN` | Manned mission to the Moon | Science and Technology | $82,514 |
-| 1238 | `KXCRITICALITY` | Nuclear power criticality | Science and Technology | $77,339 |
-| 1239 | `KXMETEOR` | Major meteor strike | Science and Technology | $71,463 |
-| 1240 | `KXGROK3TOPLLMCHANGE` | Grok 3 top llm change | Science and Technology | $70,849 |
-| 1241 | `KXOAIPLATEAU` | OpenAI plateau | Science and Technology | $70,549 |
-| 1242 | `KXSPACEXORBIT` | Starship in orbit | Companies | $68,617 |
-| 1243 | `KXALTMANEQUITY` | Sam Altman OpenAI equity | Companies | $67,615 |
-| 1244 | `KXGSTORM` | Geomagnetic Storm | Science and Technology | $67,538 |
-| 1245 | `KXFDAAPPROVALPSYCHEDELIC` | FDA APPROVAL PSYCHEDELIC | Science and Technology | $65,075 |
-| 1246 | `KXNEURALINKCOUNT` | Neuralink count | Science and Technology | $64,753 |
-| 1247 | `KXCLAUDE4` | Claude 4 release | Science and Technology | $63,932 |
-| 1248 | `KXCLAUDE5` | Claude 5 released | Science and Technology | $63,286 |
-| 1249 | `KXAPPLEAI` | Apple AI partnership | Companies | $61,889 |
-| 1250 | `KXROBOTAXI` | Tesla Robotaxi announcement | Companies | $60,620 |
-| 1251 | `KXDEEPSEEKR2RELEASE` | Deepseek R2 release | Science and Technology | $58,977 |
-| 1252 | `KXMILLENNIUM` | Millennium Prize | Science and Technology | $58,297 |
-| 1253 | `KXKILLSWITCH` | California AI bill | Science and Technology | $57,218 |
-| 1254 | `KXASL3` | ASL3 model | Science and Technology | $56,531 |
-| 1255 | `KXNYTOAISETTLE` | New York Times settles OpenAI lawsuit | Science and Technology | $52,872 |
-| 1256 | `KXWEBB` | Webb Telescope launch | Science and Technology | $52,300 |
-| 1257 | `KXMUSKBLUESKY` | Musk on Bluesky | Science and Technology | $52,217 |
-| 1258 | `KXNEUTRONORBIT` | Neutron rocket orbit | Science and Technology | $51,521 |
-| 1259 | `KXSPACEXMARS` | SpaceX Mars | Science and Technology | $49,546 |
-| 1260 | `KXLEAVEMETA` | Who will leave Meta | Companies | $48,686 |
-| 1261 | `KXOAIHARDWARE` | What hardware will openAI/Jony Ive launch | Science and Technology | $48,441 |
-| 1262 | `KXDEEPSEEKBAN` | DeepSeek ban | Politics | $48,262 |
-| 1263 | `KXSTARSHIP` | Starship time | Science and Technology | $47,506 |
-| 1264 | `KXNYTOAI` | New York Times wins OpenAI lawsuit | Science and Technology | $43,197 |
-| 1265 | `KXMEISSNER` | Meissner effect confirmed near room temperature | Science and Technology | $40,552 |
-| 1266 | `KXSWITCH2RELEASE` | Switch 2 release date | Science and Technology | $38,828 |
-| 1267 | `KXAIORDER` | Biden AI Order | Politics | $38,220 |
-| 1268 | `KXUSTESTSREADING` | US Test scores in Reading | Science and Technology | $37,042 |
-| 1269 | `KXEXOPLAN` | Exoplanet totals | Science and Technology | $36,996 |
-| 1270 | `KXWAYMOCITY` | Waymo new city | Science and Technology | $35,977 |
-| 1271 | `KXUSTESTSMATH` | US Test scores in Math | Science and Technology | $35,964 |
-| 1272 | `KXCHOPSTICKS` | SpaceX chopsticks | Science and Technology | $33,764 |
-| 1273 | `KXBLUESPACEX` | Blue Origin SpaceX moon | Science and Technology | $33,568 |
-| 1274 | `KXROBOTMARS` | Humanoid robot on Mars | Science and Technology | $33,143 |
-| 1275 | `KXSEMIPRODH` | US Semiconductor production | Economics | $32,974 |
-| 1276 | `KXSPACEXREUSE` | SpaceX stage recovered | Science and Technology | $32,694 |
-| 1277 | `KXSTARSHIPMARS` | Starship launch to Mars | Companies | $31,302 |
-| 1278 | `KXASTRONAUTS` | Stranded astronauts | Science and Technology | $31,017 |
-| 1279 | `KXVAXXOMNI` | Omicron vaccine approved | Science and Technology | $30,990 |
-| 1280 | `KXAIAUTHOR` | AI authorship | Science and Technology | $30,382 |
-| 1281 | `KXSIZE3IATLAS` | Size 3I/ATLAS | Science and Technology | $29,773 |
-| 1282 | `KXJOINSTEPHENCOLBERT` | Will Stephen Colbert join MSNBC | Companies | $29,239 |
-| 1283 | `KXGROK3` | Grok 3 top model | Science and Technology | $28,697 |
-| 1284 | `KXBESTLLMOS` | Open-Source LLM best | Science and Technology | $27,936 |
-| 1285 | `KXECLIPSECOVER` | Cloud coverage in cities during eclipse | Climate and Weather | $27,874 |
-| 1286 | `KXOSWORLD` | OSWorld scores | Science and Technology | $27,629 |
-| 1287 | `KXSTARSHIPDOCK` | Starships dock | Science and Technology | $27,522 |
-| 1288 | `KXASTEROID` | Asteroid hitting Earth | Science and Technology | $27,462 |
-| 1289 | `KXFLOP` | Flop compute | Science and Technology | $25,036 |
-| 1290 | `KXPOLIOELIM` | Wild polio eliminated | Science and Technology | $24,452 |
-| 1291 | `KXFREEIVF` | Free IVF | Science and Technology | $24,416 |
-| 1292 | `KXSTARSHIPFL` | Starship in Florida | Science and Technology | $23,570 |
-| 1293 | `KXGPTPARAM` | GPT-4 number of parameters | Science and Technology | $23,128 |
-| 1294 | `KXAIPAUSE` | AI research pause | Science and Technology | $22,637 |
-| 1295 | `KXXPAYMENT` | X Payment | Science and Technology | $22,177 |
-| 1296 | `KXFUSION` | Nuclear fusion | Science and Technology | $22,146 |
-| 1297 | `KXLEAVESEANCOOK` | Will Sean Cook Leave the Tea App? | Companies | $21,135 |
-| 1298 | `KXEVSHARE` | EV market share | Climate and Weather | $21,025 |
-| 1299 | `KXGPT4P5` | GPT-4.5 released | Science and Technology | $19,128 |
-| 1300 | `KXMACCELL` | Mac cell connectivity | Science and Technology | $18,392 |
-| 1301 | `KXGPTFEES` | GPT transaction fees | Science and Technology | $18,314 |
-| 1302 | `KXQUANTUM` | Quantum | Science and Technology | $17,584 |
-| 1303 | `KXAPPRANKFINANCE` | Finance ranking | Entertainment | $17,505 |
-| 1304 | `KXMETACLOSE` | Meta close-source | Science and Technology | $17,364 |
-| 1305 | `KXGPTS` | GPT4.5 before 5 | Science and Technology | $16,619 |
-| 1306 | `KXAAPLPRICEFOLD` | FOLDABLE IPHONE PRICE | Science and Technology | $15,702 |
-| 1307 | `KXNEXTLAUNCHSMALL` | Next small launch | Science and Technology | $15,675 |
-| 1308 | `KXGROK4` | Grok 4 release | Science and Technology | $15,459 |
-| 1309 | `KXAITURING` | AI turing test | Science and Technology | $15,004 |
-| 1310 | `KXAIDIRECTOR` | AI director leaving | Politics | $14,341 |
-| 1311 | `KXLEAVEMAGUIRESEQUOIA` | SHAUN MAGUIRE SEQUOIA | Companies | $14,318 |
-| 1312 | `KXWWDC25LAUNCH` | WWDC25 | Science and Technology | $14,117 |
-| 1313 | `KXAIRELEASE` | AI release delay | Science and Technology | $13,824 |
-| 1314 | `KXOAISCREEN` | OpenAI screen | Science and Technology | $13,571 |
-| 1315 | `KXOTHERLAUNCH` | Non SpaceX launches | Science and Technology | $12,542 |
-| 1316 | `KXAISECURITY` | AI security clearances | Politics | $12,521 |
-| 1317 | `KXAIOPEN` | Frontier open-source AI model | Science and Technology | $11,645 |
-| 1318 | `KXCHINATOPLLM` | China top LLM | Science and Technology | $11,511 |
-| 1319 | `KXCOLONIZEMARS` | Colonize Mars | Science and Technology | $10,932 |
-| 1320 | `KXEVMKT` | Electric vehicle share | Science and Technology | $10,057 |
-| 1321 | `KXFIELDS` | Fields Medal recipients | Science and Technology | $9,826 |
-| 1322 | `KXFDAAPPROVAL` | FDA APPROVAL DRUG APPLICATIONS | Science and Technology | $9,114 |
-| 1323 | `KXJOINKARPATHY` | Andrej Karpathy | Companies | $9,064 |
-| 1324 | `KXHLS` | HLS | Science and Technology | $8,558 |
-| 1325 | `KXO3RELEASE` | Next o3 model release | Science and Technology | $7,674 |
-| 1326 | `KXDEEPSEEKV4RELEASE` | Deepseek V4 release | Science and Technology | $7,411 |
-| 1327 | `KXOPENAIPROFIT` | OpenAI's for-profit arm ends | Science and Technology | $7,127 |
-| 1328 | `KXMACOS16` | macos16 | Science and Technology | $7,103 |
-| 1329 | `KXMUSKINJ` | Musk injunction against OpenAI | Companies | $6,267 |
-| 1330 | `KXIPHONEASSEMBLE` | iPhone assembly | Science and Technology | $6,155 |
-| 1331 | `KXMARSVRAIL` | Mars CA rail | Science and Technology | $6,155 |
-| 1332 | `KXSTARSHIPCREW` | Crewed starship mission | Science and Technology | $5,973 |
-| 1333 | `KXOPENAISUIT` | Elon Musk OpenAI lawsuit | Companies | $5,782 |
-| 1334 | `KXOAIMUSKSETTLE` | OpenAI lawsuit settled by Musk | Science and Technology | $5,526 |
-| 1335 | `KXWAYMOCITYLV` | Waymo Las Vegas | Science and Technology | $5,334 |
-| 1336 | `KXFDATYPE1DIABETES` | Type 1 diabetes cure | Science and Technology | $5,275 |
-| 1337 | `KXNEXTVULCAN` | Next Vulcan launch | Science and Technology | $5,095 |
-| 1338 | `KXOPENDEEP` | Deep Research | Science and Technology | $4,829 |
-| 1339 | `KXOAIDAMAGE` | OpenAI damages | Science and Technology | $4,739 |
-| 1340 | `KXJOINAPPLEJB` | Will Justin Bieber Join apple? | Companies | $4,420 |
-| 1341 | `KXOAIMUSKSUIT` | OpenAI Musk lawsuit | Science and Technology | $4,401 |
-| 1342 | `KXJOINXAI` | Join XAI | Companies | $4,295 |
-| 1343 | `KXGROK2OS` | Grok 2 open source | Science and Technology | $4,205 |
-| 1344 | `KXDJTMETA` | DJT metaverse | Science and Technology | $4,190 |
-| 1345 | `KXBRAINLIVE` | Live stream brain data | Science and Technology | $4,119 |
-| 1346 | `KXNEXTYACCARINO` | Next job Yaccarino | Companies | $3,807 |
-| 1347 | `KXJOINBARSTOOL` | Will Shannon sharpe join meta | Companies | $3,616 |
-| 1348 | `KXDATACENTER` | Data center nuclear | Science and Technology | $3,567 |
-| 1349 | `KXDISTANCE3IATLAS` | 3I/ATLAS distance | Science and Technology | $3,534 |
-| 1350 | `KXDANGROSSMETA` | Daniel Gross joining Meta | Companies | $3,269 |
-| 1351 | `KXCO2LEVEL` | CO2 level | Science and Technology | $2,831 |
-| 1352 | `KXAINEURALESE` | AI neuralese recurrence | Science and Technology | $2,767 |
-| 1353 | `KXAPPRANKUTILITIES` | Utilities app ranking | Entertainment | $2,700 |
-| 1354 | `KXSPACEXLAND` | Starship lands | Science and Technology | $2,413 |
-| 1355 | `KXCHINALLM` | China LLM in top ten | Science and Technology | $2,194 |
-| 1356 | `KXLEAVEXAI` | Who will leave xAI | Companies | $1,237 |
-| 1357 | `KXLEAVEOPENAI` | Who will leave OpenAI | Companies | $1,193 |
-| 1358 | `KXALTMAN` | Sam Altman starts new company | Science and Technology | $935 |
-| 1359 | `KXNATFRIEDMANMETA` | Nat Friedman joining Meta | Companies | $910 |
-| 1360 | `KXLEAVEJONYIVEOAI` | Jony Ive OpenAI | Companies | $740 |
-| 1361 | `KXLUMIERE` | Lumiere public release | Science and Technology | $581 |
-| 1362 | `KXAILIMITSUSCHINA` | US China | Politics | $517 |
-| 1363 | `KXJONYIVEMETA` | Jony Ive joining Meta | Companies | $492 |
-| 1364 | `KXJOINMETA` | Join META | Companies | $380 |
-| 1365 | `KXLEAVEANTHROPIC` | Who will leave Anthropic | Companies | $256 |
-| 1366 | `KXLEAVEJANGS` | Jan GS | Companies | $224 |
-| 1367 | `KXARTEMISII` | Artemis II launch date | Science and Technology | $200 |
-| 1368 | `KXJOINANTHROPIC` | Join ANthropic | Companies | $180 |
-| 1369 | `KXJOINOPENAI` | Join Open AI | Companies | $5 |
-| 1370 | `KXGPT45` | GPT-4.5 released | Science and Technology | $0 |
-| 1371 | `REACTOR` | US grants license for new nuclear reactor | Science and Technology | $0 |
-| 1372 | `MEISSNER` | Meissner effect confirmed near room temperature | Science and Technology | $0 |
-| 1373 | `NYTOAISETTLE` | New York Times settles OpenAI lawsuit | Science and Technology | $0 |
-| 1374 | `SEMIPRODH` | US Semiconductor production | Economics | $0 |
-| 1375 | `TECHLAYOFF` | Tech layoffs up | Science and Technology | $0 |
-| 1376 | `GPTPARAM` | GPT-4 number of parameters | Science and Technology | $0 |
-| 1377 | `TOPLLM` | GPT no longer top ranked LLM | Science and Technology | $0 |
-| 1378 | `MOON` | NASA lands on the moon | Science and Technology | $0 |
-| 1379 | `KXMARSFLAG` | Mars flag | Science and Technology | $0 |
-| 1380 | `GSTORM` | Geomagnetic Storm | Science and Technology | $0 |
-| 1381 | `EXOPLAN` | Exoplanet totals | Science and Technology | $0 |
-| 1382 | `KXAIDEBATES` | AI at the debates | Science and Technology | $0 |
-| 1383 | `EVMKT` | Electric vehicle share | Science and Technology | $0 |
-| 1384 | `KXAISAFETY` | AI Safety Institute disbanded | Politics | $0 |
-| 1385 | `SORA` | Sora public release | Companies | $0 |
-| 1386 | `ROBOTAXI` | Tesla Robotaxi announcement | Companies | $0 |
-| 1387 | `WEIGHTDRUGSQ` | Ozempic and Wegovy prescriptions increase | Science and Technology | $0 |
-| 1388 | `WEBB` | Webb Telescope launch | Science and Technology | $0 |
-| 1389 | `STARSHIPMARS` | Starship launch to Mars | Companies | $0 |
-| 1390 | `CHINATOPLLM` | China top LLM | Science and Technology | $0 |
-| 1391 | `CHINALLM` | China LLM in top ten | Science and Technology | $0 |
-| 1392 | `GPT4P5` | GPT-4.5 released | Science and Technology | $0 |
-| 1393 | `KXARCAGI2` | ARC-AGI-2 | Science and Technology | $0 |
-| 1394 | `IMOAI` | IMO AI | Science and Technology | $0 |
-| 1395 | `KXECLIPSECOVERBUFF` | Eclipse Cover Buffalo | Climate and Weather | $0 |
-| 1396 | `KXMETREVALCLAUDE4OPUS` | Claude 4 Opus | Science and Technology | $0 |
-| 1397 | `LLM1` | Year-end top LLM | Science and Technology | $0 |
-| 1398 | `ALTMAN` | Sam Altman starts new company | Science and Technology | $0 |
-| 1399 | `BIGTECHLAYOFF` | Big tech layoffs | Companies | $0 |
-| 1400 | `SPACEXLAND` | Starship lands | Science and Technology | $0 |
-| 1401 | `KXVISIONPROLAUNCH` | Vis pro | Science and Technology | $0 |
-| 1402 | `KXAPPRANKPAID` | Paid app ranking | Entertainment | $0 |
-| 1403 | `OPENAIPROFIT` | OpenAI's for-profit arm ends | Science and Technology | $0 |
-| 1404 | `KXTOPLLMCHANGE` | top model change | Science and Technology | $0 |
-| 1405 | `AIDEBATES` | AI at the debates | Science and Technology | $0 |
-| 1406 | `AOH1996` | New cancer drug progress | Science and Technology | $0 |
-| 1407 | `GPT45` | GPT-4.5 released | Science and Technology | $0 |
-| 1408 | `KXFDAAPPROVALMK1654` | Merck clesrovimab | Science and Technology | $0 |
-| 1409 | `KXLEAVEWANGMETA` | Alexander Wang META | Companies | $0 |
-| 1410 | `SPACEXORBIT` | Starship in orbit | Companies | $0 |
-| 1411 | `AITURING` | AI turing test | Science and Technology | $0 |
-| 1412 | `KXXAIREASON` | xAI reasoning model | Science and Technology | $0 |
-| 1413 | `KXJOINOPENDOOR` | Will Keith Rabois Join the Board of OpenDoor? | Companies | $0 |
-| 1414 | `SPACEXSTARSHIP` | SpaceX Starship launch | Companies | $0 |
-| 1415 | `OPENAISUIT` | Elon Musk OpenAI lawsuit | Companies | $0 |
-| 1416 | `APPLEAI` | Apple AI partnership | Companies | $0 |
-| 1417 | `KXAISI` | AISI commitment | Science and Technology | $0 |
-| 1418 | `KXJOINCBS` | Who will join CBS | Companies | $0 |
-| 1419 | `SPACEX` | SpaceX rocket launch | Companies | $0 |
-| 1420 | `SPACEXCOUNT` | SpaceX launches | Companies | $0 |
-| 1421 | `ECLIPSECOVERBUFF` | Eclipse Cover Buffalo | Climate and Weather | $0 |
-| 1422 | `NYTOAI` | New York Times wins OpenAI lawsuit | Science and Technology | $0 |
-| 1423 | `KXAPPRANK` | App Store rank | Entertainment | $0 |
-| 1424 | `KXIPHONEPRICE` | iPhone prices | Science and Technology | $0 |
-| 1425 | `SUPERCON` | Room-temp superconductor validated | Science and Technology | $0 |
-| 1426 | `AILEGISLATION` | AI regulation | Politics | $0 |
-| 1427 | `KXYCAITOGETHER` | Altman and Musk on stage together | Science and Technology | $0 |
-| 1428 | `ECLIPSECOVER` | Cloud coverage in cities during eclipse | Climate and Weather | $0 |
-| 1429 | `EVSHARE` | EV market share | Climate and Weather | $0 |
-| 1430 | `KXLEAVEKRISTINCABOT` | will Kristin cabot leave company | Companies | $0 |
-| 1431 | `KXJENNINGSLEAVE` | Scott Jennings leave CNN | Companies | $0 |
-| 1432 | `KXTOP3AI` | Top 3 AI companies | Science and Technology | $0 |
-| 1433 | `KXSPACEX` | SpaceX rocket launch | Companies | $0 |
-| 1434 | `KXAPPRANKFREE3` | Free app ranking | Entertainment | $0 |
-| 1435 | `TESLAOPTIMUS` | Tesla Optimus sale | Companies | $0 |
-| 1436 | `VAXXOMNI` | Omicron vaccine approved | Science and Technology | $0 |
-| 1437 | `KXGPT6` | GPT-6 | Science and Technology | $0 |
-| 1438 | `KXGPT5RELEASE` | GPT5 RELEASE | Science and Technology | $0 |
-| 1439 | `OAIAGI` | OpenAI achieves AGI | Science and Technology | $0 |
-| 1440 | `GPT5` | ChatGPT-5 revealed | Science and Technology | $0 |
-| 1441 | `PRES` | Presidential elections | Politics | $535,948,943 |
-| 1442 | `KXFEDCHAIRNOM` | Fed Chair nominee | Politics | $166,012,413 |
-| 1443 | `POPVOTEMOV` | Popular vote margin of victory | Politics | $134,863,999 |
-| 1444 | `KXMAYORNYCPARTY` | Mayor of NYC party winner | Politics | $121,642,553 |
-| 1445 | `KXGOVSHUTLENGTH` | Number of days of government shutdown? | Politics | $120,044,322 |
-| 1446 | `ECMOV` | Electoral college margin of victory | Politics | $86,308,117 |
-| 1447 | `POPVOTEMOVSMALL` | Popular vote margin of victory small | Politics | $84,757,997 |
-| 1448 | `POPVOTE` | Popular vote winner | Politics | $81,933,515 |
-| 1449 | `KXGOVSHUT` | Government shutdown | Politics | $68,855,964 |
-| 1450 | `KXPRESNOMD` | Democratic Primary winner | Politics | $48,874,884 |
-| 1451 | `POPVOTEMOVSMALLER` | Popular vote margin of victory small | Politics | $37,209,372 |
-| 1452 | `SENATEAZ` | Arizona Senate race | Politics | $35,505,464 |
-| 1453 | `KXGOVTSHUTDOWN` | Will the government shut down? | Politics | $29,962,958 |
-| 1454 | `PRESPARTYFULL` | Popular vote/Electoral College winner | Politics | $28,921,006 |
-| 1455 | `POWER` | Party power | Politics | $28,575,893 |
-| 1456 | `CLOSESTSTATE` | Closest state  | Politics | $25,934,826 |
-| 1457 | `GOVPARTYNJ` | New Jersey governor race | Politics | $21,640,003 |
-| 1458 | `PRESPARTYGA` | Georgia presidential winner | Politics | $19,884,204 |
-| 1459 | `KXKHAMENEIOUT` | Ali Khamenei out? | Politics | $19,432,012 |
-| 1460 | `KXELECTIONMOVZOHRAN` | Zohran MOV | Elections | $17,309,615 |
-| 1461 | `PRESPARTYPA` | Pennsylvania presidential winner | Politics | $17,042,008 |
-| 1462 | `KXMAYORNYCNOMD` | New York City mayoral nominations | Politics | $16,963,803 |
-| 1463 | `HOUSEMOV` | House margin of victory | Politics | $16,252,923 |
-| 1464 | `KXPRESNOMR` | Republican Primary winner | Politics | $15,030,917 |
-| 1465 | `PRESPARTYMI` | Michigan presidential winner | Politics | $14,548,325 |
-| 1466 | `POPVOTEMOVPA` | Pennsylvania margin of victory | Politics | $14,254,350 |
-| 1467 | `KXDJTJOINTSESSION` | Joint Session of Congress | Politics | $13,744,260 |
-| 1468 | `KXELECTIONMOVNJGOV` | NJ Governor Margin of Victory | Elections | $13,432,598 |
-| 1469 | `KXCANADAPM` | Canada PM | Politics | $13,061,085 |
-| 1470 | `PRESPARTYIA` | Iowa presidential winner | Politics | $12,930,686 |
-| 1471 | `KXSECAG` | Next Attorney General | Politics | $12,672,827 |
-| 1472 | `KXSECDEF` | New Secretary of Defense | Politics | $12,475,893 |
-| 1473 | `PRESPARTYNC` | North Carolina presidential winner | Politics | $12,233,384 |
-| 1474 | `KXSECHHS` | Next Secretary of Health and Human Services | Politics | $12,146,553 |
-| 1475 | `KXPRESPERSON` | Pres person | Elections | $11,656,670 |
-| 1476 | `KXBIDENPARDON` | Biden pardon Hunter | Politics | $11,480,444 |
-| 1477 | `KXEPSTEIN` | Epstein documents | Politics | $11,020,211 |
-| 1478 | `KXEOWEEK` | EO this week? | Politics | $10,956,508 |
-| 1479 | `KXNEXTPOPE` | Next Pope | Politics | $10,618,819 |
-| 1480 | `PRESPARTYNV` | Nevada presidential winner | Politics | $10,607,466 |
-| 1481 | `KXSWINGSTATES24DJT` | Donald Trump swing states | Politics | $10,231,804 |
-| 1482 | `KXTRUMPOUT` | Trump Out As President | Politics | $10,171,202 |
-| 1483 | `KXTRUMPPARDON` | Trump pardons | Politics | $10,088,487 |
-| 1484 | `KXCABOUT` | Next Cabinet memeber out | Politics | $9,700,887 |
-| 1485 | `KXMADUROOUT` | Maduro out  in November | Politics | $9,106,895 |
-| 1486 | `SENATEMOV` | Senate margin of victory | Politics | $9,085,904 |
-| 1487 | `KXLEAVEPOWELL` | Powell leaving | Politics | $8,880,321 |
-| 1488 | `PRESPARTYVA` | Virginia presidential winner | Politics | $8,810,367 |
-| 1489 | `HOUSECA13` | House CA 13 | Politics | $8,715,888 |
-| 1490 | `PRESPARTYNY` | New York presidential winner | Politics | $8,701,986 |
-| 1491 | `POPVOTEMOVAZ` | Arizona margin of victory | Politics | $8,201,089 |
-| 1492 | `CONTROLH` | House winner | Politics | $7,988,775 |
-| 1493 | `KXPRESNOMFEDCHAIR` | Fed Chair nom | Politics | $7,589,459 |
-| 1494 | `PRESPARTYAZ` | Arizona presidential winner | Politics | $7,245,158 |
-| 1495 | `PRESPARTYWI` | Wisconsin presidential winner | Politics | $7,213,622 |
-| 1496 | `KXALIENS` | Aliens | Science and Technology | $6,993,530 |
-| 1497 | `KXLEADEROUT` | Leader Out | Politics | $6,815,704 |
-| 1498 | `CABINETMUSK` | Elon Musk nominated to the cabinet | Politics | $6,808,311 |
-| 1499 | `PRESPARTYFL` | Florida presidential winner | Politics | $6,745,504 |
-| 1500 | `KXSENMAJORITY` | Senate Majority leader | Politics | $6,603,809 |
-| 1501 | `KXSHUTDOWNBY` | Shutdown this year? | Politics | $6,537,238 |
-| 1502 | `KXVOTERFK` | Senators voting for RFK | Politics | $6,397,515 |
-| 1503 | `RSENATESEATS` | Republican senate seats | Politics | $6,205,451 |
-| 1504 | `KXLEAVEADMIN` | Leaving Admin | Politics | $6,194,174 |
-| 1505 | `KXSTATEDEEPDJT` | Trump winning deep blue state | Politics | $6,143,975 |
-| 1506 | `KXCUOMODROPOUT` | Drop out Cuomo Mayor | Politics | $6,128,407 |
-| 1507 | `KXEOCOUNTDAY1` | Day 1 executive orders | Politics | $6,051,640 |
-| 1508 | `KXCANCOALITION` | Canadian coalition | Politics | $5,848,174 |
-| 1509 | `KXSECTREASURY` | Next Secretary of the Treasury | Politics | $5,794,102 |
-| 1510 | `KXGREENLAND` | Greenland purchase | Politics | $5,788,459 |
-| 1511 | `KXDNI` | Next DNI | Politics | $5,775,465 |
-| 1512 | `KXINAUG` | Inauguration attendees | Politics | $5,665,793 |
-| 1513 | `GOVPARTYVA` | Virginia Governor race | Politics | $5,610,201 |
-| 1514 | `KXEOCOUNTDAY1B` | Day 1 executive orders MORE STRIKES | Politics | $5,600,731 |
-| 1515 | `KXPRESROMANIA24` | 2025 Romanian presidential election | Elections | $5,567,445 |
-| 1516 | `POPVOTEKHNM` | Kamala New Mexico | Politics | $5,518,133 |
-| 1517 | `KXVOTEPERCENTMAMDANI` | mamdani vote percent | Elections | $5,511,432 |
-| 1518 | `SENATENV` | Nevada Senate race | Politics | $5,435,263 |
-| 1519 | `KXMJSCHEDULE` | MJ schedule | Politics | $5,172,933 |
-| 1520 | `KXNYCMAYOR2ND` | NYC MAyor  | Elections | $5,152,964 |
-| 1521 | `KXDJTVOSTARIFFS` | Tariffs case | Politics | $5,120,171 |
-| 1522 | `KXLEAVEWALZ` | Tim Walz out as Governor of Minnesota? | Politics | $5,052,389 |
-| 1523 | `RHOUSESEATSSMALL` | Republican House seats breakdown | Politics | $4,956,663 |
-| 1524 | `KXLEADERSOUT` | World leaders out this year? | Politics | $4,937,809 |
-| 1525 | `SENATETX` | Texas Senate race | Politics | $4,899,946 |
-| 1526 | `KXVOTETULSI` | Senators voting for Tulsi Gabbard | Politics | $4,886,569 |
-| 1527 | `RHOUSESEATS` | Republican House seats | Politics | $4,858,670 |
-| 1528 | `KXELECTIONMOVVAGOV` | virginia margin of victory | Elections | $4,814,953 |
-| 1529 | `KXWLEADER` | World leaders President meets | Politics | $4,723,854 |
-| 1530 | `KXHONDURASPRES` | Honduras president | Politics | $4,682,819 |
-| 1531 | `PRESPARTYTX` | Texas presidential winner | Politics | $4,654,059 |
-| 1532 | `PRESPARTYNH` | New Hampshire presidential winner | Politics | $4,649,224 |
-| 1533 | `KXGOVTFUND` | When will the US government be fully funded? | Politics | $4,618,708 |
-| 1534 | `KXGOVREOPEN2025` | Will the US Federal government reopen in 2025? | Politics | $4,205,749 |
-| 1535 | `PRESPARTYNJ` | New Jersey presidential winner | Politics | $4,152,324 |
-| 1536 | `KXTRUMPOFFICIAL` | People in Trump Admin | Politics | $4,125,812 |
-| 1537 | `KXDOED` | DOE eliminated | Politics | $4,046,471 |
-| 1538 | `KX538APPROVE` | President 538 approval rating this week | Politics | $4,039,425 |
-| 1539 | `KXDEMSWEEP` | Democrats sweep in 2025 | Politics | $3,999,435 |
-| 1540 | `KXGOLDCARDS` | Gold cards sold | Politics | $3,960,928 |
-| 1541 | `SENATEPA` | Pennsylvania Senate race | Politics | $3,919,393 |
-| 1542 | `KXAPRPOTUS` | President RCP approval rating this week | Politics | $3,907,939 |
-| 1543 | `KXTIKTOKBAN` | US bans TikTok | Companies | $3,907,027 |
-| 1544 | `KXEOCOUNTDAY2` | Day 2 executive orders  | Politics | $3,896,884 |
-| 1545 | `KXFBI` | Director of FBI | Politics | $3,869,800 |
-| 1546 | `KXVENEZUELALEADER` | Who will be the head of state of Venezuela on date? | Politics | $3,612,686 |
-| 1547 | `KXWISCOTUS` | WI State Supreme Court | Politics | $3,571,663 |
-| 1548 | `POPVOTEMOVNC` | North Carolina margin of victory | Politics | $3,527,770 |
-| 1549 | `CABINETRFK` | RFK nominated to cabinet | Politics | $3,492,893 |
-| 1550 | `POPVOTEMOVGA` | Georgia margin of victory | Politics | $3,391,469 |
-| 1551 | `TIPPINGPOINT` | Tipping point jurisdiction | Politics | $3,388,121 |
-| 1552 | `PRESPARTYCA` | California presidential winner | Politics | $3,183,054 |
-| 1553 | `CONTROLS` | Senate winner | Politics | $3,119,880 |
-| 1554 | `KXEPSTEINBILL` | Epstein transparency bill | Politics | $3,079,100 |
-| 1555 | `HOUSECA45` | House California 48th | Politics | $3,067,081 |
-| 1556 | `KXBTCRESERVE` | Bitcoin Reserve | Politics | $3,046,811 |
-| 1557 | `KXVOTEPATEL` | Senators voting for Kash Patel | Politics | $3,034,138 |
-| 1558 | `KXGREENTERRITORY` | Greenland acquisition | Politics | $3,014,793 |
-| 1559 | `KXSPEAKER` | Speaker of the House | Politics | $2,980,553 |
-| 1560 | `KXATTYGENVA` | Atty Gen Virginia | Elections | $2,847,040 |
-| 1561 | `KXGAMBLINGREPEAL` | Gambling Repeal | Politics | $2,751,156 |
-| 1562 | `KXPCTVOTEMAM` | Mamdani Vote | Elections | $2,750,377 |
-| 1563 | `SENATEOH` | Ohio Senate race | Politics | $2,705,749 |
-| 1564 | `KXTRUMPMEET` | Who will Trump meet? | Politics | $2,690,865 |
-| 1565 | `KXTRUMPOUT27` | Trump out as President? | Politics | $2,617,111 |
-| 1566 | `PRESPARTYMN` | Minnesota presidential winner | Politics | $2,607,519 |
-| 1567 | `HOUSETN7S` | TN 7 special | Politics | $2,584,615 |
-| 1568 | `KXGOVCA` | California Governor's race | Politics | $2,551,941 |
-| 1569 | `KXEPSTEINLIST` | Epstein list | Politics | $2,494,137 |
-| 1570 | `KXLAGODAYS` | Mar-a-Lago trips | Politics | $2,472,488 |
-| 1571 | `POPVOTEMOVNV` | Nevada margin of victory | Politics | $2,436,110 |
-| 1572 | `KXTARIFFCHECKS` | Will Americans receive tariff dividends in 2025? | Politics | $2,418,713 |
-| 1573 | `KXLEAVELISACOOK` | Will lisa cook leave office | Politics | $2,374,641 |
-| 1574 | `KXVOTEHEGSETH` | Senators voting for Pete Hegseth | Politics | $2,363,018 |
-| 1575 | `KXPRESVISIT` | Foreign trips by the POTUS | Politics | $2,353,114 |
-| 1576 | `KXDEBATES24` | How many presidential debates in 2024? | Politics | $2,352,425 |
-| 1577 | `KXSHUTDOWNBYDATE` | Shutdown by DATE | Politics | $2,280,430 |
-| 1578 | `KXNJ11SD` | Who will be the Democratic nominee for NJ-11 special? | Elections | $2,250,361 |
-| 1579 | `POPVOTEMOVWI` | Wisconsin margin of victory | Politics | $2,226,470 |
-| 1580 | `KXPRESCHILE` | Chile Presidential election | Politics | $2,226,141 |
-| 1581 | `KXBOLIVIAPRES` | Bolivia presidential election | Politics | $2,122,886 |
-| 1582 | `POPVOTEMOVMI` | Wisconsin margin of victory | Politics | $2,076,409 |
-| 1583 | `KXACAEXT` | ACA Credit extension | Politics | $2,070,422 |
-| 1584 | `KXGABBARDCOUNT` | Gabbard Senate yeas | Politics | $2,036,501 |
-| 1585 | `KXDEPORTCOUNT` | DEPORTCOUNT | Politics | $1,946,586 |
-| 1586 | `KXNEXTCANADAPM` | Next Canada PM | Politics | $1,928,432 |
-| 1587 | `KXPRESPOLAND` | Polish presidential election | Politics | $1,925,805 |
-| 1588 | `KXSENATETXD` | Texas Democratic Senate nominee | Politics | $1,910,318 |
-| 1589 | `KXFTACOUNTRIES` | Countries FTAs | Politics | $1,898,335 |
-| 1590 | `KXVOTEPERCENTCUOMO` | cuomo vote percent | Elections | $1,858,900 |
-| 1591 | `KXCABCOUNT` | Cabinet members confirmed | Politics | $1,856,470 |
-| 1592 | `KXDCEIL` | Debt ceiling hike | Politics | $1,822,947 |
-| 1593 | `KXWHVISIT` | White House visitors | Politics | $1,762,148 |
-| 1594 | `KXWICOURTMOV` | WI Court margin | Politics | $1,757,073 |
-| 1595 | `KXTARIFFSC` | Tariffs on countries | Politics | $1,755,456 |
-| 1596 | `KXVOTEPERCENTSLIWA` | sliwa vote percent | Elections | $1,721,261 |
-| 1597 | `KXPORTUGALPRES` | Portugal Presidency | Politics | $1,714,918 |
-| 1598 | `PRESPARTYME` | Maine presidential winner | Politics | $1,697,186 |
-| 1599 | `KXNEWPARTYMUSK` | Musk new party | Politics | $1,655,431 |
-| 1600 | `KXIMPEACH` | President impeached | Politics | $1,603,697 |
-| 1601 | `SENATENE` | Nebraska Senate race | Politics | $1,571,397 |
-| 1602 | `KXTRUMPPUTIN` | Who will attend the Trump-Putin meeting? | Politics | $1,526,603 |
-| 1603 | `KXMUSKDOGE` | Musk DOGE | Politics | $1,507,088 |
-| 1604 | `KXMAYORMINN` | MINNE | Elections | $1,504,148 |
-| 1605 | `KXARREST` | ARRESTS | Politics | $1,494,467 |
-| 1606 | `KXFEDCOMBO` | Fed Combo | Politics | $1,490,438 |
-| 1607 | `SENATEWI` | Wisconsin Senate race | Politics | $1,479,442 |
-| 1608 | `KXTRUMPFOOTBALL` | Trump attend football game | Politics | $1,472,175 |
-| 1609 | `KXRFKCOUNT` | Kennedy Senate yeas | Politics | $1,471,989 |
-| 1610 | `KXGOVFLNOMR` | Florida Governor Republican nominee | Politics | $1,466,888 |
-| 1611 | `KXSECSTATE` | Next Secretary of State | Politics | $1,466,324 |
-| 1612 | `KXSENATEMED` | MED | Politics | $1,451,797 |
-| 1613 | `KXEOCOUNTDAY3` | EO count day 3 | Politics | $1,447,919 |
-| 1614 | `KXELECTIONDAYS` | AP calling the election | Politics | $1,431,987 |
-| 1615 | `CABINETTULSI` | Tulsi Gabbard cabinet nomination | Politics | $1,390,634 |
-| 1616 | `KXSKPRES` | Next South Korean president | Politics | $1,377,511 |
-| 1617 | `KXZELENSKYYPUTINMEET` | Will Zelenskyy meet with Putin this year? | Politics | $1,360,093 |
-| 1618 | `KXDHSFUND` | When will Congress fund DHS again? | Politics | $1,338,655 |
-| 1619 | `KXRUBIO` | Marco Rubio replacement | Politics | $1,335,214 |
-| 1620 | `SENATEFL` | Florida Senate race | Politics | $1,329,532 |
-| 1621 | `KXSTATESHIFTRIGHT` | States shifting right | Politics | $1,306,461 |
-| 1622 | `KXEXPAND` | Greenland, Panama, Canada control | Politics | $1,297,570 |
-| 1623 | `KXINSURRECTION` | Insurrection | Politics | $1,292,403 |
-| 1624 | `KXPRESLEAVESK` | South Korean President leaving | Politics | $1,289,399 |
-| 1625 | `KXCANLIBSEATS` | Liberal seats in Canada | Elections | $1,286,907 |
-| 1626 | `SENATEMI` | Michigan Senate race | Politics | $1,277,268 |
-| 1627 | `KXSENATETXR` | Texas Republican Senate nominee | Politics | $1,277,226 |
-| 1628 | `KXTRUMPATTEND` | Will Trump attend event | Politics | $1,277,213 |
-| 1629 | `KXOTEEPSTEIN` | Epstein vote | Politics | $1,250,350 |
-| 1630 | `POPVOTEMOVFL` | Florida margin of victory | Politics | $1,217,439 |
-| 1631 | `KXTRUMPSCOTUSVOTE` | Vote on Trump tariffs case | Politics | $1,198,605 |
-| 1632 | `KXRECNCBILL` | Reconcilliation bill becoming law | Politics | $1,172,259 |
-| 1633 | `KXPATELCOUNT` | Patel Senate yeas | Politics | $1,171,428 |
-| 1634 | `KXRECNC` | Reconciliation bill passes the Senate | Politics | $1,150,738 |
-| 1635 | `KXLARGETARIFF` | Trump tariffs | Politics | $1,060,180 |
-| 1636 | `PRESPARTYNM` | New Mexico presidential winner | Politics | $1,055,105 |
-| 1637 | `KXJAN6PARDONDAY1` | January 6th pardons day 1 | Politics | $1,044,957 |
-| 1638 | `ECDJTBLOWOUT` | Trump blowout | Politics | $1,040,016 |
-| 1639 | `KXAPRPOTUSEOY` | President RCP approval rating at end of year | Politics | $1,034,003 |
-| 1640 | `KXENDORSECUOMO` | CUOMO | Elections | $1,006,483 |
-| 1641 | `KXHEGSETHCOUNT` | Hegseth Senate Yeas | Politics | $997,955 |
-| 1642 | `KXTRUMPADMINLEAVE` | Who will leave the Trump administration | Politics | $982,314 |
-| 1643 | `KXARRESTJOHNBOLTON` | Will John Bolton be arrested this year? | Politics | $969,995 |
-| 1644 | `KXFBUSTER` | Filibuster change this year? | Politics | $954,856 |
-| 1645 | `KXIRELANDPARTY` | Irish election winner | Politics | $939,423 |
-| 1646 | `KXCANCONSEATS` | Conservative seats in Canada | Elections | $909,154 |
-| 1647 | `KXTRUMPPRESS` | Trump Press Secretary | Politics | $905,666 |
-| 1648 | `KXGOVNJNOMD` | New Jersey Governor Democratic nominee | Politics | $893,627 |
-| 1649 | `KXATTENDSOTU` | Who will attend the State of the Union? | Politics | $878,115 |
-| 1650 | `KXINAUGVIEWS` | Inauguration viewership | Politics | $875,597 |
-| 1651 | `SENATEMT` | Montana Senate race | Politics | $865,685 |
-| 1652 | `KXENDORSEMAM` | Mamdani | Elections | $862,484 |
-| 1653 | `KXSECCHAIR` | Next SEC Chair | Politics | $861,996 |
-| 1654 | `KXHOUSEEPSTEIN` | How many House votes will the bill to unseal Epstein records receive? | Politics | $859,885 |
-| 1655 | `KXDEMVASWEEP` | Dems win all 3 statewide races in Virginia | Politics | $858,789 |
-| 1656 | `KXBORDERBILL` | Border bill | Politics | $852,101 |
-| 1657 | `KXCORPTAXCUT` | Corporate tax cut | Politics | $847,516 |
-| 1658 | `KXSECENERGY` | Next Secretary of Energy | Politics | $841,124 |
-| 1659 | `KXDJTFLAK` | Trump Florida Alaska | Politics | $814,184 |
-| 1660 | `KXNGUARDCITY` | Which Cities will Trump deploy the national guard in | Politics | $804,341 |
-| 1661 | `KXSECAGRO` | Next Secretary of Agriculture | Politics | $789,351 |
-| 1662 | `KXSPEAKERVOTE` | Speaker votes | Politics | $786,547 |
-| 1663 | `KXBALANCEPOWERCOMBO` | Congress balance of power combo | Politics | $780,046 |
-| 1664 | `KXDJTHANNITY` | Trump interview with Sean Hannity | Politics | $778,776 |
-| 1665 | `ADAMS` | Eric Adams leaves office | Politics | $777,836 |
-| 1666 | `KXCLOSEST2025` | Closest race of 2025 | Elections | $776,198 |
-| 1667 | `KXTRUMPUFC322` | Trump attends UFC 322 | Politics | $773,160 |
-| 1668 | `KXSTATEDEEPKH` | Kamala winning deep red state | Politics | $764,623 |
-| 1669 | `KXDEFAULT` | US defaults | Politics | $744,462 |
-| 1670 | `KXGREENLANDPRICE` | How much will Greenland be acquired for? | Politics | $739,459 |
-| 1671 | `KXTARIFFSNEW` | trump any new tariffs | Politics | $736,369 |
-| 1672 | `KXDHSFUNDING` | When will DHS receive full-year funding? | Politics | $735,075 |
-| 1673 | `PRESPARTYOH` | Ohio presidential winner | Politics | $728,599 |
-| 1674 | `KXVOTECHAVEZDEREMER` | Senators voting for Lori Chavez-DeRemer | Politics | $724,223 |
-| 1675 | `KXSAVEACT` | Will the SAVE Act become law? | Politics | $716,956 |
-| 1676 | `KXACASUBSIDYBILL` | obamacare subsidy extend | Politics | $712,598 |
-| 1677 | `KXVOTEHUBTRUMPUPDOWN` | Trump approval up or down this week | Politics | $710,346 |
-| 1678 | `KXTIPTAX` | No tax on tips | Politics | $696,129 |
-| 1679 | `KXMAMDANISWEARING` | Who will attend Mamdani's swearing-in ceremony? | Politics | $694,097 |
-| 1680 | `KXCABLEAVE` | Cabinet member leaving | Politics | $686,742 |
-| 1681 | `KXSECLABOR` | Next Secretary of Labor | Politics | $684,581 |
-| 1682 | `KXCRYPTOSUMMIT` | What will Trump say at the White House Crypto Summit? | Politics | $680,486 |
-| 1683 | `KXVOTESHUTDOWNS` | Shutdown vote Senate | Politics | $678,064 |
-| 1684 | `KXJFKFILES` | JFK files | Politics | $676,971 |
-| 1685 | `PRESPARTYHI` | Hawaii presidential winner | Politics | $676,959 |
-| 1686 | `KXREDISTRICTING` | Redistricting | Elections | $672,606 |
-| 1687 | `KXUSAIRANAGREEMENT` | US Iran nuclear deal | Politics | $667,444 |
-| 1688 | `PRESPARTYAK` | Alaska presidential winner | Politics | $664,044 |
-| 1689 | `KXDJTCPAC` | Trump conference at CPAC | Politics | $653,576 |
-| 1690 | `KXPREEMPT` | Preemptive pardons | Politics | $652,115 |
-| 1691 | `KXTRUMPUFC` | Trump attend another UFC event this year | Politics | $651,192 |
-| 1692 | `KXROMANIAMOV` | Romania presidential election MOV | Politics | $648,464 |
-| 1693 | `KXDJTFRENCHREP` | Trump press conference WITH FRENCH REPUBLIC | Politics | $628,428 |
-| 1694 | `KXGOVTFUNDSVOTES` | Government funding bill Senate votes | Politics | $624,958 |
-| 1695 | `KXRECNCH` | Reconciliation bill passes the House | Politics | $605,767 |
-| 1696 | `KXPRESCHILER1` | Chile presidential election first round | Politics | $605,615 |
-| 1697 | `KXVANCE` | J.D. Vance replacement | Politics | $599,534 |
-| 1698 | `PRESPARTYIL` | Illinois presidential winner | Politics | $595,225 |
-| 1699 | `PRESPARTYCO` | Colorado presidential winner | Politics | $591,608 |
-| 1700 | `KXVACCINERECS` | Vaccine recs ended | Politics | $591,373 |
-| 1701 | `KXDJTCONF` | Trump press conference | Politics | $579,327 |
-| 1702 | `KXCANADAPARTY` | Canadian election winner | Politics | $576,147 |
-| 1703 | `KXSTATEFLIPKH` | Kamala flips a Trump state | Politics | $574,484 |
-| 1704 | `KXMAXWELLPARDON` | Maxwell pardon | Politics | $573,024 |
-| 1705 | `KXNEWROLEX` | X NEW CEO | Companies | $572,763 |
-| 1706 | `KXVPRESNOMD` | Democratic VP nom | Elections | $572,269 |
-| 1707 | `KXCPICOMBO` | CPI Combo | Politics | $570,825 |
-| 1708 | `KXDEBATE` | Debate topics | Politics | $566,815 |
-| 1709 | `KXNYCFINALMARGIN` | NYC first round margin | Politics | $559,622 |
-| 1710 | `KXSECHUD` | Secretary of Housing and Urban Development | Politics | $557,495 |
-| 1711 | `KXSECCOM` | Next Secretary of Commerce | Politics | $554,923 |
-| 1712 | `KXBILLSCOUNT` | Bills signed monthly | Politics | $554,082 |
-| 1713 | `KXVOTEFUNDING` | when will congress vote on funding bill | Politics | $552,825 |
-| 1714 | `KXGOVTSHUTLENGTH` | How long will the next government shutdown last? | Politics | $551,161 |
-| 1715 | `KXMARALAGO` | Who will visit Mar-a-Lago this year?  | Politics | $544,202 |
-| 1716 | `PRESPARTYNE2` | NE-2 presidential winner | Politics | $544,034 |
-| 1717 | `KXVPRESNOMR` | Republican VP nom | Elections | $542,309 |
-| 1718 | `KXSWINGSWEEP24` | Swing state sweep 24 | Politics | $538,948 |
-| 1719 | `KXFDA` | Next FDA Administrator | Politics | $536,389 |
-| 1720 | `KXJAN6PARDON` | January 6th pardons | Politics | $535,646 |
-| 1721 | `SENATEMD` | Maryland Senate race | Politics | $531,430 |
-| 1722 | `KXFEDERALCHARGE` | Who will be charged with a federal crime | Politics | $519,567 |
-| 1723 | `KXLEAVEBONDI` | Bondi out | Politics | $518,330 |
-| 1724 | `KXNOEMOUT` | Kristi Noem out as DHS secretary? | Politics | $518,150 |
-| 1725 | `KXGOVOHNOMR` | OHIO Governor Republican nominee | Politics | $509,249 |
-| 1726 | `KXUSAEXPANDTERRITORY` | Will the US acquire new territory? | Politics | $495,125 |
-| 1727 | `KXCANADAELECT` | Canadian election called | Politics | $490,339 |
-| 1728 | `KXBLUEWALL` | Blue Wall votes together | Politics | $489,276 |
-| 1729 | `KXARGENTINAPARTY` | Argentina legislative election | Elections | $486,471 |
-| 1730 | `KXWALTZRESIGN` | Mike Waltz resignation | Politics | $483,987 |
-| 1731 | `KXCANAL` | Panama Canal retaken | Politics | $478,303 |
-| 1732 | `KXUSELECTIONTEXAS18` | Which Party will win the Special Election for Texas's 18th? | Elections | $473,839 |
-| 1733 | `KXSTATE51` | 51st state  | Politics | $471,007 |
-| 1734 | `KXMAG7DONATES` | Companies donating to Trump | Politics | $468,156 |
-| 1735 | `KXFL6MOV` | FL6 MOV | Politics | $467,362 |
-| 1736 | `KXSCOURT` | Next SCOTUS justice | Politics | $464,983 |
-| 1737 | `KXTARIFFRATEPRC` | Tariff rate China | Politics | $463,069 |
-| 1738 | `KXLEAVESTARMER` | Keir Starmer out? | Politics | $459,866 |
-| 1739 | `KXRECESSAPPT` | Recess appointments | Politics | $459,768 |
-| 1740 | `KXEMPLOYMENTCOMBO` | Employment Combo | Politics | $453,081 |
-| 1741 | `KXJULYCHARTER26` | Will the Bangladesh July Charter referendum pass? | Politics | $452,948 |
-| 1742 | `KXLOUVRETHIEVESCHARGE` | Louvre | Politics | $437,542 |
-| 1743 | `KXMAXWELLTESTIFY` | Maxwell Testify | Politics | $436,470 |
-| 1744 | `PRESPARTYKS` | Kansas presidential winner | Politics | $432,919 |
-| 1745 | `KX538APPROVEMIN` | Biden 538 lowest approval rating | Politics | $430,772 |
-| 1746 | `KXFOREIGNTARIFF` | Retaliatory tariffs | Politics | $427,153 |
-| 1747 | `KXFL1MOV` | FL1 MOV | Politics | $425,270 |
-| 1748 | `KXPRESIRELAND` | Irish presidential election | Elections | $423,096 |
-| 1749 | `KXGOVMNNOMD` | Minnesota Democratic nominee for Governor | Politics | $422,685 |
-| 1750 | `KXBRPRES` | Brazil Presidency | Elections | $418,099 |
-| 1751 | `PRESPARTYOR` | Oregon presidential winner | Politics | $417,555 |
-| 1752 | `KXVOTEDTULSI` | Dems for Tulsi | Politics | $412,951 |
-| 1753 | `KXSCOTUSN` | New Supreme Court Justice | Politics | $408,142 |
-| 1754 | `KXSTATEFLIPDJT` | Trump flips a Biden state | Politics | $407,900 |
-| 1755 | `KXMNDAYCARECHARGE` | Will anyone be charged in the Minnesota daycare fraud scandal? | Politics | $405,951 |
-| 1756 | `KXTARIFFCOUNTRY` | Countries Trump will tariff | Politics | $405,597 |
-| 1757 | `KXGA14S` | Who will win the GA-14 special election? | Elections | $396,810 |
-| 1758 | `KXTRUMPNOMMAX` | Trump nominee with most votes | Politics | $396,165 |
-| 1759 | `KXBIDENRESIGN` | Biden resignation | Politics | $394,297 |
-| 1760 | `KXELECTIONDAYCALL` | Election called on election day | Politics | $391,548 |
-| 1761 | `HOUSEAKAL` | House Alaska at-large | Politics | $390,177 |
-| 1762 | `KXSECVA` | Next Secretary of Veterans' Affars | Politics | $389,594 |
-| 1763 | `KXVOTESHUTDOWNH` | Shutdown vote House | Politics | $379,899 |
-| 1764 | `KXCHANCELLOR` | German Chancellorship | Politics | $379,491 |
-| 1765 | `KXSKIMPEACH` | South Korean President impeached | Politics | $379,176 |
-| 1766 | `KXUNIPRESIDENT` | University Presidents ousted | Politics | $379,073 |
-| 1767 | `KXGERMANYPARTY` | Germany election winner | Politics | $371,688 |
-| 1768 | `KXABRAHAMSY` | Syria recognition | Politics | $370,302 |
-| 1769 | `KXTARIFFDECISIONRELEASE` | When will the Supreme Court release its tariff decision? | Politics | $368,485 |
-| 1770 | `KXECTIE` | Electoral college tie | Politics | $365,052 |
-| 1771 | `KXINFRALW` | Infrastructure bill become law | Politics | $362,128 |
-| 1772 | `HOUSEFL6` | House Florida 6th | Politics | $361,041 |
-| 1773 | `KXDJTINVESTMENT` | What will Trump say at the "investment announcement"? | Politics | $360,523 |
-| 1774 | `KXSDEBT` | Student debt forgiveness via bill or executive order (please see rules) | Politics | $357,686 |
-| 1775 | `KXPORTUGALPRESR1` | Portugal presidential election first round winner? | Politics | $357,171 |
-| 1776 | `KXMAMDANIREDSTRICT` | largest margin of vicotry mamdani and california redistricting | Elections | $356,133 |
-| 1777 | `KXVOTEDPATEL` | Dems for Patel | Politics | $355,009 |
-| 1778 | `KXVOTERECNCS` | Senate reconciliation | Politics | $352,193 |
-| 1779 | `KXROGANKH` | Kamala Harris goes on Rogan | Politics | $351,616 |
-| 1780 | `KXFEDCHAIRCONFIRMED` | Will Trump's Fed Chair pick be confirmed? | Politics | $351,056 |
-| 1781 | `KXDRONES` | NJ drones | Politics | $347,011 |
-| 1782 | `KXFLUORIDE` | Fluoride recommendation | Politics | $346,673 |
-| 1783 | `ECKHBLOWOUT` | Harris blowout | Politics | $345,064 |
-| 1784 | `KXTRUMPZELENSKYY` | What will Trump say with Zelenskyy? | Politics | $343,711 |
-| 1785 | `KXOCTSWEEP` | october right sweep | Politics | $341,405 |
-| 1786 | `KXSECED` | Next Secretary of Education | Politics | $339,330 |
-| 1787 | `KXRELEASEMAXWELL` | Ghislaine | Politics | $338,634 |
-| 1788 | `KXHOUSEEPSTEIN2` | How many House votes will the bill to unseal Epstein records receive? (Higher strikes) | Politics | $337,755 |
-| 1789 | `KXBUSINESSROUNDTABLE` | What will Trump say at the Business Roundtable? | Politics | $335,639 |
-| 1790 | `KXCABJAN20` | Jan 20 cab confirmations | Politics | $330,923 |
-| 1791 | `KXRUBIOCOUNT` | Rubio Senate yeas | Politics | $328,369 |
-| 1792 | `KXREPSWORNIN` | Member of Congress sworn in | Politics | $327,084 |
-| 1793 | `KXHIGHMOVKH` | Highest margin of victory for Harris | Politics | $323,655 |
-| 1794 | `KXTRUMPBULLCASECOMBO` | Trump's year: Bull (dream) case? | Politics | $322,281 |
-| 1795 | `KXMEETPTZ` | Trump, Zelenskyy, Putin MEET? | Politics | $321,773 |
-| 1796 | `KXCALIREDISTRICTING` | California Redistricting Referendum  | Politics | $321,631 |
-| 1797 | `KXINCOMETAXCUT` | Income tax cut | Politics | $318,913 |
-| 1798 | `KX2028DRUN` | 2028 D running | Politics | $318,026 |
-| 1799 | `KXPROGMAYORSWEEP` | progressive mayor sweep | Politics | $316,923 |
-| 1800 | `KXSENATEEPSTEIN` | How many Senate votes will the bill to unseal Epstein records receive? | Politics | $316,469 |
-| 1801 | `KXELECTIONMOVAZ7S` | az-7 special election margin of victory | Elections | $314,000 |
-| 1802 | `KXPOLANDMOV` | Poland presidential MOV | Politics | $313,517 |
-| 1803 | `KXCRYPTORESERVE` | Crypto reserve assets | Crypto | $312,436 |
-| 1804 | `PRESPARTYWA` | Washington presidentilal winner | Politics | $312,204 |
-| 1805 | `KXCPBFUNDING` | CPB defunded | Politics | $308,434 |
-| 1806 | `KXNJ11SPECIAL2ND` | Who will finish second in the NJ-11 Dem special primary? | Elections | $308,080 |
-| 1807 | `KX538APPROVEMAX` | Biden 538 highest approval rating | Politics | $307,497 |
-| 1808 | `KXCLEANCR` | Clean CR | Politics | $304,536 |
-| 1809 | `KXSECHOMELAND` | Next Homeland Security Secretary | Politics | $301,804 |
-| 1810 | `KXTRDBAN` | Congress banned from trading stocks | Politics | $301,366 |
-| 1811 | `KXEPSTEINNO` | Will anyone vote No on releasing the Epstein files? | Politics | $300,319 |
-| 1812 | `KXDJTJUSTICEMENTION` | What will trump say at the Justice Department speech? | Politics | $296,127 |
-| 1813 | `KXCOSTARICAPRES` | Costa Rica presidency | Politics | $294,680 |
-| 1814 | `KXCOUNTRYTARIFF` | Countries being tariff'd on a specific date | Politics | $293,133 |
-| 1815 | `KXTRAVELBANS` | WH travel bans | Politics | $290,492 |
-| 1816 | `KXFEDGOVNOM` | Fed governor nominee | Politics | $284,834 |
-| 1817 | `KXSWINGFLIP24` | Swing states flipping | Politics | $284,741 |
-| 1818 | `GOVPARTYNH` | New Hampshire Governor | Politics | $283,886 |
-| 1819 | `KXKNOXGOLD` | Fort Knox gold | Politics | $282,921 |
-| 1820 | `KXNDEBTSHRINK` | national debt shrinking | Economics | $279,961 |
-| 1821 | `KXBOLIVIARUNOFFMOV` | Bolivia Runoff Margin of Victory | Elections | $279,133 |
-| 1822 | `KXNPRDEFUND` | Congress defunds NPR | Politics | $279,107 |
-| 1823 | `KXHOUSEGOVTFUND` | How many votes will the next government funding bill in the House receive? | Politics | $278,601 |
-| 1824 | `KXGERCOALITION` | German coalitions | Politics | $278,428 |
-| 1825 | `KXDJTWSJ` | DJT WSJ suit | Politics | $277,604 |
-| 1826 | `KXMOVNJ11SPECIALD` | NJ-11 Democratic primary MOV? | Elections | $273,062 |
-| 1827 | `KXRECOGPERSONIRAN` | Recognize Reza Pahlavi | Politics | $272,745 |
-| 1828 | `KXAUSPM` | Australia PM | Politics | $268,460 |
-| 1829 | `KXPAHLAVIHEAD` | Will Pahlavi lead Iran? | Companies | $267,970 |
-| 1830 | `KXUSELECTIONARIZONA7` | Which Party will win the Special Election for Arizona's 7th? | Elections | $264,516 |
-| 1831 | `KXVANCEOUT` | VANCEOUT | Politics | $263,948 |
-| 1832 | `KXSNAPDELAY` | Snap benefits delayed or reduced | Politics | $263,166 |
-| 1833 | `KXNEXTUKPM` | Next UK PM | Politics | $259,867 |
-| 1834 | `POPVOTEDJTIA` | Trump Iowa | Politics | $259,739 |
-| 1835 | `KXMUSKOAI` | Elon Win vs Open AI | Politics | $256,021 |
-| 1836 | `KXFDABANS` | FDA bans | Politics | $255,851 |
-| 1837 | `KXTRUMPREMOVE` | Trump removed | Politics | $255,084 |
-| 1838 | `KXMAYORLA` | LA | Elections | $254,808 |
-| 1839 | `KXUKRAINERESIGN` | Ukraine President resign | Politics | $254,140 |
-| 1840 | `KXLDPSEATS` | How many seats will the LDP win in the Japanese snap election? | Elections | $251,471 |
-| 1841 | `KXSUPERBOWLAD` | Super Bowl ads | Companies | $72,200,453 |
-| 1842 | `KXSBGUESTS` | Super Bowl guests | Entertainment | $40,270,790 |
-| 1843 | `KXLLM1` | Year-end top LLM | Science and Technology | $35,013,837 |
-| 1844 | `KXIPO` | IPOs | Companies | $6,637,696 |
-| 1845 | `KXAPPRANKFREE` | Free app ranking | Entertainment | $3,943,570 |
-| 1846 | `KXTIKTOKBAN` | US bans TikTok | Companies | $3,907,027 |
-| 1847 | `KXSPACEXSTARSHIP` | SpaceX Starship launch | Companies | $2,865,679 |
-| 1848 | `KXSPACEXCOUNT` | SpaceX launches | Companies | $2,865,051 |
-| 1849 | `KXTESLA` | Tesla deliveries | Companies | $2,593,138 |
-| 1850 | `KXCEOASTRONOMER` | Will the ceo of astronomer leave? | Companies | $2,415,264 |
-| 1851 | `KXROBOTAXIOUT` | Robotaxi release | Companies | $1,855,163 |
-| 1852 | `KXMUSKPACKAGEVOTE` | Musk comp package vote | Companies | $1,594,577 |
-| 1853 | `KXWEALTHY` | Wealthiest person in world | Economics | $1,372,263 |
-| 1854 | `KXCBVOLUME` | Coinbase volume | Companies | $1,331,235 |
-| 1855 | `KXTAKEOVERACQWB` | Warner Brothers acquisition | Companies | $1,266,021 |
-| 1856 | `KXACQUANNOUNCETIKTOK` | Tiktok be acquired | Companies | $1,002,582 |
-| 1857 | `KXAPPRANKFREE2` | Free app ranking | Entertainment | $912,095 |
-| 1858 | `KXCORPTAXCUT` | Corporate tax cut | Politics | $847,516 |
-| 1859 | `KXTESLAPROD` | Tesla production | Companies | $624,842 |
-| 1860 | `KXACQUANNOUNCEPARAMOUNT` | Paramount | Companies | $578,532 |
-| 1861 | `KXNEWROLEX` | X NEW CEO | Companies | $572,763 |
-| 1862 | `KXOAIAGI` | OpenAI achieves AGI | Science and Technology | $551,037 |
-| 1863 | `KXSPACEXBANKPUBLIC` | SpaceX | Companies | $543,287 |
-| 1864 | `KXLAYOFFSYINFO` | Tech layoffs | Economics | $507,101 |
-| 1865 | `KXIPOSPACEX` | When will spacex IPO | Companies | $474,221 |
-| 1866 | `KXTESLACEOCHANGE` | New Tesla CEO | Companies | $472,368 |
-| 1867 | `KXGPT5` | ChatGPT-5 revealed | Science and Technology | $448,898 |
-| 1868 | `KXMETAHEADCOUNT` | META Headcount | Companies | $400,830 |
-| 1869 | `KXTECHLAYOFF` | Tech layoffs up | Science and Technology | $314,584 |
-| 1870 | `KXPS6` | PS6 announcement | Entertainment | $300,833 |
-| 1871 | `KXPAHLAVIHEAD` | Will Pahlavi lead Iran? | Companies | $267,970 |
-| 1872 | `KXOAIPROFIT` | OpenAI becomes for-profit | Companies | $264,774 |
-| 1873 | `KXGEMINI3` | Gemini 3 release | Science and Technology | $253,581 |
-| 1874 | `KXOAIBROWSER` | OpenAI browser | Companies | $214,961 |
-| 1875 | `KXAPPRANKSPORTS` | Sports ranking | Entertainment | $212,611 |
-| 1876 | `KXTESLAOPTIMUS` | Tesla Optimus sale | Companies | $210,909 |
-| 1877 | `KXXCEOCHANGE` | Linda Yaccarino leaves X | Companies | $207,827 |
-| 1878 | `KXUSACOMPANYSTAKE` | Which companies will the US take a stake in | Companies | $206,376 |
-| 1879 | `KXTIKTOKSELL` | Congress passes law to force TikTok sale | Companies | $202,826 |
-| 1880 | `KXAAPLCEOCHANGE` | Tim Cook leaves Apple | Companies | $176,918 |
-| 1881 | `KXTOPLLM` | GPT no longer top ranked LLM | Science and Technology | $157,121 |
-| 1882 | `KXBOEINGCEOCHANGE` | New Boeing CEO | Transportation | $151,313 |
-| 1883 | `KXLLAMA5` | LLAMA%5 | Science and Technology | $147,717 |
-| 1884 | `KXRENAMECOMMANDERS` | Commanders | Companies | $137,697 |
-| 1885 | `KXBOEING` | Boeing | Companies | $137,412 |
-| 1886 | `KXOPENAICEOCHANGE` | OpenAI hires another CEO | Companies | $131,787 |
-| 1887 | `KXCOMPANYACTIONYOUTUBE` | YouTube | Companies | $128,446 |
-| 1888 | `KXAIRTAGS2PRICE` | Apple AirTags 2 Price | Companies | $124,646 |
-| 1889 | `KXSWITCH2` | New Nintendo Console announced | Companies | $124,185 |
-| 1890 | `KXNEWAAPLVR` | APPLE VR | Companies | $112,735 |
-| 1891 | `KXMINWAGE` | Minimum wage hike | Politics | $103,802 |
-| 1892 | `KXBIGTECHLAYOFF` | Big tech layoffs | Companies | $99,174 |
-| 1893 | `KXSUBWAY` | Subway ridership returning | Companies | $97,493 |
-| 1894 | `KXIPOOPENAI` | When will OPENAI Announce IPO? | Companies | $96,644 |
-| 1895 | `KXSORA` | Sora public release | Companies | $94,784 |
-| 1896 | `KXIPHONERELEASE` | iPhone | Companies | $94,053 |
-| 1897 | `KXRHGOLD` | RH gold | Companies | $91,140 |
-| 1898 | `KXACQANNOUNEWARNER` | Warner Bros | Companies | $90,207 |
-| 1899 | `KXGOOGLECEOCHANGE` | Sundar Pichai leaves Google | Companies | $88,680 |
-| 1900 | `KXMETADAP` | Meta daily active people | Companies | $88,156 |
-| 1901 | `KXDISCEOCHANGE` | Bob Iger leaves Disney | Companies | $86,720 |
-| 1902 | `KXAPPLEFOLD` | Apple reveals foldable iPhone | Companies | $80,676 |
-| 1903 | `KXUBERTRIPS` | UBER | Companies | $79,366 |
-| 1904 | `KXIPOSTARLINK` | When will starlink IPO | Companies | $78,225 |
-| 1905 | `KXVINE` | Vine re-launch | Companies | $74,124 |
-| 1906 | `KXSTEAMPRICE` | Steam Machine | Companies | $73,783 |
-| 1907 | `KXNETFLIXSUBS` | Netflix subscribers this quarter | Companies | $72,855 |
-| 1908 | `KXCRYPTOPAY` | Crypto payments from tech firms | Companies | $72,744 |
-| 1909 | `KXOPENAICEO` | OpenAI new CEO | Companies | $72,692 |
-| 1910 | `KXUSCOMPANYSTAKE` | US Investment | Companies | $70,642 |
-| 1911 | `KXSPACEXORBIT` | Starship in orbit | Companies | $68,617 |
-| 1912 | `KXCOMPANYSTAKERYANAIR` | Ryanair | Companies | $68,609 |
-| 1913 | `KXALTMANEQUITY` | Sam Altman OpenAI equity | Companies | $67,615 |
-| 1914 | `KXJPMCEOCHANGE` | Jamie Dimon leaves JPMorgan | Companies | $65,542 |
-| 1915 | `KXCLAUDE4` | Claude 4 release | Science and Technology | $63,932 |
-| 1916 | `KXCLAUDE5` | Claude 5 released | Science and Technology | $63,286 |
-| 1917 | `KXAPPLEAI` | Apple AI partnership | Companies | $61,889 |
-| 1918 | `KXROBOTAXI` | Tesla Robotaxi announcement | Companies | $60,620 |
-| 1919 | `KXACQUANNOUNCEPINS` | Pinterest | Companies | $60,151 |
-| 1920 | `KXDEEPSEEKR2RELEASE` | Deepseek R2 release | Science and Technology | $58,977 |
-| 1921 | `KXRELEASEIPHONE` | APPLE releases iphone | Companies | $58,105 |
-| 1922 | `KXNEWROLEDISNEY` | Disney | Companies | $55,833 |
-| 1923 | `KXAISTREAMSERIES` | Will a major streaming platform offer a fully AI-generated scripted series by June 2026? | Companies | $55,705 |
-| 1924 | `KXTESLADELIVERYBY` | Tesla deliveries by | Companies | $55,075 |
-| 1925 | `KXPALANTIR` | Palantir | Companies | $54,279 |
-| 1926 | `KXKRAKENBANKPUBLIC` | Kraken IPO | Companies | $53,701 |
-| 1927 | `KXDASHORDERS` | DoorDash | Companies | $52,014 |
-| 1928 | `KXISMPMI` | ISM PMI | Economics | $50,273 |
-| 1929 | `KXEXPORTTARIFF` | Export tariffs | Economics | $50,047 |
-| 1930 | `KXLEAVEMETA` | Who will leave Meta | Companies | $48,686 |
-| 1931 | `KXTESLAROADSTER` | Tesla Roadster delivered | Companies | $48,240 |
-| 1932 | `KXIPODISCORD` | When will Discord IPO | Companies | $47,032 |
-| 1933 | `KXAPPLEUS` | Apple DOJ lawsuit | Companies | $45,302 |
-| 1934 | `KXSOFIMEMBERS` | SoFi new members | Companies | $44,660 |
-| 1935 | `KXSPOTIFYSUBS` | Spotify subscribers | Companies | $43,979 |
-| 1936 | `KXBIGBANKLAYOFF` | Big banks layoffs | Economics | $39,488 |
-| 1937 | `KXNYTSUBS` | NYT subscribers | Companies | $39,385 |
-| 1938 | `KXSP500BTCPURCHASE` | SP500 bitcoin purchase | Companies | $38,208 |
-| 1939 | `KXTESLASEMI` | How many Tesla semi trucks produced | Companies | $36,931 |
-| 1940 | `KXSPIRITCEOCHANGE` | New Spirit CEO | Companies | $36,857 |
-| 1941 | `KXFALLOUTRELEASE` | Will Bethesda announce a new Fallout game before the middle of 2026? | Companies | $36,289 |
-| 1942 | `KXTESLAM2` | Tesla model 2 | Companies | $34,327 |
-| 1943 | `KXAIRTAG2` | Airtag 2 release | Companies | $33,834 |
-| 1944 | `KXMAERSK` | Maersk resumes shipping in the Red Sea | World | $33,447 |
-| 1945 | `KXPLANETFITNESSSUBS` | Planet fitness subscribers | Companies | $32,220 |
-| 1946 | `KXNEXTCOMPANYSP500` | Next company in S&P 500 | Companies | $31,529 |
-| 1947 | `KXSTARSHIPMARS` | Starship launch to Mars | Companies | $31,302 |
-| 1948 | `KXWEWORKCEO` | WeWork new CEO | Companies | $31,167 |
-| 1949 | `KXNPRCEOCHANGE` | NPR CEO leaves | Politics | $30,785 |
-| 1950 | `KXCEOTARGET` | Target CEO leaving | Companies | $30,645 |
-| 1951 | `KXMATCHPAYERS` | Match | Companies | $30,569 |
-| 1952 | `KXJOINSTEPHENCOLBERT` | Will Stephen Colbert join MSNBC | Companies | $29,239 |
-| 1953 | `KXWEALTH` | Person wealthiest | Economics | $28,985 |
-| 1954 | `KXCEOROBLOX` | David Baszucki out as Roblox CEO in 2025? | Companies | $28,119 |
-| 1955 | `KXOPENAIBOARD` | OpenAI board members leaving | Companies | $24,633 |
-| 1956 | `KXKPOPDH2` | Will KPop Demon Hunters 2 be released before September 2026? | Companies | $22,568 |
-| 1957 | `KXLEAVESEANCOOK` | Will Sean Cook Leave the Tea App? | Companies | $21,135 |
-| 1958 | `KXEVSHARE` | EV market share | Climate and Weather | $21,025 |
-| 1959 | `KXIPOANDURIL` | When will anduril IPO | Companies | $19,960 |
-| 1960 | `KXNEURALINK` | Neuralink implanted into a living human | Companies | $19,937 |
-| 1961 | `KXVISIONPRO` | Apple Vision Pro release date | Companies | $19,790 |
-| 1962 | `KXGPT4P5` | GPT-4.5 released | Science and Technology | $19,128 |
-| 1963 | `KXSPOTIFYMAU` | Spotify | Companies | $19,055 |
-| 1964 | `KXJUULFLAVOR` | Juul flavors | Companies | $18,173 |
-| 1965 | `KXNEWROLECEOAPPLE` | Next Apple CEO | Companies | $18,030 |
-| 1966 | `KXAPPRANKFINANCE` | Finance ranking | Entertainment | $17,505 |
-| 1967 | `KXSWHIRES` | Software engineers | Companies | $16,315 |
-| 1968 | `KXNEWROLEVOGUE` | Who will be announced as the next Editor-in-Chief of Vogue? | Companies | $16,063 |
-| 1969 | `KXGROK4` | Grok 4 release | Science and Technology | $15,459 |
-| 1970 | `KXCEOYCOMB` | Y Combinator CEO leaving | Companies | $15,373 |
-| 1971 | `KXGMECEOCHANGE` | New GME CEO | Companies | $15,166 |
-| 1972 | `KXFSDMARKET` | FSD Market | Companies | $15,121 |
-| 1973 | `KXTESLAENERGYBY` | Tesla energy business | Companies | $15,090 |
-| 1974 | `KXAPPLECAR` | Apple reveals car | Companies | $14,899 |
-| 1975 | `KXTRUMPPHONE` | Trump Phone | Companies | $14,622 |
-| 1976 | `KXIPOKLARNA` | When will klarna IPO | Companies | $14,622 |
-| 1977 | `KXLEAVEMAGUIRESEQUOIA` | SHAUN MAGUIRE SEQUOIA | Companies | $14,318 |
-| 1978 | `KXIPODEEL` | When will deel IPO | Companies | $13,467 |
-| 1979 | `KXAPPLEWATCH` | Apple watch sales banned at the end of January | Companies | $13,172 |
-| 1980 | `KXCRACKERBARRELREBRANDREVERSE` | Cracker barrel rebrand reverse | Companies | $13,170 |
-| 1981 | `KXAPPLEPORT` | Apple reveals portless iPhone | Companies | $13,116 |
-| 1982 | `KXROGANBOARD` | Joe Rogan public company | Companies | $12,693 |
-| 1983 | `KXCEOINTC` | Intel CEO leaving | Companies | $12,542 |
-| 1984 | `KXMORAESLEAVE` | Alexandre de Moraes leaving | Companies | $12,507 |
-| 1985 | `KXSTRIPEIPO` | When will Stripe Announce IPO? | Companies | $12,419 |
-| 1986 | `KXJPMCEONEW` | New JPM CEO | Companies | $11,975 |
-| 1987 | `KXDISNEYSUBS` | Disney | Companies | $11,889 |
-| 1988 | `KXACQANNOUNCEMISTRAL` | Mistral acq | Companies | $11,761 |
-| 1989 | `KXPAIDSUBAPPLEINTEL` | Apple Intelligence | Companies | $10,310 |
-| 1990 | `KXOPENAIBOARDJ` | OpenAI new board members | Companies | $10,017 |
-| 1991 | `KXLIVENATIONUS` | LIve Nation lawsuit | Companies | $9,990 |
-| 1992 | `KXMERCHLISTPALANTIR` | Palantir merch | Companies | $9,733 |
-| 1993 | `KXTESLAYL` | Tesla to release model Y L | Companies | $9,686 |
-| 1994 | `KXDISBOARD` | Disney Board members | Companies | $9,562 |
-| 1995 | `KXTESLAFACTORY` | Tesla gigafactory closing | Companies | $9,510 |
-| 1996 | `KXTWOW` | Winds release date announced | Entertainment | $9,356 |
-| 1997 | `KXNONCOMPETEBAN` | Non-compete ban | Politics | $9,100 |
-| 1998 | `KXJOINKARPATHY` | Andrej Karpathy | Companies | $9,064 |
-| 1999 | `KXCEOTWITCH` | Twitch CEO leaving | Companies | $8,693 |
-| 2000 | `KXXAIGAME` | WILL XAI RELEASE A VIDEO GAME | Companies | $8,419 |
-| 2001 | `KXTESLACAR` | Will Tesla release a car that is 30 thousand dollars this year  | Companies | $7,801 |
-| 2002 | `KXO3RELEASE` | Next o3 model release | Science and Technology | $7,674 |
-| 2003 | `KXDEEPSEEKV4RELEASE` | Deepseek V4 release | Science and Technology | $7,411 |
-| 2004 | `KXNEWPRODUCTMICROSOFT` | What product will Microsoft announce? | Companies | $7,392 |
-| 2005 | `KXCITITOKEN` | Citi token | Companies | $7,159 |
-| 2006 | `KXIPOFANNIE` | When will Fannie Mae IPO? | Companies | $7,035 |
-| 2007 | `KXNEWMETAVR` | METYA VR | Companies | $6,876 |
-| 2008 | `KXPHANTOMREV` | Phantom revenue | Companies | $6,811 |
-| 2009 | `KXCEOMRNA` | Moderna CEO leaving | Companies | $6,680 |
-| 2010 | `KXTIKTOKUMG` | TikTok UMG deal | Companies | $6,579 |
-| 2011 | `KXMUSKINJ` | Musk injunction against OpenAI | Companies | $6,267 |
-| 2012 | `KXUNSEC` | UN seceretary | Companies | $6,106 |
-| 2013 | `KXRELOCATENYCFL` | Finance firms FL | Companies | $5,858 |
-| 2014 | `KXGROKMACOS` | Grok MacOS app | Companies | $5,856 |
-| 2015 | `KXOPENAISUIT` | Elon Musk OpenAI lawsuit | Companies | $5,782 |
-| 2016 | `KXDANAWHITEFB` | Dana White leaves Meta board | Companies | $5,378 |
-| 2017 | `KXIPOBREX` | When will Brex IPo | Companies | $5,276 |
-| 2018 | `KXNEWPRODUCTFALLOUT3REM` | “will Fallout 3 remastered be revealed on October 23rd?” | Companies | $5,218 |
-| 2019 | `KXELECTRICM3` | Will BMW Release an electric M3 | Companies | $5,111 |
-| 2020 | `KXJOINAPPLEJB` | Will Justin Bieber Join apple? | Companies | $4,420 |
-| 2021 | `KXPRIVACYUPDATENYT` | NYT privacy update | Companies | $4,380 |
-| 2022 | `KXJOINXAI` | Join XAI | Companies | $4,295 |
-| 2023 | `KXAMCCEOCHANGE` | New AMC CEO | Companies | $3,996 |
-| 2024 | `KXNEXTYACCARINO` | Next job Yaccarino | Companies | $3,807 |
-| 2025 | `KXSINNERSIMAX` | Will "Sinners" get a fall re-release on IMAX | Companies | $3,795 |
-| 2026 | `KXHELLCAT` | Hellcat | Companies | $3,628 |
-| 2027 | `KXJOINBARSTOOL` | Will Shannon sharpe join meta | Companies | $3,616 |
-| 2028 | `KXFREDDIE` | When will Freddie Mac IPO? | Companies | $3,494 |
-| 2029 | `KXNEWROLEFAZE` | Who will be the next CEO of FaZe Media, Inc | Companies | $3,396 |
-| 2030 | `KXNEWROLEOPENDOOR` | Opendoor Boardmember | Companies | $3,325 |
-| 2031 | `KXIPOBEASTINDUSTRIES` | When will beast indsutries ipo | Companies | $3,321 |
-| 2032 | `KXDANGROSSMETA` | Daniel Gross joining Meta | Companies | $3,269 |
-| 2033 | `KXMSFTCEO` | Next Microsoft CEO | Companies | $3,191 |
-| 2034 | `KXBRAZILXBAN` | Brazil bans X | Companies | $2,793 |
-| 2035 | `KXAPPRANKUTILITIES` | Utilities app ranking | Entertainment | $2,700 |
-| 2036 | `KXACQANNOUNCECHROME` | Chrome acquisition | Companies | $2,555 |
-| 2037 | `KXMEEKMILLAI` | When will Meek Mill launch his AI tool? | Companies | $2,501 |
-| 2038 | `KXCEOUSSTEEL` | US Steel CEO leaving  | Companies | $2,482 |
-| 2039 | `KXRELOCATEUNITED` | Wil United move its HQ | Companies | $2,451 |
-| 2040 | `KXSPACEXLAND` | Starship lands | Science and Technology | $2,413 |
-| 2041 | `KXANTITRUSTOAIMSFT` | OpenAI Microsoft antitrust | Companies | $2,246 |
-| 2042 | `KXFEMALECEO` | female ceo | Companies | $2,213 |
-| 2043 | `KXRENAMEGUARDIANS` | Guardians | Companies | $2,135 |
-| 2044 | `KXIPORAMP` | When will Ramp IPO | Companies | $2,127 |
-| 2045 | `KXFYREFESTPRICE` | How much will Fyre Fest sell for? | Companies | $2,047 |
-| 2046 | `KXCEOGS` | Goldman CEO leaving | Companies | $2,005 |
-| 2047 | `KXNINTENDOZELDA` | Will Nintendo announce a NEW Zelda game this year | Companies | $1,883 |
-| 2048 | `KXIPOWHOOP` | Whoop IPO | Companies | $1,762 |
-| 2049 | `KXOPENDOORCEO` | Opendoor CEO | Companies | $1,494 |
-| 2050 | `KXIPOCLUELY` | When will Cluely IPO | Companies | $1,363 |
-| 2051 | `KXFOXONE` | WHEN WILL FOX CORP RELEASE FOX ONE | Companies | $1,361 |
-| 2052 | `KXRIPPLINGDEEL` | Rippling Deel suit | Companies | $1,357 |
-| 2053 | `KXCARDFEECHASESAPH` | Chase Sapphire Preferred fee | Companies | $1,331 |
-| 2054 | `KXLEAVEXAI` | Who will leave xAI | Companies | $1,237 |
-| 2055 | `KXWIKIMEDIA` | Wikimedia Action | Companies | $1,234 |
-| 2056 | `KXNYTVISITPALANTIR` | NYT visits Palantir | Companies | $1,225 |
-| 2057 | `KXLEAVEOPENAI` | Who will leave OpenAI | Companies | $1,193 |
-| 2058 | `KXROBINHOODCHAIN` | Robinhood Chain leave Arbitrum | Companies | $1,182 |
-| 2059 | `KXCEOPFE` | Pfizer CEO leaving | Companies | $1,164 |
-| 2060 | `KXINDIAX` | India X ban | Companies | $1,163 |
-| 2061 | `KXIPOAIRTABLE` | WHEN WILL AIR TABLE ANNOUNCE AN IPO | Companies | $1,162 |
-| 2062 | `KXIPORIPPLING` | When will Rippling IPO | Companies | $1,154 |
-| 2063 | `KXGOOGLESHARE` | Google market share | Companies | $1,144 |
-| 2064 | `KXREVIEWRELEASEMKBHDFRIEND` | MKBHD Friend | Companies | $1,005 |
-| 2065 | `KXCOMPANYBOARDOPENDOOR` | Will Keith Rabois Join the Board of OpenDoor? | Companies | $935 |
-| 2066 | `KXAAPLRING` | Apple Ring | Companies | $932 |
-| 2067 | `KXCEOAMAZON` | Amazon CEO leaving | Companies | $929 |
-| 2068 | `KXNATFRIEDMANMETA` | Nat Friedman joining Meta | Companies | $910 |
-| 2069 | `KXLEAVEJONYIVEOAI` | Jony Ive OpenAI | Companies | $740 |
-| 2070 | `KXGODOFWARXBOX` | Will Sony Bring God of War to Xbox? | Companies | $598 |
-| 2071 | `KXIPOOURA` | Oura IPO | Companies | $509 |
-| 2072 | `KXJONYIVEMETA` | Jony Ive joining Meta | Companies | $492 |
-| 2073 | `KXCEOMETA` | Meta CEO leaving | Companies | $471 |
-| 2074 | `KXJOINMETA` | Join META | Companies | $380 |
-| 2075 | `KXIPOGLEAN` | When Will Glean IPO | Companies | $342 |
-| 2076 | `KXCEOCLUELY` | Cluely CEO leaving | Companies | $295 |
-| 2077 | `KXLEAVEANTHROPIC` | Who will leave Anthropic | Companies | $256 |
-| 2078 | `KXIPOOLIPOP` | When will Oli Pop Ipo? | Companies | $241 |
-| 2079 | `KXLEAVEJANGS` | Jan GS | Companies | $224 |
-| 2080 | `KXMYSTERYSTOCKBUFFET` | Buffet mystery stock | Companies | $216 |
-| 2081 | `KXSWBAGS` | SW bag policy | Companies | $204 |
-| 2082 | `KXJOINANTHROPIC` | Join ANthropic | Companies | $180 |
-| 2083 | `KXCANCELTHELINE` | Saudi the line | Companies | $71 |
-| 2084 | `KXMUSKCABLE` | Musk Cable company | Companies | $45 |
-| 2085 | `KXIPOAPPSFLYER` | When will Appsflyer IPO | Companies | $19 |
-| 2086 | `KXJOINOPENAI` | Join Open AI | Companies | $5 |
-| 2087 | `LAYOFFSY` | layoffs | Economics | $0 |
-| 2088 | `APPLEUS` | Apple DOJ lawsuit | Companies | $0 |
-| 2089 | `WEALTHY` | Wealthiest person in world | Economics | $0 |
-| 2090 | `CBVOLUME` | Coinbase volume | Companies | $0 |
-| 2091 | `SPACEXLAND` | Starship lands | Science and Technology | $0 |
-| 2092 | `SPACEXCOUNT` | SpaceX launches | Companies | $0 |
-| 2093 | `MINWAGE` | Minimum wage hike | Politics | $0 |
-| 2094 | `VINE` | Vine re-launch | Companies | $0 |
-| 2095 | `KXSUIMETA` | Sui Meta Partnership | Companies | $0 |
-| 2096 | `KXSLATEPRICE` | Slate Auto Price | Companies | $0 |
-| 2097 | `KXJENNINGSLEAVE` | Scott Jennings leave CNN | Companies | $0 |
-| 2098 | `OPENAIBOARDJ` | OpenAI new board members | Companies | $0 |
-| 2099 | `WEWORKCEO` | WeWork new CEO | Companies | $0 |
-| 2100 | `TESLAOPTIMUS` | Tesla Optimus sale | Companies | $0 |
-| 2101 | `TOPLLM` | GPT no longer top ranked LLM | Science and Technology | $0 |
-| 2102 | `APPLEWATCH` | Apple watch sales banned at the end of January | Companies | $0 |
-| 2103 | `FEMALECEO` | female ceo | Companies | $0 |
-| 2104 | `DISCEOCHANGE` | Bob Iger leaves Disney | Companies | $0 |
-| 2105 | `KXAPPRANKFREE3` | Free app ranking | Entertainment | $0 |
-| 2106 | `SPACEX` | SpaceX rocket launch | Companies | $0 |
-| 2107 | `KXCOMPBANCHINESEAI` | CHINESE AI  | Companies | $0 |
-| 2108 | `OAIAGI` | OpenAI achieves AGI | Science and Technology | $0 |
-| 2109 | `KXACQUANNOUNCEBANCOS` | Will BBVA acquire Banco Sabadell? | Companies | $0 |
-| 2110 | `NONCOMPETEBAN` | Non-compete ban | Politics | $0 |
-| 2111 | `APPLEAI` | Apple AI partnership | Companies | $0 |
-| 2112 | `KXJOINOPENDOOR` | Will Keith Rabois Join the Board of OpenDoor? | Companies | $0 |
-| 2113 | `KXLEAVEWANGMETA` | Alexander Wang META | Companies | $0 |
-| 2114 | `LLM1` | Year-end top LLM | Science and Technology | $0 |
-| 2115 | `GOOGLESHARE` | Google market share | Companies | $0 |
-| 2116 | `KXCOMPANYACTIONSNAP` | SNAP Company Action | Companies | $0 |
-| 2117 | `BRAZILX` | Brazil bans X | Companies | $0 |
-| 2118 | `AAPLCEOCHANGE` | Tim Cook leaves Apple | Companies | $0 |
-| 2119 | `SPIRITCEOCHANGE` | New Spirit CEO | Companies | $0 |
-| 2120 | `KXGPT5RELEASE` | GPT5 RELEASE | Science and Technology | $0 |
-| 2121 | `KXSP500INDEXREMOVE` | SP500 index removals | Companies | $0 |
-| 2122 | `SPACEXSTARSHIP` | SpaceX Starship launch | Companies | $0 |
-| 2123 | `SPACEXORBIT` | Starship in orbit | Companies | $0 |
-| 2124 | `KXAAPLWATCH` | Apple watch sales banned | Companies | $0 |
-| 2125 | `DISBOARD` | Disney Board members | Companies | $0 |
-| 2126 | `GPT4P5` | GPT-4.5 released | Science and Technology | $0 |
-| 2127 | `OPENAICEOCHANGE` | OpenAI hires another CEO | Companies | $0 |
-| 2128 | `KXJOINCBS` | Who will join CBS | Companies | $0 |
-| 2129 | `KXNEWXBOX` | New Xbox | Companies | $0 |
-| 2130 | `KXFBDAU` | FB daily active users | Companies | $0 |
-| 2131 | `TIKTOKSELL` | Congress passes law to force TikTok sale | Companies | $0 |
-| 2132 | `KXOPTIMUS` | Tesla Optimus | Companies | $0 |
-| 2133 | `KXBASEDAPPREV` | BasedApp Revenue | Companies | $0 |
-| 2134 | `OPENAIBOARD` | OpenAI board members leaving | Companies | $0 |
-| 2135 | `TIKTOKBAN` | US bans TikTok | Companies | $0 |
-| 2136 | `NEURALINK` | Neuralink implanted into a living human | Companies | $0 |
-| 2137 | `ROBOTAXI` | Tesla Robotaxi announcement | Companies | $0 |
-| 2138 | `NYTSUBS` | NYT subscribers | Companies | $0 |
-| 2139 | `KXSPACEX` | SpaceX rocket launch | Companies | $0 |
-| 2140 | `KXAPPRANK` | App Store rank | Entertainment | $0 |
-| 2141 | `EVSHARE` | EV market share | Climate and Weather | $0 |
-| 2142 | `AAPLWATCH` | Apple watch sales banned | Companies | $0 |
-| 2143 | `AMCCEOCHANGE` | New AMC CEO | Companies | $0 |
-| 2144 | `KXYTFOX` | Youtube Fox deal | Companies | $0 |
-| 2145 | `KXACQUIREDFIRST` | Acquired first | Companies | $0 |
-| 2146 | `KXRHSTOCKTOKEN` | RHSTOCKTOKEN | Companies | $0 |
-| 2147 | `KXAPPRANKPAID` | Paid app ranking | Entertainment | $0 |
-| 2148 | `MAERSK` | Maersk resumes shipping in the Red Sea | World | $0 |
-| 2149 | `KXLEAVEKRISTINCABOT` | will Kristin cabot leave company | Companies | $0 |
-| 2150 | `KXDISNEYBOARD` | Disney Board members | Companies | $0 |
-| 2151 | `TESLAM2` | Tesla model 2 | Companies | $0 |
-| 2152 | `APPLEFOLD` | Apple reveals foldable iPhone | Companies | $0 |
-| 2153 | `SOFIMEMBERS` | SoFi new members | Companies | $0 |
-| 2154 | `TESLACEOCHANGE` | New Tesla CEO | Companies | $0 |
-| 2155 | `BRAZILXBAN` | Brazil bans X | Companies | $0 |
-| 2156 | `BIGBANKLAYOFF` | Big banks layoffs | Economics | $0 |
-| 2157 | `VISIONPRO` | Apple Vision Pro release date | Companies | $0 |
-| 2158 | `FBDAU` | FB daily active users | Companies | $0 |
-| 2159 | `KXBORINGRUSSIA` | Boring Company Russia-USA tunnel | Companies | $0 |
-| 2160 | `KXBRAZILX` | Brazil bans X | Companies | $0 |
-| 2161 | `KXCOMPANYACTION` | Company Action | Companies | $0 |
-| 2162 | `KXIPHONE17` | Iphone 17 | Companies | $0 |
-| 2163 | `KXLAYOFFSY` | layoffs | Economics | $0 |
-| 2164 | `KXGPT45` | GPT-4.5 released | Science and Technology | $0 |
-| 2165 | `SORA` | Sora public release | Companies | $0 |
-| 2166 | `APPLECAR` | Apple reveals car | Companies | $0 |
-| 2167 | `APPLEPORT` | Apple reveals portless iPhone | Companies | $0 |
-| 2168 | `KXWHOACQTIKTOK` | Who will Acquire Tiktok | Companies | $0 |
-| 2169 | `KXSPIRITCEASEOPERATION` | Spirit | Companies | $0 |
-| 2170 | `KXIPO26` | 2026 IPOs | Companies | $0 |
-| 2171 | `JPMCEOCHANGE` | Jamie Dimon leaves JPMorgan | Companies | $0 |
-| 2172 | `GPT5` | ChatGPT-5 revealed | Science and Technology | $0 |
-| 2173 | `KXREMOVEDAPPSTORETIKTOK` | Will Tik tok be remove from the app store  | Companies | $0 |
-| 2174 | `BOEINGCEOCHANGE` | New Boeing CEO | Transportation | $0 |
-| 2175 | `BIGTECHLAYOFF` | Big tech layoffs | Companies | $0 |
-| 2176 | `KXMSTRBTCCOUNT` | MicroStrategy BTC count | Companies | $0 |
-| 2177 | `NPRCEOCHANGE` | NPR CEO leaves | Politics | $0 |
-| 2178 | `KXXAIREASON` | xAI reasoning model | Science and Technology | $0 |
-| 2179 | `PS6` | PS6 announcement | Entertainment | $0 |
-| 2180 | `KXDKNGMUP` | DraftKings MUPs | Companies | $0 |
-| 2181 | `OPENAICEO` | OpenAI new CEO | Companies | $0 |
-| 2182 | `METADAP` | Meta daily active people | Companies | $0 |
-| 2183 | `TWOW` | Winds release date announced | Entertainment | $0 |
-| 2184 | `KXIRSHEAD` | New Head of IRS | Companies | $0 |
-| 2185 | `TESLAPROD` | Tesla production | Companies | $0 |
-| 2186 | `XCEOCHANGE` | Linda Yaccarino leaves X | Companies | $0 |
-| 2187 | `TECHLAYOFF` | Tech layoffs up | Science and Technology | $0 |
-| 2188 | `KXSTOCKXTEST` | STOCKXTEST | Companies | $0 |
-| 2189 | `TIKTOKUMG` | TikTok UMG deal | Companies | $0 |
-| 2190 | `TESLAROADSTER` | Tesla Roadster delivered | Companies | $0 |
-| 2191 | `STARSHIPMARS` | Starship launch to Mars | Companies | $0 |
-| 2192 | `GOOGLECEOCHANGE` | Sundar Pichai leaves Google | Companies | $0 |
-| 2193 | `KXMSTRMARGIN` | MicroStrategy margijn called | Companies | $0 |
-| 2194 | `SWITCH2` | New Nintendo Console announced | Companies | $0 |
-| 2195 | `WEALTH` | Person wealthiest | Economics | $0 |
-| 2196 | `GPT45` | GPT-4.5 released | Science and Technology | $0 |
-| 2197 | `RHGOLD` | RH gold | Companies | $0 |
-| 2198 | `KXCEOCRACKERBARREL` | Julie Felss Masino leaving Cracker barrel | Companies | $0 |
-| 2199 | `TESLA` | Tesla deliveries | Companies | $0 |
-| 2200 | `MORAESLEAVE` | Alexandre de Moraes leaving | Companies | $0 |
-| 2201 | `OPENAISUIT` | Elon Musk OpenAI lawsuit | Companies | $0 |
-| 2202 | `ROBOTAXIOUT` | Robotaxi release | Companies | $0 |
-| 2203 | `SPOTIFYSUBS` | Spotify subscribers | Companies | $0 |
-| 2204 | `NETFLIXSUBS` | Netflix subscribers this quarter | Companies | $0 |
-| 2205 | `GMECEOCHANGE` | New GME CEO | Companies | $0 |
-| 2206 | `KXNEWPRODUCTAPPLE` | What products will apple announce? | Companies | $0 |
-| 2207 | `LAYOFFSYINFO` | Tech layoffs | Economics | $0 |
-| 2208 | `KXNEWROLECARVANA` | Carvana Boardmember | Companies | $0 |
-| 2209 | `MSFTCEO` | Next Microsoft CEO | Companies | $0 |
-| 2210 | `DISNEYBOARD` | Disney Board members | Companies | $0 |
-| 2211 | `KXCASEM` | COVID daily case max | Health | $1,030,488 |
-| 2212 | `KXCASED` | COVID daily cases | Health | $993,985 |
-| 2213 | `KXH5N1CASES` | H5N1 cases | Health | $848,059 |
-| 2214 | `KXVAROMIC` | Omicron share | Health | $754,158 |
-| 2215 | `KXCOVVC` | COVID new variant of concern reported | Health | $753,315 |
-| 2216 | `KXCASE7D` | New COVID-19 case average | Health | $731,886 |
-| 2217 | `KXVAXX` | COVID vaccinations | Health | $655,896 |
-| 2218 | `KXCASESURGE` | New COVID-19 wave | Health | $590,180 |
-| 2219 | `KXCASE7DA` | Return to March 2020 COVID level | Health | $405,434 |
-| 2220 | `KXCASEW` | New COVID-19 cases this week | Health | $369,496 |
-| 2221 | `KXFLUORIDE` | Fluoride recommendation | Politics | $346,673 |
-| 2222 | `KXNEWOUTBREAK-P` | New pandemic | Health | $279,689 |
-| 2223 | `KXCOVVHC` | COVID high consequence variant reported | Health | $265,124 |
-| 2224 | `KXWEIGHTDRUGSQ` | Ozempic and Wegovy prescriptions increase | Science and Technology | $218,434 |
-| 2225 | `KXNEWOUTBREAKPH5N1` | New bird flu pandemic | Health | $190,446 |
-| 2226 | `KXBOOSTER` | COVID boosters | Health | $190,008 |
-| 2227 | `KXVACCINEW` | Vaccine approval withdrawn | Health | $148,488 |
-| 2228 | `KXPLAGUECOUNT` | Plague cases | Health | $137,215 |
-| 2229 | `KXCASE7DTX` | Texas COVID daily case average | Health | $127,312 |
-| 2230 | `KXCMEATBANUSA` | Cultivated meat ban | Politics | $121,867 |
-| 2231 | `KXH5N1` | Bird flu declared PHEIC | Health | $109,158 |
-| 2232 | `KXCASELOW` | COVID case trough | Health | $85,364 |
-| 2233 | `KXH5HUMAN` | Human to human transmission of H5 | Health | $78,505 |
-| 2234 | `KXCASEWCN` | COVID-19 case average in China | Health | $59,285 |
-| 2235 | `KXPOLIO` | Polio cases USA | Health | $56,205 |
-| 2236 | `KXCASE7DNYC` | NYC COVID daily case average | Health | $56,115 |
-| 2237 | `KXCASE7DNY` | NY (ex NYC) COVID daily case average | Health | $53,947 |
-| 2238 | `KXVAXXKID` | COVID vaccine approval for kids | Health | $47,877 |
-| 2239 | `KXCASEWFR` | France COVID case average | Health | $45,294 |
-| 2240 | `KXINSULINCAP` | Insulin cap ended | Politics | $44,676 |
-| 2241 | `KXCASE7DFL` | Florida COVID daily case avg | Health | $42,605 |
-| 2242 | `KXCASEWDE` | Germany COVID case average | Health | $39,370 |
-| 2243 | `KXCASE7DCA` | California COVID daily case avg | Health | $38,412 |
-| 2244 | `KXDRUGPRICEOZEMPIC` | Ozempic price | Health | $37,966 |
-| 2245 | `KXCASEWIT` | Italy COVID case average | Health | $36,571 |
-| 2246 | `KXDRUGPRICEINSULIN` | Insulin price | Health | $30,988 |
-| 2247 | `KXPERTUSSIS` | Pertussis cases | Health | $29,562 |
-| 2248 | `KXNEWOUTBREAKPMPOX` | New monkeypox/mpox pandemic | Health | $28,007 |
-| 2249 | `KXFLUV` | Fluvoxamine COVID | Health | $25,223 |
-| 2250 | `KXNEWDRUGS` | New FDA drugs | Health | $23,693 |
-| 2251 | `KXGUINEAWORM` | Guinea worm cases | Health | $20,356 |
-| 2252 | `KXCDCTRAVELH5` | Avian flu travel warning | Health | $18,140 |
-| 2253 | `KXSCREWWORMCOUNT` | SCREWWORM CASES | Health | $17,746 |
-| 2254 | `KXMPOXCASES` | Mpox cases | Health | $16,258 |
-| 2255 | `KXH5VACCINE` | H5 vaccine | Health | $16,165 |
-| 2256 | `KXFERTILITYRATE` | FERTILITY RATE | Health | $14,897 |
-| 2257 | `KXNEWOUTBREAKPCOVID` | NEW COVID PANDEMIC | Health | $14,494 |
-| 2258 | `KXVARDELTA` | Delta share | Health | $13,183 |
-| 2259 | `KXLIFEEXP` | US life expectancy | Health | $13,150 |
-| 2260 | `KXNEWCOVIDVAX` | New Covid vaccine | Health | $12,938 |
-| 2261 | `KXCOVPILL` | FDA approves COVID pill | Health | $12,383 |
-| 2262 | `KXVARBA2` | Omicron stealth subvariant | Health | $11,692 |
-| 2263 | `KXNEWOUTBREAKPMEASLES` | NEW MEASLES PANDEMIC | Health | $10,367 |
-| 2264 | `KXPHEIC` | New public health emergency | Health | $8,957 |
-| 2265 | `KXDRUGADS` | Drug ads on TV | Health | $8,493 |
-| 2266 | `KXOZEMPICSHORT` | Ozempic shortage | Health | $7,786 |
-| 2267 | `KXCHICKENVAX` | Chicken vaccination program | Health | $6,646 |
-| 2268 | `KXNEWCOVIDCASE` | New Covid case in a human | Health | $6,479 |
-| 2269 | `KXNEWOUTBREAKPHEICMEASLES` | NEW MEASLES PUBLIC HEALTH EMERGENCY | Health | $6,311 |
-| 2270 | `KXNEWFLU` | New illness in China declared a public health emergency | Health | $3,579 |
-| 2271 | `KXWEIGHTDRUGS` | Ozempic and Wegovy prescriptions monthly | Health | $3,536 |
-| 2272 | `KXNEWOUTBREAKPHEICCOVID` | NEW COVID PUBLIC HEALTH EMERGENCY | Health | $3,092 |
-| 2273 | `KXENGLANDDOCTORSTRIKE` | England doctor strike | Health | $2,934 |
-| 2274 | `KXNEWOUTBREAKPHEICCHIK` | Chikungunya PHEIC | Health | $1,306 |
-| 2275 | `KXNEWOUTBREAKPCHIK` | Chikungunya PANDEMIC | Health | $311 |
-| 2276 | `CASE7DTX` | Texas COVID daily case average | Health | $0 |
-| 2277 | `LIFEEXP` | US life expectancy | Health | $0 |
-| 2278 | `CASELOW` | COVID case trough | Health | $0 |
-| 2279 | `WEIGHTDRUGS` | Ozempic and Wegovy prescriptions monthly | Health | $0 |
-| 2280 | `BOOSTERM` | COVID boosters this month | Health | $0 |
-| 2281 | `CASEWDE` | Germany COVID case average | Health | $0 |
-| 2282 | `CASE7DFL` | Florida COVID daily case avg | Health | $0 |
-| 2283 | `NEWOUTBREAKPMPOX` | New monkeypox/mpox pandemic | Health | $0 |
-| 2284 | `CASEWCN` | COVID-19 case average in China | Health | $0 |
-| 2285 | `WEIGHTDRUGSQ` | Ozempic and Wegovy prescriptions increase | Science and Technology | $0 |
-| 2286 | `MEASLES` | Measles cases | Health | $0 |
-| 2287 | `FLUV` | Fluvoxamine COVID | Health | $0 |
-| 2288 | `CASE7D` | New COVID-19 case average | Health | $0 |
-| 2289 | `VAXXKID` | COVID vaccine approval for kids | Health | $0 |
-| 2290 | `BOOSTER` | COVID boosters | Health | $0 |
-| 2291 | `NEWOUTBREAKPHEICZOMBIE` | New zombie virus public health emergency | Health | $0 |
-| 2292 | `KXBNATRUMP` | BNA renamed for Trump | Health | $0 |
-| 2293 | `CASEWFR` | France COVID case average | Health | $0 |
-| 2294 | `KXNEWOUTBREAKPHEICZOMBIE` | New zombie virus public health emergency | Health | $0 |
-| 2295 | `CASE7DA` | Return to March 2020 COVID level | Health | $0 |
-| 2296 | `KXNEWOUTBREAK-PHEIC` | New public health emergency | Health | $0 |
-| 2297 | `CASE7DNY` | NY (ex NYC) COVID daily case average | Health | $0 |
-| 2298 | `SCASE-MARCH2020` | Return to March 2020 COVID levels | Health | $0 |
-| 2299 | `NEWOUTBREAK-PHEIC` | New public health emergency | Health | $0 |
-| 2300 | `VAXX` | COVID vaccinations | Health | $0 |
-| 2301 | `VARBA2` | Omicron stealth subvariant | Health | $0 |
-| 2302 | `KXBOOSTERM` | COVID boosters this month | Health | $0 |
-| 2303 | `CASESURGE` | New COVID-19 wave | Health | $0 |
-| 2304 | `KXCHIKCOUNT` | Chikungunya CASES | Health | $0 |
-| 2305 | `CASE7DNYC` | NYC COVID daily case average | Health | $0 |
-| 2306 | `CASE7DCA` | California COVID daily case avg | Health | $0 |
-| 2307 | `NEWFLU` | New illness in China declared a public health emergency | Health | $0 |
-| 2308 | `COVVHC` | COVID high consequence variant reported | Health | $0 |
-| 2309 | `KXFDASHORT` | Drug shortage | Health | $0 |
-| 2310 | `CASEWIT` | Italy COVID case average | Health | $0 |
-| 2311 | `PHEIC` | New public health emergency | Health | $0 |
-| 2312 | `KXSCASE-MARCH2020` | Return to March 2020 COVID levels | Health | $0 |
-| 2313 | `NEWOUTBREAKPH5N1` | New bird flu pandemic | Health | $0 |
-| 2314 | `COVVC` | COVID new variant of concern reported | Health | $0 |
-| 2315 | `DOSE4` | CDC recommend second COVID-19 booster | Health | $0 |
-| 2316 | `VARDELTA` | Delta share | Health | $0 |
-| 2317 | `H5N1CASES` | H5N1 cases | Health | $0 |
-| 2318 | `VAROMIC` | Omicron share | Health | $0 |
-| 2319 | `CASED` | COVID daily cases | Health | $0 |
-| 2320 | `CASEW` | New COVID-19 cases this week | Health | $0 |
-| 2321 | `H5N1` | Bird flu declared PHEIC | Health | $0 |
-| 2322 | `NEWOUTBREAK-P` | New pandemic | Health | $0 |
-| 2323 | `COVPILL` | FDA approves COVID pill | Health | $0 |
-| 2324 | `KXDOSE4` | CDC recommend second COVID-19 booster | Health | $0 |
-| 2325 | `VACCINEW` | Vaccine approval withdrawn | Health | $0 |
-| 2326 | `CASEM` | COVID daily case max | Health | $0 |
-| 2327 | `KXRAINNOSB` | Super Bowl Sunday rain | World | $857,668 |
-| 2328 | `KXMAMDANIBOROUGHS` | Mamdani Boroughs | World | $648,390 |
-| 2329 | `KXRECSS` | Quarter of negative GDP growth by 2022 Q2 | World | $597,086 |
-| 2330 | `KXFERTILITYSK` | Fertility in South Korea | World | $348,834 |
-| 2331 | `KXUSADEALCOUNT` | USA deal count | World | $348,541 |
-| 2332 | `KXRAINNY` | NYC rain | World | $310,582 |
-| 2333 | `KXNEWPOPEDATE` | New Pope date | World | $215,574 |
-| 2334 | `KXNEWPOPEROUNDS` | New pope rounds of voting | World | $178,431 |
-| 2335 | `KXFLIGHTORD` | O'Hare International Airport total delays and cancellations | World | $177,397 |
-| 2336 | `KXNYCBOROUGHWINMAN` | Winner of Borough | World | $171,026 |
-| 2337 | `KXFLIGHTJFK` | JFK International Airport total flight delays and cancellations | World | $170,150 |
-| 2338 | `KXDEBATEMAMDANICUOMO` | cuomo mamdani debate | World | $145,909 |
-| 2339 | `KXFOOTBALL1001` | Football rankings | World | $143,983 |
-| 2340 | `KXARGDOLLAR` | Argentina dollarizes its economy | World | $143,784 |
-| 2341 | `KXNYCBOROUGHWINBRON` | BRONX | World | $131,141 |
-| 2342 | `KXHIGHNY0` | NYC high temperature | World | $120,014 |
-| 2343 | `KXNEWPOPECONTINENT` | New pope continent | World | $119,023 |
-| 2344 | `KXREALID` | TSA real ID | Transportation | $117,223 |
-| 2345 | `KXINDEXADD` | Companies added | World | $112,555 |
-| 2346 | `KXFLIGHTLAX` | Los Angeles International Airport total delays and cancellations | World | $104,713 |
-| 2347 | `KXNEWPOPENAME` | New Pope name | World | $104,565 |
-| 2348 | `KXPRCBIRTHS` | Births in China | World | $93,476 |
-| 2349 | `KXDISCONTINUECYBERTRUCK` | Cybertruck | World | $90,467 |
-| 2350 | `KXHAPPIER` | Eilish album sales | World | $85,590 |
-| 2351 | `KXNEWPOPECOUNTRY` | New pope country | World | $81,616 |
-| 2352 | `KXARGCENTRALBANK` | Argentina central bank shuts down | World | $71,473 |
-| 2353 | `KXNYCBOROUGHWINQUEE` | QUEENS | World | $65,282 |
-| 2354 | `KXDINENYC` | NYC indoor dining ban | World | $63,939 |
-| 2355 | `KXSHAKEDURATIONDJTPUTIN` | Handshake duration | World | $63,633 |
-| 2356 | `KXSLOAN` | Student loan pause | World | $55,232 |
-| 2357 | `KXCASE7DCN` | Long-term China COVID case average | World | $48,736 |
-| 2358 | `KXCOMEYDISMISS` | Will James Comey have his case dismissed? | World | $47,773 |
-| 2359 | `KXNYCBOROUGHWINBROOK` | BK | World | $45,130 |
-| 2360 | `KXMONKEYPOX` | Monkeypox named pandemic | World | $36,890 |
-| 2361 | `KXPOPEVISITNEXT` | Pope visit next | World | $36,139 |
-| 2362 | `KXMAERSK` | Maersk resumes shipping in the Red Sea | World | $33,447 |
-| 2363 | `KXGDPCN` | China GDP growth | World | $31,558 |
-| 2364 | `KXDEPORTMAMDANI` | Deport Mamdani | World | $31,150 |
-| 2365 | `KXLOCATIONOPENTESLADRIVEIN` | Where will Tesla Diner & Drive-In open this year? | World | $30,684 |
-| 2366 | `KXPMLA` | LA pollution | World | $30,388 |
-| 2367 | `KXELONPOSTBTC` | Elon Bitcoin | World | $28,115 |
-| 2368 | `KXOLYMCANCEL` | Summer Olympics 2021 cancellation | World | $25,333 |
-| 2369 | `KXRAINNO` | New Orleans rain | World | $24,928 |
-| 2370 | `KXSHAKETRUMPXI` | Trump and Xi handshake duration | World | $24,344 |
-| 2371 | `KXSUEZ` | Suez canal closes | World | $24,317 |
-| 2372 | `KXNYCBOROUGHWINSTAT` | STA | World | $22,561 |
-| 2373 | `KXTRUMPCOUNTIRAN` | Trump Iran Truths | World | $21,284 |
-| 2374 | `KXSEAICE` | Sea ice totals | World | $21,053 |
-| 2375 | `KXJOINDJTBLUESKY` | Bluesky | World | $18,344 |
-| 2376 | `KXLETITIADISMISS` | Will Letitita James have her case dismissed before June 2026? | World | $17,682 |
-| 2377 | `KXDEBATEFUENTESKIRK` | Fuentes Kirk debate | World | $16,786 |
-| 2378 | `KXDEBATEAOCGAINES` | AOC debates Riley gaines | World | $16,010 |
-| 2379 | `KXSCHLNYC` | NYC school closed | World | $15,926 |
-| 2380 | `KXPREK` | Universal Pre-K becomes law | World | $15,835 |
-| 2381 | `KXDINENYCS` | NYC indoor dining ban | World | $15,427 |
-| 2382 | `KXKANYE` | Donda weekly sales | World | $15,300 |
-| 2383 | `KXTAPER` | Fed tapering | World | $15,199 |
-| 2384 | `KXINDOORSF` | SF indoor dining | World | $15,031 |
-| 2385 | `KXTURKEU` | Turkey EU accession | World | $14,797 |
-| 2386 | `KXHARVARDINTLBAN` | Harvard int'l student ban | World | $14,758 |
-| 2387 | `KXCTCS` | Child tax credit expanded | World | $14,752 |
-| 2388 | `KXDISCONTINUEFEMSEL` | Female Driver Select | World | $13,141 |
-| 2389 | `KXMORAESLEAVE` | Alexandre de Moraes leaving | Companies | $12,507 |
-| 2390 | `KXBOE` | Bank of England bank rate | Economics | $11,678 |
-| 2391 | `KXCPTPP` | China CPTPP | World | $11,085 |
-| 2392 | `KXSIG320` | Sig Discontinue | World | $10,995 |
-| 2393 | `KXMUSKRECONCILIATION` | Musk reconciliation bill | World | $10,268 |
-| 2394 | `KXGDPEU` | European Union GDP growth | World | $10,194 |
-| 2395 | `KXOLYMED` | Summer Olympic medal count 2021 | World | $9,303 |
-| 2396 | `KXELONCOUNTGROK` | Will Elon tweet about Grok this week? | World | $9,105 |
-| 2397 | `KXGDPW` | Global GDP growth | World | $8,792 |
-| 2398 | `KXCRED` | Credit card debt | World | $8,305 |
-| 2399 | `KXRAINHOU` | Houston rain | World | $8,194 |
-| 2400 | `KXMASKMAND` | NYC indoor mask mandate | World | $6,678 |
-| 2401 | `KXTRAVELWARN` | "Do Not Travel" warning issued for Beijing | World | $6,407 |
-| 2402 | `KXGOVBALL` | Gov Ball cancellation | World | $5,763 |
-| 2403 | `KXAPPWLFI` | WLFI  | World | $5,713 |
-| 2404 | `KXAAPLUSDC` | AAPLUSDC | World | $5,699 |
-| 2405 | `KXJOLTS` | Job openings | World | $4,855 |
-| 2406 | `KXJULY4VIDEO` | July 4 video | World | $4,749 |
-| 2407 | `KXDRAGONISS` | Dragon ISS mission | World | $4,319 |
-| 2408 | `KXVONCUK` | Vote of No Confidence in BoJo | World | $4,220 |
-| 2409 | `KXONRRP` | Overnight Reverse Repo | World | $3,842 |
-| 2410 | `KXSOFR` | SOFR | World | $3,391 |
-| 2411 | `KXUKUSVISAS` | UK US visas | World | $3,321 |
-| 2412 | `KXMUSKFEUDCOORD` | Musk Feud Coordination | World | $3,017 |
-| 2413 | `KXBRAZILXBAN` | Brazil bans X | Companies | $2,793 |
-| 2414 | `KXARGSTRIKE` | General strike in Argentina | World | $2,646 |
-| 2415 | `KXMINAJCOUNTSZA` | How many times will nicki minaj tweet about sza | World | $1,872 |
-| 2416 | `KXCURFEWVIOLATELA` | LA curfew violated | World | $1,783 |
-| 2417 | `KXSHAKETRUMPNETANYAHU` | Donald Trump and Netanyahu shake duration | World | $1,742 |
-| 2418 | `KXMONTERO` | Montero sales | World | $1,704 |
-| 2419 | `KXSCHLSF` | SF school closed | World | $1,376 |
-| 2420 | `KXFREESYRIA` | Syria Freedom House | World | $1,092 |
-| 2421 | `KXMORESTREAMSPUSHAT` | Which song will have more streams | World | $894 |
-| 2422 | `KXLOCATIONOPENERICEMANUEL` | Where will Eric Emanuel announce a a new store this year? | World | $759 |
-| 2423 | `KXCALCOLLEGEFUNDPULL` | California colleges funding pull | World | $534 |
-| 2424 | `KXOMARCOUNTAIPAC` | Omar AIPAC | World | $378 |
-| 2425 | `KXAOCCOUNTAIPAC` | AOC AIPAC | World | $125 |
-| 2426 | `BRAZILXBAN` | Brazil bans X | Companies | $0 |
-| 2427 | `MASKMAND` | NYC indoor mask mandate | World | $0 |
-| 2428 | `TURKEU` | Turkey EU accession | World | $0 |
-| 2429 | `DINENYCS` | NYC indoor dining ban | World | $0 |
-| 2430 | `KANYE` | Donda weekly sales | World | $0 |
-| 2431 | `GOVBALL` | Gov Ball cancellation | World | $0 |
-| 2432 | `SCHLNYC` | NYC school closed | World | $0 |
-| 2433 | `RAINHOU` | Houston rain | World | $0 |
-| 2434 | `BRAZILX` | Brazil bans X | Companies | $0 |
-| 2435 | `EUEXIT` | EU exit | World | $0 |
-| 2436 | `MONKEYPOX` | Monkeypox named pandemic | World | $0 |
-| 2437 | `MORAESLEAVE` | Alexandre de Moraes leaving | Companies | $0 |
-| 2438 | `WRECSS` | World recessions | Economics | $0 |
-| 2439 | `ARGCENTRALBANK` | Argentina central bank shuts down | World | $0 |
-| 2440 | `TAPER` | Fed tapering | World | $0 |
-| 2441 | `RAINNO` | New Orleans rain | World | $0 |
-| 2442 | `CRED` | Credit card debt | World | $0 |
-| 2443 | `ARGSTRIKE` | General strike in Argentina | World | $0 |
-| 2444 | `CHINAUSGDP` | China overtakes US GDP | Economics | $0 |
-| 2445 | `ARGDOLLAR` | Argentina dollarizes its economy | World | $0 |
-| 2446 | `KDOT` | Kendrick album drop | World | $0 |
-| 2447 | `SCHLSF` | SF school closed | World | $0 |
-| 2448 | `SEAICE` | Sea ice totals | World | $0 |
-| 2449 | `KXFDIC` | FDIC Insurance increase | World | $0 |
-| 2450 | `EUEXPANSIONC` | EU Expansion | World | $0 |
-| 2451 | `KXTESLAGROK` | GROK IN TESLA | World | $0 |
-| 2452 | `EUEXPANSION-C` | EU expansion | World | $0 |
-| 2453 | `VONCUK` | Vote of No Confidence in BoJo | World | $0 |
-| 2454 | `KXWEEKND` | Weeknd album drop | World | $0 |
-| 2455 | `PREK` | Universal Pre-K becomes law | World | $0 |
-| 2456 | `MONTERO` | Montero sales | World | $0 |
-| 2457 | `BOE` | Bank of England bank rate | Economics | $0 |
-| 2458 | `KXBRAZILX` | Brazil bans X | Companies | $0 |
-| 2459 | `HAPPIER` | Eilish album sales | World | $0 |
-| 2460 | `TRAVELWARN` | "Do Not Travel" warning issued for Beijing | World | $0 |
-| 2461 | `DINENYC` | NYC indoor dining ban | World | $0 |
-| 2462 | `CTCS` | Child tax credit expanded | World | $0 |
-| 2463 | `RAINNY` | NYC rain | World | $0 |
-| 2464 | `GDPCN` | China GDP growth | World | $0 |
-| 2465 | `CASE7DCN` | Long-term China COVID case average | World | $0 |
-| 2466 | `CPTPP` | China CPTPP | World | $0 |
-| 2467 | `HIGHNY0` | NYC high temperature | World | $0 |
-| 2468 | `RECSS` | Quarter of negative GDP growth by 2022 Q2 | World | $0 |
-| 2469 | `SLOAN` | Student loan pause | World | $0 |
-| 2470 | `SCOTREF` | New Scottish referendum | Politics | $0 |
-| 2471 | `SUEZ` | Suez canal closes | World | $0 |
-| 2472 | `KXMANUTOP5` | Man United top 5 | World | $0 |
-| 2473 | `KXKDOT` | Kendrick album drop | World | $0 |
-| 2474 | `EUEXPANSION` | EU expansion | World | $0 |
-| 2475 | `ONRRP` | Overnight Reverse Repo | World | $0 |
-| 2476 | `GDPEU` | European Union GDP growth | World | $0 |
-| 2477 | `KXPOPEVISITSECOND` | Pope visit SECOND | World | $0 |
-| 2478 | `FDIC` | FDIC Insurance increase | World | $0 |
-| 2479 | `OLYMED` | Summer Olympic medal count 2021 | World | $0 |
-| 2480 | `WEEKND` | Weeknd album drop | World | $0 |
-| 2481 | `INDOORSF` | SF indoor dining | World | $0 |
-| 2482 | `VAXXDEP` | Vaccine totals | World | $0 |
-| 2483 | `GDPW` | Global GDP growth | World | $0 |
-| 2484 | `MAERSK` | Maersk resumes shipping in the Red Sea | World | $0 |
-| 2485 | `KXSZAPOSTNICKI` | Will nicki minaj post about sza | World | $0 |
-| 2486 | `PMLA` | LA pollution | World | $0 |
-| 2487 | `SOFR` | SOFR | World | $0 |
-| 2488 | `KXVAXXDEP` | Vaccine totals | World | $0 |
-| 2489 | `OLYMCANCEL` | Summer Olympics 2021 cancellation | World | $0 |
-| 2490 | `KXHIGHNY` | Highest temperature in NYC | Climate and Weather | $92,702,377 |
-| 2491 | `KXHIGHCHI` | Highest temperature in Chicago | Climate and Weather | $71,883,341 |
-| 2492 | `KXHIGHLAX` | Highest temperature in Los Angeles | Climate and Weather | $57,582,779 |
-| 2493 | `KXHIGHAUS` | Highest temperature in Austin | Climate and Weather | $57,277,215 |
-| 2494 | `KXHIGHMIA` | Highest temperature in Miami | Climate and Weather | $56,142,502 |
-| 2495 | `KXHIGHDEN` | Highest temperature in Denver | Climate and Weather | $36,113,977 |
-| 2496 | `KXHIGHPHIL` | Highest temperature in Philadelphia | Climate and Weather | $27,834,245 |
-| 2497 | `KXRAINNYC` | NYC rain | Climate and Weather | $24,508,505 |
-| 2498 | `KXSNOWSTORM` | Snowstorms | Climate and Weather | $6,529,611 |
-| 2499 | `KXHIGHHOU` | Highest temperature in Houston | Climate and Weather | $6,416,018 |
-| 2500 | `KXLOWTAUS` | Lowest temperature in Austin | Climate and Weather | $4,040,802 |
-| 2501 | `KXLOWTDEN` | Lowest temperature in Denver | Climate and Weather | $3,793,143 |
-| 2502 | `KXNYCSNOWM` | NYC Snowfall monthly | Climate and Weather | $3,656,380 |
-| 2503 | `KXLOWTNYC` | Lowest temperature in NYC | Climate and Weather | $3,648,881 |
-| 2504 | `KXLOWTMIA` | Lowest temperature in Miami | Climate and Weather | $3,265,980 |
-| 2505 | `KXHIGHTSFO` | San Francisco High Temperature Daily | Climate and Weather | $2,854,781 |
-| 2506 | `KXHMONTH` | Hottest month instance | Climate and Weather | $2,827,852 |
-| 2507 | `KXLOWTCHI` | Lowest Temperature Chicago | Climate and Weather | $2,811,209 |
-| 2508 | `KXHIGHTDC` | Washington DC Daily Max Temp | Climate and Weather | $2,684,863 |
-| 2509 | `KXLOWTLAX` | Lowest Temperature in LA | Climate and Weather | $2,635,377 |
-| 2510 | `KXTORNADO` | Number of Tornadoes | Climate and Weather | $2,392,463 |
-| 2511 | `KXHIGHTSEA` | Seattle Maximum Temperature Daily | Climate and Weather | $2,191,744 |
-| 2512 | `KXRAINNYCM` | Monthly rain in New York | Climate and Weather | $1,898,075 |
-| 2513 | `KXSNOWNYM` | Total snow in NYC | Climate and Weather | $1,862,384 |
-| 2514 | `KXHIGHTLV` | Las Vegas Max Daily Temperature | Climate and Weather | $1,855,125 |
-| 2515 | `KXHIGHTNOLA` | New Orleans Max temp Daily | Climate and Weather | $1,675,942 |
-| 2516 | `KXLOWTPHIL` | Lowest temperature in Philadelphia | Climate and Weather | $1,618,967 |
-| 2517 | `KXHURCAT` | Hurricane category | Climate and Weather | $1,474,106 |
-| 2518 | `KXDCSNOWM` | DC Monthly Snow | Climate and Weather | $1,131,387 |
-| 2519 | `KXRAINLAXM` | Rain Los Angeles | Climate and Weather | $1,030,675 |
-| 2520 | `KXCHISNOWM` | Chicago Snowfall Monthly | Climate and Weather | $892,107 |
-| 2521 | `KXHURCTOT` | Number of hurricanes | Climate and Weather | $853,287 |
-| 2522 | `KXPHILSNOWM` | Philadelphia Monthly Snow | Climate and Weather | $721,323 |
-| 2523 | `KXHMONTHRANGE` | Monthly Temperature Increase (ºC) | Climate and Weather | $708,189 |
-| 2524 | `KXHURCTOTMAJ` | Number of major hurricanes | Climate and Weather | $708,034 |
-| 2525 | `KXGTEMP` | Hottest year ever | Climate and Weather | $679,268 |
-| 2526 | `KXHIGHTATL` | Atlanta Max Temperature | Climate and Weather | $664,361 |
-| 2527 | `KXMIASNOWM` | Chicago Snowfall Monthly | Climate and Weather | $588,156 |
-| 2528 | `KXRAINSFOM` | RAIN SAN FRANCISCO | Climate and Weather | $546,191 |
-| 2529 | `KXTROPSTORM` | Number of tropical storms | Climate and Weather | $535,394 |
-| 2530 | `KXRAINSEA` | Seattle rain | Climate and Weather | $532,588 |
-| 2531 | `KXDALSNOWM` | Dallas Snowfall Monthly | Climate and Weather | $512,228 |
-| 2532 | `KXHIGHTBOS` | Boston Maximum Daily Temperature | Climate and Weather | $501,989 |
-| 2533 | `KXRAINHOUM` | Rain Houston | Climate and Weather | $494,792 |
-| 2534 | `KXLAXSNOWM` | LA Snowfall Markets | Climate and Weather | $482,842 |
-| 2535 | `KXHIGHTPHX` | Phoenix High Temperature Daily | Climate and Weather | $461,105 |
-| 2536 | `KXRAINMIAM` | Rain Miami | Climate and Weather | $431,110 |
-| 2537 | `KXSLCSNOWM` | Salt Lake City Monthly | Climate and Weather | $416,645 |
-| 2538 | `KXJACWSNOWM` | Jackson, WY Monthly Snow | Climate and Weather | $391,613 |
-| 2539 | `KXDETSNOWM` | Detroit Monthly Snow | Climate and Weather | $344,059 |
-| 2540 | `KXNEXTHURDATE` | Next hurricane date | Climate and Weather | $336,027 |
-| 2541 | `KXBOSSNOWM` | Boston Snow Monthly | Climate and Weather | $334,620 |
-| 2542 | `KXEARTHQUAKE` | earthquake | Climate and Weather | $303,716 |
-| 2543 | `KXHURTB` | Hurricane hits Tampa | Climate and Weather | $303,538 |
-| 2544 | `KXDENSNOWMB` | Denver monthly snow | Climate and Weather | $299,713 |
-| 2545 | `KXRAINSEAM` | RAIN SEATTLE | Climate and Weather | $291,914 |
-| 2546 | `KXSNOWS` | White Christmas | Climate and Weather | $285,776 |
-| 2547 | `KXSEASNOWM` | Seattle Snowfall Monthly | Climate and Weather | $282,942 |
-| 2548 | `KXRAINDALM` | Rain Dallas | Climate and Weather | $278,610 |
-| 2549 | `KXHIGHTDAL` | Dallas Maximum Temperature | Climate and Weather | $272,029 |
-| 2550 | `KXARCTICICEMAX` | Arctic sea ice max extent | Climate and Weather | $270,312 |
-| 2551 | `KXHURMIA` | Hurricane hits Miami | Climate and Weather | $260,496 |
-| 2552 | `KXARCTICICEMIN` | Arctic sea ice min extent | Climate and Weather | $255,737 |
-| 2553 | `KXHIGHTMIN` | Minneapolis Daily High Temperature | Climate and Weather | $252,971 |
-| 2554 | `KXEARTHQUAKEM7` | Will there be a 7.0 mag earthquake in June | Climate and Weather | $244,151 |
-| 2555 | `KXRAINAUSM` | RAIN AUSTIN | Climate and Weather | $233,635 |
-| 2556 | `KXRAINCHIM` | Rain Chicago | Climate and Weather | $231,990 |
-| 2557 | `KXCHISNOWXMAS` | Chistmas Chicago  | Climate and Weather | $204,498 |
-| 2558 | `KXHURORL` | Hurricane hits Orlando | Climate and Weather | $193,996 |
-| 2559 | `KXEARTHQUAKECALIFORNIA` | Earthquake in California | Climate and Weather | $179,883 |
-| 2560 | `KXHIGHTHOU` | Daily High Temperature Houston | Climate and Weather | $165,059 |
-| 2561 | `KXHOUSNOWM` | Houston Snowfall Markets | Climate and Weather | $163,113 |
-| 2562 | `KXNYCSNOWXMAS` | NYC Snow christmas | Climate and Weather | $156,581 |
-| 2563 | `KXHURNO` | Hurricane hits New Orleans | Climate and Weather | $150,728 |
-| 2564 | `KXRAINDENM` | RAIN DENVER | Climate and Weather | $140,501 |
-| 2565 | `KXSNOWNY` | Snow in NYC | Climate and Weather | $139,826 |
-| 2566 | `KXHOTYEAR` | Global heat | Climate and Weather | $128,610 |
-| 2567 | `KXHURPATHGENERAL` | HURRICANE GENERAL LANDFALL | Climate and Weather | $125,910 |
-| 2568 | `KXTEMP` | Average annual temperature deviation | Climate and Weather | $125,156 |
-| 2569 | `KXHURCMAJ` | Number of major hurricanes | Climate and Weather | $117,145 |
-| 2570 | `KXCORIVER` | Lake Mead water level projections | Climate and Weather | $102,394 |
-| 2571 | `KXBOSSNOWXMAS` | Boston White Christmas | Climate and Weather | $96,263 |
-| 2572 | `KXSFOSNOWM` | San Francisco Snowfall markets | Climate and Weather | $92,260 |
-| 2573 | `KXHURPATHGULFCOAST` | GULF COAST HURRICANE LANDFALL | Climate and Weather | $89,753 |
-| 2574 | `KXNEXTCAT5HURDATE` | Next CAT 5 hurricane date | Climate and Weather | $88,340 |
-| 2575 | `KXCITIESWEATHER` | Highest temperature in cities | Climate and Weather | $86,470 |
-| 2576 | `KXAUSSNOWM` | Austin Snowfall Monthly | Climate and Weather | $85,203 |
-| 2577 | `KXHURPATHFLA` | hurricane hits florida | Climate and Weather | $83,668 |
-| 2578 | `KXMINNYC` | Min NYC temp | Climate and Weather | $81,817 |
-| 2579 | `KXHIGHTOKC` | Oklahoma City Maximum High Temperature | Climate and Weather | $79,187 |
-| 2580 | `KXHIGHTSATX` | San Antonio Daily Maximum Temperature | Climate and Weather | $74,338 |
-| 2581 | `KXHURPATHGENERALMAJOR` | MAJOR HURRICANE GENERAL LANDFALL | Climate and Weather | $70,104 |
-| 2582 | `KXFEMA` | States that declare natural disasters | Climate and Weather | $66,024 |
-| 2583 | `KXERUPTETNA` | Etna | Climate and Weather | $65,171 |
-| 2584 | `KXHURPATHHAWAII` | HURRICANE HITS HAWAII | Climate and Weather | $63,650 |
-| 2585 | `KXHURPATHSCAROLINA` | hurricane hits SOUTH CAROLINA | Climate and Weather | $60,922 |
-| 2586 | `KXPRIMEENGCONSUMPTION` | Prime energy source | Climate and Weather | $60,190 |
-| 2587 | `KXCO2` | US CO2 totals | Climate and Weather | $53,435 |
-| 2588 | `KXUSCLIMATE` | US climate goals | Climate and Weather | $45,619 |
-| 2589 | `KXHURNYC` | Hurricane hits NYC | Climate and Weather | $44,437 |
-| 2590 | `KXPARIS` | Trump Paris Agreement | Politics | $43,631 |
-| 2591 | `KXMEAD` | Lake Mead water levels | Climate and Weather | $39,593 |
-| 2592 | `KXHURCOASTTEX` | Hurricane hits coastal Texas | Climate and Weather | $33,661 |
-| 2593 | `KXECLIPSECOVER` | Cloud coverage in cities during eclipse | Climate and Weather | $27,874 |
-| 2594 | `KXXFLARE` | X flare | Climate and Weather | $27,503 |
-| 2595 | `KXEARTHQUAKEJAPANTATSUKI` | Earthquake in Japan July 2025 | Climate and Weather | $25,523 |
-| 2596 | `KXHURNJ` | Hurricane hitting New Jersey | Climate and Weather | $25,119 |
-| 2597 | `KXEVSHARE` | EV market share | Climate and Weather | $21,025 |
-| 2598 | `KXHURCATH` | Hurricane Henri size | Climate and Weather | $17,720 |
-| 2599 | `KXHURCATI` | Hurricane Ida size | Climate and Weather | $17,708 |
-| 2600 | `KXEARTHQUAKEJAPAN` | Earthquake in Japan | Climate and Weather | $16,715 |
-| 2601 | `KXTSUNAMI` | Tsunami  | Climate and Weather | $16,120 |
-| 2602 | `KXSPURRERUPT` | Mount Spurr eruption | Climate and Weather | $14,915 |
-| 2603 | `KXHURPATHHOU` | hurricane hits houston | Climate and Weather | $14,716 |
-| 2604 | `KXSNOWAZ` | Snow in Phoenix | Climate and Weather | $14,487 |
-| 2605 | `KXBIGGESTQUAKE` | Biggest earthquake | Climate and Weather | $13,363 |
-| 2606 | `KXERUPTSUPER` | Supervolcano | Climate and Weather | $12,510 |
-| 2607 | `KXHURCLAND` | Hurricanes making landfall | Climate and Weather | $10,338 |
-| 2608 | `KXTEMPMON` | Global monthly temperature average | Climate and Weather | $9,917 |
-| 2609 | `KXARTICICE` | Arctic sea ice | Climate and Weather | $8,814 |
-| 2610 | `KXWARMING` | Global warming | Climate and Weather | $7,735 |
-| 2611 | `KXHURCATFL` | Hurricane warning FL | Climate and Weather | $6,808 |
-| 2612 | `KXHURHAT` | Hurricane hits Hatteras Island | Climate and Weather | $6,342 |
-| 2613 | `KXHIGHUS` | High temp in United States | Climate and Weather | $5,999 |
-| 2614 | `KXINDIACLIMATE` | India climate goals | Climate and Weather | $5,682 |
-| 2615 | `KXMICHTEMP` | Lake Michigan surface water temperature | Climate and Weather | $4,890 |
-| 2616 | `KXHURSAV` | Hurricane hits Savannah | Climate and Weather | $4,556 |
-| 2617 | `KXAVGTEMP` | US average temp | Climate and Weather | $3,583 |
-| 2618 | `KXHURJACKFL` | Hurricane hits Jacksonville | Climate and Weather | $3,438 |
-| 2619 | `KXEMERGENCYLA` | Natural disaster hits Los Angeles | Climate and Weather | $3,022 |
-| 2620 | `KXEMERGENCYSF` | Natural disaster hits San Francisco | Climate and Weather | $2,594 |
-| 2621 | `KXEUCLIMATE` | EU hits climate goals | Climate and Weather | $2,458 |
-| 2622 | `KXHURWIL` | Hurricane hits Wilmington | Climate and Weather | $2,391 |
-| 2623 | `KXERCOTX` | Texas share of electricity from renewables | Climate and Weather | $2,373 |
-| 2624 | `KXHURNOR` | Hurricane hits Norfolk | Climate and Weather | $1,734 |
-| 2625 | `KXEMERGENCYCOL` | Natural disaster hits Columbus | Climate and Weather | $1,287 |
-| 2626 | `KXEMERGENCYWIL` | Natural disaster hits Wilmington | Climate and Weather | $1,219 |
-| 2627 | `KXEMERGENCYJAC` | Natural disaster hits Jackson | Climate and Weather | $897 |
-| 2628 | `KXEMERGENCYPHIL` | Natural disaster in Philadelphia | Climate and Weather | $867 |
-| 2629 | `KXHURCAL` | Hurricane hits California | Climate and Weather | $797 |
-| 2630 | `KXEMERGENCYLOU` | Natural disaster hits Louisville | Climate and Weather | $624 |
-| 2631 | `KXEMERGENCYSTL` | Natural disaster hits St. Louis | Climate and Weather | $577 |
-| 2632 | `KXERUPTKILUAEA` | Kiluaea | Climate and Weather | $550 |
-| 2633 | `KXEMERGENCYDES` | Natural disaster hits Des Moines | Climate and Weather | $538 |
-| 2634 | `KXHURCHARL` | Hurricane hits Charleston | Climate and Weather | $508 |
-| 2635 | `KXEMERGENCYMIA` | Natural disaster hits Miami | Climate and Weather | $504 |
-| 2636 | `KXEMERGENCYNOLA` | Natural disaster in New Orleans | Climate and Weather | $428 |
-| 2637 | `KXEMERGENCYHOU` | Natural disaster hits Houston | Climate and Weather | $420 |
-| 2638 | `KXHURMYR` | Hurricane hits North Myrtle Beach | Climate and Weather | $361 |
-| 2639 | `KXEMERGENCYRAP` | Natural disaster hits Rapid City | Climate and Weather | $204 |
-| 2640 | `KXEARTHQUAKELA` | Earthquake in LA | Climate and Weather | $164 |
-| 2641 | `CO2` | US CO2 totals | Climate and Weather | $0 |
-| 2642 | `GTEMP` | Hottest year ever | Climate and Weather | $0 |
-| 2643 | `TROPSTORM` | Number of tropical storms | Climate and Weather | $0 |
-| 2644 | `HURNOR` | Hurricane hits Norfolk | Climate and Weather | $0 |
-| 2645 | `HURCATI` | Hurricane Ida size | Climate and Weather | $0 |
-| 2646 | `EMERGENCYNOLA` | Natural disaster in New Orleans | Climate and Weather | $0 |
-| 2647 | `EMERGENCYMIA` | Natural disaster hits Miami | Climate and Weather | $0 |
-| 2648 | `RAINSEA` | Seattle rain | Climate and Weather | $0 |
-| 2649 | `INDIACLIMATE` | India climate goals | Climate and Weather | $0 |
-| 2650 | `KXHIGHOU` | Highest temperature in Houston | Climate and Weather | $0 |
-| 2651 | `EUCLIMATE` | EU hits climate goals | Climate and Weather | $0 |
-| 2652 | `KXHOUHIGH` | Highest temperature in Houston | Climate and Weather | $0 |
-| 2653 | `HURHAT` | Hurricane hits Hatteras Island | Climate and Weather | $0 |
-| 2654 | `RAINNYCM` | Monthly rain in New York | Climate and Weather | $0 |
-| 2655 | `KXKILAUEA` | Kilauea eruption | Climate and Weather | $0 |
-| 2656 | `KXDVHIGH` | Death Valley temperature | Climate and Weather | $0 |
-| 2657 | `HURNO` | Hurricane hits New Orleans | Climate and Weather | $0 |
-| 2658 | `KXLOWPHIL` | Lowest temperature in Philadelphia | Climate and Weather | $0 |
-| 2659 | `EMERGENCYLOU` | Natural disaster hits Louisville | Climate and Weather | $0 |
-| 2660 | `CORIVER` | Lake Mead water level projections | Climate and Weather | $0 |
-| 2661 | `HURCLAND` | Hurricanes making landfall | Climate and Weather | $0 |
-| 2662 | `KXSNOWNYC` | SNOW IN NYC | Climate and Weather | $0 |
-| 2663 | `HOTYEAR` | Global heat | Climate and Weather | $0 |
-| 2664 | `FEMA` | States that declare natural disasters | Climate and Weather | $0 |
-| 2665 | `KXLOWLAX` | Lowest temperature in Los Angeles | Climate and Weather | $0 |
-| 2666 | `KXWASDESTATCORN` | Corn | Climate and Weather | $0 |
-| 2667 | `HURJACKFL` | Hurricane hits Jacksonville | Climate and Weather | $0 |
-| 2668 | `HIGHCHI` | Highest temperature in Chicago | Climate and Weather | $0 |
-| 2669 | `KXPHILHIGH` | Highest temperature in Philadelphia | Climate and Weather | $0 |
-| 2670 | `EMERGENCYPHIL` | Natural disaster in Philadelphia | Climate and Weather | $0 |
-| 2671 | `KXLOWDEN` | Lowest temperature in Denver | Climate and Weather | $0 |
-| 2672 | `KXLOWCHI` | Lowest temperature in Chicago | Climate and Weather | $0 |
-| 2673 | `ARTICICE` | Arctic sea ice | Climate and Weather | $0 |
-| 2674 | `KXLOWMIA` | Lowest temperature in Miami | Climate and Weather | $0 |
-| 2675 | `HURSAV` | Hurricane hits Savannah | Climate and Weather | $0 |
-| 2676 | `KXHEATWARNING` | Heat warning | Climate and Weather | $0 |
-| 2677 | `KXMAXTEMP100` | Max temp 100 | Climate and Weather | $0 |
-| 2678 | `SNOWNY` | Total snow in NYC | Climate and Weather | $0 |
-| 2679 | `HIGHAUS` | Highest temperature in Austin | Climate and Weather | $0 |
-| 2680 | `TEMP` | Average annual temperature deviation | Climate and Weather | $0 |
-| 2681 | `RAINNYC` | NYC rain | Climate and Weather | $0 |
-| 2682 | `MINNYC` | Min NYC temp | Climate and Weather | $0 |
-| 2683 | `USCLIMATE` | US climate goals | Climate and Weather | $0 |
-| 2684 | `KXLOWNYC` | Lowest temperature in New York | Climate and Weather | $0 |
-| 2685 | `KXDENHIGH` | Highest temperature in Denver | Climate and Weather | $0 |
-| 2686 | `EMERGENCYCOL` | Natural disaster hits Columbus | Climate and Weather | $0 |
-| 2687 | `HURCATH` | Hurricane Henri size | Climate and Weather | $0 |
-| 2688 | `HIGHUS` | High temp in United States | Climate and Weather | $0 |
-| 2689 | `EMERGENCYLA` | Natural disaster hits Los Angeles | Climate and Weather | $0 |
-| 2690 | `EMERGENCYDES` | Natural disaster hits Des Moines | Climate and Weather | $0 |
-| 2691 | `ECLIPSECOVERBUFF` | Eclipse Cover Buffalo | Climate and Weather | $0 |
-| 2692 | `EMERGENCYJAC` | Natural disaster hits Jackson | Climate and Weather | $0 |
-| 2693 | `HURORL` | Hurricane hits Orlando | Climate and Weather | $0 |
-| 2694 | `HURMYR` | Hurricane hits North Myrtle Beach | Climate and Weather | $0 |
-| 2695 | `HURWIL` | Hurricane hits Wilmington | Climate and Weather | $0 |
-| 2696 | `ERCOTX` | Texas share of electricity from renewables | Climate and Weather | $0 |
-| 2697 | `KXDENSNOWXMAS` | Denver Snow Christmas | Climate and Weather | $0 |
-| 2698 | `HURMIA` | Hurricane hits Miami | Climate and Weather | $0 |
-| 2699 | `HIGHMIA` | Highest temperature in Miami | Climate and Weather | $0 |
-| 2700 | `EMERGENCYSF` | Natural disaster hits San Francisco | Climate and Weather | $0 |
-| 2701 | `SNOWCHIM` | Total snow in Chicago | Climate and Weather | $0 |
-| 2702 | `AVGTEMP` | US average temp | Climate and Weather | $0 |
-| 2703 | `HIGHNY` | Highest temperature in NYC | Climate and Weather | $0 |
-| 2704 | `HMONTHRANGE` | Monthly Temperature Increase (ºC) | Climate and Weather | $0 |
-| 2705 | `EVSHARE` | EV market share | Climate and Weather | $0 |
-| 2706 | `MEAD` | Lake Mead water levels | Climate and Weather | $0 |
-| 2707 | `HURCTOTMAJ` | Number of major hurricanes | Climate and Weather | $0 |
-| 2708 | `HURCHARL` | Hurricane hits Charleston | Climate and Weather | $0 |
-| 2709 | `TSUNAMI` | Tsunami  | Climate and Weather | $0 |
-| 2710 | `TEMPMON` | Global monthly temperature average | Climate and Weather | $0 |
-| 2711 | `HURNJ` | Hurricane hitting New Jersey | Climate and Weather | $0 |
-| 2712 | `EMERGENCYWIL` | Natural disaster hits Wilmington | Climate and Weather | $0 |
-| 2713 | `EMERGENCYHOU` | Natural disaster hits Houston | Climate and Weather | $0 |
-| 2714 | `HURCOASTTEX` | Hurricane hits coastal Texas | Climate and Weather | $0 |
-| 2715 | `KXDENSNOWM` | Denver snowfall monthly | Climate and Weather | $0 |
-| 2716 | `ECLIPSECOVER` | Cloud coverage in cities during eclipse | Climate and Weather | $0 |
-| 2717 | `KXECLIPSECOVERBUFF` | Eclipse Cover Buffalo | Climate and Weather | $0 |
-| 2718 | `KXLOWAUS` | Lowest temperature in Austin | Climate and Weather | $0 |
-| 2719 | `TORNADO` | Number of Tornadoes | Climate and Weather | $0 |
-| 2720 | `HURTB` | Hurricane hits Tampa | Climate and Weather | $0 |
-| 2721 | `ARCTICICEMIN` | Arctic sea ice min extent | Climate and Weather | $0 |
-| 2722 | `HURCMAJ` | Number of major hurricanes | Climate and Weather | $0 |
-| 2723 | `EARTHQUAKE` | earthquake | Climate and Weather | $0 |
-| 2724 | `HURCATFL` | Hurricane warning FL | Climate and Weather | $0 |
-| 2725 | `KXLOWNY` | Lowest Temperature in NYC | Climate and Weather | $0 |
-| 2726 | `HMONTH` | Hottest month instance | Climate and Weather | $0 |
-| 2727 | `EMERGENCYRAP` | Natural disaster hits Rapid City | Climate and Weather | $0 |
-| 2728 | `HURNYC` | Hurricane hits NYC | Climate and Weather | $0 |
-| 2729 | `ARCTICICEMAX` | Arctic sea ice max extent | Climate and Weather | $0 |
-| 2730 | `HURCTOT` | Number of hurricanes | Climate and Weather | $0 |
-| 2731 | `MICHTEMP` | Lake Michigan surface water temperature | Climate and Weather | $0 |
-| 2732 | `HURCAL` | Hurricane hits California | Climate and Weather | $0 |
-| 2733 | `KXSNOWCHIM` | Total snow in Chicago | Climate and Weather | $0 |
-| 2734 | `KXASPSNOWM` | Aspen Snow Monthly | Climate and Weather | $0 |
-| 2735 | `KILAUEA` | Kilauea eruption | Climate and Weather | $0 |
-| 2736 | `HURCAT` | Hurricane category | Climate and Weather | $0 |
-| 2737 | `EMERGENCYSTL` | Natural disaster hits St. Louis | Climate and Weather | $0 |
-| 2738 | `KXHIGHTEMPDEN` | High temperature denver | Climate and Weather | $0 |
-| 2739 | `SNOWNYM` | Total snow in NYC | Climate and Weather | $0 |
-| 2740 | `KXFIRSTSUPERBOWLSONG` | What will be the first Super Bowl Song played during halfitme? | Entertainment | $113,517,455 |
-| 2741 | `KXPERFORMSUPERBOWLB` | Who will perform at the Super Bowl | Entertainment | $47,345,230 |
-| 2742 | `KXSBGUESTS` | Super Bowl guests | Entertainment | $40,270,790 |
-| 2743 | `KXTIME` | TIME’s Person of the Year | Entertainment | $21,133,864 |
-| 2744 | `KXSPOTIFYD` | Daily US Spotify chart | Entertainment | $21,022,342 |
-| 2745 | `KXTOPARTIST` | Top Artist on Spotify | Entertainment | $20,292,257 |
-| 2746 | `KXRANKLISTGOOGLESEARCH` | #1 most searched on google | Entertainment | $18,808,884 |
-| 2747 | `KXOSCARPIC` | Oscar for Best Picture | Entertainment | $16,146,130 |
-| 2748 | `KXNOBELPEACE` | Nobel Peace Prize | Entertainment | $12,278,971 |
-| 2749 | `KXOSCARNOMPIC` | Oscar nominations for Best Picture | Entertainment | $9,166,771 |
-| 2750 | `KXGRAMSOTY` | Grammy for Song of the Year | Entertainment | $8,971,596 |
-| 2751 | `KXNETFLIXRANKSHOW` | Netflix TV ranking | Entertainment | $8,050,875 |
-| 2752 | `KXOSCARACTO` | Oscar for Best Actor | Entertainment | $6,834,714 |
-| 2753 | `KXGRAMAOTY` | Grammy for Album of the Year | Entertainment | $6,254,141 |
-| 2754 | `KXSBSETLISTS` | Super Bowl setlist | Entertainment | $6,164,831 |
-| 2755 | `KXSBADS` | Super Bowl ads | Entertainment | $6,118,248 |
-| 2756 | `KXSONGSONCHARTTSWIFT` | TAYLOR SWIFT HOLDS ALL TOP 12 SONGS ON BILLBOARD HOT 100 CHART | Entertainment | $6,086,781 |
-| 2757 | `KXDANCINGWITHTHESTARS` | Who will win dancing with the stars? | Entertainment | $5,517,859 |
-| 2758 | `KXLOLGAMES` | League of Legends Games | Sports | $5,492,191 |
-| 2759 | `KXNETFLIXRANKMOVIE` | Netflix movie ranking | Entertainment | $5,420,625 |
-| 2760 | `KXRANKLISTTIMEMAG` | TIME’s Person of the Year for 2025 SHORTLIST? | Entertainment | $5,271,800 |
-| 2761 | `KXNETFLIXRANKSHOWRUNNERUP` | RUNNER UP NETFLIX SHOW | Entertainment | $5,065,819 |
-| 2762 | `KXGAMEAWARDS` | Game Awards | Entertainment | $5,023,870 |
-| 2763 | `KXSUPERBOWLHEADLINE` | Who will headline super bowl LX | Entertainment | $4,826,373 |
-| 2764 | `KXGRAMBNA` | Grammy for Best New Artist | Entertainment | $4,616,766 |
-| 2765 | `KXSURVIVOR` | Who will win Survivor | Entertainment | $4,172,816 |
-| 2766 | `KXGRAMROTY` | Grammy for Record of the Year | Entertainment | $3,981,571 |
-| 2767 | `KXAPPRANKFREE` | Free app ranking | Entertainment | $3,943,570 |
-| 2768 | `KXOSCARNOMACTO` | Oscar nominations for Best Actor | Entertainment | $3,899,084 |
-| 2769 | `KXRTAVATARFIREANDASH` | Avatar Fire and Ash Rotten Tomatoes score | Entertainment | $3,877,201 |
-| 2770 | `KXSPOTIFYW` | Weekly US Spotify chart | Entertainment | $3,873,945 |
-| 2771 | `KXALBUMSALES` | HOW MANY ALBUM SALES WILL PERSON SELL | Entertainment | $3,663,418 |
-| 2772 | `KXTOP10BILLBOARDSPOTSTS` | HOw many top 10 spots will taylor Swift have on the billboard chart for the week of  | Entertainment | $3,634,317 |
-| 2773 | `KXRT` | Rotten Tomatoes Scores | Entertainment | $3,421,514 |
-| 2774 | `KXEMMYDSERIES` | Emmys Award for Drama Series | Entertainment | $3,207,909 |
-| 2775 | `KXRANKLISTGOOGLESEARCHTOP5` | top 5 good search for people | Entertainment | $3,196,314 |
-| 2776 | `KXOSCARACTR` | Oscar for Best Actress | Entertainment | $3,183,844 |
-| 2777 | `KXOSCARNOMDIR` | Oscar nominations for Best Director | Entertainment | $3,118,080 |
-| 2778 | `KXSPOTIFYXMAS` | WHAT WILL BE THE NHUMBER ONE SONG ON CHRISTMAS | Entertainment | $2,958,076 |
-| 2779 | `KXOSCARSUPACTO` | Oscar for Best Supporting Actor | Entertainment | $2,866,028 |
-| 2780 | `KXRTCAPTAINAMERICA` | CAPTAIN AMERICA BRAVE NEW WORLD Rotten Tomatoes Score | Entertainment | $2,405,348 |
-| 2781 | `KXSPOTIFYGLOBALD` | Daily Global Spotify songs | Entertainment | $2,401,102 |
-| 2782 | `KXSWIFTWEEKSNUM1` | Taylor Swift #1 | Entertainment | $2,302,198 |
-| 2783 | `KXTOPMONTHLY` | Top Monthly listeners | Entertainment | $2,283,882 |
-| 2784 | `KXOSCARSUPACTR` | Oscar for Best Supporting Actress | Entertainment | $2,231,612 |
-| 2785 | `KXRTMOANA2` | MOANA 2 Rotten Tomatoes score | Entertainment | $2,230,769 |
-| 2786 | `KXSPOTIFYSONGSOPALITE` | How many streams will Opalite  | Entertainment | $2,219,860 |
-| 2787 | `KXRTMICKEY17` | Mickey 17 Rotten Tomatoes score | Entertainment | $2,077,029 |
-| 2788 | `KXOSCARDIR` | Oscar for Best Director | Entertainment | $2,046,690 |
-| 2789 | `KXRTSNOWWHITE` | Snow White Rotten TOmatoes score | Entertainment | $2,031,043 |
-| 2790 | `KXTOPSONG` | Billboard Hot 100 #1 | Entertainment | $2,004,029 |
-| 2791 | `KXOSCARNOMSUPACTR` | Oscar nominations for Best Supporting Actress | Entertainment | $1,958,120 |
-| 2792 | `KXSPOTIFY2D` | Daily US Spotify chart Runner-up | Entertainment | $1,911,178 |
-| 2793 | `KXGTA6` | GTA 6 release date | Entertainment | $1,896,826 |
-| 2794 | `KXSONGSONCHARTTSWIFT2` | talor swift holds top 2 | Entertainment | $1,891,365 |
-| 2795 | `KXRTMUFASA` | Mufasa Rotten Tomatoes score | Entertainment | $1,881,390 |
-| 2796 | `KXRTMINECRAFT` | MINECRAFT ROTTEN TOMATOES SCORE | Entertainment | $1,868,178 |
-| 2797 | `KXRTWICKEDFORGOOD` | Wicked for Good Rotten Tomatoes score | Entertainment | $1,864,802 |
-| 2798 | `KXMEDIARELEASEST` | WILL THERE BE ANOTHER EPISODE OF STRANGER THINGS? | Entertainment | $1,832,609 |
-| 2799 | `KXTOPALBUMSPOTIFYUSA` | MOST STREAMED ALBUM USA | Entertainment | $1,782,944 |
-| 2800 | `KXRTTHEMONKEY` | THE MONKEY Rotten Tomatoes score | Entertainment | $1,752,423 |
-| 2801 | `KXOSCARNOMACTR` | Oscar nominations for Best ActRESS | Entertainment | $1,741,326 |
-| 2802 | `KXRTWICKED` | WICKED Rotten Tomatoes score | Entertainment | $1,639,156 |
-| 2803 | `KXRTNOVOCAINE` | NOVOCAINE Rotten Tomatoes score | Entertainment | $1,626,469 |
-| 2804 | `KXTOPALBUM` | Billboard Top 200 #1 | Entertainment | $1,593,219 |
-| 2805 | `KXRTFANTASTICFOUR` | FANTASTIC FOUR Rotten Tomatoes score | Entertainment | $1,588,271 |
-| 2806 | `KXSONGSONCHARTTSWIFT6` | TAYLOR SWIFT HOLDS ALL TOP 12 SONGS ON BILLBOARD HOT 100 CHART | Entertainment | $1,580,844 |
-| 2807 | `KXTRUMPPUTIN` | Who will attend the Trump-Putin meeting? | Politics | $1,526,603 |
-| 2808 | `KXRTNOSFERATU` | NOSFERATU Rotten Tomatoes score | Entertainment | $1,499,085 |
-| 2809 | `KXSBPERFORM` | Super Bowl performers | Entertainment | $1,496,804 |
-| 2810 | `KXHALFTIMESHOW` | HOW LONG WILL THE SUPER BOWL HALFTIME SHOW BE | Sports | $1,495,478 |
-| 2811 | `KXRANKLISTSONGTOP10` | WHICH SONG WILL BE IN THE TOP 10 OF THE BILLBOARD HOT 100 HUNDERED FOR THE WEEK OF DATE  | Entertainment | $1,494,418 |
-| 2812 | `KXTRUMPFOOTBALL` | Trump attend football game | Politics | $1,472,175 |
-| 2813 | `KXRTMARTYSUPREME` | Marty Supreme | Entertainment | $1,429,814 |
-| 2814 | `KXMANTISFREETHROW` | MANTIS FREE THROWS | Sports | $1,368,790 |
-| 2815 | `KXRT28YEARSLATERTBT` | 28 Years Later: The Bone Temple | Entertainment | $1,360,391 |
-| 2816 | `KXRTSUPERMAN` | Superman Rotten Tomatoes score | Entertainment | $1,327,939 |
-| 2817 | `KXALBUMSALESSWIFT` | How many album sales will Taylor Swift have | Entertainment | $1,325,240 |
-| 2818 | `KXOSCARCINE` | Oscar for Best Cinematography | Entertainment | $1,283,182 |
-| 2819 | `KXRTZOOTOPIA2` | Zootopia 2 Rotten Tomatoes score | Entertainment | $1,282,306 |
-| 2820 | `KXTRUMPATTEND` | Will Trump attend event | Politics | $1,277,213 |
-| 2821 | `KXRTDOGMAN` | Dog Man Rotten Tomatoes score | Entertainment | $1,258,789 |
-| 2822 | `KXMRBEASTGAMES` | WHO WILL WIN BEAST GAMES | Entertainment | $1,258,690 |
-| 2823 | `KXMOSTSTREAMESTSTLOASG` | What will be the most streamed song on the life of a showgirl | Entertainment | $1,241,951 |
-| 2824 | `KXNETFLIXRANKMOVIERUNNERUP` | RUNNER UP NETFLIX MOVIE | Entertainment | $1,228,742 |
-| 2825 | `KXOSCARNOMSUPACTO` | Oscar nominations for Best Supporting Actor | Entertainment | $1,179,214 |
-| 2826 | `KXGGDRAMAFILM` | Golden Globe for Best Drama film | Entertainment | $1,156,210 |
-| 2827 | `KXRTLASTBREATH` | Last Breath Rotten Tomatoes score | Entertainment | $1,102,894 |
-| 2828 | `KXTRAITORS` | WHO WILL WIN TRAITORS | Entertainment | $1,027,813 |
-| 2829 | `KXRTJURASSICWORLDREBIRTH` | JURASSIC WORLD REBIRTH Rotten Tomatoes score | Entertainment | $1,023,345 |
-| 2830 | `KXSTARLADDERBUDAPESTMAJOR` | Who wil win the StarLadder Budapest Major 2025 | Sports | $1,011,195 |
-| 2831 | `KXGGAFILM` | Golden Globe for Best Animated Film | Entertainment | $1,009,319 |
-| 2832 | `KXRANKLISTSONGTHRILLER` | WILL THRILLER MAKE THE TOP 10 | Entertainment | $993,513 |
-| 2833 | `KXPUBLICBIDEN` | biden seen in public | Entertainment | $990,465 |
-| 2834 | `KXELONTWEETS` | Elon Musk tweets | Entertainment | $977,734 |
-| 2835 | `KXSPOTIFYALBUMRELEASEDATEKANYE` | Will Kanye West Drop Bully this month - it's set to release July 25th. | Entertainment | $967,302 |
-| 2836 | `KXSPOTIFYWRAPPEDRELEASE` | When will Spotify release wrapped?  | Entertainment | $964,015 |
-| 2837 | `KXEMMYCSERIES` | Emmys Award for Comedy Series | Entertainment | $960,356 |
-| 2838 | `KXRTKARATEKIDLEGENDS` | Karate Kid Legends Rotten Tomatoes score | Entertainment | $953,027 |
-| 2839 | `KXRTTHEDAMNED` | THE DAMNED Rotten Tomatoes score | Entertainment | $945,280 |
-| 2840 | `KXSBADAPPEARANCES` | Super Bowl ad appearances | Entertainment | $936,524 |
-| 2841 | `KXRANKLISTGOOGLESEARCH2` | Runner up top Search on google this year | Entertainment | $928,532 |
-| 2842 | `KXAPPRANKFREE2` | Free app ranking | Entertainment | $912,095 |
-| 2843 | `KXTOP10TAYLORSWIFT` | Taylor swift holds top ten spots on the Billboard Hot 100? | Entertainment | $911,823 |
-| 2844 | `KXRTSMURFS` | Smurfs Rotten Tomatoes score | Entertainment | $907,261 |
-| 2845 | `KXRTWOLFMAN` | Wolf Man Rotten Tomatoes score | Entertainment | $902,486 |
-| 2846 | `KXRTPRIMATE` | PRIMATE ROTTEN TOMATOES SCORE | Entertainment | $886,833 |
-| 2847 | `KXATTENDSOTU` | Who will attend the State of the Union? | Politics | $878,115 |
-| 2848 | `KXFEATUREASAPROCKY` | WHO WILL BE ON ASAP ROCKYS DONT BE DUMB | Entertainment | $871,920 |
-| 2849 | `KXPERFORMGRAMMYS` | Who will perform at the Grammys | Entertainment | $867,220 |
-| 2850 | `KXRTJWBALLERINA` | John Wick: Ballerina Rotten Tomatoes score | Entertainment | $862,626 |
-| 2851 | `KXOSCARSPLAY` | Oscar for Best Original Screenplay | Entertainment | $862,073 |
-| 2852 | `KXRTTHEAMATEUR` | AMATEUR RT SCORE | Entertainment | $838,303 |
-| 2853 | `KXSPOTIFYBILLIONS` | What song will hit a billion streams? | Entertainment | $836,574 |
-| 2854 | `KXTOPARTISTTHIRD` | THIRD RANK ARTIST ON SPOTIFY  | Entertainment | $835,305 |
-| 2855 | `KXRTNAKEDGUN` | Naked Gun Rotten Tomatoes score | Entertainment | $831,178 |
-| 2856 | `KXRTSONIC3` | Sonic 3 RT score | Entertainment | $828,883 |
-| 2857 | `KXRTWEAPONS` | Weapons RT | Entertainment | $827,996 |
-| 2858 | `KXRTDENOFTHIEVES` | Den of Thieves Rotten Tomatoes score | Entertainment | $816,513 |
-| 2859 | `KXRTFLIGHTRISK` | Flight Risk Rotten Tomatoes score | Entertainment | $806,207 |
-| 2860 | `KXRTWAROFTHEROHIRRIM` | LOTR WAR OF THE ROHIRRIM Rotten Tomatoes score | Entertainment | $801,419 |
-| 2861 | `KXRTHEARTEYES` | HEART EYES Rotten Tomatoes score | Entertainment | $791,130 |
-| 2862 | `KXMRBEAST100M` | Mr. Beast 100m views | Entertainment | $775,508 |
-| 2863 | `KXTRUMPUFC322` | Trump attends UFC 322 | Politics | $773,160 |
-| 2864 | `KXMISSIONIMPOSSIBLE` | Mission: Impossible – The Final Reckoning Rotten Tomatoes score | Entertainment | $753,022 |
-| 2865 | `KXGRAMBRA` | Grammy for Rap Album of the Year | Entertainment | $749,492 |
-| 2866 | `KXRTHOWTOTRAINYOURDRAGON` | How to train your dragon Rotten Tomatoes score | Entertainment | $746,555 |
-| 2867 | `KXNETFLIXTOPVIEWSTV` | NETFLIX TOP SHOW VIEW COUNT | Entertainment | $745,061 |
-| 2868 | `KXFEATUREJCOLE` | WHO WILL BE FEATURED ON JCOLES ALBUM | Entertainment | $732,881 |
-| 2869 | `KXRTREDONE` | Red One Rotten Tomatoes score | Entertainment | $730,260 |
-| 2870 | `KXRTTHUNDERBOLTS` | Thunderbolts RT score | Entertainment | $711,628 |
-| 2871 | `KXRTSINNERS` | Sinners Rotten Tomatoes Score | Entertainment | $697,124 |
-| 2872 | `KXMAMDANISWEARING` | Who will attend Mamdani's swearing-in ceremony? | Politics | $694,097 |
-| 2873 | `KXOSCARANIMATED` | Oscar for Best Animated Feature | Entertainment | $691,907 |
-| 2874 | `KXRTONEBATTLEAFTERANOTHER` | One battle after another Rotten Tomatoes score | Entertainment | $689,462 |
-| 2875 | `KXGRAMBPDGP` | Grammy for Best Pop Duo/Group Performance | Entertainment | $683,703 |
-| 2876 | `KXTOPSONGSPOTIFYUSA` | MOST STREAMED  | Entertainment | $681,038 |
-| 2877 | `KXRTLILOANDSTITCH` | Lilo and Stitch Rotten Tomatoes score | Entertainment | $679,969 |
-| 2878 | `KXRANKLIST1SONG` | WHICH SONG WILL BE NUMBER THIS MONTH | Entertainment | $672,419 |
-| 2879 | `KXRTFNAF2` | FNAF 2 Rotten Tomatoes score | Entertainment | $670,038 |
-| 2880 | `KXRANKLISTIGN` | IGN BEST VIDEO GAME | Entertainment | $667,581 |
-| 2881 | `KXSPOTIFYSONGRELEASETS` | Will Taylor Swift release a new song? | Entertainment | $666,615 |
-| 2882 | `KXRTANACONDA` | Anaconda | Entertainment | $665,770 |
-| 2883 | `KXEMMYDACTO` | Emmys Award for Lead Drama Actor | Entertainment | $665,093 |
-| 2884 | `KXSBVIEWER` | SB viewership | Entertainment | $659,062 |
-| 2885 | `KXTRUMPUFC` | Trump attend another UFC event this year | Politics | $651,192 |
-| 2886 | `KXRT28YEARSLATER` | 28 YEARS LATER RT SCORE | Entertainment | $642,997 |
-| 2887 | `KXOSCARASPLAY` | Oscar for Best Adapted Screenplay | Entertainment | $637,708 |
-| 2888 | `KXMEDIARELEASEJIMMYKIMMEL` | When will Jimmy Kimmel release another episode | Entertainment | $635,257 |
-| 2889 | `KXEUROVISION` | Eurovision winner | Entertainment | $622,058 |
-| 2890 | `KXRTTHESMASHINGMACHINE` | Rotten tomatoes score for the smashing machine | Entertainment | $597,883 |
-| 2891 | `KXRTF1` | F1 Rotten Tomatoes score | Entertainment | $596,244 |
-| 2892 | `KXRTTHEWOMANINTHEYARD` | THE WOMAN IN THE YARD Rotten Tomatoes score | Entertainment | $595,927 |
-| 2893 | `KXGRAMBPS` | Grammy for Best Pop Song | Entertainment | $584,011 |
-| 2894 | `KXSPOTIFYSONGSTFOO` | TOTAL SPOTIFY STREAMS FOR TAYLOR SWIFTS THE FATE OF OPHELIA | Entertainment | $581,001 |
-| 2895 | `KXRTSEVERANCES2` | Severance Season 2 RT | Entertainment | $572,639 |
-| 2896 | `KXMARRIAGESWIFTKELCE` | Swift Kelce married | Entertainment | $569,676 |
-| 2897 | `KXTWITCHSUBSKAICENAT` | How many twitch subs will kai cenat have | Entertainment | $557,823 |
-| 2898 | `KXRTFDBLOODLINES` | Final Destination Bloodlines Rotten Tomatoes score | Entertainment | $549,012 |
-| 2899 | `KXMEDIACONSUMPTIONTSWIFT` | how many views will taylor swift get on video | Entertainment | $537,620 |
-| 2900 | `KXRTTRONARES` | Tron Ares Rotten Tomatoes score | Entertainment | $536,825 |
-| 2901 | `KXTOPALBUMBYTAYLORSWIFT` | TAYLOR SWIFT #1 Album | Entertainment | $533,018 |
-| 2902 | `KXRTBLACKPHONE2` | BLACK PHONE 2 ROTTEN TOMATOES SCORE | Entertainment | $533,004 |
-| 2903 | `KXNETFLIXRANKMOVIEGLOBAL` | Netflix movie ranking | Entertainment | $529,397 |
-| 2904 | `KXOSCARINTLFILM` | Oscar for Best International Feature Film | Entertainment | $522,369 |
-| 2905 | `KXRTCONJURING` | CONJURING Rotten Tomatoes score | Entertainment | $518,124 |
-| 2906 | `KXRTNIGHTBITCH` | NIGHTBITCH Rotten Tomatoes score | Entertainment | $506,034 |
-| 2907 | `KXRTM3GAN2` | M3GAN 2.0 Rotten Tomatoes Score | Entertainment | $504,376 |
-| 2908 | `KXRTPREDATORBADLANDS` | PREDATOR BADLANDS Rotten TOmatoes score | Entertainment | $502,434 |
-| 2909 | `KXGGFILMSUPACTR` | Golden Globe for Best Supporting Actress in a film | Entertainment | $501,606 |
-| 2910 | `KXGGDRAMAFILMACTO` | Golden Globe for Best Actor in a Drama | Entertainment | $495,352 |
-| 2911 | `KXSPOTIFYALBUMRELEASE` | Spotify album release | Entertainment | $493,044 |
-| 2912 | `KXRTHAPPYGILMORE2` | Happy Gilmore 2 Rotten Tomatoes Score | Entertainment | $490,092 |
-| 2913 | `KXRTACOMPLETEUNKNOWN` | A Complete Unknown Rotten Tomatoes Score | Entertainment | $485,279 |
-| 2914 | `KXRTACCOUNTANT2` | Accountant 2 RT score | Entertainment | $482,364 |
-| 2915 | `KXRANKLISTAIWFCIS` | WHEN WILL All I Want For Christmas Is You BE TOP 10 | Entertainment | $479,999 |
-| 2916 | `KXSAGAWARDENSEMBLE` | SAG Award for Outstanding Cast | Entertainment | $471,183 |
-| 2917 | `KXTOPALBUMRECORDTLOASG` | How many straight weeks will the life of a show girl be #1 | Entertainment | $466,079 |
-| 2918 | `KXRTNOBODY2` | NOBODY 2 Rotten Tomatoes score | Entertainment | $464,838 |
-| 2919 | `KXWL` | White Lotus season 3 deaths | Entertainment | $460,701 |
-| 2920 | `KXOSCARWIN` | Most Oscar wins | Entertainment | $457,629 |
-| 2921 | `KXEMMYCACTO` | Emmys Award for Lead Comedy Actor | Entertainment | $453,387 |
-| 2922 | `KXTVSHOWSCANCELLED` | Which TV shows will be Cancelled this year? | Entertainment | $449,065 |
-| 2923 | `KXSPOTIFYARTISTD` | Daily US Spotify artist chart | Entertainment | $442,083 |
-| 2924 | `KXRTELIO` | Elio RT | Entertainment | $439,003 |
-| 2925 | `KXRTHIM` | Him Rotten Tomatoes score | Entertainment | $437,586 |
-| 2926 | `KXTOPALBUMRECORDGNXS` | Album record | Entertainment | $436,323 |
-| 2927 | `KXGGSCREEN` | Golden Globe for Best Screenplay | Entertainment | $434,239 |
-| 2928 | `KXSTEAMGOTY` | Game of the Year Award | Entertainment | $423,889 |
-| 2929 | `KXRTSQUIDGAMES2` | Squid Game Season 2 RT | Entertainment | $416,923 |
-| 2930 | `KXRTKRAVEN` | Kraven Rotten Tomatoes score | Entertainment | $415,286 |
-| 2931 | `KXRTALIENEARTH` | ROTTEN TOMATOES SCORE OF ALIEN; EARTH | Entertainment | $409,634 |
-| 2932 | `KXGRAMMYNOMNAOTY` | Grammy nominees for New Artist of the Year | Entertainment | $407,561 |
-| 2933 | `KXTIMEPOTYWOMAN` | Will the times person of the year be a woman? | Entertainment | $405,222 |
-| 2934 | `KXRTGLADIATOR2` | Gladiator 2 Rotten Tomatoes score | Entertainment | $405,018 |
-| 2935 | `KXWGA` | Writers strike ends | Entertainment | $404,843 |
-| 2936 | `KXGGDRAMATV` | Golden Globe for Best Drama TV | Entertainment | $397,159 |
-| 2937 | `KXRTTHELONGWALK` | RT SCORE FOR THE LONG WALK  | Entertainment | $394,616 |
-| 2938 | `KXNETFLIXRANKSHOWGLOBAL` | Netflix TV ranking | Entertainment | $393,254 |
-| 2939 | `KXCRITICSPIC` | Critics Choice Award for Best Picture | Entertainment | $393,175 |
-| 2940 | `KXGTA6ONTIME` | GTA 6 release date on time | Entertainment | $393,163 |
-| 2941 | `KXBILLBOARDRUNNERUPSONG` | Will Song be number 2 on Billboard 100? | Entertainment | $392,951 |
-| 2942 | `KXLEASTSTREAMEDSONGTLOASG` | What will be the least streamed song on taylor swifts the life of a showgirl | Entertainment | $392,131 |
-| 2943 | `KXRTFURIOSA` | Furiosa Rotten Tomatoes score | Entertainment | $390,270 |
-| 2944 | `KXROGANGUEST` | Rogan guests | Entertainment | $388,233 |
-| 2945 | `KXRTFREAKIERFRIDAY` | FREAKIER FRIDAY Rotten Tomatoes score | Entertainment | $387,805 |
-| 2946 | `KXRTDEADPOOL3` | Deadpool and Wolverine Rotten Tomatoes score | Entertainment | $387,150 |
-| 2947 | `KXRTFIGHTORFLIGHT` | Fight or Flight Rotten Tomatoes score | Entertainment | $383,811 |
-| 2948 | `KXEMMYDACTR` | Emmys Award for Lead Drama Actress | Entertainment | $383,583 |
-| 2949 | `KXGGMCOMFILM` | Golden Globe for Best Musical or Comdey film | Entertainment | $382,797 |
-| 2950 | `KXGGFILMSUPACTO` | Golden Globe for Best Supporting Actor in a film | Entertainment | $379,998 |
-| 2951 | `KXOSCAREDIT` | Oscar for Best FILM EDITING | Entertainment | $379,425 |
-| 2952 | `KXOSCARWINNERS` | Oscar Winners | Entertainment | $377,741 |
-| 2953 | `KXGGMCOMFILMACTO` | Golden Globe for Best Actor in a Musical or Comedy film | Entertainment | $369,178 |
-| 2954 | `KXTOPALBUMRECORDY` | Album record | Entertainment | $356,464 |
-| 2955 | `KXOSCARSONG` | Oscar for Best Original Song | Entertainment | $356,331 |
-| 2956 | `KXRTQUIETPLACEDAYONE` | Quiet Place Day One Rotten Tomatoes score | Entertainment | $353,286 |
-| 2957 | `KXOSCARPROD` | Oscar for Best Production Design | Entertainment | $349,663 |
-| 2958 | `KXOSCARNOMDOCU` | Oscar nominations for Best Documentary Feature Film | Entertainment | $344,832 |
-| 2959 | `KXYTUBESUBSBEAST` | YouTube subs Beast | Entertainment | $343,748 |
-| 2960 | `KXGGMCOMFILMACTR` | Golden Globe for Best Actress in a Musical or Comedy film | Entertainment | $343,619 |
-| 2961 | `KXSPOTIFY3BILLION` | Will song hit 3 billion streams this year? | Entertainment | $341,965 |
-| 2962 | `KXRTAPES` | Kingdom of the Planet of the Apes Rotten Tomatoes score | Entertainment | $337,553 |
-| 2963 | `KXGRAMBPVA` | Grammy for Best Pop Vocal Album | Entertainment | $336,418 |
-| 2964 | `KXMSUNIVERSE` | WHO WILL WIN MS UNIVERSE | Entertainment | $336,287 |
-| 2965 | `KXGTAPRICE` | GTA price | Entertainment | $332,926 |
-| 2966 | `KXRANKLISTGOOGLESEARCHACT` | #1 MOST SEARCHED ACTOR ON GOOGLE | Entertainment | $332,346 |
-| 2967 | `KXRTCAUGHTSTEALING` | Rotten Tomatoes score for caught stealing? | Entertainment | $331,204 |
-| 2968 | `KXGRAMMYNOMSOTY` | Grammy nominees for Song of the Year | Entertainment | $325,121 |
-| 2969 | `KXBILLBOARDRUNNERUPALBUM` | Will Album be runner up this week? | Entertainment | $321,182 |
-| 2970 | `KXRTWEBURYTHEDEAD` | We Bury the Dead | Entertainment | $314,809 |
-| 2971 | `KXCRITICSSUPACTO` | Critics Choice Award for Best Supporting Actor | Entertainment | $314,155 |
-| 2972 | `KXTOPSONGSPOTIFY` | Top Song on Spotify this year | Entertainment | $309,249 |
-| 2973 | `KXOSCARSOUND` | Oscar for Best Sound | Entertainment | $308,435 |
-| 2974 | `KXTOPALBUMTHEFALLOFF` | WILL THE FALL OFF BE #1 | Entertainment | $302,790 |
-| 2975 | `KXPS6` | PS6 announcement | Entertainment | $300,833 |
-| 2976 | `KXRTROSES` | Roses rotten tomatoes score?  | Entertainment | $297,715 |
-| 2977 | `KXGGGNOMDRAMAFILM` |  Best Motion Picture - Drama | Entertainment | $295,432 |
-| 2978 | `KXTOP10BILLBOARDSPOTSJC` | HOW MANY TOP 10 SPOTS WILL J COLE HOLD ON THE BILLBOARD HOT 100 CHART FOR THE WEEK OF  | Entertainment | $294,192 |
-| 2979 | `KXCRITICSACTO` | Critics Choice Award for Best Actor | Entertainment | $294,056 |
-| 2980 | `KXRANKLISTSONGBBH100` | WHICH SONGS WILL ENTER THE BILLBOARD HOT 100 | Entertainment | $292,312 |
-| 2981 | `KXRANKLISTSONGSPOTUSA` | WHO WIL HAVE A #1 song on Spotify  | Entertainment | $288,691 |
-| 2982 | `KXLASTSUMMER` | Last Summer RT | Entertainment | $288,325 |
-| 2983 | `KXTOPSONGS` | Top songs this year | Entertainment | $287,806 |
-| 2984 | `KXTOPPOPRANK` | Top pop singer ranking | Entertainment | $286,813 |
-| 2985 | `KXGGDIR` | Golden Globe for Best Director | Entertainment | $285,618 |
-| 2986 | `KXOSCARCOSTUME` | Oscar for Best Costume Design | Entertainment | $284,804 |
-| 2987 | `KXEMMYCACTR` | Emmys Award for Lead Comedy Actress | Entertainment | $284,294 |
-| 2988 | `KXRTTHERUNNINGMAN` | RUNNING MAN ROTTEN TOMATOES SCORE | Entertainment | $282,863 |
-| 2989 | `KXRTELLAMCCAY` | ELLA MCCAY RT SCORE? | Entertainment | $275,946 |
-| 2990 | `KXGRAMBRS` | Grammy for Best Rap Song | Entertainment | $275,086 |
-| 2991 | `KXRTSPRINGSTEEN` | Springsteen: Deliver Me from Nowhere RT SCORE | Entertainment | $272,525 |
-| 2992 | `KXRTWARFARE` | Warfare Rotten TOmatoes score | Entertainment | $272,512 |
-| 2993 | `KXDWTSELIMINATION` | DANCING WITH THE STARS ELIMINATION | Entertainment | $272,144 |
-| 2994 | `KXMCCLAIROBSCUR` | Clair Obscur Metacritic scores | Entertainment | $270,398 |
-| 2995 | `KXRTUNBREAKABLEBOY` | UNBREAKABLE BOY Rotten Tomatoes Score | Entertainment | $269,291 |
-| 2996 | `KXTIMEHUMAN` | Will Time Magazines person of the year be a Human? | Entertainment | $269,153 |
-| 2997 | `KXSURVIVORELIMINATION` | WHO WILL BE ELIMINATED FROM SURVIVOR | Entertainment | $267,003 |
-| 2998 | `KXMOSTSTREAMEDWICKED` | Most streamed song on wicked | Entertainment | $263,788 |
-| 2999 | `KXGGGNOMMCOMFILM` | Best Motion Picture - Musical or Comedy | Entertainment | $262,551 |
-| 3000 | `KXBOND` | Next Bond actor | Entertainment | $260,124 |
-| 3001 | `KXPMKICKINGCONTEST` | Pat McAfee Kicking Contest | Social | $260,012 |
-| 3002 | `KXTOP10BILLBOARD` | Top 10 on Billboard | Entertainment | $259,798 |
-| 3003 | `KXRTHONEYDONT` | RT SCORE FOR HONEY DONT | Entertainment | $257,923 |
-| 3004 | `KXENGAGEMENTSWIFTKELCE` | Swift Kelce | Entertainment | $256,769 |
-| 3005 | `KXRTDESPICABLEME4` | Despicable Me 4 Rotten Tomatoes score | Entertainment | $256,384 |
-| 3006 | `KXALBUMDEBUT` | WILL ALBUM DEBUT AT #1 | Entertainment | $255,464 |
-| 3007 | `KXRTALIENROMULUS` | Alien Romulus Rotten Tomatoes score | Entertainment | $254,754 |
-| 3008 | `KXNETFLIXRANKMOVIEGLOBAL2` | RUNNER UP SHOW NETFLIX MOVIE GLOBAL | Entertainment | $252,761 |
-| 3009 | `KXSPOTIFYALBUMRELEASEDATEDRAKE` | Will drake release an album by date | Entertainment | $252,629 |
-| 3010 | `KXRTJOKER2` | Joker 2 Rotten Tomatoes score | Entertainment | $250,226 |
-| 3011 | `KXGGDRAMAFILMACTR` | Golden Globe for Best Actress in a Drama film | Entertainment | $249,462 |
-| 3012 | `KXGAMEAWARDSBAD` | Game Awards Best Art Direction | Entertainment | $245,591 |
-| 3013 | `KXRTBLINKTWICE` | Blink Twice Rotten Tomatoes score | Entertainment | $244,343 |
-| 3014 | `KXRTINSIDEOUT2` | Inside Out 2 Rotten Tomatoes Score | Entertainment | $244,212 |
-| 3015 | `KXGAMEAWARDSBA` | Game Awards Best Adaptation | Entertainment | $242,727 |
-| 3016 | `KXRTTHEHOUSEMAID` | THE HOUSEMAID ROTTEN TOMATOES SCORE | Entertainment | $240,838 |
-| 3017 | `KXOSCARDOCU` | Oscar for Best Documentary Feature | Entertainment | $239,850 |
-| 3018 | `KXSAGAWARDACTO` | SAG Award for Best Leading Actor | Entertainment | $238,979 |
-| 3019 | `KXJREPODCAST` | JRE podcast not #1 | Entertainment | $238,790 |
-| 3020 | `KXLOVEISBLINDENGAGEMENT` | WHO WILL BECOME ENGAGED ON LOVE IS BLIND? | Social | $238,369 |
-| 3021 | `KXRTDAREDEVILBA` | Daredevil Born Again Rotten Tomatoes Score | Entertainment | $237,928 |
-| 3022 | `KXGGGNOMMCOMFILMACTO` |  Best Actor in a Motion Picture – Musical or Comedy | Entertainment | $236,625 |
-| 3023 | `KXTAYLORSWIFT` | Taylor Swift releases a new album this month | Entertainment | $236,245 |
-| 3024 | `KXGRAMMYNOMAOTY` | Grammy nominees for Album of the Year | Entertainment | $236,222 |
-| 3025 | `KXNETFLIXRANKSHOWGLOBAL2` | RUNNER UP SHOW NETFLIX SHOW GLOBAL | Entertainment | $236,023 |
-| 3026 | `KXGAMEAWARDSBIG` | Game Awards Best Independent Game | Entertainment | $230,624 |
-| 3027 | `KXGGSCORE` | Golden Globe for Best film score | Entertainment | $230,314 |
-| 3028 | `KXNEWALBUM` | New albums | Entertainment | $228,781 |
-| 3029 | `KXTOPPOP` | Top artist | Entertainment | $226,531 |
-| 3030 | `KXALBUMSALESCARDIB` | how many album sales will cardi B have  | Entertainment | $225,359 |
-| 3031 | `KXGGGNOMDRAMATV` |  Best Television Series - Drama | Entertainment | $223,169 |
-| 3032 | `KXRTCLOWNINACORNFIELD` | CLOWN IN A CORNFIELD Rotten Tomatoes score | Entertainment | $222,002 |
-| 3033 | `KXTOPALBUMDONTBEDUMB` | WILL DONT BE DUMB DEBUT AT #1 | Entertainment | $221,979 |
-| 3034 | `KXSTRMRSOTY` | STREAMER OF THE YEAR | Entertainment | $221,774 |
-| 3035 | `KXOFFICIALTURKEY` | Turkey Pardon | Entertainment | $220,194 |
-| 3036 | `KX1SONGSABRINACARPENTER` | Will Sabrina Carpenter have a #1 Hit? | Entertainment | $219,844 |
-| 3037 | `KXSNLHOST` | SNL hosts this season | Entertainment | $219,645 |
-| 3038 | `KXRTFLYMETOTHEMOON` | Fly me to the Moon Rotten Tomatoes score | Entertainment | $217,322 |
-| 3039 | `KXRTIF` | If Rotten Tomatoes score | Entertainment | $217,158 |
-| 3040 | `KXOAIBROWSER` | OpenAI browser | Companies | $214,961 |
-| 3041 | `KXSAGAWARDACTR` | SAG Award for Best Leading Actress | Entertainment | $214,257 |
-| 3042 | `KXRTBORDERLANDS` | Borderlands Rotten Tomatoes score | Entertainment | $213,200 |
-| 3043 | `KXAPPRANKSPORTS` | Sports ranking | Entertainment | $212,611 |
-| 3044 | `KXGRAMBCS` | Grammy for Best Country Song | Entertainment | $211,870 |
-| 3045 | `KXRTEZRA` | Ezra Rotten Tomatoes score | Entertainment | $210,696 |
-| 3046 | `KXTHELASTOFUSS2` | The Last of Us S2 RT | Entertainment | $208,643 |
-| 3047 | `KXOSCARVIS` | Oscar for Best Visual Effects | Entertainment | $208,180 |
-| 3048 | `KXGGGNOMMCOMFILMACTR` | Best Actress in a Motion Picture – Musical or Comedy | Entertainment | $204,086 |
-| 3049 | `KXTOPTEN` | Taylor Swift holds top ten spots on the Billboard Hot 100 | Entertainment | $202,287 |
-| 3050 | `KXFT` | FT Person of the Year | Entertainment | $201,753 |
-| 3051 | `KXCRITICSFOREIGN` | Critics Choice Award for Best Foreign Film | Entertainment | $197,469 |
-| 3052 | `KXTOP5POP` | Top 5 pop singers | Entertainment | $196,737 |
-| 3053 | `KXOSCARAS` | Oscar for Best ANIMATED SHORT | Entertainment | $195,736 |
-| 3054 | `KXRTBEETLEJUICE` | Beetlejuice Rotten Tomatoes score | Entertainment | $194,239 |
-| 3055 | `KXOSCARNOMCIN` | CINEMATOGRAPHY | Entertainment | $192,298 |
-| 3056 | `KXBAFTAFILM` | BAFTA for Best Film | Entertainment | $191,320 |
-| 3057 | `KXOSCARSCORE` | Oscar for Best Original Score | Entertainment | $183,963 |
-| 3058 | `KXRTNOWYOUSEEME3` | Now You See Me 3 Rotten Tomatoes score | Entertainment | $183,819 |
-| 3059 | `KXCRITICSACTR` | Critics Choice Award for Best Actress | Entertainment | $182,758 |
-| 3060 | `KXOSCARNOMBCASTING` | Oscar nominations for Best Casting | Entertainment | $180,636 |
-| 3061 | `KXRTRENTALFAMILY` | RENTAL FAMILY ROTTEN TOMATOES SCORE | Entertainment | $179,695 |
-| 3062 | `KXCANNESPALMEDOR` | Who will the Palme d'Or | Entertainment | $179,602 |
-| 3063 | `KXGGGNOMDIR` | Best Director | Entertainment | $179,207 |
-| 3064 | `KXRTREGRETTINGYOU` | REGRETTING YOU ROTTEN TOMATOES | Entertainment | $177,362 |
-| 3065 | `KXCRITICSCINE` | Critics Choice Award for Best Cinematography | Entertainment | $177,070 |
-| 3066 | `KXTOPARTISTUSA` | TOP ARTIST USA | Entertainment | $176,125 |
-| 3067 | `KXTOPARTISTRUNNERUP` | TOP ARTIST RUNNER UP | Entertainment | $174,734 |
-| 3068 | `KXSPOTIFYSONG` | Spotify song | Entertainment | $174,292 |
-| 3069 | `KXSAGAWARDSUPACTR` | SAG Award for Best Supporting Actress | Entertainment | $173,279 |
-| 3070 | `KXTOPALBUMSPOTIFY` | Top album on Spotify this year | Entertainment | $172,746 |
-| 3071 | `KXRTWATCHERS` | The Watchers Rotten Tomatoes score | Entertainment | $172,708 |
-| 3072 | `KXTOPALBUMRECORDGNX` | Album record | Entertainment | $171,924 |
-| 3073 | `KXRTTRANSFORMERSONE` | Transformers One Rotten Tomatoes score | Entertainment | $170,155 |
-| 3074 | `KXTOPALBUMRECORD` | Album record | Entertainment | $170,101 |
-| 3075 | `KXSTREAMERHAIRCUT` | Will kai Cenat get his haircut during stream | Entertainment | $169,855 |
-| 3076 | `KXRTMATERIALISTS` | MATERIALISTS Rotten Tomatoes Score | Entertainment | $169,820 |
-| 3077 | `KXGRAMBCSFVM` | Best Compilation Soundtrack For Visual Media | Entertainment | $169,603 |
-| 3078 | `KXRTTHEFALLGUY` | The Fall Guy Rotten Tomatoes score | Entertainment | $168,596 |
-| 3079 | `KXHARVARD` | Harvard application numbers | Politics | $166,483 |
-| 3080 | `KXOSCARGUESTS` | Oscar guests | Entertainment | $165,310 |
-| 3081 | `KXRTABIGAIL` | Rotten Tomatoes score | Entertainment | $165,063 |
-| 3082 | `KXBLASTRIVALS2` | BLAST Rivals 2025 Season 2 | Sports | $165,000 |
-| 3083 | `KXTOPALBUMBYDRAKE` | Drake #1 Album | Entertainment | $164,693 |
-| 3084 | `KXRTAMERICANA` | Americana RT | Entertainment | $163,326 |
-| 3085 | `KXTOP202025` | Billboard Top 20 artists | Entertainment | $162,877 |
-| 3086 | `KXRTCHALLENGERS` | Challengers Rotten Tomatoes score | Entertainment | $159,943 |
-| 3087 | `KXCSGOMAP` | CSGO Map Winner | Sports | $159,507 |
-| 3088 | `KXGRAMBCA` | Grammy for Best Country Album | Entertainment | $159,184 |
-| 3089 | `KXGRAMMYCOUNTKEN` | AWARD | Entertainment | $157,033 |
-| 3090 | `KXRTCIVIL` | Rotten Tomatoes score | Entertainment | $153,036 |
-| 3091 | `KXRTSPEAKNOEVIL` | SPEAK NO EVIL Rotten Tomatoes score | Entertainment | $152,526 |
-| 3092 | `KXRTTRAP` | Trap Rotten Tomatoes Score | Entertainment | $151,930 |
-| 3093 | `KXGGGNOMDRAMAFILMACTO` | Best Actor in a Motion Picture – Drama | Entertainment | $151,386 |
-| 3094 | `KXNEWTAYLOR-R` | New Taylor Reputation | Entertainment | $150,546 |
-| 3095 | `KXMCCODBLOPS7` | Call of Duty: Black Ops 7 | Entertainment | $150,142 |
-| 3096 | `KXTOPALBUMBYCARDIB` | Will Cardi B have a #1 album this year? | Entertainment | $148,098 |
-| 3097 | `KXRANKLISTSONGGOL` | GOLD RANK 1-10 | Entertainment | $147,655 |
-| 3098 | `KXPGLBUCH` | Who will win the PGL Masters Bucharest 2025 | Sports | $147,629 |
-| 3099 | `KXGAMERELEASE` | Will game be released this year | Entertainment | $146,933 |
-| 3100 | `KXTOPSONGAPERTURE` | WILL APERTURE DEBUT AT NUMBER 1 BY HARRY STYLES | Entertainment | $146,895 |
-| 3101 | `KXSPOTIFY2BILLION` | What song will hit 2 billion streams? | Entertainment | $146,563 |
-| 3102 | `KXRTRETURNTOSILENTHILL` | Return to Silent Hill | Entertainment | $145,387 |
-| 3103 | `KXOSCARCOUNT` | HOW MANY OSCARS WILL FILM BE NOMINATED FOR | Entertainment | $144,801 |
-| 3104 | `KXGGGNOMFILMSUPACTR` |  Best Supporting Actress in a Motion Picture | Entertainment | $144,579 |
-| 3105 | `KXTOPALBUMJUSTINBIEBER` | Will Justin Bieber have a #1 album | Entertainment | $143,629 |
-| 3106 | `KXAMAAOTY` | Artist of the Year | Entertainment | $143,481 |
-| 3107 | `KXTRUMPSCOTUS` | Trump attends oral arguments for tariff case | Politics | $143,123 |
-| 3108 | `KXAISONG` | AI-generated Hot 100 song | Entertainment | $142,854 |
-| 3109 | `KXGGLSERIESACTR` | Golden Globe for Best Actress in a Limited Series  | Entertainment | $142,848 |
-| 3110 | `KXRANKLISTSONGLASTCHRISTMAS` | Wham’s Last Christmas | Entertainment | $142,485 |
-| 3111 | `KXTOP10BILLBOARDSPOTSBB` | HOW MANY SPOTS ON THE BILLBOARD HOT 100 WILL BAD BUNNY HOLD  | Entertainment | $142,373 |
-| 3112 | `KXBEASTWATER` | Mr. Beast water | Entertainment | $141,077 |
-| 3113 | `KXOSCARNOMSBANIMATEDF` | OSCAR NOM FOR BEST ANIMATED FEATURE | Entertainment | $140,730 |
-| 3114 | `KXALBUMRELEASEDATEASAP` | A$AP Rocky drops “Don’t be Dumb” before october 31st, 2025 | Entertainment | $140,553 |
-| 3115 | `KXHULKHOGANATTEND` | Who will attend Hulk Hogan's Funereal | Politics | $140,058 |
-| 3116 | `KXMIDSEASONINVITATIONALB` | 2025 Mid-Season Invitational | Sports | $139,932 |
-| 3117 | `KXRANKLISTSONGXMASTOP5` | TOP 5 CHRISTMAS SONGS | Entertainment | $138,846 |
-| 3118 | `KXGGMCOMTV` | Golden Globe for Best Musical or Comedy TV | Entertainment | $138,828 |
-| 3119 | `KXOSCARCOUNTDUNE2` | Dune Part Two Oscar wins | Entertainment | $138,823 |
-| 3120 | `KXRTTWISTERS` | Twisters Rotten Tomatoes score | Entertainment | $138,385 |
-| 3121 | `KXGGDRAMATVACTR` | Golden Globe for Best Actress in a Drama TV | Entertainment | $137,705 |
-| 3122 | `KXTOPALBUMRUNNERUPUSA` | TOP ALBUM RUNNER UP USA | Entertainment | $137,524 |
-| 3123 | `KXGRAMMYNOMROTY` | Grammy nominees for Record of the Year | Entertainment | $136,636 |
-| 3124 | `KXSAG` | Actors strike ends | Entertainment | $136,465 |
-| 3125 | `KXSTRGMOTY` | GAMER OF THE YEAR | Entertainment | $136,412 |
-| 3126 | `KXGRAMBROA` | Best Rock Album | Entertainment | $135,292 |
-| 3127 | `KXRTGODZILLAXKONG` | Rotten Tomatoes score | Entertainment | $134,493 |
-| 3128 | `KX1SONGTAYLORSWIFT` | Taylor Swift #1 song | Entertainment | $134,297 |
-| 3129 | `KX1SONG-DRAKE` | Drake top song | Entertainment | $132,985 |
-| 3130 | `KXSTRMRTSA` | The Sapphire Award | Entertainment | $131,895 |
-| 3131 | `KXSONGCHARTTSWIFT` | WILL TAYLOR SWIFY OCCUPY 3 SPOTS ON THE TOP 5 SONGS ON THE BILLBOARD HOT 100 | Entertainment | $131,368 |
-| 3132 | `KXLOVEISBLINDMARRIAGE` | who will get married on love is blind  | Social | $131,350 |
-| 3133 | `KXRTTERRIFIER3` | TERRIFIER 3 Rotten Tomatoes score | Entertainment | $131,132 |
-| 3134 | `KXTOPALBUMRECORDSWAG` | Album record Justin Bieber  | Entertainment | $130,803 |
-| 3135 | `KXAWARDSCMAAOTY` | Album of the Year | Entertainment | $130,423 |
-| 3136 | `KXGRAMBMV` | Best Music Video | Entertainment | $129,292 |
-| 3137 | `KX1ALBUM` | WHO WILL HAVE A NUMBER 1 ALBUM ON THE BILLBOARD 200 | Entertainment | $128,956 |
-| 3138 | `KX1SONG` | WILL ARTIST HAVE A NUMBER ONE SONG ON BILLBOARD HOT 100 THIS YEAR | Entertainment | $128,491 |
-| 3139 | `KXTOPALBUMBYARIANA` | Will Ariana grande ahve a #1 album  | Entertainment | $127,866 |
-| 3140 | `KXNBAGAME` | Professional Basketball Game | Sports | $5,496,590,915 |
-| 3141 | `KXNFLGAME` | Professional Football Game | Sports | $5,247,129,252 |
-| 3142 | `KXNCAAFGAME` | College Football Game | Sports | $4,020,814,717 |
-| 3143 | `KXNCAAMBGAME` | Men's College Basketball Men's Game | Sports | $2,833,084,360 |
-| 3144 | `KXATPMATCH` | ATP Tennis Match | Sports | $911,202,070 |
-| 3145 | `KXMLBGAME` | Professional Baseball Game | Sports | $865,058,318 |
-| 3146 | `KXNHLGAME` | NHL Game | Sports | $809,224,247 |
-| 3147 | `KXNFLSPREAD` | Pro Football Spread | Sports | $770,498,839 |
-| 3148 | `KXWTAMATCH` | WTA Tennis Match | Sports | $640,764,301 |
-| 3149 | `KXMARMAD` | College Basketball Champion | Sports | $436,370,542 |
-| 3150 | `KXATPCHALLENGERMATCH` | Challenger ATP  | Sports | $411,603,754 |
-| 3151 | `KXNFLTOTAL` | Pro Football Total Points | Sports | $409,848,265 |
-| 3152 | `KXNBATOTAL` | Pro Basketball Total Points | Sports | $392,951,997 |
-| 3153 | `KXSB` | Super Bowl | Sports | $391,158,520 |
-| 3154 | `KXNBASPREAD` | Pro Basketball Spread | Sports | $383,294,674 |
-| 3155 | `KXPGATOUR` | PGA Tour | Sports | $372,857,488 |
-| 3156 | `KXEPLGAME` | English Premier League Game | Sports | $359,514,074 |
-| 3157 | `KXNCAAFSPREAD` | College Football Spread | Sports | $321,299,859 |
-| 3158 | `KXNCAAMBSPREAD` | Men's College Basketball Spread | Sports | $284,875,187 |
-| 3159 | `KXNCAAWBGAME` | College Basketball Women's Game | Sports | $276,434,981 |
-| 3160 | `KXNCAAMBTOTAL` | Men's College Basketball Total Points | Sports | $266,891,882 |
-| 3161 | `KXUFCFIGHT` | UFC Fight | Sports | $217,031,456 |
-| 3162 | `KXNCAAFTOTAL` | College Football Total Points | Sports | $194,961,164 |
-| 3163 | `KXUCLGAME` | UEFA Champions League Game | Sports | $162,670,611 |
-| 3164 | `KXNBA` | NBA Championship | Sports | $156,322,515 |
-| 3165 | `KXNCAAF` | NCAAF Championship | Sports | $142,999,364 |
-| 3166 | `KXNFLANYTD` | Pro Football Anytime Touchdown | Sports | $128,895,791 |
-| 3167 | `KXBOXING` | Boxing Match Champion | Sports | $114,406,970 |
-| 3168 | `KXFIRSTSUPERBOWLSONG` | What will be the first Super Bowl Song played during halfitme? | Entertainment | $113,517,455 |
-| 3169 | `KXNFLNFCCHAMP` | National Football Conference Champion | Sports | $109,407,918 |
-| 3170 | `KXNBASERIES` | Professional Basketball Series | Sports | $109,231,391 |
-| 3171 | `KXLALIGAGAME` | La Liga Game | Sports | $96,879,434 |
-| 3172 | `KXWMARMAD` | March Tournament (W) | Sports | $92,023,224 |
-| 3173 | `KXSERIEAGAME` | Serie A Game | Sports | $89,791,267 |
-| 3174 | `KXMLB` | World Series | Sports | $89,669,409 |
-| 3175 | `KXMASTERS` | Masters Tournament | Sports | $86,824,128 |
-| 3176 | `KXWNBAGAME` | Professional Women's Basketball Game | Sports | $85,927,768 |
-| 3177 | `KXNFLPREPACKSGP` | MVE NFL Pre Pack | Sports | $82,127,591 |
-| 3178 | `KXNFLAFCCHAMP` | American Football Conference Champion | Sports | $80,015,535 |
-| 3179 | `KXSUPERBOWLAD` | Super Bowl ads | Companies | $72,200,453 |
-| 3180 | `KXUSOPEN` | US Open | Sports | $70,984,045 |
-| 3181 | `KXEUROLEAGUEGAME` | Euroleague Game | Sports | $70,970,391 |
-| 3182 | `KXMLBSERIES` | Professional Baseball Series | Sports | $65,352,737 |
-| 3183 | `KXNHLTOTAL` | NHL Goal Total | Sports | $61,809,344 |
-| 3184 | `KXBUNDESLIGAGAME` | Bundesliga Game | Sports | $58,447,526 |
-| 3185 | `KXNFLSBMVP` | Pro Football Championship MVP | Sports | $52,221,340 |
-| 3186 | `KXNFLFIRSTTD` | Pro Football First Touchdown | Sports | $49,680,302 |
-| 3187 | `KXWMENSINGLES` | WIMBLEDON men's singles | Sports | $47,419,000 |
-| 3188 | `KXPERFORMSUPERBOWLB` | Who will perform at the Super Bowl | Entertainment | $47,345,230 |
-| 3189 | `KXAFCONGAME` | AFCON Game Winner | Sports | $46,239,225 |
-| 3190 | `KXTHEOPEN` | The Open Championship | Sports | $45,869,851 |
-| 3191 | `KXSBGUESTS` | Super Bowl guests | Entertainment | $40,270,790 |
-| 3192 | `KXSAUDIPLGAME` | Saudi Pro League Game | Sports | $39,843,877 |
-| 3193 | `KXT20MATCH` | T20 Match | Sports | $39,812,132 |
-| 3194 | `KXLIGUE1GAME` | Ligue 1 Game | Sports | $38,914,220 |
-| 3195 | `KXNCAAFPREPACKSGP` | MVE NCAAF Pre Pack | Sports | $37,943,771 |
-| 3196 | `KXUSOMENSINGLES` | US Open men's singles | Sports | $35,458,687 |
-| 3197 | `KXPGA` | PGA Championship | Sports | $35,228,441 |
-| 3198 | `KXCBAGAME` | Chinese Basketball Association Game  | Sports | $32,561,088 |
-| 3199 | `KXWTACHALLENGERMATCH` | Challenger WTA | Sports | $31,832,403 |
-| 3200 | `KXFOMENSINGLES` | French Open men's singles | Sports | $31,816,184 |
-| 3201 | `KXNFL2TD` | Pro Football Multiple Touchdowns | Sports | $30,423,114 |
-| 3202 | `KXNFLMVP` | AP Pro Football Regular Season MVP | Sports | $30,259,237 |
-| 3203 | `KXUNITEDCUPMATCH` | United Cup Match | Sports | $29,675,396 |
-| 3204 | `KXNFLRSHYDS` | Pro Football player Rushing Yards | Sports | $28,158,677 |
-| 3205 | `KXEFLCHAMPIONSHIPGAME` | EFL Championship Game | Sports | $27,365,650 |
-| 3206 | `KXNFLRECYDS` | Pro Football player Receiving Yards | Sports | $27,259,670 |
-| 3207 | `KXNBAEAST` | NBA Eastern Conference Championship | Sports | $26,976,105 |
-| 3208 | `KXHEISMAN` | Heisman Trophy Winner | Sports | $26,597,778 |
-| 3209 | `KXNBLGAME` | NBL Basketball Game | Sports | $26,529,488 |
-| 3210 | `KXALEAGUEGAME` | Australian A League Game | Sports | $26,108,739 |
-| 3211 | `KXF1RACE` | F1 Race | Sports | $25,701,399 |
-| 3212 | `KXAOMEN` | Australian Open Mens | Sports | $25,681,248 |
-| 3213 | `KXNBAWEST` | NBA Western Conference Championship | Sports | $25,060,756 |
-| 3214 | `KXFIFAGAME` | Fifa Game | Sports | $24,213,119 |
-| 3215 | `KXTEAMSINSB` | Teams in Super Bowl | Sports | $23,957,794 |
-| 3216 | `KXNEXTTEAMGIANNIS` | Giannis next team | Sports | $23,634,829 |
-| 3217 | `KXMLBAL` | MLB American League Championship | Sports | $23,577,276 |
-| 3218 | `KXNBACUP` | Pro Basketball Cup Champion | Sports | $23,186,778 |
-| 3219 | `KXNHLSPREAD` | NHL Spread | Sports | $23,166,683 |
-| 3220 | `KXNHL` | Stanley Cup | Sports | $23,016,507 |
-| 3221 | `KXCSGOGAME` | Counter-Strike 2 Games | Sports | $22,398,697 |
-| 3222 | `KXPGARYDERMATCH` | PGA Ryder Cup Matchups | Sports | $21,750,933 |
-| 3223 | `KXMLSGAME` | Major League Soccer Game | Sports | $21,677,235 |
-| 3224 | `KXCOPADELREYGAME` | Copa Del Rey Game | Sports | $21,391,709 |
-| 3225 | `KXLOLGAME` | League of Legends Game | Sports | $21,160,539 |
-| 3226 | `KXFOMEN` | French Open Men's | Sports | $21,137,350 |
-| 3227 | `KXNFLPASSYDS` | Pro Football player Passing Yards | Sports | $20,384,038 |
-| 3228 | `KXLIGAMXGAME` | Liga MX Game | Sports | $20,263,230 |
-| 3229 | `KXUSOWOMENSINGLES` | US Open women's singles | Sports | $20,050,935 |
-| 3230 | `KXNFLPREPACK2ML` | MVE NFL Pre Pack | Sports | $19,746,910 |
-| 3231 | `KXWWOMENSINGLES` | Wimbledon women's singles | Sports | $19,616,103 |
-| 3232 | `KXNFLPREPACK3ML` | MVE NFL Pre Pack | Sports | $19,582,101 |
-| 3233 | `KXNHLSERIES` | Professional Hockey Series | Sports | $19,426,429 |
-| 3234 | `KXUELGAME` | UEFA Europa League Game | Sports | $19,119,998 |
-| 3235 | `KXNFLPREPACK` | MVE NFL Pre Pack | Sports | $19,001,196 |
-| 3236 | `KXCS2GAME` | Counter-Strike 2 Game | Sports | $17,287,985 |
-| 3237 | `KXLIGAPORTUGALGAME` | Liga Portugal Game | Sports | $17,133,461 |
-| 3238 | `KXMICHCOACH` | Michigan Next Coach | Sports | $16,851,846 |
-| 3239 | `KXEUROCUPGAME` | Eurocup Basketball Game | Sports | $16,334,533 |
-| 3240 | `KXCLUBWCGAME` | Club World Club Game | Sports | $16,123,943 |
-| 3241 | `KXMLBHRDERBY` | Pro Baseball Homerun Derby | Sports | $15,967,466 |
-| 3242 | `KXBRASILEIROGAME` | Brasileiro Serie A Game | Sports | $15,384,929 |
-| 3243 | `KXFACUPGAME` | FA Cup Game | Sports | $14,715,028 |
-| 3244 | `KXFOWOMENSINGLES` | French Open women's singles | Sports | $14,650,934 |
-| 3245 | `KXPGARYDER` | Ryder Cup | Sports | $14,503,066 |
-| 3246 | `KXNBAFINALSMVP` | Finals MVP | Sports | $14,398,739 |
-| 3247 | `KXSUPERLIGGAME` | Turkish Super Lig Game | Sports | $14,332,572 |
-| 3248 | `KXEFLCUPGAME` | EFL Cup Game | Sports | $14,328,861 |
-| 3249 | `KXEPLTOTAL` | English Premier League Total Goals | Sports | $13,301,697 |
-| 3250 | `KXAOWOMEN` | Australian Open Womens | Sports | $12,424,547 |
-| 3251 | `KXNBAPTS` | Pro Basketball Player Points | Sports | $12,417,705 |
-| 3252 | `KXLIVTOUR` | LIV Tour | Sports | $12,373,687 |
-| 3253 | `KXNATHANSHD` | Nathan's Hot Dog Eating Contest winner? | Sports | $11,580,102 |
-| 3254 | `KXARGPREMDIVGAME` | Argentina Primera Division Game | Sports | $11,573,975 |
-| 3255 | `KXEREDIVISIEGAME` | Eredivisie Game | Sports | $11,566,401 |
-| 3256 | `KXMLBASGAME` | Professional Baseball All-Star Game | Sports | $11,380,418 |
-| 3257 | `KXNFLCOTY` | AP Pro Football Coach Of The Year | Sports | $11,378,604 |
-| 3258 | `KXF1RACEPODIUM` | F1 Race Podium Finisher | Sports | $11,046,796 |
-| 3259 | `KXPREMIERLEAGUE` | PREMIER LEAGUE | Sports | $10,822,422 |
-| 3260 | `KXKBLGAME` | Korea KBL Game | Sports | $10,607,446 |
-| 3261 | `KXNASCARRACE` | NASCAR Race | Sports | $10,439,066 |
-| 3262 | `KXWOMHOCKEY` | Winter Olympics Men's Hockey | Sports | $10,145,177 |
-| 3263 | `KXBOXINGMOV` | Boxing Method of Victory | Sports | $10,055,535 |
-| 3264 | `KXNEXTNFLCOACH` | Next Pro Football Coach | Sports | $9,897,720 |
-| 3265 | `KXNBAMVP` | Pro Basketball MVP | Sports | $9,718,200 |
-| 3266 | `KXNCAAFPLAYOFF` | College Football Playoff Qualifiers | Sports | $9,580,688 |
-| 3267 | `KXNFLOROTY` | AP Pro Football Offensive Rookie of the Year | Sports | $9,424,353 |
-| 3268 | `KXDPWORLDTOUR` | DP World Tour Tournament Winner | Sports | $9,398,863 |
-| 3269 | `KXMLBNL` | MLB National League Championship | Sports | $9,112,400 |
-| 3270 | `KXDOTA2GAME` | Dota 2 Game | Sports | $8,440,495 |
-| 3271 | `KXNBA3PTCONTEST` | NBA 3-Point Contest Winner | Sports | $8,093,772 |
-| 3272 | `KXJBLEAGUEGAME` | Japan B League Game | Sports | $8,077,237 |
-| 3273 | `KXFOWOMEN` | French Open Women's | Sports | $7,948,255 |
-| 3274 | `KXVALORANTGAME` | Valorant game winner | Sports | $7,791,509 |
-| 3275 | `KXCOPPAITALIAGAME` | Coppa Italia Game | Sports | $7,464,988 |
-| 3276 | `KXMLBTOTAL` | Pro Baseball Total Points | Sports | $7,390,426 |
-| 3277 | `KXINDY500` | Indy 500 Winner | Sports | $7,136,395 |
-| 3278 | `KXNFL1HWINNER` | NFL 1st Half Winner | Sports | $7,122,512 |
-| 3279 | `KXPSUCOACH` | Penn State Next Coach | Sports | $7,011,728 |
-| 3280 | `KXF1` | Formula 1 | Sports | $6,976,343 |
-| 3281 | `KXBELGIANPLGAME` | Belgian Pro League Game | Sports | $6,917,793 |
-| 3282 | `KXUFCMOV` | UFC Method of Victory | Sports | $6,902,959 |
-| 3283 | `KXSERIEATOTAL` | Serie A Total | Sports | $6,844,768 |
-| 3284 | `KXEPLSPREAD` | English Premier League Spread | Sports | $6,834,084 |
-| 3285 | `KXUEFACL` | UEFA Champions League | Sports | $6,763,050 |
-| 3286 | `KXDAVISCUPMATCH` | Davis Cup Match | Sports | $6,736,127 |
-| 3287 | `KXNATHANDOGS` | Nathan's hot dogs | Sports | $6,712,705 |
-| 3288 | `KXFIBACHAMPLEAGUEGAME` | FIBA Champions League Game | Sports | $6,500,833 |
-| 3289 | `KXNFLPREPACK1HFT` | MVE NFL Pre Pack | Sports | $6,392,040 |
-| 3290 | `KXLALIGATOTAL` | La Liga Total | Sports | $6,235,567 |
-| 3291 | `KXNFLPASSTDS` | Pro Football player Passing Touchdowns | Sports | $6,231,580 |
-| 3292 | `KXSBSETLISTS` | Super Bowl setlist | Entertainment | $6,164,831 |
-| 3293 | `KXNFLREC` | Pro Football Player Receptions | Sports | $5,972,473 |
-| 3294 | `KXLOLMAP` | League of Legends Map Winner | Sports | $5,952,426 |
-| 3295 | `KXNCAAFCS` | FCS Football Champion | Sports | $5,859,446 |
-| 3296 | `KXSCOTTISHPREMGAME` | Scottish Premiership Game | Sports | $5,745,181 |
-| 3297 | `KXESPSUPERCUPGAME` | Spain Super Cup Game | Sports | $5,712,907 |
-| 3298 | `KXMLBSPREAD` | Pro Baseball Spread | Sports | $5,658,002 |
-| 3299 | `KXPGARYDERTOP` | Ryder Cup Top Points Scorer | Sports | $5,494,985 |
-| 3300 | `KXLOLGAMES` | League of Legends Games | Sports | $5,492,191 |
-| 3301 | `KXNCAAMBACHAMP` | College Baseball Championship | Sports | $5,437,657 |
-| 3302 | `KXBUNDESLIGATOTAL` | Bundesliga Total | Sports | $5,364,106 |
-| 3303 | `KXLEAGUEWORLDS` | League of Legends Worlds | Sports | $5,046,794 |
-| 3304 | `KXJLEAGUEGAME` | Japan J League Game | Sports | $4,880,902 |
-| 3305 | `KXMENWORLDCUP` | Men's World Cup winner | Sports | $4,879,794 |
-| 3306 | `KXUECLGAME` | UEFA Conference League Game | Sports | $4,864,991 |
-| 3307 | `KXNFLPLAYOFF` | Pro Football Playoff Qualifiers | Sports | $4,838,704 |
-| 3308 | `KXSUPERBOWLHEADLINE` | Who will headline super bowl LX | Entertainment | $4,826,373 |
-| 3309 | `KXCRICKETT20IMATCH` | Cricket T20I Match | Sports | $4,779,373 |
-| 3310 | `KXUCL` | UEFA Champions League | Sports | $4,708,222 |
-| 3311 | `KXCS2MAP` | Counter-Strike 2 Map Winner  | Sports | $4,670,517 |
-| 3312 | `KXCOUPEDEFRANCEGAME` | Coupe de France Gam | Sports | $4,655,879 |
-| 3313 | `KXNBASLAMDUNK` | NBA Slam Dunk Contest Winner | Sports | $4,634,594 |
-| 3314 | `KXNCAAFCSGAME` | College Football FCS Game | Sports | $4,416,939 |
-| 3315 | `KXNFLOPOTY` | AP Pro Football Offensive Player Of The Year | Sports | $4,363,900 |
-| 3316 | `KXNBAWINS` | Pro basketball wins | Sports | $4,334,629 |
-| 3317 | `KXPGAR1LEAD` | PGA Round 1 Leader | Sports | $4,314,841 |
-| 3318 | `KXBOXINGVICROUND` | Boxing Victory in Round | Sports | $4,257,437 |
-| 3319 | `KXUCLTOTAL` | Champions League Total Goals | Sports | $4,229,004 |
-| 3320 | `KXLSUCOACH` | LSU Next Coach | Sports | $4,130,940 |
-| 3321 | `KXNBAREB` | Pro Basketball Player Rebounds | Sports | $3,990,198 |
-| 3322 | `KXCODGAME` | Call of Duty Games | Sports | $3,937,922 |
-| 3323 | `KXWO-GOLD` | Winter Olympics Most Gold Medals | Sports | $3,878,173 |
-| 3324 | `KXNFLTEAMTOTAL` | Pro Football Team Total Points | Sports | $3,869,306 |
-| 3325 | `KXLALIGASPREAD` | La Liga Spread | Sports | $3,800,329 |
-| 3326 | `KXSWISSLEAGUEGAME` | Swiss Super League Game | Sports | $3,784,264 |
-| 3327 | `KXUCLSPREAD` | Champions League Spread | Sports | $3,769,518 |
-| 3328 | `KXNFLNFCWEST` | National Football Conference West Winner | Sports | $3,746,121 |
-| 3329 | `KXNBA3PT` | Pro Basketball Player Threes | Sports | $3,581,358 |
-| 3330 | `KXTACAPORTGAME` | Taca de Portugal Game | Sports | $3,525,595 |
-| 3331 | `KXNFLAFCNORTH` | American Football Conference North Winner | Sports | $3,509,309 |
-| 3332 | `KXATPEXACTMATCH` | ATP Exact Match Score | Sports | $3,450,038 |
-| 3333 | `KXPGATOP20` | PGA Top 20 Finisher | Sports | $3,377,462 |
-| 3334 | `KXFLACOACH` | Florida Next Coach | Sports | $3,329,600 |
-| 3335 | `KXNBAALLSTARMVP` | NBA All-Star Game MVP | Sports | $3,319,635 |
-| 3336 | `KXWOHOCKEY` | Winter Olympics Hockey | Sports | $3,289,742 |
-| 3337 | `KXNCAAF1HWINNER` | College Football 1st Half Winner | Sports | $3,253,337 |
-| 3338 | `KXWOWHOCKEY` | Winter Olympics Women's Hockey | Sports | $3,237,974 |
-| 3339 | `KXNCAAHOCKEYGAME` | College Hockey Game | Sports | $3,230,428 |
-| 3340 | `KXNBAAST` | Pro Basketball Player Assists | Sports | $3,140,245 |
-| 3341 | `KXSERIEASPREAD` | Serie A Spread | Sports | $3,076,206 |
-| 3342 | `KXPGATOP10` | PGA Top 10 Finisher | Sports | $3,073,635 |
-| 3343 | `KXNFLNFCNORTH` | National Football Conference North Winner | Sports | $3,003,169 |
-| 3344 | `KXMLBNLROTY` | Pro Baseball National League Rookie of the Year | Sports | $2,991,640 |
-| 3345 | `KXNHLGOAL` | Pro Hockey Goalscorer | Sports | $2,952,632 |
-| 3346 | `KXMLBALMVP` | Pro Baseball American League MVP | Sports | $2,868,876 |
-| 3347 | `KXNHLEAST` | Eastern Conference Championship | Sports | $2,857,281 |
-| 3348 | `KXATPTOTALSETS` | ATP Total Sets | Sports | $2,737,459 |
-| 3349 | `KXNHLWEST` | Western Conference Champion | Sports | $2,728,139 |
-| 3350 | `KXNCAAFB12` | Big 12 Champion | Sports | $2,727,131 |
-| 3351 | `KXNCAAFACC` | ACC Champion | Sports | $2,586,556 |
-| 3352 | `KXNCAAFSEC` | SEC Champion | Sports | $2,581,554 |
-| 3353 | `KXNFLAFCWEST` | American Football Conference West Winner | Sports | $2,579,596 |
-| 3354 | `KXWO-MEDALS` | Winter Olympics Most Medals | Sports | $2,570,202 |
-| 3355 | `KXLIGUE1TOTAL` | Ligue 1 Total | Sports | $2,451,698 |
-| 3356 | `KXPGATOP5` | PGA Top 5 Finisher | Sports | $2,450,391 |
-| 3357 | `KXHNLGAME` | Croatia HNL Game | Sports | $2,426,807 |
-| 3358 | `KXAFCCLGAME` | AFC Champions League Game | Sports | $2,419,636 |
-| 3359 | `KXATPDOUBLES` | ATP Doubles Tennis Match | Sports | $2,413,002 |
-| 3360 | `KXDFBPOKALGAME` | DFB Pokal Game | Sports | $2,385,097 |
-| 3361 | `KXNBAROY` | Pro Basketball Rookie of the Year | Sports | $2,373,785 |
-| 3362 | `KXAFC` | AFC Championship | Sports | $2,363,875 |
-| 3363 | `KXNYGCOACH` | New York G Next Coach | Sports | $2,325,629 |
-| 3364 | `KXNBATRADE` | NBA Trade | Sports | $2,295,854 |
-| 3365 | `KXKNVBCUPGAME` | KNVB Cup Game | Sports | $2,243,852 |
-| 3366 | `KXNBA2D` | Pro Basketball Double Double | Sports | $2,240,240 |
-| 3367 | `KXBUNDESLIGASPREAD` | Bundesliga Spread | Sports | $2,228,348 |
-| 3368 | `KXNFLNFCEAST` | National Football Conference East Winner | Sports | $2,205,929 |
-| 3369 | `KXATPFINALS` | ATP Finals Winner | Sports | $2,188,552 |
-| 3370 | `KXFIBAECUPGAME` | FIBA Europe Cup Game | Sports | $2,114,198 |
-| 3371 | `KXNBADPOY` | Pro Basketball Defensive Player of the Year | Sports | $2,113,766 |
-| 3372 | `KXWNBA` | WNBA Championship | Sports | $2,104,410 |
-| 3373 | `KXEPLBTTS` | EPL Both Teams to Score | Sports | $2,104,081 |
-| 3374 | `KXNFLDROTY` | AP Pro Football Defensive Rookie of the Year | Sports | $2,090,049 |
-| 3375 | `KXNFLMOSTRECYDS` | Pro Football Most Receiving Yards | Sports | $2,088,280 |
-| 3376 | `KXNBAPLAYOFF` | Pro Basketball Playoff Qualifier | Sports | $2,068,316 |
-| 3377 | `KXWOMHOCKEYTOTAL` | Winter Olympics Men's Hockey Goal Total | Sports | $2,038,216 |
-| 3378 | `KXNHLFIRSTGOAL` | Pro Hockey First Goal | Sports | $2,024,644 |
-| 3379 | `KXNFL1QWINNER` | Pro Football 1st Quarter Winner | Sports | $1,959,428 |
-| 3380 | `KXPGARYDERCUPD1` | Ryder Cup Day 1 Winner | Sports | $1,900,276 |
-| 3381 | `KXPGAMAKECUT` | PGA To Make Cut | Sports | $1,894,133 |
-| 3382 | `KXNBAFINALSEXACT` | Pro Basketball Championship Series Score | Sports | $1,893,606 |
-| 3383 | `KXATPIT` | ATP Italian Open | Sports | $1,890,397 |
-| 3384 | `KXUCLROUND` | Champion's League Round | Sports | $1,884,814 |
-| 3385 | `KXWOCURL` | Winter Olympics Curling | Sports | $1,855,520 |
-| 3386 | `KXCLUBWC` | Club World Cup Championship | Sports | $1,836,549 |
-| 3387 | `KXNCAAFPREPACK2ML` | MVE NCAAF Pre Pack | Sports | $1,834,901 |
-| 3388 | `KXNFLAFCSOUTH` | American Football Conference South Winner | Sports | $1,826,354 |
-| 3389 | `KXEKSTRAKLASAGAME` | Polish Ekstraklasa Game | Sports | $1,813,714 |
-| 3390 | `KXNCAAFB10` | Big Ten Champion | Sports | $1,802,754 |
-| 3391 | `KXLNBELITEGAME` | LNB Elite Game | Sports | $1,792,073 |
-| 3392 | `KXUFCVICROUND` | UFC Round of Victory | Sports | $1,771,862 |
-| 3393 | `KXNFLOT` | Pro Football Overtime | Sports | $1,746,790 |
-| 3394 | `KXNBARISINGSTARS` | Pro Basketball Rising Stars Tournament | Sports | $1,725,213 |
-| 3395 | `KXNFLSBMVPPOS` | Pro Football Championship MVP Position | Sports | $1,700,047 |
-| 3396 | `KXNFLCPOTY` | AP Pro Football Comeback Player of the Year | Sports | $1,696,810 |
-| 3397 | `KXBATTLEOFSEXES` | Battle of the Sexes Tennis Match | Sports | $1,660,825 |
-| 3398 | `KXNFLNFCSOUTH` | National Football Conference South Winner | Sports | $1,650,747 |
-| 3399 | `KXNFC` | NFC Championship | Sports | $1,643,143 |
-| 3400 | `KXNBAMIMP` | Pro Basketball Most Improved Player | Sports | $1,601,687 |
-| 3401 | `KXWOSBOARD` | Winter Olympics Snowboarding | Sports | $1,596,071 |
-| 3402 | `KXFRASUPERCUPGAME` | France Super Cup Game | Sports | $1,593,755 |
-| 3403 | `KXEPLTOP4` | EPL top 4 teams | Sports | $1,519,694 |
-| 3404 | `KXWTAIT` | WTA Italian Open | Sports | $1,512,683 |
-| 3405 | `KXHALFTIMESHOW` | HOW LONG WILL THE SUPER BOWL HALFTIME SHOW BE | Sports | $1,495,478 |
-| 3406 | `KXT20WORLDCUP` | T20 World Cup Winner | Sports | $1,469,057 |
-| 3407 | `KXNFL1HSPREAD` | NFL 1st Half Spread | Sports | $1,410,059 |
-| 3408 | `KXINTERNETINVITATIONAL` | Who will win the Internet Invitational  | Sports | $1,404,211 |
-| 3409 | `KXGENESISINVITATIONAL` | Genesis Invitational Winner? | Sports | $1,397,993 |
-| 3410 | `KXNCAAFPREPACK4ML` | MVE NCAAF Pre Pack | Sports | $1,386,252 |
-| 3411 | `KXBALLONDOR` | Ballon d'Or | Sports | $1,371,294 |
-| 3412 | `KXMANTISFREETHROW` | MANTIS FREE THROWS | Sports | $1,368,790 |
-| 3413 | `KXSLGREECEGAME` | Super League Greece Game | Sports | $1,350,861 |
-| 3414 | `KXMULTIPREPACK` | Cross Sport Prepack | Sports | $1,318,003 |
-| 3415 | `KXNEXTTEAMNBA` | Next NBA Team | Sports | $1,305,809 |
-| 3416 | `KXNFLWINMARGIN` | Pro Football Win Margin | Sports | $1,278,991 |
-| 3417 | `KXLALIGA` | LA LIGA | Sports | $1,226,754 |
-| 3418 | `KXNBA3D` | Pro Basketball Triple Double | Sports | $1,211,609 |
-| 3419 | `KXNCAAFPREPACK3ML` | MVE NCAAF Pre Pack | Sports | $1,211,250 |
-| 3420 | `KXMLBALEAST` | American League East Winner | Sports | $1,210,552 |
-| 3421 | `KXNFLFIRSTTDTIME` | Pro Football First Touchdown Time | Sports | $1,204,164 |
-| 3422 | `KXDIMAYORGAME` | Liga DIMAYOR Game | Sports | $1,197,021 |
-| 3423 | `KXATPSETWINNER` | ATP Set Winner | Sports | $1,170,178 |
-| 3424 | `KXUFCDISTANCE` | UFC To Go The Distance | Sports | $1,166,084 |
-| 3425 | `KXMLBSERIESEXACT` | Professional Baseball Series Exact Result | Sports | $1,165,707 |
-| 3426 | `KXLIGUE1SPREAD` | Ligue 1 Spread | Sports | $1,161,773 |
-| 3427 | `KXNFLAFCEAST` | American Football Conference East Winner | Sports | $1,151,489 |
-| 3428 | `KXTENNISEXHIBITION` | Tennis Exhibition Match | Sports | $1,147,195 |
-| 3429 | `KXWOFREESKI` | Winter Olympics Freestyle Skiing | Sports | $1,128,364 |
-| 3430 | `KXNHLPLAYOFF` | Playoff Qualifier | Sports | $1,106,592 |
-| 3431 | `KXBOXINGDISTANCE` | Boxing To Go The Distance | Sports | $1,094,443 |
-| 3432 | `KXWOCURLGAME` | Winter Olympics Curling Game | Sports | $1,093,139 |
-| 3433 | `KXUFCMOF` | UFC Method of Finish | Sports | $1,031,691 |
-| 3434 | `KXWOMHOCKEYSPREAD` | Winter Olympics Men's Hockey Spread | Sports | $1,029,588 |
-| 3435 | `KXNFLNEXTTD` | Pro Football Next TD scorer | Sports | $1,020,923 |
-| 3436 | `KXNCAAFFINALIST` | College Football Finalist | Sports | $1,017,213 |
-| 3437 | `KXSTARLADDERBUDAPESTMAJOR` | Who wil win the StarLadder Budapest Major 2025 | Sports | $1,011,195 |
-| 3438 | `KXCRICKETTESTMATCH` | Cricket Test Match | Sports | $1,003,154 |
-| 3439 | `KXNHL4NATIONS` | 4 nations face off | Sports | $1,000,504 |
-| 3440 | `KXTENNCOACH` | Tennessee Pro Football Team Next Coach | Sports | $995,941 |
-| 3441 | `KXNFL1HTOTAL` | NFL 1st  Half Total Points | Sports | $987,305 |
-| 3442 | `KXDENSUPERLIGAGAME` | Danish Superliga Game | Sports | $986,048 |
-| 3443 | `KXBUNDESLIGA2GAME` | Bundesliga 2 Game | Sports | $979,580 |
-| 3444 | `KXUFCTITLE` | UFC Title | Sports | $973,226 |
-| 3445 | `KXUFCROUNDS` | UFC Total Rounds | Sports | $961,676 |
-| 3446 | `KXNBACELEBRITYGAME` | Pro Basketball All-Star Celebrity Game | Sports | $955,456 |
-| 3447 | `KXMLBWORLD` | World Baseball Classic | Sports | $952,591 |
-| 3448 | `KXBIG10REG` | Big Ten Regular Season Champions | Sports | $947,423 |
-| 3449 | `KXWOFSKATE` | Winter Olympics Figure Skating | Sports | $944,893 |
-| 3450 | `KXMLBRFI` | Pro Baseball Run in First Inning | Sports | $941,459 |
-| 3451 | `KXCFPSEED` | College Football Playoff Seed | Sports | $933,224 |
-| 3452 | `KXATPMIA` | ATP Miami | Sports | $931,358 |
-| 3453 | `KXNBAPREPACK3ML` | 3ML Basketball Combo | Sports | $930,762 |
-| 3454 | `KXUCLWGAME` | Champions League Women's Game | Sports | $921,292 |
-| 3455 | `KXNBAALLSTARGAME` | NBA All-Star Game Winner | Sports | $916,125 |
-| 3456 | `KXSYNTHETIXTRADINGCOMP` | Synthetix Trading Competition | Sports | $897,047 |
-| 3457 | `KXTGLMATCH` | TGL Golf Match | Sports | $887,272 |
-| 3458 | `KXMAKEMARMAD` | Make March Madness Tournament | Sports | $872,197 |
-| 3459 | `KXBSLGAME` | Turkey BSL Game | Sports | $869,974 |
-| 3460 | `KXPERFORMGRAMMYS` | Who will perform at the Grammys | Entertainment | $867,220 |
-| 3461 | `KXNFLMOSTRSHYDS` | Pro Football Most Rushing Yards | Sports | $865,163 |
-| 3462 | `KXNBASIXTH` | Pro Basketball Sixth Man of the Year | Sports | $864,762 |
-| 3463 | `KXATPMAD` | ATP Madrid | Sports | $848,228 |
-| 3464 | `KXNFLNONQBPASS` | Pro Football Non-QB Passes | Sports | $847,714 |
-| 3465 | `KXNASCAR` | NASCAR Cup Series playoffs | Sports | $839,912 |
-| 3466 | `KXVALORANTMAP` | Valorant Map Winner | Sports | $834,537 |
-| 3467 | `KXNFLDPOTY` | AP Pro Football Defensive Player Of The Year | Sports | $831,437 |
-| 3468 | `KXNFL1QTOTAL` | Pro Football 1st Quarter Total | Sports | $829,289 |
-| 3469 | `KXNBAALLSTARS` | Pro Basketball All Stars | Sports | $814,284 |
-| 3470 | `KXSERIEABTTS` | Serie A BTTS | Sports | $794,307 |
-| 3471 | `KXSERIEA` | Serie A  | Sports | $785,271 |
-| 3472 | `KXR6GAME` | R6 Game | Sports | $784,900 |
-| 3473 | `KXNBACELEBRITY3PT` | NBA Celebrity 3PT Contest | Sports | $773,025 |
-| 3474 | `KXKHLGAME` | KHL Game | Sports | $760,640 |
-| 3475 | `KXKLEAGUEGAME` | Korea K League Game | Sports | $758,580 |
-| 3476 | `KXNFLDSTTD` | Pro Football D/ST Touchdown | Sports | $754,104 |
-| 3477 | `KXAHLGAME` | AHL Game | Sports | $711,633 |
-| 3478 | `KXNEXTCOACHOUTNFL` | Next Coach Out Pro Football | Sports | $710,963 |
-| 3479 | `KXARKCOACH` | Arkansas Next Coach | Sports | $695,782 |
-| 3480 | `KXNHLPTS` | Pro Hockey Points | Sports | $681,976 |
-| 3481 | `KXWOSSKATE` | Winter Olympics Speed Skating | Sports | $681,760 |
-| 3482 | `KXPGARYDERCUPD2` | Ryder Cup Day 2 Winner | Sports | $668,079 |
-| 3483 | `KXCOACHOUTOLEMISS` | Coach Out Ole Miss | Sports | $647,207 |
-| 3484 | `KXLPGATOUR` | PGA Tour | Sports | $644,447 |
-| 3485 | `KXBOXINGROUNDS` | Boxing Total Rounds | Sports | $632,183 |
-| 3486 | `KXLALIGABTTS` | La Liga BTTS | Sports | $623,479 |
-| 3487 | `KXBBLGAME` | Bundesliga Basketball Game | Sports | $622,483 |
-| 3488 | `KXBOXINGKNOCKOUT` | Boxing Knockout | Sports | $620,540 |
-| 3489 | `KXNFLLEADCHANGE` | Pro Football Lead Changes | Sports | $614,315 |
-| 3490 | `KXVTBGAME` | VTB United League Game | Sports | $613,148 |
-| 3491 | `KXABAGAME` | ABA League Game | Sports | $595,512 |
-| 3492 | `KXAFCONADVANCE` | AFCON To Advance | Sports | $591,097 |
-| 3493 | `KXNBAPREPACK2ML` | 2 ML Basketball Combo | Sports | $589,142 |
-| 3494 | `KXCRICKETODIMATCH` | Cricket ODI Match | Sports | $584,539 |
-| 3495 | `KXPHILIPRIVERSNFL` | Philips Rivers Play This Year | Sports | $579,024 |
-| 3496 | `KXBIG12REG` | Big 12 Regular Season Champions | Sports | $578,431 |
-| 3497 | `KXNBACOY` | Pro Basketball Coach of the Year | Sports | $577,827 |
-| 3498 | `KXSECREG` | SEC Regular Season Champions | Sports | $576,497 |
-| 3499 | `KXMLBNLCENT` | National League Central Winner | Sports | $576,297 |
-| 3500 | `KXWTAFINALS` | WTA Finals Champion | Sports | $575,173 |
-| 3501 | `KXWTAMAD` | WTA Madrid | Sports | $571,521 |
-| 3502 | `KXASIACUPCRICKET` | Asia Cup Winner | Sports | $562,422 |
-| 3503 | `KXNFLWINS-DAL` | Pro football wins Dallas | Sports | $555,798 |
-| 3504 | `KXNFL2HWINNER` | NFL 2nd Half Winner | Sports | $539,808 |
-| 3505 | `KXNFLDRAFT1` | NFL Draft First Pick | Sports | $538,484 |
-| 3506 | `KXNFCAFCSB` | AFC NFC SB | Sports | $533,541 |
-| 3507 | `KXNBASHOOTINGSTARS` | Pro Basketball Shooting Stars Contest | Sports | $522,546 |
-| 3508 | `KXNFL2PTCONV` | Pro Football 2-Point Conversions | Sports | $518,138 |
-| 3509 | `KXPICKLEBALL` | pickleball | Sports | $501,355 |
-| 3510 | `KXMLBALWEST` | American League West Winner | Sports | $497,885 |
-| 3511 | `KXMLBWSMVP` | Pro Baseball Championship MVP | Sports | $487,594 |
-| 3512 | `KXNFLLARGELEAD` | Pro Football Largest Lead | Sports | $485,938 |
-| 3513 | `KXNCAAMBIGTEN` | big ten MEN'S BASKETBALL TOURNAMENT | Sports | $484,785 |
-| 3514 | `KXMLBNLCY` | Pro Baseball National League Cy Young | Sports | $478,692 |
-| 3515 | `KXFACUP` | FA cup | Sports | $476,794 |
-| 3516 | `KXMLSCUP` | MLS Cup champion | Sports | $469,068 |
-| 3517 | `KXUCLBTTS` | Champions League BTTS | Sports | $466,478 |
-| 3518 | `KXWTAMIA` | WTA Miami | Sports | $458,161 |
-| 3519 | `KXMLBNLEAST` | National League East Winner | Sports | $449,384 |
-| 3520 | `KXNFLCOMEBACK` | Pro Football Comeback | Sports | $447,935 |
-| 3521 | `KXNCAABBGAME` | College Baseball Game | Sports | $445,669 |
-| 3522 | `KXSERIEBGAME` | Serie B Game | Sports | $443,849 |
-| 3523 | `KXWOLUGE` | Winter Olympics Luge | Sports | $435,064 |
-| 3524 | `KXSBMENTION` | SB mention | Sports | $434,881 |
-| 3525 | `KXALPHAARENA` | Alpha Arena | Sports | $432,308 |
-| 3526 | `KXMLBNLMVP` | Pro Baseball National League MVP | Sports | $425,586 |
-| 3527 | `KXNFLNOSCOREQ` | Pro Football Scoreless Quarter | Sports | $424,456 |
-| 3528 | `KXVTCOACH` | Virginia Tech Next Coach | Sports | $422,675 |
-| 3529 | `KXMLBALCY` | Pro Baseball American League Cy Young | Sports | $421,867 |
-| 3530 | `KXNFL1QSPREAD` | Pro Football 1st Quarter Spread | Sports | $418,254 |
-| 3531 | `KXNFLWINS-CHI` | Pro football wins Chicago | Sports | $412,846 |
-| 3532 | `KXNCAABBIGTEN` | Big Ten Men's Basketball Tournament | Sports | $412,396 |
-| 3533 | `KXMLBALCENT` | American League Central Winner | Sports | $411,575 |
-| 3534 | `KXNBAALLSTAR` | NBA All-Star game | Sports | $404,695 |
-| 3535 | `KXBUNDESLIGABTTS` | Bundesliga BTTS | Sports | $403,124 |
-| 3536 | `KXNEXTTEAMMLB` | MLB Player Next Team | Sports | $400,023 |
-| 3537 | `KXNFLWINS-BAL` | Pro football wins Baltimore | Sports | $399,248 |
-| 3538 | `KXBOXINGFIGHT` | Boxing fight winner | Sports | $399,166 |
-| 3539 | `KXNFLFANTASYMOST` | Pro Football Most Fantasy Points | Sports | $397,732 |
+| 1 | `KXBTCD` | Bitcoin price Above/below | Crypto | $980,959,196 |
+| 2 | `KXBTC` | Bitcoin range | Crypto | $229,379,471 |
+| 3 | `KXBTC15M` | Bitcoin price up down | Crypto | $136,724,122 |
+| 4 | `KXETHD` | Ethereum price Above/below | Crypto | $114,850,809 |
+| 5 | `KXETH` | Ethereum range | Crypto | $68,827,566 |
+| 6 | `KXBTCMAXY` | How high will Bitcoin get this year? | Crypto | $35,448,683 |
+| 7 | `KXBTCMAX150` | When will bitcoin hit 150k? | Crypto | $25,838,777 |
+| 8 | `KXBTCMINY` | How low will Bitcoin fall this year? | Crypto | $20,794,053 |
+| 9 | `KXETHMAXY` | How high will Ethereum get this year? | Crypto | $20,352,096 |
+| 10 | `KXETH15M` | ETH 15M price up down | Crypto | $20,077,219 |
+| 11 | `KXSOL15M` | Solana 15 minutes | Crypto | $8,549,466 |
+| 12 | `KXETHMINY` | How low will Ethereum fall this year? | Crypto | $8,123,933 |
+| 13 | `KXBTCMAX100` | When will bitcoin hit 100k? | Crypto | $4,935,852 |
+| 14 | `KXBTC2026200` | Will Bitcoin hit 200k in 2026?  | Crypto | $3,084,106 |
+| 15 | `KXBTCRESERVE` | Bitcoin Reserve | Politics | $3,046,811 |
+| 16 | `KXDOGE` | Dogecoin range | Crypto | $2,887,943 |
+| 17 | `KXBTCMAXMON` | Bitcoin monthly one touch | Crypto | $2,412,599 |
+| 18 | `KXDOGED` | Dogecoin price Above/below | Crypto | $2,237,048 |
+| 19 | `KXBTCMINMON` | BTC one touch minimum | Crypto | $2,157,791 |
+| 20 | `KXSOLD` | SOL Directional | Crypto | $1,914,862 |
+| 21 | `KXXRPD` | XRP Price above/below | Crypto | $1,677,191 |
+| 22 | `KXXRP15M` | XRP 15 Minute | Crypto | $1,537,668 |
+| 23 | `KXCRYPTORETURNY` | Crypto being positive | Crypto | $1,416,696 |
+| 24 | `KXXRP` | XRP Range | Crypto | $1,227,685 |
+| 25 | `KXSOLE` | SOL Range | Crypto | $1,198,915 |
+| 26 | `KXDOGEMAX1` | Dogecoin hitting $1 | Crypto | $799,231 |
+| 27 | `KXSHIBAD` | Shiba price Above/below | Crypto | $699,505 |
+| 28 | `KXSHIBA` | Shiba range | Crypto | $687,340 |
+| 29 | `KXETHMAXMON` | ETH Monthly One touch | Crypto | $460,734 |
+| 30 | `KXSOLMAXMON` | SOL Monthly One touch  | Crypto | $423,207 |
+| 31 | `KXBTC2026250` | Will Bitcoin hit 250k in 2026?  | Crypto | $371,363 |
+| 32 | `KXETHMINMON` | ETH min one touch monthly | Crypto | $343,683 |
+| 33 | `KXXRPMAXMON` | XRP Max Monthly | Crypto | $221,139 |
+| 34 | `KXSOLMAXY` | Solana Max Yearly | Crypto | $188,678 |
+| 35 | `KXSOL26500` | Sol above 500 in 2026 | Crypto | $173,673 |
+| 36 | `KXTOKENLAUNCH` | Who will launch a token this year?  | Crypto | $165,961 |
+| 37 | `KXSATOSHIBTCYEAR` | Satoshi move bitcoin by year?  | Crypto | $106,060 |
+| 38 | `KXSOLD26` | SOL price end of 2026? | Crypto | $103,641 |
+| 39 | `KXDOGEMAXMON` | Doge Max Monthly | Crypto | $48,723 |
+| 40 | `KXZECMAXMON` | ZEC monthly one touch  | Crypto | $19,779 |
+| 41 | `KXFDVMEGAETH` | FDV MegaETH | Crypto | $19,765 |
+| 42 | `KXFDVOPENSEA` | Opensea FDV  | Crypto | $18,021 |
+| 43 | `KXBTCHALF` | BTC halving | Crypto | $13,844 |
+| 44 | `KXGTEDEPLOYMEGAETHDAY1` | GTE on MegaETH day 1 | Crypto | $4,897 |
+| 45 | `KXFEDDECISION` | Fed meeting | Economics | $359,615,649 |
+| 46 | `KXFED` | Fed funds rate | Economics | $43,017,758 |
+| 47 | `KXAAAGASM` | US gas price | Economics | $40,971,292 |
+| 48 | `KXRATECUTCOUNT` | Number of rate cuts | Economics | $28,343,351 |
+| 49 | `KXCPIYOY` | Inflation | Economics | $27,487,884 |
+| 50 | `KXCPI` | CPI | Economics | $17,901,678 |
+| 51 | `KXPAYROLLS` | Jobs numbers | Economics | $14,590,031 |
+| 52 | `KXGDP` | US GDP growth | Economics | $12,252,618 |
+| 53 | `KXGOVTCUTS` | Government budget cuts | Economics | $10,601,525 |
+| 54 | `KXAAAGASW` | US gas price up | Economics | $10,363,832 |
+| 55 | `KXLEAVEPOWELL` | Powell leaving | Politics | $8,883,733 |
+| 56 | `KXU3` | Unemployment | Economics | $8,418,999 |
+| 57 | `KXRECSSNBER` | Recession | Economics | $5,852,484 |
+| 58 | `KXCPICORE` | CPI core | Economics | $4,155,567 |
+| 59 | `KXCPICOREYOY` | Core inflation | Economics | $2,520,451 |
+| 60 | `KXGDPYEAR` | Annual GDP | Economics | $2,320,968 |
+| 61 | `KXEGGS` | Egg prices | Economics | $1,894,913 |
+| 62 | `KXFEDEMPLOYEES` | Federal government employee count | Economics | $1,604,414 |
+| 63 | `KXFEDCOMBO` | Fed Combo | Politics | $1,490,566 |
+| 64 | `KXTOP3WEALTH` | Top 3 wealthiest people | Economics | $1,272,364 |
+| 65 | `KXFEDHIKE` | Next Fed rate hike | Economics | $1,105,321 |
+| 66 | `KXLARGECUT` | Large cuts | Economics | $1,098,167 |
+| 67 | `KXCORPTAXCUT` | Corporate tax cut | Politics | $847,545 |
+| 68 | `KXBALANCEPOWERCOMBO` | Congress balance of power combo | Politics | $784,883 |
+| 69 | `KXFEDMEET` | Fed emergency meeting | Economics | $754,696 |
+| 70 | `KXLCPIMAXYOY` | Inflation surge this year | Economics | $585,049 |
+| 71 | `KXGOVTSPEND` | Government budget increases | Economics | $577,058 |
+| 72 | `KXNYSECIRCUIT` | NYSE circuit breaker day | Economics | $557,299 |
+| 73 | `KXPCECORE` | US Core PCE inflation | Economics | $546,214 |
+| 74 | `KXMUSKWEALTH` | Musk wealth | Economics | $511,877 |
+| 75 | `KXNBERRECESSQ` | Next recession start | Economics | $396,895 |
+| 76 | `KXTRUMPBULLCASECOMBO` | Trump's year: Bull (dream) case? | Politics | $323,196 |
+| 77 | `KXMUSKTRILLION` | Musk trillionaire | Economics | $308,777 |
+| 78 | `KXADP` | ADP employment change | Economics | $305,892 |
+| 79 | `KXEMERCUTS` | Emergency rate cuts | Economics | $305,581 |
+| 80 | `KXAAAGASMINCA` | California lowest gas price yearly | Economics | $302,724 |
+| 81 | `KXU3MAX` | Unemployment spike | Economics | $291,283 |
+| 82 | `KXECONSTATU3` | UNEMPLOYMENT RATE MONTHLY | Economics | $238,664 |
+| 83 | `KXCREDITRATING` | US credit rating downgrade | Politics | $221,800 |
+| 84 | `KXCBDECISIONEU` | EU CENTRAL BANK POLICY INTEREST RATE | Economics | $201,414 |
+| 85 | `KXAAAGASMINTX` | Texas lowest gas price yearly | Economics | $193,791 |
+| 86 | `KXECONSTATCPIYOY` | year over year inflation | Economics | $192,483 |
+| 87 | `KXUSDEBT` | U.S. debt to GDP ratio | Economics | $189,417 |
+| 88 | `KXCBDECISIONENGLAND` | Bank Of ENGLAND policy interest rate decision | Economics | $184,000 |
+| 89 | `KXFOMCDISSENTCOUNT` | FOMC dissent count | Economics | $177,093 |
+| 90 | `KXCBDECISIONAUSTRALIA` | Bank Of AUSTRALIA policy interest rate decision | Economics | $169,487 |
+| 91 | `KXAAAGASMAXTX` | Texas highest gas price yearly | Economics | $163,706 |
+| 92 | `KXTARIFFREVENUE` | Tariff revenue | Economics | $157,976 |
+| 93 | `KXGDPUSMAX` | US GDP peak  | Economics | $156,515 |
+| 94 | `KXTRILLIONAIRE` | First trillionaire | Economics | $141,482 |
+| 95 | `KXAAAGASMAXCA` | California highest gas price yearly | Economics | $138,202 |
+| 96 | `KXCBDECISIONCANADA` | Bank Of Canada policy interest rate decision | Economics | $134,702 |
+| 97 | `KXTXSENCOMBO` | Texas Senate matchup | Politics | $119,066 |
+| 98 | `KXWRECSS` | World recessions | Economics | $111,276 |
+| 99 | `KXCOSTCOHOTDOG` | Costco hot dog price increase | Economics | $109,935 |
+| 100 | `KXCBDECISIONMEXICO` | Bank Of MEXICO policy interest rate decision | Economics | $90,631 |
+| 101 | `KXTRUMPBEARCASECOMBO` | Trump's year: Bear (nightmare) case? | Politics | $85,997 |
+| 102 | `KXZERORATE` | Zero rates | Economics | $84,240 |
+| 103 | `KXCBDECISIONCHINA` | Bank Of CHINA policy interest rate decision | Economics | $81,282 |
+| 104 | `KXAAAGASMINNY` | NEW YORK LOWEST gas price yearly | Economics | $79,631 |
+| 105 | `KXSOLAR` | Solar capcity installation | Economics | $76,215 |
+| 106 | `KXAAAGASMINFL` | Florida lowest gas price yearly | Economics | $69,588 |
+| 107 | `KXBLUETSUNAMICOMBO` | Will there be a blue tsunami? | Politics | $67,778 |
+| 108 | `KXAAAGASMAXNY` | NEW YORK highest gas price yearly | Economics | $64,396 |
+| 109 | `KXECONSTATCPI` | month over month inflation | Economics | $63,183 |
+| 110 | `KXUE` | Monthly Unemployment | Economics | $63,037 |
+| 111 | `KXBLUEWAVECOMBO` | Will there be a blue wave? | Politics | $60,119 |
+| 112 | `KXDEBTGROWTH` | U.S. debt growth | Economics | $59,899 |
+| 113 | `KXFEDDISSENT` | Fed Dissent | Economics | $59,055 |
+| 114 | `KXNYCRENTFREEZE` | NYC rent freeze | Economics | $58,277 |
+| 115 | `KXCHINAUSGDP` | China overtakes US GDP | Economics | $54,160 |
+| 116 | `KXAAAGASMAXFL` | Florida highest gas price yearly | Economics | $47,333 |
+| 117 | `KXNYCBILLIONAIRES` | Billionaires lost | Economics | $43,371 |
+| 118 | `KXCBDECISIONRUSSIA` | Russia | Economics | $33,727 |
+| 119 | `KXCBDECISIONKOREA` | Bank Of KOREA policy interest rate decision | Economics | $31,065 |
+| 120 | `KXIMFRECESS` | IMF global recession | Economics | $18,309 |
+| 121 | `KXECONSTATCPICORE` | month over month core inflation | Economics | $17,913 |
+| 122 | `KXGDPSHAREMANU` | GDP share manufacturing | Economics | $15,378 |
+| 123 | `KXMORTGAGERATE` | Mortgage Rate | Economics | $13,008 |
+| 124 | `KXECONSTATCORECPIYOY` | year over year core inflation | Economics | $12,248 |
+| 125 | `KXGDPNOM` | Nominal GDP  | Economics | $12,187 |
+| 126 | `KXBRAZILINF` | Brazil inflation | Economics | $11,245 |
+| 127 | `KXBRAZILU` | Brazil unemployment | Economics | $10,639 |
+| 128 | `KXINEQUALITY` | US inequality | Economics | $9,623 |
+| 129 | `KXHIGHINFLATION` | Highest Inflation | Economics | $7,215 |
+| 130 | `KXTOPBUSINESS` | CNBC TOP STATES FOR BUSINESS | Economics | $4,585 |
+| 131 | `KXIRSCOLLECT` | IRS tax collection | Economics | $3,078 |
+| 132 | `KXBRAZILGDP` | Brazilian GDP Growth | Economics | $2,442 |
+| 133 | `KXNETWORTHROYLEE` | Will Roy Lee become a Billionaire by 2029 | Economics | $1,560 |
+| 134 | `KXCBDECISIONBRAZIL` | Brazil | Economics | $990 |
+| 135 | `KXNETWORTHKAICENAT` | WILL KAI CENAT BECOME A BILLIONAIRE THIS YEAR | Economics | $283 |
+| 136 | `KXINXY` | S&P 500 yearly range | Financials | $50,658,761 |
+| 137 | `KXNASDAQ100Y` | Nasdaq yearly range | Financials | $32,154,207 |
+| 138 | `KXTNOTEW` | Treasury 10Y weekly yield | Financials | $10,549,432 |
+| 139 | `KXUSDJPY` | USD/JPY daily range | Financials | $9,759,542 |
+| 140 | `KXTNOTED` | Treasury 10Y daily yield | Financials | $6,358,278 |
+| 141 | `KXEURUSD` | EUR/USD daily range | Financials | $4,718,690 |
+| 142 | `KXINXMAXY` | S&P 500 max yearly | Financials | $1,034,017 |
+| 143 | `KXAUCTIONPIKACHU` | HOW MUCH WIL LOGAN PAULS 1997 Illustrator Pikachu BE  | Financials | $759,227 |
+| 144 | `KXINXPOS` | S&P500 Positive this year | Financials | $661,425 |
+| 145 | `KXBTCVSGOLD` | BTC vs Gold | Financials | $513,937 |
+| 146 | `KXSP500ADDQ` | Quarterly which companies will be added to Sp500  | Financials | $312,179 |
+| 147 | `KXNFLXINCREASE` | Netflix Price Increase | Financials | $254,219 |
+| 148 | `KXINXMINY` | S&P 500 max yearly | Financials | $252,948 |
+| 149 | `KXOAIANTH` | Open AI vs Anthropic | Financials | $45,075 |
+| 150 | `KXPRICEINCREASEAZICEDTEA` | ARIZONA ICED TEA PRICE INCREASE | Financials | $34,832 |
+| 151 | `KXNASDAQ100MAXY` | Nasdaq max yearly | Financials | $18,954 |
+| 152 | `KXNASDAQ100POS` | NASDAQ100 Positive | Financials | $11,215 |
+| 153 | `KXRAMPBREX` | Ramp V Brex | Financials | $11,112 |
+| 154 | `KXGOLDMON` | Gold Monthly Price | Financials | $6,464 |
+| 155 | `KXNASDAQ100MINY` | NASDAQ100 Min | Financials | $6,144 |
+| 156 | `KXPRICEINCREASEAPPLEMUSIC` | PRICE INCREASE APPLE MUSIC | Financials | $5,680 |
+| 157 | `KXUSDBRLMAX` | USD/BRL max | Financials | $4,241 |
+| 158 | `KXDEELRIP` | Deel v Rippling | Financials | $4,039 |
+| 159 | `KXPRESPERSON` | Pres person | Elections | $11,734,811 |
+| 160 | `KXREDISTRICTING` | Redistricting | Elections | $672,824 |
+| 161 | `KXVPRESNOMD` | Democratic VP nom | Elections | $573,826 |
+| 162 | `KXVPRESNOMR` | Republican VP nom | Elections | $545,909 |
+| 163 | `KXBRPRES` | Brazil Presidency | Elections | $418,124 |
+| 164 | `KXGA14S` | Who will win the GA-14 special election? | Elections | $397,261 |
+| 165 | `KXNJ11SPECIAL2ND` | Who will finish second in the NJ-11 Dem special primary? | Elections | $308,137 |
+| 166 | `KXMOVNJ11SPECIALD` | NJ-11 Democratic primary MOV? | Elections | $275,414 |
+| 167 | `KXNEXTUKPM` | Next UK PM | Politics | $264,156 |
+| 168 | `KXMAYORLA` | LA | Elections | $256,801 |
+| 169 | `KXHOUSERACE` | House Race Winner? | Elections | $237,073 |
+| 170 | `KXNY12D` | ny 12 democratic primary | Elections | $157,548 |
+| 171 | `KXNEXTHUNGARYPM` | next prime minister of hungary | Elections | $141,997 |
+| 172 | `KXKY4R` | Kentucky 4 Republican primary | Elections | $119,654 |
+| 173 | `KXTRUMPENDORSE` | who will Trump endorse | Elections | $110,962 |
+| 174 | `KXGOVCAPRIMARY` | CA primary | Elections | $93,010 |
+| 175 | `KXMOVPORTUGALPRESRUNOFF` | Margin of victory in Portugal presidential runoff? | Elections | $81,661 |
+| 176 | `KXIL9D` | IL 9 Democratic primary | Elections | $79,305 |
+| 177 | `KXNEXTDUTCHPM` | next Dutch prime minister | Elections | $68,695 |
+| 178 | `KXNY10D` | NY-10 democratic nominee | Elections | $60,880 |
+| 179 | `KXMOVCOSTARICAPRESR1` | Margin of victory in the first round of the Costa Rica presidential election? | Elections | $54,962 |
+| 180 | `KXUKPARTY` | UK elections | Elections | $54,827 |
+| 181 | `KXJPNPM` | Japan PM | Elections | $54,820 |
+| 182 | `KXCOSTARICAPRES1ROUND` | Will anyone win in the first round of the Costa Rican presidential election? | Elections | $46,896 |
+| 183 | `KXPRESELECTIONOCCUR` | 2028 election occurring  | Elections | $43,271 |
+| 184 | `KXCA11PRIMARY` | CA-11 primary | Elections | $41,360 |
+| 185 | `KXFRENCHPRES` | French presidential election | Elections | $38,564 |
+| 186 | `KXTX33D` | Who will be the Democratic nominee for TX-33? | Elections | $31,667 |
+| 187 | `KXCABILLIONAIRETAX` | Will California have a billionaire tax referendum | Elections | $30,730 |
+| 188 | `KXNY8D` | democratic nominee for ny-8 | Elections | $30,043 |
+| 189 | `KXGOVCAPRIMARYPARTY` | Who will advance from the CA Governor primary? (Party) | Elections | $28,990 |
+| 190 | `KXTXPRIMARY` | Texas Primary Winners | Elections | $28,940 |
+| 191 | `KXMOVTX18SPECIAL` | TX-18 special election runoff margin of victory | Elections | $28,872 |
+| 192 | `KXNY7D` | Who will be the Democratic nominee for NY-7? | Elections | $28,809 |
+| 193 | `KXNEXTIRANLEADER` | Who will be Khamenei's successor? | Politics | $28,695 |
+| 194 | `KXCLOSESTSENATE` | closest senate race | Elections | $28,367 |
+| 195 | `KXTX18D` | Democratic nominee in TX-18? | Elections | $27,129 |
+| 196 | `KXTXRSEN3RD` | 3rd place in first round of Texas Senate Republican primary? | Elections | $21,433 |
+| 197 | `KXBERNIEENDORSE` | who will bernie sanders endorse | Elections | $21,173 |
+| 198 | `KXTXRSEN2ND` | 2nd place in first round of Texas Senate Republican primary? | Elections | $21,081 |
+| 199 | `KXLOSEREELECTIONRSEN` | Republican senators losing re-election | Elections | $21,062 |
+| 200 | `KXMAYORCHI` | chicago | Elections | $20,903 |
+| 201 | `KXTX18SPECIALTURNOUT` | Raw turnout in the TX-18 special election | Elections | $20,411 |
+| 202 | `KXLOSEREELECTIONDSEN` | Democratic senators losing re-election | Elections | $20,249 |
+| 203 | `KXHILLARYCONTEMPTVOTE` | How many House votes finding Hillary Clinton in contempt of Congress? | Politics | $19,246 |
+| 204 | `KXCLOSESTGOVERNOR` | closest governor's race | Elections | $18,916 |
+| 205 | `KXCA40PRIMARYADVANCE` | Who will advance from the CA-40 primary? | Elections | $18,031 |
+| 206 | `KXCOSTARICALAMAJORITY` | Will any party win a majority in the Costa Rica Legislative Assembly? | Elections | $16,278 |
+| 207 | `KXNEXTISRAELPM` | Next Prime Minister of Israel | Politics | $15,796 |
+| 208 | `KXBRUVSEAT` | BRUV seated in parliament | Elections | $15,400 |
+| 209 | `KXTX23R` | TX-23 Republican nominee? | Elections | $14,050 |
+| 210 | `KXDCMAYORD` | Who will win the Democratic primary for DC Mayor? | Elections | $13,363 |
+| 211 | `KXENDORSEFISHBACK` | Who will endorse James Fishback? | Elections | $13,310 |
+| 212 | `KXDECLAREPRESFIRSTD` | Who will be the first Democrat listed to announce a 2028 presidential run? | Elections | $13,231 |
+| 213 | `KXMAINE94` | Maine 94th House District winner? | Elections | $12,876 |
+| 214 | `KXTHAIPARLIAMENT2ND` | Who will place second in the 2026 Thailand parliamentary election? | Elections | $12,828 |
+| 215 | `KXTX28D` | TX-28 Democratic nomination | Elections | $12,730 |
+| 216 | `KXOH9R` | OH-09 Republican nominee | Elections | $12,638 |
+| 217 | `KXTXHOUSEDEMSEATS` | How many Texas House seats will Democrats win? | Elections | $12,585 |
+| 218 | `KXTHAILANDPM` | Who will be the next Prime Minister of Thailand? | Elections | $12,189 |
+| 219 | `KXBILLCONTEMPTVOTE` | How many House votes finding Bill Clinton in contempt of Congress? | Politics | $12,066 |
+| 220 | `KXTX21R` | TX 21 Republican primary | Elections | $11,716 |
+| 221 | `KXBALLOTAMERICAPARTY` | America Party on the ballot | Elections | $11,334 |
+| 222 | `KXME02D` | ME-02 democratic primary | Elections | $11,030 |
+| 223 | `KXMURKOWSKIENDORSE` | Who will Murkowski endorse in Alaska senate? | Elections | $10,767 |
+| 224 | `KXTX02R` | Who will be the GOP nominee in TX-02? | Elections | $9,570 |
+| 225 | `KXGOVAKPRIMARY` | AK primary | Elections | $9,425 |
+| 226 | `KXNEXTPRESSEC` | Who will be Trump's next Press Secretary? | Politics | $9,092 |
+| 227 | `KXUT1D` | Who will be the Democratic nominee for UT-1? | Elections | $8,944 |
+| 228 | `KXAZ01R` | AZ-01 republican nominee | Elections | $8,699 |
+| 229 | `KXATTYGENMN` | AG race MN | Elections | $8,581 |
+| 230 | `KXTXSENDPRIMARYMOV` | Margin of victory in the first round of the Texas Senate Democratic primary? | Elections | $8,518 |
+| 231 | `KXTX31R` | TX-31 Republican primary winner | Elections | $6,850 |
+| 232 | `KXMA6D` | Massachusetts 6 Democratic primary | Elections | $6,708 |
+| 233 | `KXFL19R` | FL 19 Republican primary | Elections | $6,101 |
+| 234 | `KXNC01R` | Who will be the GOP nominee for NC-01? | Elections | $5,952 |
+| 235 | `KXABBOTTGOPVOTE` | What % of the vote will Greg Abbott receive in the Texas GOP primary? | Elections | $5,866 |
+| 236 | `KXNY15D` | Who will be the Democratic nominee for NY-15? | Elections | $5,664 |
+| 237 | `KXNC04D` | Who will be the Democratic nominee for NC-04? | Elections | $5,592 |
+| 238 | `KXNE2R` | NE 2 Republican primary | Elections | $5,558 |
+| 239 | `KXNY17D` | ny-17 democratic nominee | Elections | $4,847 |
+| 240 | `KXMO01D` | MO-01 democratic nominee | Elections | $4,820 |
+| 241 | `KXGA14R` | Who will be the Republican nominee for GA-14? | Elections | $4,795 |
+| 242 | `KXVAHOUSEDEM` | How many Virginia House seats will Democrats win? | Elections | $4,694 |
+| 243 | `KXCAGOVPRIMARY1ST` | Who will finish first in the California Governor primary? | Elections | $4,653 |
+| 244 | `KXCA22PRIMARY` | CA 22 primary | Elections | $4,599 |
+| 245 | `KXARPRIMARY` | Arkansas Primary Winners | Elections | $4,568 |
+| 246 | `KXCAPCONTROL` | Capital controls | Elections | $4,535 |
+| 247 | `KXIA02R` | IA-02 GOP nominee | Elections | $4,455 |
+| 248 | `KXATTYGENAZ` | AG race AZ | Elections | $4,336 |
+| 249 | `KXSLOVENIAPM` | Next Slovenia Prime Minister | Elections | $4,166 |
+| 250 | `KXPA3D` | PA 3 Democratic primary | Elections | $4,068 |
+| 251 | `KXTX34R` | TX-34 republican nominee | Elections | $4,065 |
+| 252 | `KXGORTONDENTON2ND` | Which party will finished second in the Gorton and Denton by election? | Elections | $3,960 |
+| 253 | `KXTEXASGOP1ROUND` | Texas GOP primary won in 1 round | Elections | $3,909 |
+| 254 | `KXNY13D` | NY-13 Democratic nominee | Elections | $3,775 |
+| 255 | `KXWA4PRIMARY` | WA 4 Primary | Elections | $3,755 |
+| 256 | `KXLTGOVOKNOMR` | LT Gov Oklahoma Republican nominee | Elections | $3,535 |
+| 257 | `KXCHICAGOMAYOR` | Who will win the Chicago Mayoral Election? | Elections | $3,391 |
+| 258 | `KXCO8D` | Colorado 8 Democratic primary | Elections | $3,276 |
+| 259 | `KXGA1ROUND` | Which Georgia elections will be won outright? | Elections | $3,261 |
+| 260 | `KXAZ5R` | AZ 5 Republican primary | Elections | $3,072 |
+| 261 | `KXMOVTXSENATEDEMVSGOP` | Larger margin of victory: Texas Dem Senate primary vs Texas GOP Senate primary? | Elections | $2,985 |
+| 262 | `KXNCPRIMARY` | North Carolina Primary Winners | Elections | $2,897 |
+| 263 | `KXNC11D` | Who will be the Dem nominee in NC-11? | Elections | $2,735 |
+| 264 | `KXGASOSR` | Georiga republican secretary of state nominee | Elections | $2,579 |
+| 265 | `KXMI11D` | MI 11 Democratic primary | Elections | $2,566 |
+| 266 | `KXMN2D` | MN 2 Democratic primary | Elections | $2,519 |
+| 267 | `KXNH1D` | New Hampshire 1 Democratic primary | Elections | $2,489 |
+| 268 | `KXPA07D` | PA-07 Democratic nominee | Elections | $2,447 |
+| 269 | `KXMT01D` | MT-01 Democratic nominee | Elections | $2,419 |
+| 270 | `KXGA14SPECIAL1ROUND` | Will anyone win the GA-14 Special election outright? | Elections | $2,309 |
+| 271 | `KXNE2D` | NE 2 Democratic primary | Elections | $2,227 |
+| 272 | `KXLOSEREELECTIONGOV` | governors losing re-election | Elections | $2,213 |
+| 273 | `KXDCDELD` | Who will win the Democratic primary for DC's House delegate? | Elections | $2,196 |
+| 274 | `KXAMERICAPARTY2028` | America party 2028 | Elections | $2,024 |
+| 275 | `KXNY4R` | ny-4 republic nominee | Elections | $1,987 |
+| 276 | `KXTXSENRPRIMARYMOV` | Margin of victory in the first round of the Texas Senate Republican primary? | Elections | $1,880 |
+| 277 | `KXCANADALIBERAL` | Liberals gain majority in Canada | Elections | $1,624 |
+| 278 | `KXAZ01D` | Who will be the Dem nominee in AZ-01? | Elections | $1,410 |
+| 279 | `KXATTYGENIL` | AG race IL | Elections | $1,368 |
+| 280 | `KXTXSENATEGOPTURNOUT` | Voter turnout in the Texas Senate Republican primary? | Elections | $1,354 |
+| 281 | `KXMD06D` | Who will be the Democratic nominee for MD-06? | Elections | $1,345 |
+| 282 | `KXTEXASDEM1ROUND` | Texas Dem Senate primary first round | Elections | $1,333 |
+| 283 | `KXATTYGENTX` | AG race TX | Elections | $1,257 |
+| 284 | `KXTXSENATEDEMTURNOUT` | Voter turnout in the Texas Senate Democratic primary? | Elections | $1,178 |
+| 285 | `KXVA2D` | Who will be the Democratic nominee for VA-2? | Elections | $1,172 |
+| 286 | `KXMI13D` | MI-13 Democratic nominee | Elections | $1,167 |
+| 287 | `KXCA04PRIMARY` | CA-04 primary | Elections | $1,127 |
+| 288 | `KXLOSEMAJORITY` | Will Republicans lose control of the House? | Elections | $1,031 |
+| 289 | `KXATTYGENAR` | AG race AR | Elections | $1,016 |
+| 290 | `KXMOVWISUPREMECOURT` | Wisconsin Supreme Court election margin of victory? | Elections | $938 |
+| 291 | `KXVOTEPERCENTCOTTONGOP` | Tom Cotton percent of vote in the Arkansas GOP primary? | Elections | $879 |
+| 292 | `KXSECSTATEAZ` | AZ Sec State | Elections | $848 |
+| 293 | `KXMSPRIMARY` | Mississippi Primary Winners | Elections | $791 |
+| 294 | `KXNJ07D` | Democratic nominee for NJ-07? | Elections | $790 |
+| 295 | `KXATTYGENGA` | AG race GA | Elections | $741 |
+| 296 | `KXSECSTATEWI` | WI Sec State | Elections | $733 |
+| 297 | `KXSECSTATENV` | NV Sec State | Elections | $674 |
+| 298 | `KXCOMPTROLLERNOMILD` | Illinois Democratic Comptroller nominee? | Elections | $652 |
+| 299 | `KXATTYGENID` | AG race ID | Elections | $630 |
+| 300 | `KXHI01D` | Democratic nominee in HI-01? | Elections | $628 |
+| 301 | `KXSC01D` | SC-01 Democratic nominee? | Elections | $626 |
+| 302 | `KXATTYGENNM` | AG race NM | Elections | $626 |
+| 303 | `KXATTYGENOK` | AG race OK | Elections | $597 |
+| 304 | `KXATTYGENNV` | AG race NV | Elections | $563 |
+| 305 | `KXATTYGENCT` | AG race CT | Elections | $531 |
+| 306 | `KXSC01R` | SC-01 Republican nominee? | Elections | $519 |
+| 307 | `KXSECSTATEGA` | GA Sec State | Elections | $518 |
+| 308 | `KXATTYGENOH` | AG race OH | Elections | $515 |
+| 309 | `KXLTGOVTX` | Who will win the Lieutenant Governor election in Texas? | Elections | $508 |
+| 310 | `KXATTYGENNY` | AG race NY | Elections | $427 |
+| 311 | `KXATTYGENIA` | AG race IA | Elections | $411 |
+| 312 | `KXATTYGENNE` | AG race Nebraska | Elections | $397 |
+| 313 | `KXATTYGENKS` | AG race KS | Elections | $388 |
+| 314 | `KXATTYGENSC` | AG race SC | Elections | $371 |
+| 315 | `KXATTYGENMI` | AG race MI | Elections | $365 |
+| 316 | `KXANNARBORMAYORD` | Ann Arbor Democratic Mayoral Primary Winner? | Elections | $303 |
+| 317 | `KXIA03D` | IA-03 Democratic nominee | Elections | $300 |
+| 318 | `KXATTYGENND` | AG race ND | Elections | $294 |
+| 319 | `KXMA05D` | MA-05 Democratic nominee | Elections | $284 |
+| 320 | `KXATTYGENDE` | AG race DE | Elections | $264 |
+| 321 | `KXSECSTATEOH` | OH Sec State | Elections | $257 |
+| 322 | `KXATTYGENMA` | AG race MA | Elections | $220 |
+| 323 | `KXATTYGENFL` | AG race FL | Elections | $187 |
+| 324 | `KXBRAZILPRES1R` | Will anyone win outright in the Brazil presidential election? | Elections | $186 |
+| 325 | `KXLTGOVGA` | Georgia Lieutenant Governor winner? | Elections | $166 |
+| 326 | `KXATTYGENWI` | AG race WI | Elections | $155 |
+| 327 | `KXATTYGENCO` | AG race CO | Elections | $143 |
+| 328 | `KXATTYGENRI` | AG race RI | Elections | $142 |
+| 329 | `KXATTYGENSD` | AG race SD | Elections | $132 |
+| 330 | `KXCAHOUSEDEM` | How many House seats will Democrats win in California? | Elections | $53 |
+| 331 | `KXATTYGENMD` | AG race MD | Elections | $20 |
+| 332 | `KXSNPMAJORITY` | Will the SNP win a majority in the Scottish Parliament election? | Elections | $12 |
+| 333 | `KXATTYGENVT` | AG race VT | Elections | $9 |
+| 334 | `KXNDALR` | Republican nominee for ND-AL? | Elections | $0 |
+| 335 | `KXDEALR` | Republican nominee for Delaware at large Congressional district? | Elections | $0 |
+| 336 | `KXLLM1` | Year-end top LLM | Science and Technology | $35,036,223 |
+| 337 | `KXTOPMODEL` | Top model | Science and Technology | $12,911,348 |
+| 338 | `KXALIENS` | Aliens | Science and Technology | $7,198,785 |
+| 339 | `KXTSAW` | TSA check-ins this week | Science and Technology | $5,626,179 |
+| 340 | `KXMODELHIGH` | Model hitting thresholds | Science and Technology | $5,508,348 |
+| 341 | `KXTOPAI` | Top-ranked AI | Science and Technology | $4,839,030 |
+| 342 | `KXSPACEXCOUNT` | SpaceX launches | Companies | $2,870,237 |
+| 343 | `KXSPACEXSTARSHIP` | SpaceX Starship launch | Companies | $2,865,727 |
+| 344 | `KXCODINGMODEL` | Best AI coding model | Science and Technology | $2,602,411 |
+| 345 | `KXMEASLES` | Measles cases | Science and Technology | $2,280,761 |
+| 346 | `KXREACTOR` | US grants license for new nuclear reactor | Science and Technology | $975,413 |
+| 347 | `KXAISPIKE` | AI capability spike | Science and Technology | $808,801 |
+| 348 | `KXOAIAGI` | OpenAI achieves AGI | Science and Technology | $551,869 |
+| 349 | `KXMOON` | NASA lands on the moon | Science and Technology | $271,696 |
+| 350 | `KXINTERSTELLAR` | Interstellar object | Science and Technology | $258,753 |
+| 351 | `KXAILEGISLATION` | AI regulation | Politics | $232,548 |
+| 352 | `KXTESLAOPTIMUS` | Tesla Optimus sale | Companies | $210,983 |
+| 353 | `KXBESTLLMCHINA` | Chinese LLM best | Science and Technology | $202,893 |
+| 354 | `KXLLAMA5` | LLAMA%5 | Science and Technology | $147,741 |
+| 355 | `KXGPTCOST` | GPT cost | Science and Technology | $137,098 |
+| 356 | `KXGROK` | Grok | Science and Technology | $113,099 |
+| 357 | `KXNEWGLENN` | New Glenn | Science and Technology | $101,291 |
+| 358 | `KXAVGMEASLESDJT` | Measles during Trump admin | Science and Technology | $100,971 |
+| 359 | `KXMOONMAN` | Manned mission to the Moon | Science and Technology | $82,521 |
+| 360 | `KXCRITICALITY` | Nuclear power criticality | Science and Technology | $77,348 |
+| 361 | `KXMETEOR` | Major meteor strike | Science and Technology | $71,514 |
+| 362 | `KXFDAAPPROVALPSYCHEDELIC` | FDA APPROVAL PSYCHEDELIC | Science and Technology | $65,079 |
+| 363 | `KXCLAUDE5` | Claude 5 released | Science and Technology | $64,088 |
+| 364 | `KXMILLENNIUM` | Millennium Prize | Science and Technology | $58,297 |
+| 365 | `KXMUSKBLUESKY` | Musk on Bluesky | Science and Technology | $52,217 |
+| 366 | `KXSPACEXMARS` | SpaceX Mars | Science and Technology | $49,567 |
+| 367 | `KXOAIHARDWARE` | What hardware will openAI/Jony Ive launch | Science and Technology | $48,441 |
+| 368 | `KXNYTOAI` | New York Times wins OpenAI lawsuit | Science and Technology | $43,393 |
+| 369 | `KXUSTESTSREADING` | US Test scores in Reading | Science and Technology | $37,042 |
+| 370 | `KXUSTESTSMATH` | US Test scores in Math | Science and Technology | $36,026 |
+| 371 | `KXBLUESPACEX` | Blue Origin SpaceX moon | Science and Technology | $33,577 |
+| 372 | `KXROBOTMARS` | Humanoid robot on Mars | Science and Technology | $33,153 |
+| 373 | `KXSTARSHIPMARS` | Starship launch to Mars | Companies | $31,307 |
+| 374 | `KXSTARSHIPDOCK` | Starships dock | Science and Technology | $27,522 |
+| 375 | `KXFREEIVF` | Free IVF | Science and Technology | $24,919 |
+| 376 | `KXPOLIOELIM` | Wild polio eliminated | Science and Technology | $24,452 |
+| 377 | `KXAIPAUSE` | AI research pause | Science and Technology | $23,012 |
+| 378 | `KXFUSION` | Nuclear fusion | Science and Technology | $22,150 |
+| 379 | `KXEVSHARE` | EV market share | Climate and Weather | $21,025 |
+| 380 | `KXMACCELL` | Mac cell connectivity | Science and Technology | $18,400 |
+| 381 | `KXQUANTUM` | Quantum | Science and Technology | $17,584 |
+| 382 | `KXAAPLPRICEFOLD` | FOLDABLE IPHONE PRICE | Science and Technology | $15,702 |
+| 383 | `KXOAISCREEN` | OpenAI screen | Science and Technology | $13,571 |
+| 384 | `KXCOLONIZEMARS` | Colonize Mars | Science and Technology | $10,933 |
+| 385 | `KXFIELDS` | Fields Medal recipients | Science and Technology | $10,593 |
+| 386 | `KXHLS` | HLS | Science and Technology | $8,558 |
+| 387 | `KXMARSVRAIL` | Mars CA rail | Science and Technology | $6,156 |
+| 388 | `KXFDATYPE1DIABETES` | Type 1 diabetes cure | Science and Technology | $5,275 |
+| 389 | `KXOAIDAMAGE` | OpenAI damages | Science and Technology | $4,739 |
+| 390 | `KXDATACENTER` | Data center nuclear | Science and Technology | $3,567 |
+| 391 | `KXCO2LEVEL` | CO2 level | Science and Technology | $2,831 |
+| 392 | `KXAINEURALESE` | AI neuralese recurrence | Science and Technology | $2,767 |
+| 393 | `KXFEDCHAIRNOM` | Fed Chair nominee | Politics | $166,269,121 |
+| 394 | `KXPRESNOMD` | Democratic Primary winner | Politics | $49,058,810 |
+| 395 | `SENATEAZ` | Arizona Senate race | Politics | $35,505,464 |
+| 396 | `POWER` | Party power | Politics | $28,575,893 |
+| 397 | `KXKHAMENEIOUT` | Ali Khamenei out? | Politics | $19,486,769 |
+| 398 | `KXPRESNOMR` | Republican Primary winner | Politics | $15,113,241 |
+| 399 | `KXEPSTEIN` | Epstein documents | Politics | $11,021,038 |
+| 400 | `KXEOWEEK` | EO this week? | Politics | $10,956,508 |
+| 401 | `KXTRUMPPARDON` | Trump pardons | Politics | $10,088,786 |
+| 402 | `KXCABOUT` | Next Cabinet memeber out | Politics | $9,718,818 |
+| 403 | `HOUSECA13` | House CA 13 | Politics | $8,715,888 |
+| 404 | `CONTROLH` | House winner | Politics | $7,995,406 |
+| 405 | `KXGREENLAND` | Greenland purchase | Politics | $5,866,041 |
+| 406 | `SENATENV` | Nevada Senate race | Politics | $5,435,263 |
+| 407 | `KXMJSCHEDULE` | MJ schedule | Politics | $5,173,058 |
+| 408 | `KXDJTVOSTARIFFS` | Tariffs case | Politics | $5,126,472 |
+| 409 | `KXLEAVEWALZ` | Tim Walz out as Governor of Minnesota? | Politics | $5,055,675 |
+| 410 | `KXLEADERSOUT` | World leaders out this year? | Politics | $4,942,704 |
+| 411 | `SENATETX` | Texas Senate race | Politics | $4,900,881 |
+| 412 | `KXDOED` | DOE eliminated | Politics | $4,046,506 |
+| 413 | `KXGOLDCARDS` | Gold cards sold | Politics | $3,960,928 |
+| 414 | `SENATEPA` | Pennsylvania Senate race | Politics | $3,919,393 |
+| 415 | `KXAPRPOTUS` | President RCP approval rating this week | Politics | $3,908,221 |
+| 416 | `KXVENEZUELALEADER` | Who will be the head of state of Venezuela on date? | Politics | $3,614,434 |
+| 417 | `CONTROLS` | Senate winner | Politics | $3,121,629 |
+| 418 | `HOUSECA45` | House California 48th | Politics | $3,067,081 |
+| 419 | `KXGREENTERRITORY` | Greenland acquisition | Politics | $3,016,640 |
+| 420 | `KXGAMBLINGREPEAL` | Gambling Repeal | Politics | $2,751,156 |
+| 421 | `SENATEOH` | Ohio Senate race | Politics | $2,705,749 |
+| 422 | `KXTRUMPMEET` | Who will Trump meet? | Politics | $2,692,417 |
+| 423 | `KXTRUMPOUT27` | Trump out as President? | Politics | $2,630,604 |
+| 424 | `KXGOVCA` | California Governor's race | Politics | $2,557,960 |
+| 425 | `KXLAGODAYS` | Mar-a-Lago trips | Politics | $2,473,681 |
+| 426 | `KXTARIFFCHECKS` | Will Americans receive tariff dividends in 2025? | Politics | $2,419,194 |
+| 427 | `KXLEAVELISACOOK` | Will lisa cook leave office | Politics | $2,374,641 |
+| 428 | `KXACAEXT` | ACA Credit extension | Politics | $2,070,442 |
+| 429 | `KXSENATETXD` | Texas Democratic Senate nominee | Politics | $1,912,074 |
+| 430 | `KXWHVISIT` | White House visitors | Politics | $1,762,184 |
+| 431 | `KXIMPEACH` | President impeached | Politics | $1,604,495 |
+| 432 | `SENATENE` | Nebraska Senate race | Politics | $1,571,693 |
+| 433 | `KXARREST` | ARRESTS | Politics | $1,494,587 |
+| 434 | `SENATEWI` | Wisconsin Senate race | Politics | $1,479,451 |
+| 435 | `KXGOVFLNOMR` | Florida Governor Republican nominee | Politics | $1,469,132 |
+| 436 | `KXSENATEMED` | MED | Politics | $1,452,514 |
+| 437 | `KXDHSFUND` | When will Congress fund DHS again? | Politics | $1,357,889 |
+| 438 | `SENATEFL` | Florida Senate race | Politics | $1,329,532 |
+| 439 | `KXINSURRECTION` | Insurrection | Politics | $1,292,992 |
+| 440 | `KXSENATETXR` | Texas Republican Senate nominee | Politics | $1,278,403 |
+| 441 | `SENATEMI` | Michigan Senate race | Politics | $1,277,501 |
+| 442 | `KXTRUMPATTEND` | Will Trump attend event | Politics | $1,277,259 |
+| 443 | `KXTRUMPSCOTUSVOTE` | Vote on Trump tariffs case | Politics | $1,219,636 |
+| 444 | `KXTRUMPADMINLEAVE` | Who will leave the Trump administration | Politics | $986,938 |
+| 445 | `KXFBUSTER` | Filibuster change this year? | Politics | $954,856 |
+| 446 | `KXATTENDSOTU` | Who will attend the State of the Union? | Politics | $903,266 |
+| 447 | `SENATEMT` | Montana Senate race | Politics | $865,685 |
+| 448 | `KXNGUARDCITY` | Which Cities will Trump deploy the national guard in | Politics | $804,341 |
+| 449 | `KXGREENLANDPRICE` | How much will Greenland be acquired for? | Politics | $758,166 |
+| 450 | `KXDHSFUNDING` | When will DHS receive full-year funding? | Politics | $736,985 |
+| 451 | `KXSAVEACT` | Will the SAVE Act become law? | Politics | $727,430 |
+| 452 | `KXVOTEHUBTRUMPUPDOWN` | Trump approval up or down this week | Politics | $710,346 |
+| 453 | `KXCABLEAVE` | Cabinet member leaving | Politics | $686,926 |
+| 454 | `KXUSAIRANAGREEMENT` | US Iran nuclear deal | Politics | $667,486 |
+| 455 | `KXTRUMPUFC` | Trump attend another UFC event this year | Politics | $651,192 |
+| 456 | `KXGOVTSHUTLENGTH` | How long will the next government shutdown last? | Politics | $585,857 |
+| 457 | `KXNEWROLEX` | X NEW CEO | Companies | $572,795 |
+| 458 | `KXBILLSCOUNT` | Bills signed monthly | Politics | $555,366 |
+| 459 | `KXMARALAGO` | Who will visit Mar-a-Lago this year?  | Politics | $544,212 |
+| 460 | `SENATEMD` | Maryland Senate race | Politics | $531,430 |
+| 461 | `KXFEDERALCHARGE` | Who will be charged with a federal crime | Politics | $519,671 |
+| 462 | `KXNOEMOUT` | Kristi Noem out as DHS secretary? | Politics | $518,950 |
+| 463 | `KXGOVOHNOMR` | OHIO Governor Republican nominee | Politics | $509,801 |
+| 464 | `KXUSAEXPANDTERRITORY` | Will the US acquire new territory? | Politics | $495,972 |
+| 465 | `KXLEAVESTARMER` | Keir Starmer out? | Politics | $486,541 |
+| 466 | `KXCANAL` | Panama Canal retaken | Politics | $478,313 |
+| 467 | `KXSTATE51` | 51st state  | Politics | $472,816 |
+| 468 | `KXSCOURT` | Next SCOTUS justice | Politics | $464,983 |
+| 469 | `KXTARIFFRATEPRC` | Tariff rate China | Politics | $463,069 |
+| 470 | `KXJULYCHARTER26` | Will the Bangladesh July Charter referendum pass? | Politics | $462,569 |
+| 471 | `KXGOVMNNOMD` | Minnesota Democratic nominee for Governor | Politics | $425,231 |
+| 472 | `KXSCOTUSN` | New Supreme Court Justice | Politics | $408,142 |
+| 473 | `KXMNDAYCARECHARGE` | Will anyone be charged in the Minnesota daycare fraud scandal? | Politics | $405,988 |
+| 474 | `HOUSEAKAL` | House Alaska at-large | Politics | $390,191 |
+| 475 | `KXABRAHAMSY` | Syria recognition | Politics | $370,302 |
+| 476 | `KXTARIFFDECISIONRELEASE` | When will the Supreme Court release its tariff decision? | Politics | $368,934 |
+| 477 | `KXFEDCHAIRCONFIRMED` | Will Trump's Fed Chair pick be confirmed? | Politics | $352,887 |
+| 478 | `KXOCTSWEEP` | october right sweep | Politics | $341,405 |
+| 479 | `KXRELEASEMAXWELL` | Ghislaine | Politics | $338,696 |
+| 480 | `KX2028DRUN` | 2028 D running | Politics | $318,660 |
+| 481 | `KXTRDBAN` | Congress banned from trading stocks | Politics | $301,367 |
+| 482 | `KXCOSTARICAPRES` | Costa Rica presidency | Politics | $295,275 |
+| 483 | `KXFEDGOVNOM` | Fed governor nominee | Politics | $285,971 |
+| 484 | `GOVPARTYNH` | New Hampshire Governor | Politics | $283,926 |
+| 485 | `KXRECOGPERSONIRAN` | Recognize Reza Pahlavi | Politics | $274,551 |
+| 486 | `KXPAHLAVIHEAD` | Will Pahlavi lead Iran? | Companies | $269,275 |
+| 487 | `KXMUSKOAI` | Elon Win vs Open AI | Politics | $256,506 |
+| 488 | `KXTRUMPREMOVE` | Trump removed | Politics | $255,086 |
+| 489 | `KXZELENSKYPUTIN` | Zelensky and Putin in Trump's term | Politics | $247,474 |
+| 490 | `KXCAWEALTHTAX` | Will the California billionaire wealth tax initiative pass? | Politics | $245,522 |
+| 491 | `KXRHOUSESEATS` | Republican house seats | Politics | $244,827 |
+| 492 | `KXVISITVENEZUELA` | Who will visit Venezuela? | Politics | $235,028 |
+| 493 | `KXCCLIMIT` | Credit card limits capped | Politics | $234,804 |
+| 494 | `KXPRESPARTY` | Party winning presidency | Politics | $232,068 |
+| 495 | `HOUSEIA1` | House IA 1 | Politics | $231,928 |
+| 496 | `HOUSECA27` | House California 27th | Politics | $231,606 |
+| 497 | `KXTHAILANDHOUSE` | Thailand House of Representatives | Politics | $230,849 |
+| 498 | `KXCRYPTOSTRUCTURE` | Crypto market structure | Politics | $229,677 |
+| 499 | `KXDSENATESEATS` | Democratic Senate seats | Politics | $229,114 |
+| 500 | `KXVETOCOUNT` | Trump vetoes | Politics | $227,188 |
+| 501 | `KXPAHLAVIVISITA` | Will Reza Pahlavi enter Iran before September? | Politics | $211,666 |
+| 502 | `GOVPARTYNY` | New York Governor | Politics | $208,257 |
+| 503 | `KXUSACOMPANYSTAKE` | Which companies will the US take a stake in | Companies | $206,438 |
+| 504 | `GOVPARTYDE` | Deleware Governor | Politics | $205,432 |
+| 505 | `KXBILLS` | Bills become law this year? | Politics | $202,852 |
+| 506 | `GOVPARTYCA` | California Governor | Politics | $199,549 |
+| 507 | `GOVPARTYNC` | North Carolina | Politics | $197,840 |
+| 508 | `KXTRUMPMEETING` | Who will Trump meet this year? | Politics | $197,641 |
+| 509 | `KXCONGESTIONEND` | Congestion pricing ending | Politics | $190,003 |
+| 510 | `KXTRUMPFIRE` | Trump firings | Politics | $188,340 |
+| 511 | `KXSUPERBOWLWHITEHOUSE` | WILL THE WINNERS OF THE PRO FOOTBALL CHAMPIONSHIP GO TO THE WHITE HOUSE?  | Politics | $183,524 |
+| 512 | `KXABRAHAMSA` | Abraham Accord Saudi Arabia | Politics | $182,803 |
+| 513 | `KXAMEND22` | 22nd Amendment | Politics | $182,102 |
+| 514 | `KXGORDONDENTONBY` | Who will win the 2026 Gordon and Denton by-election? | Politics | $178,862 |
+| 515 | `KXTARIFFREFUND` | Tariff refund | Politics | $165,725 |
+| 516 | `KXGOVNYNOMD` | New York Governor Democratic nominee | Politics | $165,596 |
+| 517 | `HOUSECO8` | House CO 8 | Politics | $165,090 |
+| 518 | `KXSENATENCR` | North Carolina Republican Senate nominee | Politics | $164,589 |
+| 519 | `KXPORTUGALSEGUROSWEEP` | Will Seguro win all the districts in Portugal? | Politics | $163,857 |
+| 520 | `KXTAXWAIVE` | Taxes waived | Politics | $162,602 |
+| 521 | `KXNEWSCOTUSCONF` | SCOTUS confirmations | Politics | $161,627 |
+| 522 | `KXTRUMPCOUNTRIES` | What countries will Trump visit this year? | Politics | $161,581 |
+| 523 | `KXLEAVEPOWELLGOV` | jerome powell leave as Fed governor | Politics | $161,454 |
+| 524 | `HOUSEAZ6` | House AZ 6 | Politics | $161,290 |
+| 525 | `GOVPARTYMN` | Minnesota Governor | Politics | $157,879 |
+| 526 | `KX2028RRUN` | 2028 R running | Politics | $157,120 |
+| 527 | `KXTRUTHSOCIAL` | Number of Trump Truth Social posts this week? | Politics | $156,530 |
+| 528 | `SENATEME` | Maine Senate race | Politics | $155,962 |
+| 529 | `KXSOTHLEAVE` | Speaker of the House leaving | Politics | $155,170 |
+| 530 | `KXSENATEILD` | ILD | Politics | $154,420 |
+| 531 | `KXAGENCYELIM` | Agencies eliminated | Politics | $153,063 |
+| 532 | `KXTRUMPPARDONS` | Who will Trump pardon? | Politics | $150,873 |
+| 533 | `KX14AMENDCASE` | Trump birthright citizenship case | Politics | $150,238 |
+| 534 | `KXCLOSEHORMUZ` | Strait of Hormuz | Politics | $150,133 |
+| 535 | `GOVPARTYAZ` | Arizona Governor | Politics | $150,070 |
+| 536 | `SENATEAK` | Alaska Senate race | Politics | $149,488 |
+| 537 | `KXTRUMPRESIGN` | Trump resign | Politics | $149,123 |
+| 538 | `KXVENEZUELALEADER2` | Who will be the head of state of Venezuela on date? | Politics | $148,861 |
+| 539 | `KXELECTVENEZUELA` | Will Venezuela hold a presidential election? | Politics | $148,644 |
+| 540 | `SENATENC` | North Carolina Senate race | Politics | $147,063 |
+| 541 | `KXVACCINEREC` | Vaccine rec ended | Politics | $146,921 |
+| 542 | `KXSCHUMEROUT` | Will Schumer no longer be Senate Minority leader | Politics | $140,517 |
+| 543 | `KXPARDONSTRUMP` | Trump pardons monthly | Politics | $138,511 |
+| 544 | `KXDIAZOUT` | Miguel Díaz-Canel out? | Politics | $138,489 |
+| 545 | `KXTRYFIREPOWELL` | try to fire powell | Politics | $134,996 |
+| 546 | `KXRECCOUNT` | Reconciliation count | Politics | $130,254 |
+| 547 | `KXNURSESTRIKE` | When will the NYC nurse strike end? | Politics | $126,085 |
+| 548 | `KXWARSHNOM` | When will the Senate receive Warsh's nomination? | Politics | $124,367 |
+| 549 | `KXELECTIONBILL` | Will proof of citizenship be required for federal voter registration? | Politics | $123,067 |
+| 550 | `SENATEGA` | Georgia Senate race | Politics | $122,164 |
+| 551 | `KXPOPEVISIT` | What countries will Pope Leo visit before 2027? | Politics | $117,388 |
+| 552 | `KXGREENIND` | Greenland independence | Politics | $117,299 |
+| 553 | `KXSENATEMID` | MID | Politics | $116,764 |
+| 554 | `KXCRYPTOCAPGAIN` | Crypto cap gains | Politics | $115,772 |
+| 555 | `GOVPARTYOH` | Ohio Governor | Politics | $115,570 |
+| 556 | `KXRETIREMM` | Mitch McConnell resigning | Politics | $113,893 |
+| 557 | `KXATF` | ATF Director | Politics | $113,623 |
+| 558 | `KXCALLIMPEACHRCONGRESS` | Republican Congressman impeachment | Politics | $112,119 |
+| 559 | `SENATEOHS` | Special Senate election in Ohio | Politics | $110,283 |
+| 560 | `KXSENATEGAR` | Georgia Republican Senate nominee | Politics | $109,281 |
+| 561 | `KXTAIWANLVL4` | Will Taiwan be issued a Level 4 travel warning? | Politics | $109,095 |
+| 562 | `KXH1B` | H1B cap lifted | Politics | $108,220 |
+| 563 | `KXFEDEND` | Fed ended | Politics | $107,764 |
+| 564 | `KXVPBREAKS` | VP tiebreaks | Politics | $107,252 |
+| 565 | `KXRECOGPALESTINE` | Palestine recognition | Politics | $100,734 |
+| 566 | `KXUKBANGROK` | Will the UK ban Grok? | Politics | $100,639 |
+| 567 | `KXRETIREPELOSI` | Will Nancy Pelosi retire | Politics | $99,086 |
+| 568 | `KXSENATEDEMLEAD` | Who will win the next Senate Democratic Leader election? | Politics | $97,442 |
+| 569 | `KXRUNBYMIDTERM` | who will run for office before the midterms | Politics | $96,979 |
+| 570 | `KXCANTERRITORY` | Canadian acquisition | Politics | $95,519 |
+| 571 | `KXGOVMNNOMR` | Who will be the Republican nominee for Governor in Minnesota | Politics | $94,877 |
+| 572 | `GOVPARTYMI` | Michigan Governor | Politics | $92,850 |
+| 573 | `KXNEWTARIFFS` | New tariffs this month? | Politics | $92,651 |
+| 574 | `SENATEMO` | Missouri Senate race | Politics | $91,848 |
+| 575 | `KXUSMDLFRDM` |  Presidential Medal of Freedom | Politics | $91,357 |
+| 576 | `SENATEIA` | Iowa Senate race | Politics | $86,546 |
+| 577 | `KXSENATEFLR` | Florida Republican Senate nominee | Politics | $79,767 |
+| 578 | `GOVPARTYIA` | iowa Governor | Politics | $78,935 |
+| 579 | `KXKANYEISRAEL` | WILL KANYE VISIT AREA? | Politics | $78,182 |
+| 580 | `KXCOLOMBIAPRES` | Colombia presidency | Politics | $77,662 |
+| 581 | `KXGOVNYNOMR` | New York Governor Republican nominee | Politics | $76,988 |
+| 582 | `HOUSEME2` | House Maine 2nd | Politics | $76,569 |
+| 583 | `KXOBERGEFELL` | Obergefell | Politics | $76,073 |
+| 584 | `GOVPARTYWA` | Washington Governor | Politics | $75,998 |
+| 585 | `KXTARIFFRATEINDIA` | Tariff Rate on India | Politics | $74,940 |
+| 586 | `KXMTGSWITCH` | MTG party switch | Politics | $73,610 |
+| 587 | `KXSENATEKYR` | KYR | Politics | $73,515 |
+| 588 | `KXJAPANHOUSE` | Japan House of Representatives | Politics | $73,277 |
+| 589 | `KXUSMINE` | US mining Bitcoin | Politics | $69,371 |
+| 590 | `KXCOMPANYSTAKERYANAIR` | Ryanair | Companies | $68,650 |
+| 591 | `KXBOYCOTTWC` | Boycott WC | Politics | $68,533 |
+| 592 | `HOUSENE2` | House Nebraska 2nd | Politics | $68,046 |
+| 593 | `KXABRAHAMQ` | Abraham Accord Qatar | Politics | $67,272 |
+| 594 | `KXVETOOVERRIDE` | Veto override | Politics | $66,760 |
+| 595 | `KXTRUMPACT` | Will Trump do anything today? | Politics | $65,307 |
+| 596 | `KXIMPEACHCABINET` | Impeach a member of Trump's cabinet | Politics | $64,673 |
+| 597 | `KXHFHOUSING` | Bill taxing/banning hedge funds owning single-family homes | Politics | $64,362 |
+| 598 | `KXG7LEADEROUT` | Next G7 leader out | Politics | $62,538 |
+| 599 | `KXPARTYLEAVE` | Congress party change | Politics | $62,458 |
+| 600 | `KXCONGRESSTESTIFY` | Congress Testify this year? | Politics | $62,268 |
+| 601 | `KXBRBALLOT` | Candidates in Brazilian first round | Politics | $61,890 |
+| 602 | `KXACAHSAFSA` | Will a bill pass to let ACA enrollees put subsidies into HSAs/FSAs this year? | Politics | $60,876 |
+| 603 | `KXTRUMPAPPROVALBELOW` | How low will Trump's approval get this year? | Politics | $60,374 |
+| 604 | `KXTRUMPAPPROVALYEAR` | How high will Trump's approval get this year? | Politics | $59,542 |
+| 605 | `KXDOJPARDONS` | DOJ pardon claim | Politics | $58,616 |
+| 606 | `HOUSECA41` | House California 41st | Politics | $58,075 |
+| 607 | `KXGOVSCNOMR` | South Carolina Republican nominee | Politics | $57,792 |
+| 608 | `KXAGENCIES` | Agencies cut | Politics | $57,670 |
+| 609 | `KXGOVGANOMR` | Georgia Governor Republican nominee | Politics | $56,666 |
+| 610 | `SENATENH` | New Hampshire Senate race | Politics | $56,029 |
+| 611 | `SENATELA` | Kentucky Senate race | Politics | $54,998 |
+| 612 | `KXTRUMPRUN` | Trump run for a third term | Politics | $53,878 |
+| 613 | `KXDISAPPROVETARIFF` | Will the House vote to disapprove tariffs? | Politics | $53,766 |
+| 614 | `KXGOVAZNOMR` | Arizona Governor Republican nominee | Politics | $52,351 |
+| 615 | `HOUSENY19` | House NY 19 | Politics | $51,558 |
+| 616 | `KXTAYLORSWIFTWEDDINGATTEND` | Who will attend Taylor Swifts wedding | Politics | $50,426 |
+| 617 | `KXSNAPELECTIONFR` | French Snap Election | Politics | $50,002 |
+| 618 | `KXCOSTARICAASSEMBLY` | Costa Rica legislative assembly | Politics | $49,546 |
+| 619 | `HOUSEOR5` | House OR 5 | Politics | $49,082 |
+| 620 | `GOVPARTYOK` | Oklahoma Governor | Politics | $48,615 |
+| 621 | `KXACAREPEAL` | ACA repeal | Politics | $46,778 |
+| 622 | `KXSTATE` | 51st US state | Politics | $46,772 |
+| 623 | `KXGOVGANOMD` | Georgia Governor Democratic nominee | Politics | $46,161 |
+| 624 | `KXUSCLIMATE` | US climate goals | Climate and Weather | $45,623 |
+| 625 | `KXSWENCOUNTERS` | SW border encounters | Politics | $45,499 |
+| 626 | `GOVPARTYNV` | Nevada Governor | Politics | $45,311 |
+| 627 | `KXDATASET13` | Will the DOJ release Data Set 13 (Epstein files)? | Politics | $45,130 |
+| 628 | `HOUSEPA10` | House Pennsylvania 10th | Politics | $44,832 |
+| 629 | `KXBILLCONTEMPT` | Will the House find Bill Clinton in contempt of Congress? | Politics | $44,831 |
+| 630 | `KXELONMARS` | Elon Mars | Politics | $44,627 |
+| 631 | `KXSENATENHR` | New Hampshire REpublican Senate nominee | Politics | $44,312 |
+| 632 | `HOUSEAZ1` | House Arizona 1st | Politics | $44,056 |
+| 633 | `HOUSEIA3` | House IA 3 | Politics | $43,773 |
+| 634 | `KXSCOTUSRESIGN` | SCOTUS members resigning | Politics | $43,610 |
+| 635 | `KXSENATEMND` | Minnesota Democratic Senate nominee | Politics | $43,360 |
+| 636 | `KXFREYOUT` | Jacob Frey out as Mayor of Minneapolis? | Politics | $42,411 |
+| 637 | `KXFTAPRC` | PRC FTA | Politics | $41,856 |
+| 638 | `KXDEMOCRACYUS` | US democratic backsliding | Politics | $41,811 |
+| 639 | `SENATEID` | Idaho Senate race | Politics | $41,549 |
+| 640 | `KXNEWPOPE` | New Pope | Politics | $41,394 |
+| 641 | `KXSENATENCD` | North Carolina Democratic Senate nominee | Politics | $40,731 |
+| 642 | `KXDUTCHCOALITION` | parties in next dutch coalition | Politics | $40,271 |
+| 643 | `KXFEDDC` | Will DC be federalized? | Politics | $39,814 |
+| 644 | `KXFLIGHTSRUSSIA` | Flights Russia | Politics | $39,600 |
+| 645 | `GOVPARTYIN` | Indiana Governor | Politics | $38,206 |
+| 646 | `KXTARIFFRATECAN` | tariff rate canada | Politics | $38,170 |
+| 647 | `SENATETN` | Tennessee Senate race | Politics | $38,078 |
+| 648 | `KXELECTFRAUD` | Election Fraud | Politics | $37,848 |
+| 649 | `KXESDEEKID` | Timothée Chalamet is secretly the English rapper EsDeeKid | Entertainment | $37,712 |
+| 650 | `SENATEMN` | Minnesota Senate race | Politics | $37,673 |
+| 651 | `KXALBERTAREFYES` | Alberta referendum succeeds | Politics | $37,257 |
+| 652 | `HOUSENC1` | House NC 1 | Politics | $36,985 |
+| 653 | `KXBALANCE` | Balanced budget | Politics | $36,959 |
+| 654 | `KXFEDCHAIRCOUNT` | How many Senators will vote for Trump's Fed Chair pick? | Politics | $36,622 |
+| 655 | `HOUSEWA3` | House Washington 3rd | Politics | $36,065 |
+| 656 | `KXPOPCHANGENYC` | Mamdani population change in NYC  | Politics | $35,936 |
+| 657 | `HOUSEVA7` | House Virginia 7th | Politics | $35,509 |
+| 658 | `KXLOSEPRIMARYHOUSER` | How many House Republicans will lose their primaries? | Politics | $35,371 |
+| 659 | `HOUSEPA7` | House Pennsylvania 7th | Politics | $35,362 |
+| 660 | `KXDHOUSESEATS` | Democratic House seats | Politics | $35,334 |
+| 661 | `KXGOVMENOMR` | Maine Governor Democratic nominee | Politics | $34,244 |
+| 662 | `KXGOVAK` | Alaska governor | Politics | $34,164 |
+| 663 | `KXTREASBLOCKCHAIN` | Treasury transaction on blockchain | Politics | $34,022 |
+| 664 | `KXGOVMINOMD` | Michigan Governor Democratic nominee | Politics | $32,702 |
+| 665 | `KXGOVMINOMR` | Michigan Governor Republican nominee | Politics | $32,437 |
+| 666 | `KXSENATEOHSD` | Ohio Democratic Senate nominee | Politics | $32,335 |
+| 667 | `KXPERSONPRESFUENTES` | Nick Fuentes Becoming President | Politics | $32,237 |
+| 668 | `HOUSECA22` | House California 22nd | Politics | $32,092 |
+| 669 | `KXSENATELAR` | LAR | Politics | $31,457 |
+| 670 | `KXNATIONALIZESPACEX` | Nationalize SpaceX | Politics | $31,345 |
+| 671 | `KXHILLARYCONTEMPT` | Will the House find Hillary Clinton in contempt of Congress? | Politics | $30,903 |
+| 672 | `KXGOVOHNOMD` | Ohio Governor Democratic nominee | Politics | $30,854 |
+| 673 | `KXVISITNYC` | Who will visit NYC | Politics | $30,847 |
+| 674 | `KXNYCTAXBILLIONS` | Will Mamdani tax billionaires before 2027? | Politics | $30,839 |
+| 675 | `KXUAPFILES` | UAP files | Politics | $30,807 |
+| 676 | `KXVOTEFEDCHAIR` | Which Senators will vote for the next Fed Chair nominee? | Politics | $30,629 |
+| 677 | `KXCONSTAMEND` | New constitutional amendment | Politics | $30,104 |
+| 678 | `KXIMPEACHJUDGE` | Impeach judge | Politics | $29,141 |
+| 679 | `KXNORDSTREAM2` | Nord Stream 2  | Politics | $28,726 |
+| 680 | `SENATENJ` | New Jersey Senate race | Politics | $28,591 |
+| 681 | `SENATEFLS` | Special Senate election in Florida | Politics | $28,135 |
+| 682 | `KXGOVWINOMD` | Gov WI Nom D | Politics | $27,819 |
+| 683 | `HOUSEPA8` | House Pennslyvania 8th | Politics | $27,389 |
+| 684 | `KXAMEND25` | 25th Amendment | Politics | $27,071 |
+| 685 | `KXAKSENATE` | Who will win the Alaska Senate race? | Politics | $26,680 |
+| 686 | `KXSENATEALR` | ALR | Politics | $26,612 |
+| 687 | `KXSUEPOWELL` | Will Trump sue Jerome Powell? | Politics | $26,279 |
+| 688 | `KXGOVMENOMD` | Maine Governor Democratic nominee | Politics | $26,182 |
+| 689 | `KXMARTIAL` | Martial law | Politics | $26,025 |
+| 690 | `KXTRAVELDOWNGRADE` | Which countries will receive a lower US Travel Advisory level in 2026? | Politics | $25,644 |
+| 691 | `KXKAMALAGOV` | Kamala gov  | Politics | $24,849 |
+| 692 | `KXNYCCHILDCARE` | Will Mamdani establish universal child care before 2027? | Politics | $24,767 |
+| 693 | `KXVISITGREENLAND` | Who will visit Greenland? | Politics | $24,650 |
+| 694 | `KXBILLCLINTONPUBLIC` | Will Bill Clinton testify live? | Politics | $24,452 |
+| 695 | `KXSENATESCR` | SCR | Politics | $24,149 |
+| 696 | `KXNYCCORPORATETAX` | Will Mamdani raise corporate taxes before 2027? | Politics | $24,000 |
+| 697 | `GOVPARTYFL` | Florida Governor | Politics | $23,694 |
+| 698 | `KXNYCGROCERY` | NYC grocery story | Entertainment | $23,403 |
+| 699 | `KXSANCTIONRUSSIA` | Will a bill sanctioning Russia become law? | Politics | $23,006 |
+| 700 | `GOVPARTYPA` | Pennsylvania Governor | Politics | $22,781 |
+| 701 | `KXSENATEFLD` | Florida Democratic Senate nominee | Politics | $22,754 |
+| 702 | `KXSENATEMNR` | MNR | Politics | $22,535 |
+| 703 | `KXSNAPUK` | UK snap election announced before 2027 | Politics | $22,381 |
+| 704 | `HOUSENY4` | House New York 4th | Politics | $22,125 |
+| 705 | `KXSENATEOHSR` | Ohio Republican Senate nominee | Politics | $21,852 |
+| 706 | `KXGOVKSNOMD` | Kansas Governor nominee Democratic | Politics | $21,844 |
+| 707 | `KXVIRGINIAREDISTRICTING` | Will the Virginia Redistricting Referendum pass? | Politics | $21,283 |
+| 708 | `KXFTA` | Any free trade agreement  | Politics | $21,213 |
+| 709 | `KXTRUMPSTATES` | Which states will Trump visit this year? | Politics | $21,189 |
+| 710 | `KXPERUPRES` | Peru Presidency | Politics | $21,113 |
+| 711 | `KXLOSEPRIMARYHOUSED` | How many House Democrats will lose their primaries? | Politics | $20,552 |
+| 712 | `KXEOTRUMPTERM` | EOs in Trump's second term | Politics | $20,320 |
+| 713 | `KXMUSKNASA` | Musk NASA contracts | Politics | $20,237 |
+| 714 | `KXSCOTUSMARIJUANAGUN` | SCOTUS Marijuana gun ban | Politics | $20,086 |
+| 715 | `KXLEADERCOMBOOUT` | Will any of these leaders leave this month? | Politics | $19,572 |
+| 716 | `SENATEIN` | Indiana Senate race | Politics | $19,421 |
+| 717 | `KXSCOTUSVRA2` | SCOTUS strikes down VRA section 2 | Politics | $19,013 |
+| 718 | `KXSENATEMER` | MER | Politics | $18,958 |
+| 719 | `KXSYRIA` | Syria embassy | Politics | $18,953 |
+| 720 | `KXPOILIEVREOUT` | poilievre out as leader | Politics | $18,767 |
+| 721 | `KXJUDGECOUNT` | Judges confirmed | Politics | $18,650 |
+| 722 | `HOUSEMI7` | House Michigan 7th | Politics | $18,095 |
+| 723 | `KXNEWROLECEOAPPLE` | Next Apple CEO | Companies | $18,030 |
+| 724 | `GOVPARTYGA` | Georgia Governor | Politics | $17,906 |
+| 725 | `GOVPARTYWI` | Wisconsin Governor | Politics | $17,875 |
+| 726 | `KXWHPRESSBRIEFING` | Who will attend a White House Press Briefing? | Politics | $17,734 |
+| 727 | `KXMUSKCHALLENGERS` | Musk challengers | Politics | $17,695 |
+| 728 | `KXFREEBUSES` | Will NYC buses become free before 2027? | Politics | $17,629 |
+| 729 | `GOVPARTYTX` | Texas Governor | Politics | $17,522 |
+| 730 | `KXWALESPARLIAMENT` | Who will win the Wales parliament election? | Politics | $17,479 |
+| 731 | `SENATENM` | New Mexico Senate race | Politics | $17,279 |
+| 732 | `SENATESC` | South Carolina Senate race | Politics | $17,268 |
+| 733 | `KXCONTEMPT` | Trump Admin in contempt this year? | Politics | $17,193 |
+| 734 | `KXEUEXIT` | EU exit | Politics | $17,190 |
+| 735 | `KXAMAZONFTC` | Courts consider Amazon a monopoly | Politics | $17,089 |
+| 736 | `KXSCOTREF` | New Scottish referendum | Politics | $16,953 |
+| 737 | `KXSENATEMAD` | MAD | Politics | $16,857 |
+| 738 | `SENATEKS` | Kansas Senate race | Politics | $16,805 |
+| 739 | `HOUSEMI8` | House Michigan 8th | Politics | $16,726 |
+| 740 | `KXAOCSENATE` | AOC Senate | Politics | $16,660 |
+| 741 | `KXTRUMPSLAUGHTERVOTE` | SCOTUS vote in Trump vs Slaughter | Politics | $16,540 |
+| 742 | `SENATEVA` | Virginia Senate race | Politics | $16,512 |
+| 743 | `KXSNAPRESTRICT` | Bill limiting food SNAP benefits can buy | Politics | $16,193 |
+| 744 | `KXGOVIANOMR` | Gov IA Nom R | Politics | $16,101 |
+| 745 | `HOUSETX28` | House TX 28 | Politics | $15,966 |
+| 746 | `KXTRUMPSUE` | Who will Trump sue? | Politics | $15,805 |
+| 747 | `KXDCEILEND` | Debt ceiling abolished | Politics | $15,569 |
+| 748 | `GOVPARTYKY` | KY Gov | Politics | $15,549 |
+| 749 | `KXGOVILNOMR` | Gov IL Nom R | Politics | $15,521 |
+| 750 | `KXNEXTDHSSEC` | Next DHS Sec | Politics | $15,519 |
+| 751 | `KXFIRSTPRIMARYD` | First Primary democrats | Politics | $14,867 |
+| 752 | `KXELEANORRUN` | Eleanor Holmes Norton run for reelection | Politics | $14,776 |
+| 753 | `KXSANDERSPRES` | Bernie Sanders Run For President | Politics | $14,758 |
+| 754 | `KXHUNGARYPARLI` | Hungary parliament | Politics | $14,734 |
+| 755 | `KXSCOTUSPOWER` | Supreme Court makeup | Politics | $14,605 |
+| 756 | `KX250DOLLARBILL` | Trump-faced $250 bill by 2027? | Politics | $14,579 |
+| 757 | `KXPERSONPRESMAM` | MAMDANI | Politics | $14,503 |
+| 758 | `KXFEDLEADJUNE` | Who will chair the June FOMC meeting? | Politics | $14,435 |
+| 759 | `HOUSETX34` | House TX 34 | Politics | $14,423 |
+| 760 | `GOVPARTYMA` | Massachusetts Governor | Politics | $14,344 |
+| 761 | `HOUSECA40` | House CA 40 | Politics | $14,274 |
+| 762 | `KXGOVPARTYAK` | Alaska Governor | Politics | $14,126 |
+| 763 | `KXBRICS` | Brics | Politics | $14,078 |
+| 764 | `KXRECOGSOMALI` | Somaliland recognition | Politics | $13,465 |
+| 765 | `KXVISITMN` | Who will visit Minnesota? | Politics | $13,355 |
+| 766 | `KXTRUMPPARDONFAMILY` | Trump pardons his family | Politics | $13,331 |
+| 767 | `KXPARISMAYOR` | Who will win the Paris mayoral election? | Politics | $13,225 |
+| 768 | `KXAGNOMTXR` | GOP nominee for AG in Texas? | Politics | $13,208 |
+| 769 | `KXSUPERSONIC` | SuperSonic ban ended | Politics | $13,102 |
+| 770 | `KXNYCDEPTSAFETY` | Will Mamdani establish a Department of Community Safety before 2027? | Politics | $13,037 |
+| 771 | `KXTURKEYPRES` | Winner of next Turkish presidential election | Politics | $12,728 |
+| 772 | `SENATEWY` | Wyoming Senate race | Politics | $12,593 |
+| 773 | `HOUSENJ7` | House NJ 7 | Politics | $12,583 |
+| 774 | `KXSENATECONFIRM` | Who will the Senate confirm? | Politics | $12,341 |
+| 775 | `KXRECOGROC` | Trump recognize Taiwan | Politics | $12,048 |
+| 776 | `KXCOLOMBIAPARLI` | Who will win the Colombian parliamentary election? | Politics | $11,710 |
+| 777 | `KXGOVFLNOMD` | Florida Governor Democratic nominee | Politics | $11,706 |
+| 778 | `KXTRUMPSNL` | Trump on SNL | Politics | $11,492 |
+| 779 | `KXWITHDRAW` | U.S. withdrawing from international organizations | Politics | $11,469 |
+| 780 | `KXGOVPANOMR` | PA Gov Republican nominee | Politics | $11,383 |
+| 781 | `KXNEXTDEF` | Next Defense Sec | Politics | $11,344 |
+| 782 | `KXSTOCKBANHOUSE` | House passes bill to ban stock trading | Politics | $11,039 |
+| 783 | `KXGOVORNOMR` | Gov OR Nom R | Politics | $10,959 |
+| 784 | `KXKXSENATEIAD` | IAD | Politics | $10,830 |
+| 785 | `KXMARSEILLEMAYOR` | Who will win the Marseille mayoral election? | Politics | $10,633 |
+| 786 | `SENATERI` | Rhode Island Senate race | Politics | $10,517 |
+| 787 | `GOVPARTYCO` | Colorado Governor | Politics | $10,511 |
+| 788 | `GOVPARTYOR` | Oregon Governor | Politics | $10,296 |
+| 789 | `KXXITAIWAN` | Will Xi Jinping visit Taiwan? | Politics | $10,250 |
+| 790 | `KXGOVOKNOMR` | Gov OK Nom R | Politics | $10,238 |
+| 791 | `HOUSEVA2` | x | Politics | $10,208 |
+| 792 | `KXMETGALA` | WHO WILL ATTEND THE MET GALA | Politics | $9,967 |
+| 793 | `KXSENATEVAR` | Virginia republican senate winner | Politics | $9,941 |
+| 794 | `KXTRUMPVSLAUGHTER` | Will the Supreme Court overturn Humphrey's Executor? | Politics | $9,653 |
+| 795 | `KXTRUMPPRES` | Trump family nominee in 2028 | Politics | $9,594 |
+| 796 | `KXEUEXITCOUNTRY` | EU countries exiting | Politics | $9,572 |
+| 797 | `KXMACRONOWENSLONG` | Macron vs Owens | Politics | $9,557 |
+| 798 | `KXUSFUND` | US Sovereign wealth fund | Politics | $9,367 |
+| 799 | `KXFULLTERMSKPRES` | Full term SK Pres | Politics | $9,365 |
+| 800 | `KXSENATEIAR` | IAR | Politics | $9,340 |
+| 801 | `KXUSFUNDHEAD` | US Sovereign wealth fund | Politics | $9,282 |
+| 802 | `KXMUSKPRIMARY` | Musk primarying | Politics | $9,252 |
+| 803 | `KXNYCMINWAGE` | Will Mamdani raise the minimum wage to $30 before 2027? | Politics | $9,192 |
+| 804 | `KXNYTHEAD` | Major news story this month? | Politics | $9,030 |
+| 805 | `KXCALIFORNIALEAVE` | Who will leave California before 2027? | Politics | $8,973 |
+| 806 | `HOUSECA3` | House CA3 | Politics | $8,960 |
+| 807 | `GOVPARTYMT` | Governor Montana | Politics | $8,770 |
+| 808 | `KXTRANSGENDERSPORTSBAN` | Will the Supreme Court uphold transgender sports bans? | Politics | $8,675 |
+| 809 | `KXDEMCOREFOURSENATESWEEP` | Will Democrats sweep the Core Four senate races in 2026? | Politics | $8,529 |
+| 810 | `GOVPARTYNM` | New Mexico Governor | Politics | $8,441 |
+| 811 | `KXACTORAWARDSATTEND` | WHO WILL ATTEND THE ACTOR AWARDS | Politics | $8,300 |
+| 812 | `SENATECO` | Colorado Senate race | Politics | $8,238 |
+| 813 | `KXGOVWINOMR` | Wisconsin Republican Governor Nomination | Politics | $8,037 |
+| 814 | `KXPARDONSYEAR` | How many pardons will be issued by the President in the year? | Politics | $7,891 |
+| 815 | `GOVPARTYAL` | Alabama Governor | Politics | $7,838 |
+| 816 | `GOVPARTYMO` | Missouri Governor | Politics | $7,774 |
+| 817 | `KXNEXTSPEAKER` | Next House speaker | Politics | $7,750 |
+| 818 | `HOUSEFL23` | House FL 23 | Politics | $7,673 |
+| 819 | `HOUSETX15` | House TX 15 | Politics | $7,665 |
+| 820 | `KXNYCTAXMILLIONS` | Will Mamdani tax incomes over $1M  | Politics | $7,501 |
+| 821 | `SENATEND` | North Dakota Senate race | Politics | $7,482 |
+| 822 | `SENATEWV` | West Virginia Senate race | Politics | $7,467 |
+| 823 | `SENATEUT` | Senate race Utah | Politics | $7,462 |
+| 824 | `HOUSEIN1` | House IN's 1st | Politics | $7,314 |
+| 825 | `GOVPARTYME` | maine Governor | Politics | $7,166 |
+| 826 | `KXMTRUSHMORE` | Mt. Rushmore | Politics | $7,138 |
+| 827 | `KXUSMCA` | USMCA withdrawal | Politics | $7,112 |
+| 828 | `GOVPARTYWV` | West Virginia Governor | Politics | $7,025 |
+| 829 | `KXHOUSETX35` | Who will win TX-35 | Politics | $7,023 |
+| 830 | `SENATEMS` | Mississippi Senate race | Politics | $7,017 |
+| 831 | `KXHOUSETX32` | Who will win TX-32 | Politics | $6,946 |
+| 832 | `KXLEAVETISCH` | Jessica Tisch leave office | Politics | $6,897 |
+| 833 | `KXBARIWEISSOUT` | Bari Weiss out at CBS News? | Politics | $6,894 |
+| 834 | `KXTERMLIMITS` | Term Limits amendment | Politics | $6,821 |
+| 835 | `KXGOVCONOMD` | Gov CO Nom d | Politics | $6,773 |
+| 836 | `KXKATZOUT` | Israel Katz out as defense minister this year? | Politics | $6,747 |
+| 837 | `KXSENATEVAD` | VAD | Politics | $6,725 |
+| 838 | `KXLOSEPRIMARYSENATED` | How many Senate Democrats will lose their primary? | Politics | $6,632 |
+| 839 | `KXGOVSDNOMR` | Gov SD Nom r | Politics | $6,620 |
+| 840 | `KXSENATEKSD` | KSD | Politics | $6,594 |
+| 841 | `KXNEPALHOUSE` | Nepal House of Representatives winner | Politics | $6,576 |
+| 842 | `GOVPARTYVT` | Vermont Governor | Politics | $6,565 |
+| 843 | `KXGOVKSNOMR` | KS Governor Republican nom | Politics | $6,489 |
+| 844 | `KXCONCEALEDRECIPROCITY` | Nationwide concealed carry reciprocity becomes law | Politics | $6,466 |
+| 845 | `KXGOVTXNOMD` | Gov TX Nom R | Politics | $6,349 |
+| 846 | `SENATEVT` | Senate VT | Politics | $6,222 |
+| 847 | `KXSCOTUSVRARELEASE` | When will the Supreme Court issue an opinion on the Voting Rights Act? | Politics | $6,170 |
+| 848 | `GOVPARTYUT` | Utah Governor | Politics | $6,119 |
+| 849 | `KXUNSEC` | UN seceretary | Companies | $6,106 |
+| 850 | `KXBULGARIAPRES` | Who will win the 2026 Bulgarian presidential election? | Politics | $6,070 |
+| 851 | `KXEUEXPANSION` | EU expansion | Politics | $6,067 |
+| 852 | `KXEXPELL` | Expelled MOC this year? | Politics | $6,061 |
+| 853 | `KXARMENIAPARLI` | Armenia parliament | Politics | $6,027 |
+| 854 | `KXCONGRESSTRADES` | Congress trades | Politics | $5,878 |
+| 855 | `KXVRASCOTUSVOTE` | How many justices will vote for Louisiana in Louisiana v. Callais? | Politics | $5,877 |
+| 856 | `KXSENATEKYD` | KYD | Politics | $5,843 |
+| 857 | `KXGOVWYNOMR` | Gov WY Nom R | Politics | $5,819 |
+| 858 | `KXCZECHCOALITION` | parties in next czech coalition | Politics | $5,791 |
+| 859 | `GOVPARTYCT` | Connecticut Governor | Politics | $5,772 |
+| 860 | `KXAMBMALAY` | Nick Adams | Politics | $5,747 |
+| 861 | `KXINDIACLIMATE` | India climate goals | Climate and Weather | $5,682 |
+| 862 | `KXGOVNMNOMD` | NM Gov Democratic nominee | Politics | $5,660 |
+| 863 | `HOUSEOH13` | House OH 13 | Politics | $5,654 |
+| 864 | `KXPRESENDORSEMUSKD` | Musk endorses Democrat for President | Politics | $5,518 |
+| 865 | `KXJOINREFORM` | Who will join Reform UK? | Politics | $5,509 |
+| 866 | `KXHOUSETX9` | Who will win TX-09 | Politics | $5,487 |
+| 867 | `GOVPARTYKS` | Kansas Governor | Politics | $5,430 |
+| 868 | `KXSCOTPARLIAMENT` | Who will win the Scottish Parliament election? | Politics | $5,252 |
+| 869 | `KXBIDENAMBIEN` | Biden Ambien | Politics | $5,250 |
+| 870 | `KXARGENTINAPRES` | Argentina presidential election | Politics | $5,239 |
+| 871 | `KXUSAKIM` | Kim Jong-Un presidential visit | Politics | $5,208 |
+| 872 | `KXICEREFORM` | Which ICE reforms will become law? | Politics | $5,150 |
+| 873 | `SENATEHI` | HI senate | Politics | $5,140 |
+| 874 | `KXAFRICALEADEROUT` | Next African leader out | Politics | $5,134 |
+| 875 | `KXKOSA` | KOSA | Politics | $5,117 |
+| 876 | `KXISRAELKNESSET` | Israeli Knesset election | Politics | $5,062 |
+| 877 | `KXGOVCONOMR` | Gov CO Nom R | Politics | $5,035 |
+| 878 | `SENATEDE` | Deleware Senate race | Politics | $5,009 |
+| 879 | `KXCOMEYREINSTATE` | Comey indictment reinstated on appeal before 2027? | Politics | $4,975 |
+| 880 | `KXCOLOMBIACHAMBER` | Colombia Chamber of Representatives | Politics | $4,967 |
+| 881 | `KXHOUSEUT03` | Who will win UT-03 | Politics | $4,929 |
+| 882 | `KXDEMSENATEPRIMARYCOMBO` | Will a subset of the following Democratic Senate candidates win their primary? | Politics | $4,924 |
+| 883 | `HOUSENJ9` | House NJ 9 | Politics | $4,896 |
+| 884 | `GOVPARTYSC` | South Carolina Governor | Politics | $4,893 |
+| 885 | `KXSENATEALD` | ALD | Politics | $4,882 |
+| 886 | `KXDJTWHDINNER` | DJT WH Correspondents dinner | Politics | $4,853 |
+| 887 | `KXSEOULMAYOR` | Who will win the Seoul mayoral election? | Politics | $4,795 |
+| 888 | `KXHOUSEUT02` | Who will win UT-02 | Politics | $4,761 |
+| 889 | `KXSENATENYD` | Democratic nominee for New York Senate | Politics | $4,725 |
+| 890 | `KXLEBANONPARLI` | Lebanon parliament | Politics | $4,711 |
+| 891 | `KXPERMIT` | Permitting reform | Politics | $4,691 |
+| 892 | `KXGAVOTECHARGE` | Will anyone be federally charged in connection with the 2020 election in Georgia? | Politics | $4,660 |
+| 893 | `KXIPO` | IPOs | Companies | $6,638,321 |
+| 894 | `KXTESLA` | Tesla deliveries | Companies | $2,595,229 |
+| 895 | `KXTAKEOVERACQWB` | Warner Brothers acquisition | Companies | $1,278,130 |
+| 896 | `KXTESLAPROD` | Tesla production | Companies | $624,842 |
+| 897 | `KXACQUANNOUNCEPARAMOUNT` | Paramount | Companies | $589,117 |
+| 898 | `KXSPACEXBANKPUBLIC` | SpaceX | Companies | $543,339 |
+| 899 | `KXIPOSPACEX` | When will spacex IPO | Companies | $476,392 |
+| 900 | `KXTESLACEOCHANGE` | New Tesla CEO | Companies | $473,868 |
+| 901 | `KXMETAHEADCOUNT` | META Headcount | Companies | $400,830 |
+| 902 | `KXPS6` | PS6 announcement | Entertainment | $300,849 |
+| 903 | `KXAAPLCEOCHANGE` | Tim Cook leaves Apple | Companies | $176,964 |
+| 904 | `KXBOEING` | Boeing | Companies | $137,412 |
+| 905 | `KXOPENAICEOCHANGE` | OpenAI hires another CEO | Companies | $131,842 |
+| 906 | `KXSUBWAY` | Subway ridership returning | Companies | $97,493 |
+| 907 | `KXIPOOPENAI` | When will OPENAI Announce IPO? | Companies | $96,678 |
+| 908 | `KXIPHONERELEASE` | iPhone | Companies | $95,443 |
+| 909 | `KXAPPLEFOLD` | Apple reveals foldable iPhone | Companies | $80,676 |
+| 910 | `KXUBERTRIPS` | UBER | Companies | $79,393 |
+| 911 | `KXIPOSTARLINK` | When will starlink IPO | Companies | $78,411 |
+| 912 | `KXSTEAMPRICE` | Steam Machine | Companies | $73,818 |
+| 913 | `KXCRYPTOPAY` | Crypto payments from tech firms | Companies | $72,744 |
+| 914 | `KXJPMCEOCHANGE` | Jamie Dimon leaves JPMorgan | Companies | $65,646 |
+| 915 | `KXACQUANNOUNCEPINS` | Pinterest | Companies | $60,187 |
+| 916 | `KXAISTREAMSERIES` | Will a major streaming platform offer a fully AI-generated scripted series by June 2026? | Companies | $56,121 |
+| 917 | `KXTESLADELIVERYBY` | Tesla deliveries by | Companies | $55,075 |
+| 918 | `KXKRAKENBANKPUBLIC` | Kraken IPO | Companies | $53,744 |
+| 919 | `KXDASHORDERS` | DoorDash | Companies | $52,014 |
+| 920 | `KXTESLAROADSTER` | Tesla Roadster delivered | Companies | $48,240 |
+| 921 | `KXIPODISCORD` | When will Discord IPO | Companies | $47,047 |
+| 922 | `KXAPPLEUS` | Apple DOJ lawsuit | Companies | $45,307 |
+| 923 | `KXTESLASEMI` | How many Tesla semi trucks produced | Companies | $37,449 |
+| 924 | `KXFALLOUTRELEASE` | Will Bethesda announce a new Fallout game before the middle of 2026? | Companies | $36,289 |
+| 925 | `KXMATCHPAYERS` | Match | Companies | $30,802 |
+| 926 | `KXKPOPDH2` | Will KPop Demon Hunters 2 be released before September 2026? | Companies | $22,568 |
+| 927 | `KXIPOANDURIL` | When will anduril IPO | Companies | $19,960 |
+| 928 | `KXSPOTIFYMAU` | Spotify | Companies | $19,055 |
+| 929 | `KXJUULFLAVOR` | Juul flavors | Companies | $18,173 |
+| 930 | `KXTESLAENERGYBY` | Tesla energy business | Companies | $15,090 |
+| 931 | `KXIPODEEL` | When will deel IPO | Companies | $13,478 |
+| 932 | `KXSTRIPEIPO` | When will Stripe Announce IPO? | Companies | $12,422 |
+| 933 | `KXJPMCEONEW` | New JPM CEO | Companies | $11,977 |
+| 934 | `KXLIVENATIONUS` | LIve Nation lawsuit | Companies | $9,990 |
+| 935 | `KXTWOW` | Winds release date announced | Entertainment | $9,356 |
+| 936 | `KXXAIGAME` | WILL XAI RELEASE A VIDEO GAME | Companies | $8,428 |
+| 937 | `KXTESLACAR` | Will Tesla release a car that is 30 thousand dollars this year  | Companies | $7,801 |
+| 938 | `KXIPOFANNIE` | When will Fannie Mae IPO? | Companies | $7,035 |
+| 939 | `KXIPOBREX` | When will Brex IPo | Companies | $5,276 |
+| 940 | `KXELECTRICM3` | Will BMW Release an electric M3 | Companies | $5,111 |
+| 941 | `KXHELLCAT` | Hellcat | Companies | $3,628 |
+| 942 | `KXFREDDIE` | When will Freddie Mac IPO? | Companies | $3,494 |
+| 943 | `KXNEWROLEFAZE` | Who will be the next CEO of FaZe Media, Inc | Companies | $3,396 |
+| 944 | `KXIPOBEASTINDUSTRIES` | When will beast indsutries ipo | Companies | $3,321 |
+| 945 | `KXRELOCATEUNITED` | Wil United move its HQ | Companies | $2,451 |
+| 946 | `KXIPORAMP` | When will Ramp IPO | Companies | $2,127 |
+| 947 | `KXFYREFESTPRICE` | How much will Fyre Fest sell for? | Companies | $2,047 |
+| 948 | `KXIPOWHOOP` | Whoop IPO | Companies | $1,762 |
+| 949 | `KXIPOCLUELY` | When will Cluely IPO | Companies | $1,363 |
+| 950 | `KXRIPPLINGDEEL` | Rippling Deel suit | Companies | $1,357 |
+| 951 | `KXIPOAIRTABLE` | WHEN WILL AIR TABLE ANNOUNCE AN IPO | Companies | $1,162 |
+| 952 | `KXIPORIPPLING` | When will Rippling IPO | Companies | $1,154 |
+| 953 | `KXIPOOURA` | Oura IPO | Companies | $509 |
+| 954 | `KXIPOGLEAN` | When Will Glean IPO | Companies | $342 |
+| 955 | `KXIPOOLIPOP` | When will Oli Pop Ipo? | Companies | $241 |
+| 956 | `KXIPOAPPSFLYER` | When will Appsflyer IPO | Companies | $19 |
+| 957 | `KXHIGHNY` | Highest temperature in NYC | Climate and Weather | $92,811,542 |
+| 958 | `KXHIGHCHI` | Highest temperature in Chicago | Climate and Weather | $71,947,018 |
+| 959 | `KXHIGHLAX` | Highest temperature in Los Angeles | Climate and Weather | $57,620,552 |
+| 960 | `KXHIGHAUS` | Highest temperature in Austin | Climate and Weather | $57,315,167 |
+| 961 | `KXHIGHMIA` | Highest temperature in Miami | Climate and Weather | $56,269,091 |
+| 962 | `KXHIGHDEN` | Highest temperature in Denver | Climate and Weather | $36,133,498 |
+| 963 | `KXHIGHPHIL` | Highest temperature in Philadelphia | Climate and Weather | $27,860,065 |
+| 964 | `KXRAINNYC` | NYC rain | Climate and Weather | $24,518,448 |
+| 965 | `KXLOWTAUS` | Lowest temperature in Austin | Climate and Weather | $4,043,977 |
+| 966 | `KXLOWTDEN` | Lowest temperature in Denver | Climate and Weather | $3,812,700 |
+| 967 | `KXNYCSNOWM` | NYC Snowfall monthly | Climate and Weather | $3,657,588 |
+| 968 | `KXLOWTNYC` | Lowest temperature in NYC | Climate and Weather | $3,655,364 |
+| 969 | `KXLOWTMIA` | Lowest temperature in Miami | Climate and Weather | $3,269,480 |
+| 970 | `KXHIGHTSFO` | San Francisco High Temperature Daily | Climate and Weather | $2,868,794 |
+| 971 | `KXHMONTH` | Hottest month instance | Climate and Weather | $2,827,869 |
+| 972 | `KXLOWTCHI` | Lowest Temperature Chicago | Climate and Weather | $2,819,694 |
+| 973 | `KXHIGHTDC` | Washington DC Daily Max Temp | Climate and Weather | $2,706,508 |
+| 974 | `KXLOWTLAX` | Lowest Temperature in LA | Climate and Weather | $2,640,785 |
+| 975 | `KXTORNADO` | Number of Tornadoes | Climate and Weather | $2,394,586 |
+| 976 | `KXHIGHTSEA` | Seattle Maximum Temperature Daily | Climate and Weather | $2,203,045 |
+| 977 | `KXRAINNYCM` | Monthly rain in New York | Climate and Weather | $1,898,831 |
+| 978 | `KXHIGHTLV` | Las Vegas Max Daily Temperature | Climate and Weather | $1,863,964 |
+| 979 | `KXHIGHTNOLA` | New Orleans Max temp Daily | Climate and Weather | $1,682,894 |
+| 980 | `KXLOWTPHIL` | Lowest temperature in Philadelphia | Climate and Weather | $1,621,286 |
+| 981 | `KXDCSNOWM` | DC Monthly Snow | Climate and Weather | $1,131,536 |
+| 982 | `KXRAINLAXM` | Rain Los Angeles | Climate and Weather | $1,032,240 |
+| 983 | `KXCHISNOWM` | Chicago Snowfall Monthly | Climate and Weather | $893,143 |
+| 984 | `KXPHILSNOWM` | Philadelphia Monthly Snow | Climate and Weather | $721,735 |
+| 985 | `KXHMONTHRANGE` | Monthly Temperature Increase (ºC) | Climate and Weather | $708,208 |
+| 986 | `KXHIGHTATL` | Atlanta Max Temperature | Climate and Weather | $680,256 |
+| 987 | `KXGTEMP` | Hottest year ever | Climate and Weather | $679,918 |
+| 988 | `KXMIASNOWM` | Chicago Snowfall Monthly | Climate and Weather | $588,342 |
+| 989 | `KXRAINSFOM` | RAIN SAN FRANCISCO | Climate and Weather | $549,491 |
+| 990 | `KXDALSNOWM` | Dallas Snowfall Monthly | Climate and Weather | $512,277 |
+| 991 | `KXHIGHTBOS` | Boston Maximum Daily Temperature | Climate and Weather | $507,335 |
+| 992 | `KXRAINHOUM` | Rain Houston | Climate and Weather | $495,206 |
+| 993 | `KXLAXSNOWM` | LA Snowfall Markets | Climate and Weather | $490,862 |
+| 994 | `KXHIGHTPHX` | Phoenix High Temperature Daily | Climate and Weather | $468,930 |
+| 995 | `KXRAINMIAM` | Rain Miami | Climate and Weather | $432,104 |
+| 996 | `KXSLCSNOWM` | Salt Lake City Monthly | Climate and Weather | $417,041 |
+| 997 | `KXDETSNOWM` | Detroit Monthly Snow | Climate and Weather | $345,074 |
+| 998 | `KXBOSSNOWM` | Boston Snow Monthly | Climate and Weather | $334,628 |
+| 999 | `KXDENSNOWMB` | Denver monthly snow | Climate and Weather | $299,738 |
+| 1000 | `KXRAINSEAM` | RAIN SEATTLE | Climate and Weather | $291,997 |
+| 1001 | `KXHIGHTDAL` | Dallas Maximum Temperature | Climate and Weather | $284,182 |
+| 1002 | `KXSEASNOWM` | Seattle Snowfall Monthly | Climate and Weather | $283,271 |
+| 1003 | `KXRAINDALM` | Rain Dallas | Climate and Weather | $278,975 |
+| 1004 | `KXARCTICICEMAX` | Arctic sea ice max extent | Climate and Weather | $270,312 |
+| 1005 | `KXHIGHTMIN` | Minneapolis Daily High Temperature | Climate and Weather | $257,780 |
+| 1006 | `KXRAINAUSM` | RAIN AUSTIN | Climate and Weather | $233,929 |
+| 1007 | `KXRAINCHIM` | Rain Chicago | Climate and Weather | $232,110 |
+| 1008 | `KXEARTHQUAKECALIFORNIA` | Earthquake in California | Climate and Weather | $179,883 |
+| 1009 | `KXHIGHTHOU` | Daily High Temperature Houston | Climate and Weather | $170,337 |
+| 1010 | `KXHOUSNOWM` | Houston Snowfall Markets | Climate and Weather | $163,141 |
+| 1011 | `KXRAINDENM` | RAIN DENVER | Climate and Weather | $140,539 |
+| 1012 | `KXSFOSNOWM` | San Francisco Snowfall markets | Climate and Weather | $92,260 |
+| 1013 | `KXAUSSNOWM` | Austin Snowfall Monthly | Climate and Weather | $85,203 |
+| 1014 | `KXHIGHTOKC` | Oklahoma City Maximum High Temperature | Climate and Weather | $84,692 |
+| 1015 | `KXHIGHTSATX` | San Antonio Daily Maximum Temperature | Climate and Weather | $78,544 |
+| 1016 | `KXPRIMEENGCONSUMPTION` | Prime energy source | Climate and Weather | $60,207 |
+| 1017 | `KXEARTHQUAKEJAPAN` | Earthquake in Japan | Climate and Weather | $16,715 |
+| 1018 | `KXERUPTSUPER` | Supervolcano | Climate and Weather | $12,511 |
+| 1019 | `KXWARMING` | Global warming | Climate and Weather | $7,735 |
+| 1020 | `KXEUCLIMATE` | EU hits climate goals | Climate and Weather | $2,458 |
+| 1021 | `KXTIME` | TIME’s Person of the Year | Entertainment | $21,133,864 |
+| 1022 | `KXSPOTIFYD` | Daily US Spotify chart | Entertainment | $21,023,816 |
+| 1023 | `KXTOPARTIST` | Top Artist on Spotify | Entertainment | $20,292,303 |
+| 1024 | `KXRANKLISTGOOGLESEARCH` | #1 most searched on google | Entertainment | $18,809,002 |
+| 1025 | `KXOSCARPIC` | Oscar for Best Picture | Entertainment | $16,173,126 |
+| 1026 | `KXNOBELPEACE` | Nobel Peace Prize | Entertainment | $12,278,971 |
+| 1027 | `KXNETFLIXRANKSHOW` | Netflix TV ranking | Entertainment | $8,086,561 |
+| 1028 | `KXOSCARACTO` | Oscar for Best Actor | Entertainment | $6,864,973 |
+| 1029 | `KXNETFLIXRANKMOVIE` | Netflix movie ranking | Entertainment | $5,425,494 |
+| 1030 | `KXNETFLIXRANKSHOWRUNNERUP` | RUNNER UP NETFLIX SHOW | Entertainment | $5,075,655 |
+| 1031 | `KXGAMEAWARDS` | Game Awards | Entertainment | $5,026,959 |
+| 1032 | `KXSUPERBOWLHEADLINE` | Who will headline super bowl LX | Entertainment | $4,826,557 |
+| 1033 | `KXSURVIVOR` | Who will win Survivor | Entertainment | $4,208,139 |
+| 1034 | `KXSPOTIFYW` | Weekly US Spotify chart | Entertainment | $3,876,666 |
+| 1035 | `KXALBUMSALES` | HOW MANY ALBUM SALES WILL PERSON SELL | Entertainment | $3,688,642 |
+| 1036 | `KXRT` | Rotten Tomatoes Scores | Entertainment | $3,458,139 |
+| 1037 | `KXRANKLISTGOOGLESEARCHTOP5` | top 5 good search for people | Entertainment | $3,196,346 |
+| 1038 | `KXOSCARACTR` | Oscar for Best Actress | Entertainment | $3,186,282 |
+| 1039 | `KXOSCARSUPACTO` | Oscar for Best Supporting Actor | Entertainment | $2,874,746 |
+| 1040 | `KXSPOTIFYGLOBALD` | Daily Global Spotify songs | Entertainment | $2,401,107 |
+| 1041 | `KXTOPMONTHLY` | Top Monthly listeners | Entertainment | $2,314,760 |
+| 1042 | `KXOSCARSUPACTR` | Oscar for Best Supporting Actress | Entertainment | $2,233,131 |
+| 1043 | `KXOSCARDIR` | Oscar for Best Director | Entertainment | $2,050,352 |
+| 1044 | `KXTOPSONG` | Billboard Hot 100 #1 | Entertainment | $2,005,252 |
+| 1045 | `KXSPOTIFY2D` | Daily US Spotify chart Runner-up | Entertainment | $1,911,954 |
+| 1046 | `KXGTA6` | GTA 6 release date | Entertainment | $1,897,618 |
+| 1047 | `KXMEDIARELEASEST` | WILL THERE BE ANOTHER EPISODE OF STRANGER THINGS? | Entertainment | $1,834,310 |
+| 1048 | `KXTOPALBUMSPOTIFYUSA` | MOST STREAMED ALBUM USA | Entertainment | $1,782,944 |
+| 1049 | `KXTOPALBUM` | Billboard Top 200 #1 | Entertainment | $1,594,350 |
+| 1050 | `KXRANKLISTSONGTOP10` | WHICH SONG WILL BE IN THE TOP 10 OF THE BILLBOARD HOT 100 HUNDERED FOR THE WEEK OF DATE  | Entertainment | $1,495,089 |
+| 1051 | `KXOSCARCINE` | Oscar for Best Cinematography | Entertainment | $1,289,423 |
+| 1052 | `KXMRBEASTGAMES` | WHO WILL WIN BEAST GAMES | Entertainment | $1,285,198 |
+| 1053 | `KXNETFLIXRANKMOVIERUNNERUP` | RUNNER UP NETFLIX MOVIE | Entertainment | $1,229,246 |
+| 1054 | `KXTRAITORS` | WHO WILL WIN TRAITORS | Entertainment | $1,056,093 |
+| 1055 | `KXSPOTIFYALBUMRELEASEDATEKANYE` | Will Kanye West Drop Bully this month - it's set to release July 25th. | Entertainment | $968,586 |
+| 1056 | `KXSPOTIFYWRAPPEDRELEASE` | When will Spotify release wrapped?  | Entertainment | $964,015 |
+| 1057 | `KXRANKLISTGOOGLESEARCH2` | Runner up top Search on google this year | Entertainment | $928,532 |
+| 1058 | `KXOSCARSPLAY` | Oscar for Best Original Screenplay | Entertainment | $863,053 |
+| 1059 | `KXTOPARTISTTHIRD` | THIRD RANK ARTIST ON SPOTIFY  | Entertainment | $835,305 |
+| 1060 | `KXNETFLIXTOPVIEWSTV` | NETFLIX TOP SHOW VIEW COUNT | Entertainment | $746,358 |
+| 1061 | `KXOSCARANIMATED` | Oscar for Best Animated Feature | Entertainment | $692,962 |
+| 1062 | `KXTOPSONGSPOTIFYUSA` | MOST STREAMED  | Entertainment | $681,040 |
+| 1063 | `KXRANKLIST1SONG` | WHICH SONG WILL BE NUMBER THIS MONTH | Entertainment | $678,436 |
+| 1064 | `KXOSCARASPLAY` | Oscar for Best Adapted Screenplay | Entertainment | $638,463 |
+| 1065 | `KXEUROVISION` | Eurovision winner | Entertainment | $622,076 |
+| 1066 | `KXMARRIAGESWIFTKELCE` | Swift Kelce married | Entertainment | $569,887 |
+| 1067 | `KXTWITCHSUBSKAICENAT` | How many twitch subs will kai cenat have | Entertainment | $557,823 |
+| 1068 | `KXNETFLIXRANKMOVIEGLOBAL` | Netflix movie ranking | Entertainment | $529,786 |
+| 1069 | `KXOSCARINTLFILM` | Oscar for Best International Feature Film | Entertainment | $525,072 |
+| 1070 | `KXSAGAWARDENSEMBLE` | SAG Award for Outstanding Cast | Entertainment | $471,203 |
+| 1071 | `KXTVSHOWSCANCELLED` | Which TV shows will be Cancelled this year? | Entertainment | $449,081 |
+| 1072 | `KXSPOTIFYARTISTD` | Daily US Spotify artist chart | Entertainment | $442,083 |
+| 1073 | `KXGRAMMYNOMNAOTY` | Grammy nominees for New Artist of the Year | Entertainment | $407,573 |
+| 1074 | `KXNETFLIXRANKSHOWGLOBAL` | Netflix TV ranking | Entertainment | $401,433 |
+| 1075 | `KXGTA6ONTIME` | GTA 6 release date on time | Entertainment | $393,194 |
+| 1076 | `KXBILLBOARDRUNNERUPSONG` | Will Song be number 2 on Billboard 100? | Entertainment | $392,992 |
+| 1077 | `KXROGANGUEST` | Rogan guests | Entertainment | $388,272 |
+| 1078 | `KXOSCAREDIT` | Oscar for Best FILM EDITING | Entertainment | $379,982 |
+| 1079 | `KXOSCARSONG` | Oscar for Best Original Song | Entertainment | $356,494 |
+| 1080 | `KXOSCARPROD` | Oscar for Best Production Design | Entertainment | $350,115 |
+| 1081 | `KXYTUBESUBSBEAST` | YouTube subs Beast | Entertainment | $343,748 |
+| 1082 | `KXGTAPRICE` | GTA price | Entertainment | $333,672 |
+| 1083 | `KXGRAMMYNOMSOTY` | Grammy nominees for Song of the Year | Entertainment | $325,121 |
+| 1084 | `KXBILLBOARDRUNNERUPALBUM` | Will Album be runner up this week? | Entertainment | $322,808 |
+| 1085 | `KXTOPALBUMTHEFALLOFF` | WILL THE FALL OFF BE #1 | Entertainment | $319,835 |
+| 1086 | `KXTOPSONGSPOTIFY` | Top Song on Spotify this year | Entertainment | $309,249 |
+| 1087 | `KXOSCARSOUND` | Oscar for Best Sound | Entertainment | $308,920 |
+| 1088 | `KXTOP10BILLBOARDSPOTSJC` | HOW MANY TOP 10 SPOTS WILL J COLE HOLD ON THE BILLBOARD HOT 100 CHART FOR THE WEEK OF  | Entertainment | $301,784 |
+| 1089 | `KXRANKLISTSONGBBH100` | WHICH SONGS WILL ENTER THE BILLBOARD HOT 100 | Entertainment | $292,462 |
+| 1090 | `KXRANKLISTSONGSPOTUSA` | WHO WIL HAVE A #1 song on Spotify  | Entertainment | $288,840 |
+| 1091 | `KXTOPSONGS` | Top songs this year | Entertainment | $287,806 |
+| 1092 | `KXOSCARCOSTUME` | Oscar for Best Costume Design | Entertainment | $284,895 |
+| 1093 | `KXBOND` | Next Bond actor | Entertainment | $260,149 |
+| 1094 | `KXALBUMDEBUT` | WILL ALBUM DEBUT AT #1 | Entertainment | $256,215 |
+| 1095 | `KXNETFLIXRANKMOVIEGLOBAL2` | RUNNER UP SHOW NETFLIX MOVIE GLOBAL | Entertainment | $253,703 |
+| 1096 | `KXSPOTIFYALBUMRELEASEDATEDRAKE` | Will drake release an album by date | Entertainment | $253,662 |
+| 1097 | `KXLOVEISBLINDENGAGEMENT` | WHO WILL BECOME ENGAGED ON LOVE IS BLIND? | Social | $242,935 |
+| 1098 | `KXOSCARDOCU` | Oscar for Best Documentary Feature | Entertainment | $240,825 |
+| 1099 | `KXSAGAWARDACTO` | SAG Award for Best Leading Actor | Entertainment | $239,359 |
+| 1100 | `KXNETFLIXRANKSHOWGLOBAL2` | RUNNER UP SHOW NETFLIX SHOW GLOBAL | Entertainment | $238,500 |
+| 1101 | `KXGRAMMYNOMAOTY` | Grammy nominees for Album of the Year | Entertainment | $236,222 |
+| 1102 | `KXSTRMRSOTY` | STREAMER OF THE YEAR | Entertainment | $221,857 |
+| 1103 | `KXSNLHOST` | SNL hosts this season | Entertainment | $219,685 |
+| 1104 | `KXSAGAWARDACTR` | SAG Award for Best Leading Actress | Entertainment | $214,257 |
+| 1105 | `KXOSCARVIS` | Oscar for Best Visual Effects | Entertainment | $208,376 |
+| 1106 | `KXOSCARAS` | Oscar for Best ANIMATED SHORT | Entertainment | $195,919 |
+| 1107 | `KXBAFTAFILM` | BAFTA for Best Film | Entertainment | $193,069 |
+| 1108 | `KXOSCARSCORE` | Oscar for Best Original Score | Entertainment | $184,379 |
+| 1109 | `KXTOPARTISTUSA` | TOP ARTIST USA | Entertainment | $176,129 |
+| 1110 | `KXTOPARTISTRUNNERUP` | TOP ARTIST RUNNER UP | Entertainment | $174,763 |
+| 1111 | `KXSAGAWARDSUPACTR` | SAG Award for Best Supporting Actress | Entertainment | $173,354 |
+| 1112 | `KXTOPALBUMSPOTIFY` | Top album on Spotify this year | Entertainment | $172,746 |
+| 1113 | `KXOSCARGUESTS` | Oscar guests | Entertainment | $166,806 |
+| 1114 | `KXTOP10BILLBOARDSPOTSBB` | HOW MANY SPOTS ON THE BILLBOARD HOT 100 WILL BAD BUNNY HOLD  | Entertainment | $155,605 |
+| 1115 | `KXNEWTAYLOR-R` | New Taylor Reputation | Entertainment | $150,546 |
+| 1116 | `KXRANKLISTSONGGOL` | GOLD RANK 1-10 | Entertainment | $147,743 |
+| 1117 | `KXGAMERELEASE` | Will game be released this year | Entertainment | $147,057 |
+| 1118 | `KXOSCARCOUNT` | HOW MANY OSCARS WILL FILM BE NOMINATED FOR | Entertainment | $145,590 |
+| 1119 | `KXTOPALBUMRUNNERUPUSA` | TOP ALBUM RUNNER UP USA | Entertainment | $137,524 |
+| 1120 | `KXGRAMMYNOMROTY` | Grammy nominees for Record of the Year | Entertainment | $136,636 |
+| 1121 | `KXLOVEISBLINDMARRIAGE` | who will get married on love is blind  | Social | $134,177 |
+| 1122 | `KXOSCARMAH` | Oscar for Best MAKEUP AND HAIRSTYLING | Entertainment | $131,806 |
+| 1123 | `KXTOPALBUMRECORDSWAG` | Album record Justin Bieber  | Entertainment | $130,803 |
+| 1124 | `KX1ALBUM` | WHO WILL HAVE A NUMBER 1 ALBUM ON THE BILLBOARD 200 | Entertainment | $130,369 |
+| 1125 | `KX1SONG` | WILL ARTIST HAVE A NUMBER ONE SONG ON BILLBOARD HOT 100 THIS YEAR | Entertainment | $128,576 |
+| 1126 | `KXBAFTAOSPLAY` | BAFTA for Best Original Screenplay | Entertainment | $123,737 |
+| 1127 | `KXTOPALBUMSPOTIFYRUNNERUP` | Number 2 album on Spotify this year | Entertainment | $122,068 |
+| 1128 | `KXNETFLIXTOPVIEWSMOVIE` | NETFLIX TOP MOVIE VIEW COUNT | Entertainment | $121,769 |
+| 1129 | `KXROLEATEVENTLOLLA` | Who will headline Lollapalooza | Entertainment | $117,804 |
+| 1130 | `KXBAFTASUPACTR` | BAFTA for Best Supporting Actress | Entertainment | $117,795 |
+| 1131 | `KXSPOTIFYARTISTW` | Weekly US Spotify artist chart | Entertainment | $105,681 |
+| 1132 | `KXSAGAWARDSUPACTO` | SAG Award for Best Supporting Actor | Entertainment | $103,839 |
+| 1133 | `KXBAFTAACTR` | BAFTA for Best Leading Actress | Entertainment | $103,360 |
+| 1134 | `KXBAFTAACTO` | BAFTA for Best Leading Actor | Entertainment | $103,224 |
+| 1135 | `KXNEWTAYLOR-TS` | New taylor | Entertainment | $100,978 |
+| 1136 | `KXSEXYMAN` | Sexiest Man Alive | Entertainment | $100,297 |
+| 1137 | `KXBAFTADIR` | BAFTA for Best Director | Entertainment | $97,525 |
+| 1138 | `KXALBUMRELEASE` | WHO WILL RELEASE A NEW ALBUM | Entertainment | $92,597 |
+| 1139 | `KXOSCARCASTING` | Casting | Entertainment | $88,316 |
+| 1140 | `KXBAFTASUPACTO` | BAFTA for Best Supporting Actor | Entertainment | $82,121 |
+| 1141 | `KXALBUMTRACKSBRUNO` | HOW MANY TRACKS WILL THERE BE ON BRUNOS NEW ALBUM | Entertainment | $77,981 |
+| 1142 | `KXSPOTIFYALBUMW` | Weekly US Spotify album chart | Entertainment | $75,553 |
+| 1143 | `KXTOPSONGSPOTIFYRUNNERUP` | top song on spotify runner up?  | Entertainment | $73,389 |
+| 1144 | `KX1SONGJUSTINBIEBER` | Will Justin Bieber have a #1 hit this year? | Entertainment | $70,129 |
+| 1145 | `KXSWIFTKELCEWEDDINGLOCATION` | WHERE WILL TAYLOR SWIFT GET MARRIED | Entertainment | $68,392 |
+| 1146 | `KX10SONG` | WHICH SONG WILL BE TOP 10 ON THE BILLBOARD HOT 100 CHART | Entertainment | $56,134 |
+| 1147 | `KXMEDIACOVERMADDEN` | WHO WILL BE ON THE COVER OF MADDEN? | Entertainment | $53,950 |
+| 1148 | `KXYTUBESUBSISHOWSPEED` | How many subscirbers will ishowspeed get this year  | Entertainment | $53,584 |
+| 1149 | `KXSTARWARS` | Star Wars release | Entertainment | $51,839 |
+| 1150 | `KXVENUEPERFORMANCESPHERE` | WHO WILL PERFORM AT THE SPHERE | Entertainment | $50,622 |
+| 1151 | `KXTOPALBUMTHEROMANTIC` | WILL THE ROMANTIC BY BRUNO MARS BE NUMBER 1 | Entertainment | $49,596 |
+| 1152 | `KX20SONG` | WHO WILL HAVE A TOP 20 SONG THIS YEAR? | Entertainment | $47,856 |
+| 1153 | `KXTAYLORSWIFTWEDDING` | TAYLOR SWIFT WEDDING | Entertainment | $47,808 |
+| 1154 | `KXTHEMASKEDSINGER` | WHO WILL WIN THE MASKED SINGER | Entertainment | $45,781 |
+| 1155 | `KXFEATUREDRAKE` | Who will be featured on Drake album | Entertainment | $44,496 |
+| 1156 | `KXTOPPOD` | Top podcast of the year | Entertainment | $42,573 |
+| 1157 | `KXBOATSTRIKERELEASE` | Will the boat strike video be released | Entertainment | $39,233 |
+| 1158 | `KXSAGAWARDACTRCOM` | Outstanding Performance by a Female Actor in a Comedy Series | Entertainment | $38,728 |
+| 1159 | `KXFEATUREYE` | Who will be featured on kany west album | Entertainment | $38,029 |
+| 1160 | `KXTOPARTISTRUNNERUPUSA` | TOP ARTIST RUNNER UP USA | Entertainment | $36,083 |
+| 1161 | `KXSAGAWARDACTRLIM` | Outstanding Performance by a Female Actor in a Television Movie or Limited Series | Entertainment | $34,158 |
+| 1162 | `KXTVSEASONRELEASEHARRYPOTTER` | Will “The Last of Us” Season 3 be released on HBO Max for streaming before May 1st of 2026? | Entertainment | $33,675 |
+| 1163 | `KXNBA2KCOVER` | Who will be on the cover of NBA 2k? | Sports | $30,790 |
+| 1164 | `KXSAGAWARDACTODRAMA` | Outstanding Performance by a Male Actor in a Drama Series | Entertainment | $26,166 |
+| 1165 | `KXPUTINDJTLOCATION` | Putin DJT meeting location | Entertainment | $25,203 |
+| 1166 | `KXBIGBROTHERBRAZIL` | WHO WILL WIN BIG BROTHER BRAZIL | Entertainment | $24,178 |
+| 1167 | `KXTIMEDECADE20S` | Time Person of the Year 2020s | Entertainment | $24,111 |
+| 1168 | `KXRANKLISTBB100ARTIST` | WHICH ARTIST WILL BE #1 ON THE BILLBOARD HOT 100 FOR WEEK | Entertainment | $23,305 |
+| 1169 | `KXSONGRELEASE` | Who will release a new song? | Entertainment | $23,069 |
+| 1170 | `KXMEDIACOVERSI` | Who will be on the cover of the Sports Illustrated Swimsuit Issue?  | Entertainment | $22,942 |
+| 1171 | `KXTOPALBUMSTYLES` | WILL HARRY STYLES NEW ALBUM BE #1 | Entertainment | $22,229 |
+| 1172 | `KXSPOTSTREAMSUSA` | how many streams will the top song on spotify have | Entertainment | $21,989 |
+| 1173 | `KXSPOTIFYALBUMRELEASEDATEBABYBOI` | Will Playboi Carti release “baby boi” in summer 2026? | Entertainment | $21,649 |
+| 1174 | `KXROLEATEVENTROLLING` | Who will headline Rolling Loud | Entertainment | $21,134 |
+| 1175 | `KXTOPALBUMTHIRD` | THIRD BEST ALBUM | Entertainment | $20,350 |
+| 1176 | `KXTOUR` | WHO WILL ANNOUNCE A TOUR THIS YEAR? | Entertainment | $20,094 |
+| 1177 | `KXIRONMAN` | RDJ returns as Iron Man | Entertainment | $20,007 |
+| 1178 | `KXLUCASFILM` | Lucasfilm  | Entertainment | $19,134 |
+| 1179 | `KXMRBEASTGAMESTEAM` | WILL STRONG OR SMART WIN | Entertainment | $18,744 |
+| 1180 | `KXPGAAWARDS` | PRODUCERS GUILD AWARDS | Entertainment | $18,736 |
+| 1181 | `KXSNL` | SNL successor | Entertainment | $18,134 |
+| 1182 | `KXALBUMRELEASEDATEBRUNOMARS` | WHEN WILL BRUNO MARS RELEASE A NEW ALBUM | Entertainment | $17,713 |
+| 1183 | `KXSTEFONDIGGSCARDIB` | Will Stefon Diggs and Cardi B be engaged this year? | Entertainment | $17,261 |
+| 1184 | `KXTVSEASONANNOUNCEST` | WILL A NEW EPISODE OF STRANGER THINGS BE ANNOUNCED? | Entertainment | $16,730 |
+| 1185 | `KXUPONLY` | Up Only Guests | Entertainment | $16,539 |
+| 1186 | `KXGTATRAILER` | GTA VI trailer | Entertainment | $16,433 |
+| 1187 | `KXBABYNAMEBOY` | Most popular baby name for a boy | Entertainment | $16,141 |
+| 1188 | `KXSAGAWARDCASTDRAMA` | SAG Award Best Cast in a Drama Series | Entertainment | $16,025 |
+| 1189 | `KXTOPSONGTHIRDUSA` | TOP SONG THIRD USA | Entertainment | $15,765 |
+| 1190 | `KXMEDIARELEASEADDTRAILER` | WHEN WILL THE AVENGERS DOOMDAY TRAILER RELEASE  | Entertainment | $15,544 |
+| 1191 | `KXTRAVISKELCEWEDDING` | TRAVIS KELCE WEDDING | Entertainment | $15,270 |
+| 1192 | `KXFOLLOWERCOUNTISHOWSPEED` | SPEEF FOLLOWER COUNT | Entertainment | $15,047 |
+| 1193 | `KXENGAGEMENTTIMOTHEEKYLIE` | Will Timothée Chalamet and Kylie Jenner be engaged this year? | Entertainment | $14,933 |
+| 1194 | `KXSAGAWARDACTOCOM` | Outstanding Performance by a Male Actor in a Comedy Series | Entertainment | $14,924 |
+| 1195 | `KXSAGAWARDACTOLIM` | Outstanding Performance by a Male Actor in a Television Movie or Limited Series | Entertainment | $14,823 |
+| 1196 | `KXTOPSONGTHIRD` | THIRD BEST ARTIST | Entertainment | $14,623 |
+| 1197 | `KXPERFORMBONDSONG` | Who will perform the next james Bond song | Entertainment | $14,336 |
+| 1198 | `KXLOVEISLANDALLSTAR` | Who will win ‘Love Island: All Stars’  | Entertainment | $14,303 |
+| 1199 | `KXACTORELONMUSK` | ELON MUSK IN WHAT MOVIE | Entertainment | $14,152 |
+| 1200 | `KXROLEINPRODUCTIONDOOMSDAY` | WHO WILL BE PLAYING WHAT IN AVENGERS DOOMSDAY | Entertainment | $13,525 |
+| 1201 | `KXFISPIRITAWARDS` | FILM INDPENDENT SPIRIT AWARDS | Entertainment | $13,413 |
+| 1202 | `KXJOHNNYDEPP` | Johnny Depp star in Pirates of the Caribbean? | Entertainment | $13,126 |
+| 1203 | `KXTVSEASONRELEASEOUTBANKS` | Will Season 5 of out banks be released this year | Entertainment | $13,056 |
+| 1204 | `KXPUTINZELENSKYYLOCATION` | Where will Zelenskyy and Putin meet next? | Entertainment | $13,002 |
+| 1205 | `KXBEYONCEGENRE` | Next Beyonce album chart | Entertainment | $12,718 |
+| 1206 | `KXPROFILECHANGEMUSK` | Elon Musk profile picture change | Entertainment | $12,419 |
+| 1207 | `KXENGAGEMENTMEGKLAY` | KLAY THOMPSON WILL PROPOSE TO MEGAN THEE STALLION IN 2026 | Entertainment | $12,234 |
+| 1208 | `KXMUSKSPORTS` | Elon Musk buys major sports team | Entertainment | $12,226 |
+| 1209 | `KXEUROVISIONPARTICIPANTS` | Eurovision participants | Entertainment | $11,821 |
+| 1210 | `KXNWEST` | North west album | Entertainment | $11,659 |
+| 1211 | `KXSAGAWARDACTRDRAMA` | Outstanding Performance by a Female Actor in a Drama Series | Entertainment | $11,578 |
+| 1212 | `KXTVSEASONRELEASETHELASTOFUS` | Will “The Last of Us” Season 3 be released on HBO Max for streaming before May 1st of 2026? | Entertainment | $10,708 |
+| 1213 | `KXSAGAWARDCASTCOMEDY` | SAG Award Best Cast in a COMEDY Series | Entertainment | $9,921 |
+| 1214 | `KXBABYNAMEGIRL` | Most popular baby name for a girl | Entertainment | $9,627 |
+| 1215 | `KXESVI` | Elder Scrolls VI release | Entertainment | $9,568 |
+| 1216 | `KXPIZZASCORE9` | Pizza score 9 | Sports | $9,188 |
+| 1217 | `KXKIMKBAREXAM` | WILL KIM K COMPLETE THE BAR EXAM | Entertainment | $8,923 |
+| 1218 | `KXOSCARLASF` | Live action short film | Entertainment | $8,704 |
+| 1219 | `KXMEDIAGUESTFALLON` | WHO WILL GO ON JIMMY FALLON THE TONIGHT SHOW | Entertainment | $8,693 |
+| 1220 | `KXPERFORMROLEJEANGREY` | Will Sadie Sink be the next Marvel Jean Grey? | Entertainment | $8,689 |
+| 1221 | `KXKXROLEATEVENTGOVBALL` | Who will headline Governor’s Ball | Entertainment | $8,633 |
+| 1222 | `KXMEDIAGUESTKIMMEL` | WHO WILL GO ON JIMMY KIMMEL | Entertainment | $8,449 |
+| 1223 | `KXWCUPSONG` | World Cup song | Entertainment | $8,176 |
+| 1224 | `KXMEDIARELEASEICEMAN` | when will drake release iceman | Entertainment | $8,146 |
+| 1225 | `KXTOP10BILLBOARDSPOTSBRUNO` | HOW MANY SPOTS ON THE TOP 10 WILL BRUNO MARS HAVE | Entertainment | $8,101 |
+| 1226 | `KXENGAGEMENTTRUDEAUPERRY` | Will Justin Trudeau and Katy Perry be engaged this year? | Entertainment | $8,039 |
+| 1227 | `KXENGAGEMENTTATEJACKHUGHES` | Will Tate McRae and Jack Hughes get engaged before 2027 | Entertainment | $7,812 |
+| 1228 | `KXSPOTSTREAMGLOBAL` | HOW MANY STREAMS WILL THE TOP SONG ON SPOTIFY GLOBAL HAVE  | Entertainment | $7,649 |
+| 1229 | `KXALBUMTRACKSHARRY` | HOW MANY TRACKS WILL HARRY STYLES HAVE | Entertainment | $7,576 |
+| 1230 | `KXTOPCHEF` | WHO WIN TP CHEF | Entertainment | $7,481 |
+| 1231 | `KXACTORWHITELOTUS` | WHO WILL BE THE ACTOR IN WHITELOTUS | Entertainment | $6,818 |
+| 1232 | `KXTOPSONGRUNNERUPUSA` | 2nd USA SONG | Entertainment | $6,772 |
+| 1233 | `KXROLEATEVENTCOACHELLA` | WHO WILL HEADLINE COACHELLA? | Entertainment | $6,757 |
+| 1234 | `KXSONGRELEASEDATEBTS` | WHEN WILL BTS RELEASE A NEW SONG  | Entertainment | $6,588 |
+| 1235 | `KXMOVIEDELAYODYSSEY` | Will the The Odyssey be delayed | Entertainment | $6,425 |
+| 1236 | `KXOSCARDSFILM` | Documentary Short Film | Entertainment | $6,302 |
+| 1237 | `KXRETURNREREQ` | Characters returning Requiem  | Entertainment | $5,928 |
+| 1238 | `KXACTORSONNYCROCKETT` | Who will play Sonny Crocket in Miami Vice | Entertainment | $5,813 |
+| 1239 | `KXFEATUREYEAT` | WHO WILL BE ON YEATS NEW ALBUM | Entertainment | $5,454 |
+| 1240 | `KXTOPALBUMTHIRDUSA` | 3rd place Global album USA | Entertainment | $4,838 |
+| 1241 | `KXBALDONILIVELY` | Baldoni LIvely suit | Entertainment | $4,620 |
+| 1242 | `KXBUSHBY` | Bushby | Entertainment | $4,619 |
+| 1243 | `KXDAILYSHOW` | Who will be on the late show | Entertainment | $4,581 |
+| 1244 | `KXMEDIARELEASEDUNE3` | WHEN WILL DUNE 3 RELEASE | Entertainment | $4,203 |
+| 1245 | `KXMOVIESITP` | Will “The Summer I Turned Pretty” release a movie  | Entertainment | $4,062 |
+| 1246 | `KXGTA6SONGS` | What songs will be on GTA 6? | Entertainment | $3,961 |
+| 1247 | `KXPUBLICSWIFTLIVELY` | Taylor Swift and Blake Lively seen together by the end of this year?  | Entertainment | $3,919 |
+| 1248 | `KXFESTIVALEVENTRNCMIDTERMS` | republic convention midterms | Entertainment | $3,908 |
+| 1249 | `KXBOLIBRARYOPEN` | Barack Obama library opening | Entertainment | $3,827 |
+| 1250 | `KXPUBLICBECKHAM` | WILL PERSON BE SEEN IN PUBLIC | Entertainment | $3,767 |
+| 1251 | `KXFESTIVALEVENTDNCMIDTERMS` | DNC hold pre midterm convention | Entertainment | $3,747 |
+| 1252 | `KXARTISTCOLLABDRAKEPLAYBOICARTI` | Drake and Playboi Carti | Entertainment | $3,740 |
+| 1253 | `KXSHOWENDHAUNTEDHOTEL` | WILL HAUNTED HOTEL END? | Entertainment | $3,651 |
+| 1254 | `KXENGAGEMENTISHOWSPEED` | ISHOWSPEED ENGAGED | Entertainment | $3,346 |
+| 1255 | `KXALBUMRELEASEDATEYEAT` | WHEN WILL YEAT RELEASE A NEW ALBUM | Entertainment | $3,302 |
+| 1256 | `KXMARRIAGEBELICHICKHUDSON` | WILL BILL BELICHICK AND JORDAN HUDSON BE MARRIED  | Entertainment | $3,156 |
+| 1257 | `KXRANKLISTDJMAGTOP10` | TOP TEN DJ'S ON DJ MAGS TOP 100 | Entertainment | $2,992 |
+| 1258 | `KXMOVIEDELAYAVENGERS` | WILL THE AVENGERS BE DELAYED | Entertainment | $2,932 |
+| 1259 | `KXPODCASTGUESTCALLHERDADDY` | Who will go on Alex Coopers Call her Daddy podcast | Entertainment | $2,756 |
+| 1260 | `KXFEATUREHARRYSTYLES` | WHO WILL BE FEATURED ON HARRY STYLES NEW ALBUM | Entertainment | $2,588 |
+| 1261 | `KXENGAGEMENTDARTBEER` | Will Jaxson Dart and Madison be engaged before 2027? | Entertainment | $2,276 |
+| 1262 | `KXTWITCHSUBSNINJA` | HOW MANY ACTIVE SUBS WILL NINJA GET THIS YEAR | Entertainment | $2,272 |
+| 1263 | `KXDIRECTORMARVEL` | WILL PERSON DIRECT MARVEL MOVIE? | Entertainment | $1,956 |
+| 1264 | `KXROLLINGSTONECOVER` | WHO WILL BE ON THE ROLLINGSTONE COVER THIS YEAR | Entertainment | $1,900 |
+| 1265 | `KXMEDIARELEASESPIDERMAN` | When will the first trailer for “Spiderman: Beyond the Spider-Verse” be released? | Entertainment | $1,586 |
+| 1266 | `KXKXMEDIAGUESTTINYDESK` | WHO WILL GO ON TINY DESK | Entertainment | $1,571 |
+| 1267 | `KXSHOWENDSIMPSONS` | The Simpsons ending | Entertainment | $1,518 |
+| 1268 | `KXFEATURETRAVISSCOTT` | WHO WILL BE FEATURED ON TRAVIS ALBUM | Entertainment | $1,481 |
+| 1269 | `KXENGAGEMENTDUNSKE` | WILL LIVY DUNNE AND PAUL SKINNES GET ENGAGEEGD THIS EAR | Entertainment | $1,304 |
+| 1270 | `KXALBUMRELEASEDATEFRANK` | WHEN WILL FRANK OCEAN RELEASE AN ALBUM? | Entertainment | $1,141 |
+| 1271 | `KXPERFORMROLEBRITNEY` | WHO WILL PERFORM AS BRITNEY SPEARS IN BIO PIC | Entertainment | $1,073 |
+| 1272 | `KXINDIANAPOWELL` | Will actor Glen Powell star as the next Indiana Jones? | Entertainment | $1,030 |
+| 1273 | `KXPERFORMROLE007` | WHO WILL BE CHARACTER IN JAMES BOND | Entertainment | $986 |
+| 1274 | `KXKXMOVIEDELAYBATMANPT2` | The Batman Part II | Entertainment | $931 |
+| 1275 | `KXVENUEPERFORMANCEMSG` | WHO WILL PERFORM AT MSG | Entertainment | $879 |
+| 1276 | `KXSHOWENDFAMILYGUY` | WILL FAMILY GUY END  | Entertainment | $863 |
+| 1277 | `KXENGAGEMENTKIMLEWIS` | WILL KIM KARDASHIAN AND LEMIS HAMILTEON BECOME ENGAGED | Entertainment | $849 |
+| 1278 | `KXENGAGEMENTBOSAAILIFF` | Will Nick Bosa and Ella Ailiff get engaged before 2027 | Entertainment | $835 |
+| 1279 | `KXALBUMRELEASEDATELUCKI` | WILL LUCKI RELEASE HIS ALBUM BEFORE DATE | Entertainment | $733 |
+| 1280 | `KXTVSEASONRELEASEACOURTOFTHORNSANDROSES` | Will ACOTAR (A Court Of Thorns and Roses) obtain a running tv series before 2030? | Entertainment | $706 |
+| 1281 | `KXENGAGEMENTSWEENEYBRUAN` | Will Sydney Sweeney and Scooter Braun be engaged this year? | Entertainment | $664 |
+| 1282 | `KXENGAGEMENTDURANTADAMS` | Will Kevin Durant and Kay Adams be engaged | Entertainment | $605 |
+| 1283 | `KXMAYOROFKINGSTOWN` | Will Paramount release season 5 of Mayor of Kingston in 2026 | Entertainment | $574 |
+| 1284 | `KXWHATSONSTAGESDBPIAPA` | The SINE Digital Best Performer in a Play Award | Entertainment | $538 |
+| 1285 | `KXALBUMRELEASENBAYB` | WILL YOUNGBOY RELEASE ANOTHER ALBUM THIS YEAR? | Entertainment | $464 |
+| 1286 | `KXARTISTCOLLABDRAKEKENDRICK` | Will drake and kendrick lamar make a song together | Entertainment | $458 |
+| 1287 | `KXJUMANJI3DELAY` | Jumanji 3 delay | Entertainment | $428 |
+| 1288 | `KXWHATSONSTAGEBPIAM` | Best Supporting Performer in a Play – sponsored by Newman Displays | Entertainment | $383 |
+| 1289 | `KXWHATSONSTAGEBSPIAM` | Best Supporting Performer in a Musical – sponsored by Newman Displays | Entertainment | $374 |
+| 1290 | `KXMEDIAGUESTERICADAMS` | WILL ERIC ADAMS BE ON DANCING WITH THE STARS | Entertainment | $368 |
+| 1291 | `KXALBUMRELEASEDATEJCOLE` | WHEN WILL ITS A BOY RELEASE BY J COLE? | Entertainment | $360 |
+| 1292 | `KXACTORTOMCRUZ` | Will tom cruz be in a movie | Entertainment | $358 |
+| 1293 | `KXMEDIARELEASEPRISONBREAK` | WHEN WILL A NEW SEASON OF PRISON BREAK RELEASE | Entertainment | $330 |
+| 1294 | `KXTRUMPOSHEA` | @MollySOShea @Kalshi will molly interview the president in the next year? | Entertainment | $305 |
+| 1295 | `KXENGAGEMENTBOBBIALTHOFF` | WILL BOBBI ALTHOFF ENGAGEMENT  | Entertainment | $278 |
+| 1296 | `KXARTISTCOLLABBILLIEYEAT` | WILL YEAT AND BILLI EILISH MAKE A SONG TOGETHER | Entertainment | $275 |
+| 1297 | `KXALBUMRELEASEDATETRAVIS` | WHEN WILL TRAVIS RELEASE A NEW ALBUM | Entertainment | $242 |
+| 1298 | `KXVENUEPERFORMANCEDRAKE` | WHERE WILL DRAKE PERFORM THIS YEAR? | Entertainment | $188 |
+| 1299 | `KXWHATSONSTAGEBNP` | Best Takeover Performance | Entertainment | $116 |
+| 1300 | `KXFASTANDFURIOUSRELEASE` | Will a new main Fast & Furious film be officially announced in 2026? | Entertainment | $97 |
+| 1301 | `KXPERFORMROLEMILESMORALES` | WHO WILL PERFORM Miles Morales | Entertainment | $94 |
+| 1302 | `KXWHATSONSTAGEBSPIAP` | Best Supporting Performer in a Musical – sponsored by Newman Displays | Entertainment | $91 |
+| 1303 | `KXARTISTCOLLABTHUGANDGUNNA` | Will gunna and young thug make a song together by date | Entertainment | $78 |
+| 1304 | `KXLEAVEGROUPRAMI` | Will Rami leave Babymonster? | Entertainment | $57 |
+| 1305 | `KXARTISTCOLLABDRAKEMETRO` | WILL DRAKE AND METRO BOOMIN MAKE A SONG TOGETHER THIS YEAR | Entertainment | $43 |
+| 1306 | `KXLIPATURNERLOCATION` | WHERE WILL DUA LIPA AND CALLUM TURNERS WEDDING ME LOCATED | Entertainment | $20 |
+| 1307 | `KXRANKLISTDJMAGCLUBS` | DJ MAG TOP 5 CLUBS | Entertainment | $19 |
+| 1308 | `KXNCAAMBGAME` | Men's College Basketball Men's Game | Sports | $2,859,096,523 |
+| 1309 | `KXATPMATCH` | ATP Tennis Match | Sports | $918,708,876 |
+| 1310 | `KXMLBGAME` | Professional Baseball Game | Sports | $865,058,318 |
+| 1311 | `KXWTAMATCH` | WTA Tennis Match | Sports | $642,836,674 |
+| 1312 | `KXMARMAD` | College Basketball Champion | Sports | $436,654,629 |
+| 1313 | `KXATPCHALLENGERMATCH` | Challenger ATP  | Sports | $415,177,182 |
+| 1314 | `KXSB` | Super Bowl | Sports | $391,198,351 |
+| 1315 | `KXPGATOUR` | PGA Tour | Sports | $385,737,862 |
+| 1316 | `KXEPLGAME` | English Premier League Game | Sports | $359,544,478 |
+| 1317 | `KXNCAAMBSPREAD` | Men's College Basketball Spread | Sports | $290,152,063 |
+| 1318 | `KXNCAAWBGAME` | College Basketball Women's Game | Sports | $279,250,365 |
+| 1319 | `KXNCAAMBTOTAL` | Men's College Basketball Total Points | Sports | $271,943,792 |
+| 1320 | `KXUFCFIGHT` | UFC Fight | Sports | $217,061,874 |
+| 1321 | `KXUCLGAME` | UEFA Champions League Game | Sports | $162,718,527 |
+| 1322 | `KXNBA` | NBA Championship | Sports | $156,382,163 |
+| 1323 | `KXNCAAF` | NCAAF Championship | Sports | $143,000,989 |
+| 1324 | `KXBOXING` | Boxing Match Champion | Sports | $114,411,675 |
+| 1325 | `KXNFLNFCCHAMP` | National Football Conference Champion | Sports | $109,411,635 |
+| 1326 | `KXLALIGAGAME` | La Liga Game | Sports | $99,599,265 |
+| 1327 | `KXWMARMAD` | March Tournament (W) | Sports | $92,026,045 |
+| 1328 | `KXSERIEAGAME` | Serie A Game | Sports | $91,518,097 |
+| 1329 | `KXMLB` | World Series | Sports | $89,683,629 |
+| 1330 | `KXNFLAFCCHAMP` | American Football Conference Champion | Sports | $80,018,849 |
+| 1331 | `KXBUNDESLIGAGAME` | Bundesliga Game | Sports | $60,468,433 |
+| 1332 | `KXT20MATCH` | T20 Match | Sports | $42,312,791 |
+| 1333 | `KXLIGUE1GAME` | Ligue 1 Game | Sports | $40,226,241 |
+| 1334 | `KXWTACHALLENGERMATCH` | Challenger WTA | Sports | $33,703,092 |
+| 1335 | `KXNFLMVP` | AP Pro Football Regular Season MVP | Sports | $30,264,011 |
+| 1336 | `KXEFLCHAMPIONSHIPGAME` | EFL Championship Game | Sports | $27,366,261 |
+| 1337 | `KXNBAEAST` | NBA Eastern Conference Championship | Sports | $26,981,681 |
+| 1338 | `KXHEISMAN` | Heisman Trophy Winner | Sports | $26,604,411 |
+| 1339 | `KXNBLGAME` | NBL Basketball Game | Sports | $26,529,488 |
+| 1340 | `KXALEAGUEGAME` | Australian A League Game | Sports | $26,108,987 |
+| 1341 | `KXNBAWEST` | NBA Western Conference Championship | Sports | $25,068,310 |
+| 1342 | `KXMLBAL` | MLB American League Championship | Sports | $23,580,225 |
+| 1343 | `KXNHL` | Stanley Cup | Sports | $23,024,932 |
+| 1344 | `KXLOLGAME` | League of Legends Game | Sports | $21,224,504 |
+| 1345 | `KXFOMEN` | French Open Men's | Sports | $21,137,417 |
+| 1346 | `KXLIGAMXGAME` | Liga MX Game | Sports | $20,305,159 |
+| 1347 | `KXUELGAME` | UEFA Europa League Game | Sports | $19,120,628 |
+| 1348 | `KXCS2GAME` | Counter-Strike 2 Game | Sports | $17,949,833 |
+| 1349 | `KXLIGAPORTUGALGAME` | Liga Portugal Game | Sports | $17,630,526 |
+| 1350 | `KXNASCARRACE` | NASCAR Race | Sports | $16,036,087 |
+| 1351 | `KXBRASILEIROGAME` | Brasileiro Serie A Game | Sports | $15,384,929 |
+| 1352 | `KXFACUPGAME` | FA Cup Game | Sports | $15,188,661 |
+| 1353 | `KXSUPERLIGGAME` | Turkish Super Lig Game | Sports | $14,578,596 |
+| 1354 | `KXEPLTOTAL` | English Premier League Total Goals | Sports | $13,301,704 |
+| 1355 | `KXEREDIVISIEGAME` | Eredivisie Game | Sports | $11,670,390 |
+| 1356 | `KXARGPREMDIVGAME` | Argentina Primera Division Game | Sports | $11,584,104 |
+| 1357 | `KXWOMHOCKEY` | Winter Olympics Men's Hockey | Sports | $10,857,362 |
+| 1358 | `KXPREMIERLEAGUE` | PREMIER LEAGUE | Sports | $10,824,321 |
+| 1359 | `KXKBLGAME` | Korea KBL Game | Sports | $10,607,446 |
+| 1360 | `KXNBAMVP` | Pro Basketball MVP | Sports | $9,735,612 |
+| 1361 | `KXNCAAFPLAYOFF` | College Football Playoff Qualifiers | Sports | $9,581,234 |
+| 1362 | `KXMLBNL` | MLB National League Championship | Sports | $9,114,801 |
+| 1363 | `KXDOTA2GAME` | Dota 2 Game | Sports | $8,456,860 |
+| 1364 | `KXVALORANTGAME` | Valorant game winner | Sports | $8,017,352 |
+| 1365 | `KXFOWOMEN` | French Open Women's | Sports | $7,948,255 |
+| 1366 | `KXBELGIANPLGAME` | Belgian Pro League Game | Sports | $7,233,987 |
+| 1367 | `KXF1` | Formula 1 | Sports | $6,979,419 |
+| 1368 | `KXSERIEATOTAL` | Serie A Total | Sports | $6,964,191 |
+| 1369 | `KXEPLSPREAD` | English Premier League Spread | Sports | $6,836,330 |
+| 1370 | `KXLALIGATOTAL` | La Liga Total | Sports | $6,405,314 |
+| 1371 | `KXSCOTTISHPREMGAME` | Scottish Premiership Game | Sports | $6,073,720 |
+| 1372 | `KXLOLMAP` | League of Legends Map Winner | Sports | $5,979,890 |
+| 1373 | `KXBUNDESLIGATOTAL` | Bundesliga Total | Sports | $5,461,762 |
+| 1374 | `KXMENWORLDCUP` | Men's World Cup winner | Sports | $4,898,940 |
+| 1375 | `KXNFLPLAYOFF` | Pro Football Playoff Qualifiers | Sports | $4,839,775 |
+| 1376 | `KXCS2MAP` | Counter-Strike 2 Map Winner  | Sports | $4,831,841 |
+| 1377 | `KXUCL` | UEFA Champions League | Sports | $4,714,829 |
+| 1378 | `KXNBAALLSTARMVP` | NBA All-Star Game MVP | Sports | $4,491,306 |
+| 1379 | `KXNFLOPOTY` | AP Pro Football Offensive Player Of The Year | Sports | $4,364,547 |
+| 1380 | `KXNBAWINS` | Pro basketball wins | Sports | $4,337,144 |
+| 1381 | `KXUCLTOTAL` | Champions League Total Goals | Sports | $4,229,171 |
+| 1382 | `KXCODGAME` | Call of Duty Games | Sports | $4,016,672 |
+| 1383 | `KXSWISSLEAGUEGAME` | Swiss Super League Game | Sports | $3,968,937 |
+| 1384 | `KXWO-GOLD` | Winter Olympics Most Gold Medals | Sports | $3,925,899 |
+| 1385 | `KXLALIGASPREAD` | La Liga Spread | Sports | $3,891,462 |
+| 1386 | `KXUCLSPREAD` | Champions League Spread | Sports | $3,769,983 |
+| 1387 | `KXNFLNFCWEST` | National Football Conference West Winner | Sports | $3,746,121 |
+| 1388 | `KXPGATOP20` | PGA Top 20 Finisher | Sports | $3,553,146 |
+| 1389 | `KXNFLAFCNORTH` | American Football Conference North Winner | Sports | $3,509,319 |
+| 1390 | `KXWOHOCKEY` | Winter Olympics Hockey | Sports | $3,444,151 |
+| 1391 | `KXPGATOP10` | PGA Top 10 Finisher | Sports | $3,350,249 |
+| 1392 | `KXWOWHOCKEY` | Winter Olympics Women's Hockey | Sports | $3,251,557 |
+| 1393 | `KXNCAAHOCKEYGAME` | College Hockey Game | Sports | $3,230,607 |
+| 1394 | `KXSERIEASPREAD` | Serie A Spread | Sports | $3,113,585 |
+| 1395 | `KXNFLNFCNORTH` | National Football Conference North Winner | Sports | $3,003,517 |
+| 1396 | `KXMLBNLROTY` | Pro Baseball National League Rookie of the Year | Sports | $2,991,640 |
+| 1397 | `KXMLBALMVP` | Pro Baseball American League MVP | Sports | $2,869,393 |
+| 1398 | `KXNHLEAST` | Eastern Conference Championship | Sports | $2,858,315 |
+| 1399 | `KXNHLWEST` | Western Conference Champion | Sports | $2,731,751 |
+| 1400 | `KXNCAAFB12` | Big 12 Champion | Sports | $2,727,131 |
+| 1401 | `KXPGATOP5` | PGA Top 5 Finisher | Sports | $2,679,502 |
+| 1402 | `KXWO-MEDALS` | Winter Olympics Most Medals | Sports | $2,676,355 |
+| 1403 | `KXNCAAFACC` | ACC Champion | Sports | $2,586,556 |
+| 1404 | `KXNCAAFSEC` | SEC Champion | Sports | $2,581,554 |
+| 1405 | `KXNFLAFCWEST` | American Football Conference West Winner | Sports | $2,579,610 |
+| 1406 | `KXLIGUE1TOTAL` | Ligue 1 Total | Sports | $2,499,738 |
+| 1407 | `KXAFCCLGAME` | AFC Champions League Game | Sports | $2,419,971 |
+| 1408 | `KXNBAROY` | Pro Basketball Rookie of the Year | Sports | $2,374,038 |
+| 1409 | `KXBUNDESLIGASPREAD` | Bundesliga Spread | Sports | $2,274,675 |
+| 1410 | `KXWOMHOCKEYTOTAL` | Winter Olympics Men's Hockey Goal Total | Sports | $2,236,187 |
+| 1411 | `KXNFLNFCEAST` | National Football Conference East Winner | Sports | $2,206,275 |
+| 1412 | `KXNBADPOY` | Pro Basketball Defensive Player of the Year | Sports | $2,114,188 |
+| 1413 | `KXEPLBTTS` | EPL Both Teams to Score | Sports | $2,104,155 |
+| 1414 | `KXNBAPLAYOFF` | Pro Basketball Playoff Qualifier | Sports | $2,072,107 |
+| 1415 | `KXWOCURL` | Winter Olympics Curling | Sports | $1,885,093 |
+| 1416 | `KXEKSTRAKLASAGAME` | Polish Ekstraklasa Game | Sports | $1,876,350 |
+| 1417 | `KXNFLAFCSOUTH` | American Football Conference South Winner | Sports | $1,826,354 |
+| 1418 | `KXNCAAFB10` | Big Ten Champion | Sports | $1,802,773 |
+| 1419 | `KXNFLNFCSOUTH` | National Football Conference South Winner | Sports | $1,650,845 |
+| 1420 | `KXWOSBOARD` | Winter Olympics Snowboarding | Sports | $1,620,403 |
+| 1421 | `KXNBAMIMP` | Pro Basketball Most Improved Player | Sports | $1,602,896 |
+| 1422 | `KXNBAALLSTARGAME` | NBA All-Star Game Winner | Sports | $1,545,604 |
+| 1423 | `KXSLGREECEGAME` | Super League Greece Game | Sports | $1,528,083 |
+| 1424 | `KXT20WORLDCUP` | T20 World Cup Winner | Sports | $1,524,158 |
+| 1425 | `KXEPLTOP4` | EPL top 4 teams | Sports | $1,523,090 |
+| 1426 | `KXBALLONDOR` | Ballon d'Or | Sports | $1,371,294 |
+| 1427 | `KXNEXTTEAMNBA` | Next NBA Team | Sports | $1,306,296 |
+| 1428 | `KXLALIGA` | LA LIGA | Sports | $1,227,072 |
+| 1429 | `KXMLBALEAST` | American League East Winner | Sports | $1,210,647 |
+| 1430 | `KXDIMAYORGAME` | Liga DIMAYOR Game | Sports | $1,198,674 |
+| 1431 | `KXLIGUE1SPREAD` | Ligue 1 Spread | Sports | $1,189,851 |
+| 1432 | `KXWOFREESKI` | Winter Olympics Freestyle Skiing | Sports | $1,177,082 |
+| 1433 | `KXWOCURLGAME` | Winter Olympics Curling Game | Sports | $1,155,108 |
+| 1434 | `KXNFLAFCEAST` | American Football Conference East Winner | Sports | $1,151,520 |
+| 1435 | `KXWOMHOCKEYSPREAD` | Winter Olympics Men's Hockey Spread | Sports | $1,142,290 |
+| 1436 | `KXNHLPLAYOFF` | Playoff Qualifier | Sports | $1,108,467 |
+| 1437 | `KXDENSUPERLIGAGAME` | Danish Superliga Game | Sports | $1,057,004 |
+| 1438 | `KXNCAAFFINALIST` | College Football Finalist | Sports | $1,017,237 |
+| 1439 | `KXMLBWORLD` | World Baseball Classic | Sports | $962,558 |
+| 1440 | `KXWOFSKATE` | Winter Olympics Figure Skating | Sports | $956,825 |
+| 1441 | `KXBIG10REG` | Big Ten Regular Season Champions | Sports | $949,646 |
+| 1442 | `KXUCLWGAME` | Champions League Women's Game | Sports | $921,292 |
+| 1443 | `KXMAKEMARMAD` | Make March Madness Tournament | Sports | $875,800 |
+| 1444 | `KXNBASIXTH` | Pro Basketball Sixth Man of the Year | Sports | $866,354 |
+| 1445 | `KXNBAALLSTARS` | Pro Basketball All Stars | Sports | $849,185 |
+| 1446 | `KXNFLDPOTY` | AP Pro Football Defensive Player Of The Year | Sports | $831,447 |
+| 1447 | `KXSERIEABTTS` | Serie A BTTS | Sports | $821,249 |
+| 1448 | `KXR6GAME` | R6 Game | Sports | $797,036 |
+| 1449 | `KXBBLGAME` | Bundesliga Basketball Game | Sports | $795,954 |
+| 1450 | `KXSERIEA` | Serie A  | Sports | $785,293 |
+| 1451 | `KXKHLGAME` | KHL Game | Sports | $766,528 |
+| 1452 | `KXWOSSKATE` | Winter Olympics Speed Skating | Sports | $735,216 |
+| 1453 | `KXAHLGAME` | AHL Game | Sports | $715,301 |
+| 1454 | `KXLALIGA2GAME` | LaLiga 2 Game | Sports | $668,319 |
+| 1455 | `KXLALIGABTTS` | La Liga BTTS | Sports | $637,640 |
+| 1456 | `KXSERIEBGAME` | Serie B Game | Sports | $623,926 |
+| 1457 | `KXVTBGAME` | VTB United League Game | Sports | $613,148 |
+| 1458 | `KXABAGAME` | ABA League Game | Sports | $611,046 |
+| 1459 | `KXBIG12REG` | Big 12 Regular Season Champions | Sports | $581,688 |
+| 1460 | `KXSECREG` | SEC Regular Season Champions | Sports | $579,560 |
+| 1461 | `KXNBACOY` | Pro Basketball Coach of the Year | Sports | $578,005 |
+| 1462 | `KXMLBNLCENT` | National League Central Winner | Sports | $576,905 |
+| 1463 | `KXNFLDRAFT1` | NFL Draft First Pick | Sports | $539,620 |
+| 1464 | `KXMLBALWEST` | American League West Winner | Sports | $499,538 |
+| 1465 | `KXMLBNLCY` | Pro Baseball National League Cy Young | Sports | $478,692 |
+| 1466 | `KXFACUP` | FA cup | Sports | $477,664 |
+| 1467 | `KXMLSCUP` | MLS Cup champion | Sports | $469,202 |
+| 1468 | `KXUCLBTTS` | Champions League BTTS | Sports | $466,612 |
+| 1469 | `KXNCAABBGAME` | College Baseball Game | Sports | $458,151 |
+| 1470 | `KXMLBNLEAST` | National League East Winner | Sports | $449,441 |
+| 1471 | `KXFACUPTOTAL` | FA Cup Total | Sports | $434,553 |
+| 1472 | `KXBBSERIEAGAME` | Italy Serie A Basketball Game | Sports | $431,227 |
+| 1473 | `KXMLBNLMVP` | Pro Baseball National League MVP | Sports | $426,056 |
+| 1474 | `KXMLBALCY` | Pro Baseball American League Cy Young | Sports | $421,888 |
+| 1475 | `KXMLBALCENT` | American League Central Winner | Sports | $413,791 |
+| 1476 | `KXBUNDESLIGABTTS` | Bundesliga BTTS | Sports | $404,896 |
+| 1477 | `KXNEXTTEAMMLB` | MLB Player Next Team | Sports | $400,073 |
+| 1478 | `KXMARMADROUND` | Reach March Madness Round | Sports | $398,853 |
+| 1479 | `KXUEL` | Europa Leauge champion | Sports | $384,760 |
+| 1480 | `KXF1CONSTRUCTORS` | Formula 1 Constructors | Sports | $377,356 |
+| 1481 | `KXPFAPOY` | PFA Player of The Year | Sports | $370,301 |
+| 1482 | `KXNFLDRAFT1ST` | Make the 1st pick in NFL Draft | Sports | $369,240 |
+| 1483 | `KXACCREG` | ACC Regular Season Champions | Sports | $361,986 |
+| 1484 | `KXINTLFRIENDLYGAME` | International Friendly Game | Sports | $359,787 |
+| 1485 | `KXLOLTOTALMAPS` | League of Legends Total Maps | Sports | $350,992 |
+| 1486 | `KXFACUPSPREAD` | FA Cup Game | Sports | $344,704 |
+| 1487 | `KXLIGAMXTOTAL` | Liga MX Total | Sports | $337,777 |
+| 1488 | `KXNBADRAFT1` | NBA Draft First Pick | Sports | $324,002 |
+| 1489 | `KXWOSKIJUMP` | Winter Olympics Ski Jump | Sports | $316,331 |
+| 1490 | `KXMLBNLWEST` | National League West Winner | Sports | $307,447 |
+| 1491 | `KXFACUPADVANCE` | FA Cup Advance | Sports | $306,877 |
+| 1492 | `KXLBJRETIRE` | LBJ retire | Sports | $298,261 |
+| 1493 | `KXWO-BRONZE` | Winter Olympics Most Bronze Medals | Sports | $291,434 |
+| 1494 | `KXCOACHOUTNFL` | NFL Coach Out | Sports | $289,209 |
+| 1495 | `KXCS2TOTALMAPS` | CS2 Total Maps | Sports | $278,043 |
+| 1496 | `KXARGLNBGAME` | Liga Nacional de Basquetbol Game | Sports | $265,282 |
+| 1497 | `KXMLBWINS-COL` | Pro baseball wins Colorado | Sports | $263,213 |
+| 1498 | `KXNCAAMBNAISMITH` | Men's College Basketball Naismith | Sports | $262,962 |
+| 1499 | `KXQUADRUPLEDOUBLE` | Quadruple Double | Sports | $261,304 |
+| 1500 | `KXSIXNATIONSMATCH` | Six Nations Rugby Match | Sports | $253,808 |
+| 1501 | `KXNEXTTEAMNFL` | Pro Football Player Next Team | Sports | $246,727 |
+| 1502 | `KXMLBALROTY` | Pro Baseball American League Rookie of the Year | Sports | $240,631 |
+| 1503 | `KXWO-SILVER` | Winter Olympics Most Silver Medals | Sports | $238,445 |
+| 1504 | `KXEWSLGAME` | England Women's Super League Game | Sports | $237,769 |
+| 1505 | `KXNASCARCUPSERIES` | NASCAR Cup Series Champion | Sports | $231,412 |
+| 1506 | `KXPGAMAJORWIN` | PGA Major Winner | Sports | $221,099 |
+| 1507 | `KXCHESSWORLDCHAMPION` | World Chess Champion | Sports | $219,496 |
+| 1508 | `KXACBGAME` | Liga ACB Basketball Game | Sports | $216,718 |
+| 1509 | `KXNCAAFUNDEFEATED` | Undefeated in College Football Regular Season | Sports | $207,008 |
+| 1510 | `KXR6MAP` | R6 Map Winner | Sports | $189,579 |
+| 1511 | `KXLIGUE1` | LIGUE 1 | Sports | $177,703 |
+| 1512 | `KXNCAAMBUNDEFEATED` | Undefeated in College Basketball Regular Season | Sports | $174,768 |
+| 1513 | `KXMLBPLAYOFFS` | Pro Baseball Playoff Qualifiers | Sports | $173,469 |
+| 1514 | `KXUNRIVALEDGAME` | Unrivaled Basketball Game | Sports | $171,264 |
+| 1515 | `KXBUNDESLIGA` | BUNDESLIGA | Sports | $169,174 |
+| 1516 | `KXBRYSONCOURSERECORDS` | Bryson Course Records | Sports | $158,936 |
+| 1517 | `KXLIGUE1BTTS` | Ligue 1 BTTS | Sports | $158,390 |
+| 1518 | `KXBIGEASTREG` | Big East Regular Season Champions | Sports | $158,018 |
+| 1519 | `KXNEXTMANAGERMANU` | Next Man U Manager | Sports | $153,143 |
+| 1520 | `KXLIGAMXSPREAD` | Liga MX Game | Sports | $146,966 |
+| 1521 | `KXSCOTTIESLAM` | Scottie grand slam | Sports | $134,688 |
+| 1522 | `KXNCAAMLAXGAME` | Men's College Lacrosse Game | Sports | $124,907 |
+| 1523 | `KXMLBALRELOTY` | Pro Baseball American League Reliever of the Year | Sports | $118,324 |
+| 1524 | `KXNEXTTEAMSKUBAL` | Tarik Skubal Next Team | Sports | $117,522 |
+| 1525 | `KXWOBIATH` | Winter Olympics Biathalon | Sports | $116,620 |
+| 1526 | `KXMLBALMOTY` | Pro Baseball American League Manager of the Year | Sports | $116,539 |
+| 1527 | `KXMWREG` | Mountain West Regular Season Champions | Sports | $115,426 |
+| 1528 | `KXNHLHART` | NHL Hart Memorial Trophy | Sports | $111,091 |
+| 1529 | `KXALEAGUETOTAL` | Australia A League Total | Sports | $103,541 |
+| 1530 | `KXCOACHOUTNCAAFB` | NCAAFB Coaches Out | Sports | $102,943 |
+| 1531 | `KXNBAPACIFIC` | NBA Pacific Division Winner | Sports | $101,199 |
+| 1532 | `KXLEADERNBAREB` | NBA RPG Leader | Sports | $101,081 |
+| 1533 | `KXRECORDNBABEST` | Best Pro Basketball Record | Sports | $99,867 |
+| 1534 | `KXMLBNLMOTY` | Pro Baseball National League Manager of the Year | Sports | $97,926 |
+| 1535 | `KXBRASILEIROTOTAL` | Brasileiro Total | Sports | $96,075 |
+| 1536 | `KXNFLDRAFTPICK` | NFL Draft Pick | Sports | $96,028 |
+| 1537 | `KXAACREG` | AAC Regular Season Champions | Sports | $88,633 |
+| 1538 | `KXUFCFLYWEIGHTTITLE` | UFC Flyweight Title | Sports | $80,810 |
+| 1539 | `KXNBAFINMVP` | Pro Basketball Finals MVP | Sports | $79,830 |
+| 1540 | `KXNBACLUTCH` | Pro Basketball Clutch Player of the Year | Sports | $78,407 |
+| 1541 | `KXWCCREG` | West Coast Conference Regular Season Champions | Sports | $71,418 |
+| 1542 | `KXNHLPACIFIC` | NHL Pacific Division Winner | Sports | $67,588 |
+| 1543 | `KXEPLRELEGATION` | English Premier League Relegation | Sports | $66,845 |
+| 1544 | `KXWINSTREAKOKC` | OKC Win Streak | Sports | $65,788 |
+| 1545 | `KXNHLPRES` | NHL President's Trophy Winner | Sports | $65,499 |
+| 1546 | `KXTGLCHAMPION` | TGL Champion | Sports | $63,293 |
+| 1547 | `KXCARDPRESENCEUFCWH` | UFC White House event | Sports | $62,241 |
+| 1548 | `KXLEADERNBA3PT` | NBA 3PM Leader | Sports | $60,447 |
+| 1549 | `KXNBAWFINMVP` | Pro Basketball Western Conference Finals MVP | Sports | $58,913 |
+| 1550 | `KXMLBWINS-LAD` | Pro baseball wins Los Angeles D | Sports | $58,269 |
+| 1551 | `KXWONORDIC` | Winter Olympics Nordic Combined | Sports | $58,187 |
+| 1552 | `KXUFCLHEAVYWEIGHTTITLE` | UFC Light Heavyweight Title | Sports | $58,160 |
+| 1553 | `KXARODGRETIRE` | Aaron Rodgers Retire | Sports | $57,915 |
+| 1554 | `KXLEADERNBAPTS` | NBA PPG Leader | Sports | $57,750 |
+| 1555 | `KXMLBWINS-CHC` | Pro baseball wins Chicago C | Sports | $56,514 |
+| 1556 | `KXEFLCUP` | EFL Cup Winner | Sports | $56,390 |
+| 1557 | `KXNHLCALDER` | NHL Calder Memorial Trophy | Sports | $56,278 |
+| 1558 | `KXLEADERNBASTL` | NBA SPG Leader | Sports | $55,367 |
+| 1559 | `KXNHLATLANTIC` | NHL Atlantic Division Winner | Sports | $54,782 |
+| 1560 | `KXLEADERNBAAST` | NBA APG Leader | Sports | $54,496 |
+| 1561 | `KXWCGROUPWIN` | World Cup Group Winner | Sports | $52,132 |
+| 1562 | `KXKELCERETIRE` | Travis Kelce Retire | Sports | $51,406 |
+| 1563 | `KXATPGRANDSLAM` | ATP Grand Slam | Sports | $51,363 |
+| 1564 | `KXWCGAME` | World Cup Game | Sports | $50,927 |
+| 1565 | `KXLEADERNBABLK` | NBA BPG Leader | Sports | $50,359 |
+| 1566 | `KXEPLTOP2` | Top 2 Finishers | Sports | $49,841 |
+| 1567 | `KXNBAEFINMVP` | Pro Basketball Eastern Conference Finals MVP | Sports | $47,759 |
+| 1568 | `KXNBAATLANTIC` | NBA Atlantic Division Winner | Sports | $46,293 |
+| 1569 | `KXWOSKIMTN` | Winter Olympics Ski Mountaineering | Sports | $45,783 |
+| 1570 | `KXA10REG` | A10 Regular Season Champions | Sports | $44,418 |
+| 1571 | `KXMLBWINS-DET` | Pro baseball wins Detroit | Sports | $43,449 |
+| 1572 | `KXUFCWHITEHOUSE` | UFC at White House | Sports | $42,918 |
+| 1573 | `KXATPGRANDSLAMFIELD` | ATP Grand Slam Field Winner | Sports | $42,439 |
+| 1574 | `KXNBASOUTHEAST` | NBA Southeast Division Winner | Sports | $41,640 |
+| 1575 | `KXLEADERMLBWINS` | MLB Wins Leader | Sports | $40,804 |
+| 1576 | `KXLIGAMX` | Liga MX Winner | Sports | $40,678 |
+| 1577 | `KXMLBWINS-SEA` | Pro baseball wins Seattle | Sports | $40,419 |
+| 1578 | `KXLIVTOP10` | Liv Top 10 Finisher | Sports | $40,112 |
+| 1579 | `KXMLBWINS-HOU` | Pro baseball wins Houston | Sports | $38,506 |
+| 1580 | `KXEPLTOP6` | Top 6 Finishers | Sports | $36,489 |
+| 1581 | `KXNCAABASEBALL` | College Baseball Champion | Sports | $35,350 |
+| 1582 | `KXNHLCENTRAL` | NHL Central Division Winner | Sports | $35,195 |
+| 1583 | `KXNBAEAST1SEED` | NBA Eastern Conference 1 Seed | Sports | $34,931 |
+| 1584 | `KXWCGOALLEADER` | World Cup Goal Leader | Sports | $34,637 |
+| 1585 | `KXUFCBANTAMWEIGHTTITLE` | UFC Bantamweight Title | Sports | $34,300 |
+| 1586 | `KXNHLMETROPOLITAN` | NHL Metropolitan Division Winner | Sports | $33,437 |
+| 1587 | `KXMLBNLCPOTY` | National League Comeback Player of the Year | Sports | $32,840 |
+| 1588 | `KXNBAWEST1SEED` | NBA Western Conference 1 Seed | Sports | $29,013 |
+| 1589 | `KXLIVTOP5` | Liv Top 5 Finisher | Sports | $28,475 |
+| 1590 | `KXLALIGARELEGATION` | La Liga Relegation | Sports | $28,234 |
+| 1591 | `KXNHLADAMS` | NHL Jack Adams Award | Sports | $26,930 |
+| 1592 | `KXMLBWINS-MIL` | Pro baseball wins Milwaukee | Sports | $26,657 |
+| 1593 | `KXCOPADELREY` | Copa del Rey Winner | Sports | $25,967 |
+| 1594 | `KXUCLRO16` | UCL Advance to Round of 16 | Sports | $25,621 |
+| 1595 | `KXMLSEAST` | MLS Western Conference winner? | Sports | $25,473 |
+| 1596 | `KXCOLLEGEGAMEDAYGUEST` | College Gameday Guest | Sports | $25,415 |
+| 1597 | `KXUFCWELTERWEIGHTTITLE` | UFC Welterweight Title | Sports | $24,909 |
+| 1598 | `KXUFCMIDDLEWEIGHTTITLE` | UFC Middleweight Title | Sports | $24,609 |
+| 1599 | `KXR6` | R6 Tournament Winner | Sports | $24,411 |
+| 1600 | `KXALEAGUESPREAD` | Australian A League Spread | Sports | $24,299 |
+| 1601 | `KXNBASOUTHWEST` | NBA Southwest Division Winner | Sports | $22,312 |
+| 1602 | `KXNBADRAFTTOP` | Pro Basketball Top Draft | Sports | $22,207 |
+| 1603 | `KXEFLCHAMPIONSHIP` | EFL Championship League Winner | Sports | $21,754 |
+| 1604 | `KXMLBNLRELOTY` | Pro Baseball National League Reliever of the Year | Sports | $19,987 |
+| 1605 | `KXPLAYTOGETHERJBJT` | Tatum and Brown Celtics | Sports | $19,715 |
+| 1606 | `KXWTAGRANDSLAM` | WTA Grand Slam | Sports | $19,647 |
+| 1607 | `KXBRASILEIROSPREAD` | Brasileiro Serie A Game | Sports | $19,576 |
+| 1608 | `KXUFCHEAVYWEIGHTTITLE` | UFC Heavyweight Title | Sports | $18,645 |
+| 1609 | `KXTEAMSINSC` | Teams in Stanley Cup | Sports | $18,103 |
+| 1610 | `KXNCAALAXFINAL` | College Lacrosse National Championship | Sports | $18,068 |
+| 1611 | `KXMLBALCPOTY` | Pro Baseball American League Comeback Player of the Year | Sports | $17,339 |
+| 1612 | `KXMLBWINS-SD` | Pro baseball wins San Diego | Sports | $16,342 |
+| 1613 | `KXTATUMRETURN` | When Will Jayson Tatum Play His Next Game | Sports | $15,662 |
+| 1614 | `KXNHLVEZINA` | NHL Vezina Trophy | Sports | $15,245 |
+| 1615 | `KXUFCFEATHERWEIGHTTITLE` | UFC Featherweight Title | Sports | $14,878 |
+| 1616 | `KXCOVEREA` | Cover EA college sports | Sports | $14,546 |
+| 1617 | `KXNBASEATTLE` | Seattle NBA team | Sports | $13,667 |
+| 1618 | `KXNHLROSS` | NHL Art Ross Trophy | Sports | $12,946 |
+| 1619 | `KXFIFAUSPULLGAME` | FIFA US pull game | Sports | $12,130 |
+| 1620 | `KXMLBWINS-NYM` | Pro baseball wins New York M | Sports | $12,075 |
+| 1621 | `KXUFCLIGHTWEIGHTTITLE` | UFC Lightweight Title | Sports | $11,818 |
+| 1622 | `KXMARMAD1SEED` | March Madness 1 Seeds | Sports | $11,599 |
+| 1623 | `KXRUGBYFRA14MATCH` | Rugby French 14 Match | Sports | $11,509 |
+| 1624 | `KXMLBWINS-MIA` | Pro baseball wins Miami | Sports | $11,467 |
+| 1625 | `KXNEXTMANAGEREPL` | Next Manager | Sports | $11,129 |
+| 1626 | `KXSTARTINGQBWEEK1` | NFL Starting QB Week 1 | Sports | $10,944 |
+| 1627 | `KXJOINRONALDO` | Cristiano Ronaldo | Sports | $10,852 |
+| 1628 | `KXKNUEPPEL3PTREC` | Kon Knueppel Rookie 3pt Record | Sports | $10,603 |
+| 1629 | `KXMCGREGORFIGHTNEXT` | McGregor fight next | Sports | $10,560 |
+| 1630 | `KXMLBWINS-NYY` | Pro baseball wins New York Y | Sports | $10,491 |
+| 1631 | `KXWCGROUPQUAL` | World Cup Group Qualifiers | Sports | $10,177 |
+| 1632 | `KXSUPERLIG` | Turkish Super Lig Champion | Sports | $10,062 |
+| 1633 | `KXNBACENTRAL` | NBA Central Division Winner | Sports | $9,865 |
+| 1634 | `KXNBANORTHWEST` | NBA Northwest Division Winner | Sports | $9,707 |
+| 1635 | `KXUCLFINALIST` | UCL Advance to the Finals | Sports | $9,499 |
+| 1636 | `KXMLSWEST` | MLS Western Conference winner? | Sports | $9,495 |
+| 1637 | `KXMLBWINS-ATH` | Pro baseball wins A's | Sports | $9,159 |
+| 1638 | `KXMLBWINS-CWS` | Pro baseball wins Chicago W | Sports | $9,142 |
+| 1639 | `KXMLBWINS-LAA` | Pro baseball wins Los Angeles A | Sports | $9,033 |
+| 1640 | `KXLALIGATOP4` | La Liga Top 4 Finishers | Sports | $9,012 |
+| 1641 | `KXLIGAPORTUGAL` | Liga Portugal Winner | Sports | $8,990 |
+| 1642 | `KXGOLFMAJORS` | Golf Majors Won | Sports | $8,498 |
+| 1643 | `KXBUNDESLIGARELEGATION` | Bundesliga Relegation | Sports | $8,392 |
+| 1644 | `KXLIGUE1RELEGATION` | Ligue 1 Relegation | Sports | $8,304 |
+| 1645 | `KXMLBWINS-BOS` | Pro baseball wins Boston | Sports | $7,932 |
+| 1646 | `KXSERIEATOP4` | Serie A Top 4 Finishers | Sports | $7,723 |
+| 1647 | `KXFIFAUSPULL` | FIFA us pull | Sports | $7,382 |
+| 1648 | `KXSONICS` | Blazers become Sonics | Sports | $6,946 |
+| 1649 | `KXSOCCERPLAYCRON` | Cristiano Ronaldo world cup | Sports | $6,878 |
+| 1650 | `KXMLBWINS-SF` | Pro baseball wins San Francisco | Sports | $6,674 |
+| 1651 | `KXSOCCERPLAYMESSI` | Messi World Cup | Sports | $6,632 |
+| 1652 | `KXMLBWINS-PIT` | Pro baseball wins Pittsburgh | Sports | $6,620 |
+| 1653 | `KXPGASOLHEIM` | Solheim Cup | Sports | $6,452 |
+| 1654 | `KXMLBWINS-STL` | Pro baseball wins St. Louis | Sports | $6,353 |
+| 1655 | `KXEUROVISIONISRAELBAN` | Eurovision Israel ban | Sports | $6,333 |
+| 1656 | `KXWCROUND` | World Cup Reach Round | Sports | $6,230 |
+| 1657 | `KXNHLNORRIS` | NHL James Norris Memorial Trophy | Sports | $5,909 |
+| 1658 | `KXNCAAHOCKEY` | College Hockey National Champion | Sports | $5,607 |
+| 1659 | `KXSERIEARELEGATION` | Serie A Relegation | Sports | $5,492 |
+| 1660 | `KXNBATEAM` | NBA team | Sports | $5,025 |
+| 1661 | `KXSPORTSOWNERLBJ` | LBJ owning team | Sports | $5,003 |
+| 1662 | `KXWSOPENTRANTS` | How many Entrants in a WSOP Main Event | Sports | $4,976 |
+| 1663 | `KXBRASILEIRO` | Brasileiro Winner | Sports | $4,926 |
+| 1664 | `KXNBATOP5ROTY` | Top 5 NBA draft ROTY | Sports | $4,640 |
+| 1665 | `KXMLBWINS-CIN` | Pro baseball wins Cincinnati | Sports | $4,370 |
+| 1666 | `KXNFLDRAFTTOP` | Pro Football Top Draft | Sports | $4,210 |
+| 1667 | `KXBUNDESLIGATOP4` | Bundesliga Top 4 Finishers | Sports | $3,861 |
+| 1668 | `KXMLBWINS-MIN` | Pro baseball wins Minnesota | Sports | $3,503 |
+| 1669 | `KXNBAPLAYIN` | Which Team Will Make the Play-In Tournament | Sports | $3,473 |
+| 1670 | `KXMLBBESTRECORD` | Pro Baseball Best Record | Sports | $3,457 |
+| 1671 | `KXLIGUE1TOP4` | Ligue 1 Top 4 Finishers | Sports | $3,294 |
+| 1672 | `KXSSHIELDMATCH` | Sheffield Shield Match | Sports | $3,234 |
+| 1673 | `KXWINSTREAKMANU` | Man United Win Streak | Sports | $3,120 |
+| 1674 | `KXF1CHINA` | F1 team from China | Sports | $3,086 |
+| 1675 | `KXMLBWINS-TB` | Pro baseball wins Tampa Bay | Sports | $2,993 |
+| 1676 | `KXBELGIANPL` | Belgian Pro League Champion | Sports | $2,903 |
+| 1677 | `KXGRANDSLAM` | Grand Slam Wins by Year | Sports | $2,570 |
+| 1678 | `KXMLBWINS-BAL` | Pro baseball wins Baltimore | Sports | $2,530 |
+| 1679 | `KXGRANDSLAMJFONSECA` | Wil Joao Fonseca Win a grand slam | Sports | $2,259 |
+| 1680 | `KXDFBPOKAL` | DFB Pokal Winner | Sports | $1,900 |
+| 1681 | `KXMLBWINS-WSH` | Pro baseball wins Washington | Sports | $1,860 |
+| 1682 | `KXLAMINEYAMAL` | Lamine Yamal | Sports | $1,834 |
+| 1683 | `KXMLBWINS-TOR` | Pro baseball wins Toronto | Sports | $1,593 |
+| 1684 | `KXCANADACUP` | Canada winning Stanley Cup | Sports | $1,527 |
+| 1685 | `KXMLBWINS-KC` | Pro baseball wins Kansas City | Sports | $1,486 |
+| 1686 | `KXMLBWINS-AZ` | Pro baseball wins Arizona | Sports | $1,459 |
+| 1687 | `KXMLBWINS-CLE` | Pro baseball wins Cleveland | Sports | $1,427 |
+| 1688 | `KXMLBWINS-TEX` | Pro baseball wins Texas | Sports | $1,369 |
+| 1689 | `KXMLBWINS-ATL` | Pro baseball wins Atlanta | Sports | $1,352 |
+| 1690 | `KXCOPPAITALIA` | Coppa Italia Winner | Sports | $1,334 |
+| 1691 | `KXNCAAFCONF` | NCAAF Championship Conference | Sports | $1,302 |
+| 1692 | `KXEREDIVISIE` | Eredivisie League Winner | Sports | $1,246 |
+| 1693 | `KXPREMDARTS` | Premier League Darts Champion | Sports | $1,242 |
+| 1694 | `KXNHLRICHARD` | NHL Maurice "Rocket" Richard Trophy | Sports | $1,195 |
+| 1695 | `KXWMARMADROUND` | Reach March Madness Round | Sports | $890 |
+| 1696 | `KXUCLRO8` | UCL Advance to Round of 8 | Sports | $477 |
+| 1697 | `KXTRINITYRODMANNWSL` | Trinity Rodman NWSL | Sports | $424 |
+| 1698 | `KXBRASILEIROTOPX` | Brasileiro Top X | Sports | $409 |
+| 1699 | `KXMLBWINS-PHI` | Pro baseball wins Philadelphia | Sports | $388 |
+| 1700 | `KXNDJOINCONF` | Join Conference | Sports | $368 |
+| 1701 | `KXNCAAFCOTY` | College Football Coach of the Year | Sports | $349 |
+| 1702 | `KXDONATEMRBEAST` | WILL MR BEAST DONATE | Social | $336 |
+| 1703 | `KXMLBWORSTRECORD` | Pro Baseball Best Record | Sports | $298 |
+| 1704 | `KXNBADRAFTPICK` | Pro Basketball Draft Pick | Sports | $277 |
+| 1705 | `KXUCLRO4` | UCL Advance to Round of 4 | Sports | $247 |
+| 1706 | `KXLEADERMLBHR` | MLB Home Runs Leader | Sports | $245 |
+| 1707 | `KXRECORDNFLBEST` | best football record | Sports | $209 |
+| 1708 | `KXUECL` | UEFA Conference League Winner | Sports | $186 |
+| 1709 | `KXLEADERMLBERA` | MLB ERA Leader | Sports | $101 |
+| 1710 | `KXSLGREECE` | Super League Greece Winner | Sports | $71 |
+| 1711 | `KXLEADERMLBHITS` | MLB Hits Leader | Sports | $70 |
+| 1712 | `KXLAXTEWAARATON` | College Lacrosse Tewaaraton Award | Sports | $45 |
+| 1713 | `KXLEADERMLBRUNS` | MLB Runs Leader | Sports | $30 |
+| 1714 | `KXSHAI20PTREC` | Shai 20+ Point Streak | Sports | $20 |
+| 1715 | `KXLEADERMLBAVG` | MLB Batting Average Leader | Sports | $20 |
+| 1716 | `KXLEADERMLBRBI` | MLB RBIs Leader | Sports | $12 |
+| 1717 | `KXLEADERMLBTRIPLES` | MLB Triples Leader | Sports | $12 |
+| 1718 | `KXRECORDNFLWORST` | worst football record | Sports | $5 |
+| 1719 | `KXCITYNBAEXPAND` | Cities NBA expand | Sports | $3 |
+| 1720 | `KXDENSUPERLIGA` | Danish Superliga Champion | Sports | $1 |
+| 1721 | `KXLEADERMLBSTEALS` | MLB Steals Leader | Sports | $1 |
+| 1722 | `KXMLBNLHAARON` | Pro Baseball American League Hank Aaron | Sports | $1 |
+| 1723 | `KXNBADRAFTCAT` | Pro Basketball Draft Category | Sports | $0 |
+| 1724 | `KXLEADERMLBOPS` | MLB OPS Leader | Sports | $0 |
+| 1725 | `KXMVESPORTSMULTIGAMEEXTENDED` | MVE Sport Mutli Game | Sports | $0 |
+| 1726 | `KXNBATOPPICK` | Pro Basketball Draft Lottery Winner | Sports | $0 |
+| 1727 | `KXMLBALHAARON` | Pro Baseball American League Hank Aaron | Sports | $0 |
+| 1728 | `KXNBADRAFTCOMP` | Pro Basketball Draft Comparison | Sports | $0 |
+| 1729 | `KXKNVBCUP` | KNVB Cup Winner | Sports | $0 |
+| 1730 | `KXLEADERMLBDOUBLES` | MLB Doubles Leader | Sports | $0 |
+| 1731 | `KXLEADERMLBWAR` | MLB WAR Leader | Sports | $0 |
+| 1732 | `KXEKSTRAKLASA` | Ekstraklasa Champion | Sports | $0 |
+| 1733 | `KXTRUMPMENTION` | What will Trump say? | Mentions | $55,248,163 |
+| 1734 | `KXNBAMENTION` | NBA Mention | Mentions | $26,103,057 |
+| 1735 | `KXMAMDANIMENTION` | What will Zohran Mamdani say? | Mentions | $16,457,842 |
+| 1736 | `KXSECPRESSMENTION` | Sec Press mentions | Mentions | $15,377,594 |
+| 1737 | `KXTRUMPSAY` | What will trump say | Mentions | $13,526,817 |
+| 1738 | `KXFEDMENTION` | Fed mention | Mentions | $11,407,859 |
+| 1739 | `KXEARNINGSMENTIONEA` | EA Earnings Call | Mentions | $5,510,339 |
+| 1740 | `KXMRBEASTMENTION` | What Will Mr Beast say in his next video | Mentions | $2,932,197 |
+| 1741 | `KXGOVERNORMENTION` | Generic Governor | Mentions | $2,759,665 |
+| 1742 | `KXTRUMPSAYMONTH` | Trump Monthly | Mentions | $2,597,787 |
+| 1743 | `KXNYCMAYORDEBATEMENTION` | NYC Mayoral Debate | Mentions | $2,061,308 |
+| 1744 | `KXNCAABMENTION` | College Basketball | Mentions | $1,951,688 |
+| 1745 | `KXSTARMERMENTIONB` | Kier Starmer | Mentions | $1,333,249 |
+| 1746 | `KXWOMENTION` | Winter Olympics | Mentions | $867,599 |
+| 1747 | `KX60MINMENTION` | 60 Minutes | Mentions | $836,327 |
+| 1748 | `KXTRUMPSAYNICKNAME` | Trump Nickname | Mentions | $383,660 |
+| 1749 | `KXEARNINGSMENTIONWMT` | What will Walmart say during their earnings call? | Mentions | $344,338 |
+| 1750 | `KXEARNINGSMENTIONWING` | Wingstop | Mentions | $14,514 |
+| 1751 | `KXEARNINGSMENTIONDASH` | DoorDash | Mentions | $4,572 |

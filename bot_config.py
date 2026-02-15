@@ -15,12 +15,12 @@ ENVIRONMENT = "PROD"
 # ============================================================================
 # Maximum days until market closes
 # Markets closing within this timeframe will be included
-DAYS_UNTIL_CLOSE = 4
+DAYS_UNTIL_CLOSE = 7
 
 # Minimum days since market opened
 # Markets must be open for at least this many days to be included
 # This filters out newly created markets
-DAYS_AFTER_START = 8
+DAYS_AFTER_START = 14
 
 # Minimum probability threshold (0.0 to 1.0)
 # Markets with YES or NO probability >= this value will be included
@@ -35,7 +35,7 @@ MAX_PROBABILITY = 0.95
 
 # Whether to require liquidity (open orders) in the orderbook
 # Setting to False will speed up scanning as it skips orderbook checks
-REQUIRE_LIQUIDITY = True
+REQUIRE_LIQUIDITY = False
 
 # Probability of skipping a matching market (0.0 to 1.0)
 # Use this to throttle trading frequency
