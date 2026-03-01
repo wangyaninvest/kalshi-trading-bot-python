@@ -36,7 +36,7 @@ The trading bot is configured to run automatically based on your configuration.
 ### Option 1: Run in Terminal (Foreground)
 
 ```bash
-python scheduler.py
+python3 scheduler.py
 ```
 
 The scheduler will display when the next run is scheduled and wait until that time.
@@ -50,7 +50,7 @@ The scheduler will display when the next run is scheduled and wait until that ti
 Or using nohup to keep it running even after logout:
 
 ```bash
-nohup python scheduler.py > scheduler.log 2>&1 &
+nohup python3 scheduler.py > scheduler.log 2>&1 &
 ```
 
 Check the process:
@@ -83,18 +83,18 @@ nano ~/Library/LaunchAgents/com.kalshi.tradingbot.plist
     <key>ProgramArguments</key>
     <array>
         <string>/usr/bin/python3</string>
-        <string>/Users/yanwang/Work/kalshi-trading-bot-python/scheduler.py</string>
+        <string>/Users/wangyanadam/Work/kalshi-trading-bot-python/scheduler.py</string>
     </array>
     <key>WorkingDirectory</key>
-    <string>/Users/yanwang/Work/kalshi-trading-bot-python</string>
+    <string>/Users/wangyanadam/Work/kalshi-trading-bot-python</string>
     <key>RunAtLoad</key>
     <true/>
     <key>KeepAlive</key>
     <true/>
     <key>StandardOutPath</key>
-    <string>/Users/yanwang/Work/kalshi-trading-bot-python/scheduler.log</string>
+    <string>/Users/wangyanadam/Work/kalshi-trading-bot-python/scheduler.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/yanwang/Work/kalshi-trading-bot-python/scheduler.error.log</string>
+    <string>/Users/wangyanadam/Work/kalshi-trading-bot-python/scheduler.error.log</string>
 </dict>
 </plist>
 ```

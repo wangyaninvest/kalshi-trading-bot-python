@@ -6,6 +6,6 @@ Example python code for accessing api-authenticated endpoints on [Kalshi](https:
 Install requirements.txt in a virtual environment of your choice and execute run_bot.py from within the repo.
 
 ```
-pip install -r requirements.txt
-python run_bot.py
+pip3 install -r requirements.txt
+python3 run_bot.py
 ```
