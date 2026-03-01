@@ -50,7 +50,7 @@ TRADE_AMOUNT = 1.0
 # Maximum number of contracts to hold per market
 # Prevents over-concentration from repeated buys on the same market
 # Set to 0 to disable this check
-MAX_POSITION_SIZE = 10
+MAX_POSITION_SIZE = 15
 
 # Dry run mode - scan markets without placing trades
 # Set to True to only find and print matching markets
